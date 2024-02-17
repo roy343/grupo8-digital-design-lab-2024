@@ -1,1 +1,1 @@
-# rchavarria-digital-design-lab-2024
+# grupo8-digital-design-lab-2024
