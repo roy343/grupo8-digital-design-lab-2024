@@ -1,0 +1,8 @@
+|Sumador4bits
+A => ~NO_FANOUT~
+B => ~NO_FANOUT~
+CarryIn => ~NO_FANOUT~
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+CarryOut <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
