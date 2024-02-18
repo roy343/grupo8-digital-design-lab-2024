@@ -1,0 +1,93 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/simulation/modelsim
+Esumador1bit_tb
+Z1 w1708281066
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z4 8C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador1bit_tb.vht
+Z5 FC:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador1bit_tb.vht
+l0
+L4 1
+V]E<fkPfU>o7B[^R`ei6eg1
+!s100 ]M6Wa=g2cCSL8RoH14`^J1
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1708281154
+!i10b 1
+Z8 !s108 1708281154.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador1bit_tb.vht|
+!s107 C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador1bit_tb.vht|
+!i113 1
+Z10 o-93 -work work
+Z11 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+DEx4 work 14 sumador1bit_tb 0 22 ]E<fkPfU>o7B[^R`ei6eg1
+!i122 1
+l30
+L7 75
+VHR;SW6:ZUShglRzD<1N;T1
+!s100 BHl=?E=Y`7lJ?17BeANaM2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+Z12 !s107 C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador1bit_tb.vht|
+!i113 1
+R10
+R11
+Esumador4bits
+Z13 w1708212725
+R2
+R3
+!i122 0
+R0
+Z14 8C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits.vhd
+Z15 FC:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits.vhd
+l0
+L4 1
+Vz_I?S:;FIUb7hHYR`^?I:1
+!s100 WNANl0XbefD2@[QRIZC402
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits.vhd|
+Z17 !s107 C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits.vhd|
+!i113 1
+R10
+R11
+Agate
+R2
+R3
+DEx4 work 12 sumador4bits 0 22 z_I?S:;FIUb7hHYR`^?I:1
+!i122 0
+l14
+L12 6
+VEOAIoR>:BkM7H8QX5LVXl0
+!s100 jT>;ojHJ=:10lh5XNAY8M2
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R10
+R11

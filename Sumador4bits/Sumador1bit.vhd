@@ -9,11 +9,11 @@ entity Sumador1bit is
  CarryOut : out STD_LOGIC);
 end Sumador1bit;
  
-architecture gate of Sumador1bit is
+architecture Behavioral of Sumador1bit is
  
 begin
  
  Sum <= A XOR B XOR CarryIn ;
  CarryOut <= (A AND B) OR (CarryIn AND A) OR (CarryIn AND B) ;
  
-end gate;
+end Behavioral;
