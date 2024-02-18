@@ -1,0 +1,21 @@
+|pCounter
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+clk => count[4].CLK
+clk => count[5].CLK
+r => count[0].ACLR
+r => count[1].ACLR
+r => count[2].ACLR
+r => count[3].ACLR
+r => count[4].ACLR
+r => count[5].ACLR
+out[0] << count[0].DB_MAX_OUTPUT_PORT_TYPE
+out[1] << count[1].DB_MAX_OUTPUT_PORT_TYPE
+out[2] << count[2].DB_MAX_OUTPUT_PORT_TYPE
+out[3] << count[3].DB_MAX_OUTPUT_PORT_TYPE
+out[4] << count[4].DB_MAX_OUTPUT_PORT_TYPE
+out[5] << count[5].DB_MAX_OUTPUT_PORT_TYPE
+
+

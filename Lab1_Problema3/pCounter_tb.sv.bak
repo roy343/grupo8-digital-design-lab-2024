@@ -1,0 +1,25 @@
+`timescale 1ns / 1ps
+
+module pCounter_tb ();
+
+	reg clk;
+	reg rst;
+	wire [1:0] out;
+
+	always #5 clk = ~clk;
+
+	integer i;
+
+	initial begin
+		clk = 0;
+		rst = 1;
+		repeat (3) @(posedge clk);
+		rst = 0;
+		repeat (8) begin
+			@(posedge clk);
+		end
+	end
+
+	pCounter #(.N(2)) uut (.clk(clk), .r(rst), .out(out));
+
+endmodule
