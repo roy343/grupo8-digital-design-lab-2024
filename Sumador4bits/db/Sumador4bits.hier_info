@@ -1,8 +1,73 @@
 |Sumador4bits
-A => ~NO_FANOUT~
-B => ~NO_FANOUT~
-CarryIn => ~NO_FANOUT~
-Sum << Sum.DB_MAX_OUTPUT_PORT_TYPE
-CarryOut << comb.DB_MAX_OUTPUT_PORT_TYPE
+A[0] => Sumador1bit:SC1.A
+A[1] => Sumador1bit:SC2.A
+A[2] => Sumador1bit:SC3.A
+A[3] => Sumador1bit:SC4.A
+B[0] => Sumador1bit:SC1.B
+B[1] => Sumador1bit:SC2.B
+B[2] => Sumador1bit:SC3.B
+B[3] => Sumador1bit:SC4.B
+CarryIn => Sumador1bit:SC1.CarryIn
+Sum[0] <= Sumador1bit:SC1.Sum
+Sum[1] <= Sumador1bit:SC2.Sum
+Sum[2] <= Sumador1bit:SC3.Sum
+Sum[3] <= Sumador1bit:SC4.Sum
+CarryOut <= Sumador1bit:SC4.CarryOut
+
+
+|Sumador4bits|Sumador1bit:SC1
+A => Sum.IN0
+A => CarryOut.IN0
+A => CarryOut.IN0
+B => Sum.IN1
+B => CarryOut.IN1
+B => CarryOut.IN0
+CarryIn => Sum.IN1
+CarryIn => CarryOut.IN1
+CarryIn => CarryOut.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+CarryOut <= CarryOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Sumador4bits|Sumador1bit:SC2
+A => Sum.IN0
+A => CarryOut.IN0
+A => CarryOut.IN0
+B => Sum.IN1
+B => CarryOut.IN1
+B => CarryOut.IN0
+CarryIn => Sum.IN1
+CarryIn => CarryOut.IN1
+CarryIn => CarryOut.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+CarryOut <= CarryOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Sumador4bits|Sumador1bit:SC3
+A => Sum.IN0
+A => CarryOut.IN0
+A => CarryOut.IN0
+B => Sum.IN1
+B => CarryOut.IN1
+B => CarryOut.IN0
+CarryIn => Sum.IN1
+CarryIn => CarryOut.IN1
+CarryIn => CarryOut.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+CarryOut <= CarryOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Sumador4bits|Sumador1bit:SC4
+A => Sum.IN0
+A => CarryOut.IN0
+A => CarryOut.IN0
+B => Sum.IN1
+B => CarryOut.IN1
+B => CarryOut.IN0
+CarryIn => Sum.IN1
+CarryIn => CarryOut.IN1
+CarryIn => CarryOut.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+CarryOut <= CarryOut.DB_MAX_OUTPUT_PORT_TYPE
 
 
