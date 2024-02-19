@@ -1,4 +1,4 @@
-module pCounter #(parameter N = 6) (input logic clk, r, output logic [N-1:0] out, output logic[13:0] dispOut);
+module pCounter #(parameter N = 6) (input logic clk, r, input logic[N-1:0] val, output logic [N-1:0] out, output logic[13:0] dispOut);
 
 	reg [N-1:0] count;
 	
@@ -9,12 +9,16 @@ module pCounter #(parameter N = 6) (input logic clk, r, output logic [N-1:0] out
 
 	always_ff @(posedge clk or posedge r) begin
         if (r) begin
-            count <= 0;
+            count <= val;
         end else begin
-            if (count == {N{1'b1}}) begin
-                count <= 0;
+            if (count == 0) begin
+					if (val == {N{1'b1}}) begin
+						count <= {N{1'b1}};
+					end else begin
+						count <= val;
+					end
             end else begin
-                count <= count + 1;
+                count <= count - 1;
             end
         end
     end

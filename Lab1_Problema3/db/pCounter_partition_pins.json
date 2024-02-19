@@ -80,11 +80,35 @@
 					"strict" : false
 				},
 				{
-					"name" : "clk",
+					"name" : "r",
 					"strict" : false
 				},
 				{
-					"name" : "r",
+					"name" : "val[0]",
+					"strict" : false
+				},
+				{
+					"name" : "val[1]",
+					"strict" : false
+				},
+				{
+					"name" : "val[2]",
+					"strict" : false
+				},
+				{
+					"name" : "val[3]",
+					"strict" : false
+				},
+				{
+					"name" : "val[4]",
+					"strict" : false
+				},
+				{
+					"name" : "val[5]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
 					"strict" : false
 				}
 			]

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for pCounter
-Mon Feb 19 00:14:33 2024
+Mon Feb 19 12:25:06 2024
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -14,10 +14,11 @@ Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. General Register Statistics
-  9. Parameter Settings for User Entity Instance: Top-level Entity: |pCounter
- 10. Post-Synthesis Netlist Statistics for Top Partition
- 11. Elapsed Time Per Partition
- 12. Analysis & Synthesis Messages
+  9. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 10. Parameter Settings for User Entity Instance: Top-level Entity: |pCounter
+ 11. Post-Synthesis Netlist Statistics for Top Partition
+ 12. Elapsed Time Per Partition
+ 13. Analysis & Synthesis Messages
 
 
 
@@ -44,14 +45,14 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +---------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Mon Feb 19 00:14:33 2024          ;
+; Analysis & Synthesis Status     ; Successful - Mon Feb 19 12:25:06 2024          ;
 ; Quartus Prime Version           ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                   ; pCounter                                       ;
 ; Top-level Entity Name           ; pCounter                                       ;
 ; Family                          ; Cyclone V                                      ;
 ; Logic utilization (in ALMs)     ; N/A                                            ;
 ; Total registers                 ; 6                                              ;
-; Total pins                      ; 22                                             ;
+; Total pins                      ; 28                                             ;
 ; Total virtual pins              ; 0                                              ;
 ; Total block memory bits         ; 0                                              ;
 ; Total DSP Blocks                ; 0                                              ;
@@ -178,31 +179,31 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------+---------+
 
 
-+--------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary            ;
-+---------------------------------------------+----------+
-; Resource                                    ; Usage    ;
-+---------------------------------------------+----------+
-; Estimate of Logic utilization (ALMs needed) ; 9        ;
-;                                             ;          ;
-; Combinational ALUT usage for logic          ; 16       ;
-;     -- 7 input functions                    ; 0        ;
-;     -- 6 input functions                    ; 1        ;
-;     -- 5 input functions                    ; 1        ;
-;     -- 4 input functions                    ; 8        ;
-;     -- <=3 input functions                  ; 6        ;
-;                                             ;          ;
-; Dedicated logic registers                   ; 6        ;
-;                                             ;          ;
-; I/O pins                                    ; 22       ;
-;                                             ;          ;
-; Total DSP Blocks                            ; 0        ;
-;                                             ;          ;
-; Maximum fan-out node                        ; count[0] ;
-; Maximum fan-out                             ; 14       ;
-; Total fan-out                               ; 114      ;
-; Average fan-out                             ; 1.73     ;
-+---------------------------------------------+----------+
++-------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary           ;
++---------------------------------------------+---------+
+; Resource                                    ; Usage   ;
++---------------------------------------------+---------+
+; Estimate of Logic utilization (ALMs needed) ; 18      ;
+;                                             ;         ;
+; Combinational ALUT usage for logic          ; 34      ;
+;     -- 7 input functions                    ; 0       ;
+;     -- 6 input functions                    ; 2       ;
+;     -- 5 input functions                    ; 1       ;
+;     -- 4 input functions                    ; 20      ;
+;     -- <=3 input functions                  ; 11      ;
+;                                             ;         ;
+; Dedicated logic registers                   ; 6       ;
+;                                             ;         ;
+; I/O pins                                    ; 28      ;
+;                                             ;         ;
+; Total DSP Blocks                            ; 0       ;
+;                                             ;         ;
+; Maximum fan-out node                        ; r~input ;
+; Maximum fan-out                             ; 18      ;
+; Total fan-out                               ; 191     ;
+; Average fan-out                             ; 1.99    ;
++---------------------------------------------+---------+
 
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -210,8 +211,8 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------+-------------+--------------+
 ; Compilation Hierarchy Node  ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name              ; Entity Name ; Library Name ;
 +-----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------+-------------+--------------+
-; |pCounter                   ; 16 (6)              ; 6 (6)                     ; 0                 ; 0          ; 22   ; 0            ; |pCounter                        ; pCounter    ; work         ;
-;    |display6bit:numDisplay| ; 10 (10)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |pCounter|display6bit:numDisplay ; display6bit ; work         ;
+; |pCounter                   ; 34 (25)             ; 6 (6)                     ; 0                 ; 0          ; 28   ; 0            ; |pCounter                        ; pCounter    ; work         ;
+;    |display6bit:numDisplay| ; 9 (9)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |pCounter|display6bit:numDisplay ; display6bit ; work         ;
 +-----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -231,6 +232,15 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 
 
++------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                           ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
+; 3:1                ; 6 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; Yes        ; |pCounter|count[0]         ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
+
+
 +--------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: Top-level Entity: |pCounter ;
 +----------------+-------+-------------------------------------------------+
@@ -248,19 +258,19 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; arriav_ff             ; 6                           ;
 ;     CLR               ; 6                           ;
-; arriav_lcell_comb     ; 19                          ;
-;     normal            ; 19                          ;
+; arriav_lcell_comb     ; 38                          ;
+;     normal            ; 38                          ;
 ;         0 data inputs ; 1                           ;
 ;         1 data inputs ; 3                           ;
 ;         2 data inputs ; 4                           ;
-;         3 data inputs ; 1                           ;
-;         4 data inputs ; 8                           ;
+;         3 data inputs ; 7                           ;
+;         4 data inputs ; 20                          ;
 ;         5 data inputs ; 1                           ;
-;         6 data inputs ; 1                           ;
-; boundary_port         ; 22                          ;
+;         6 data inputs ; 2                           ;
+; boundary_port         ; 28                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 2.00                        ;
-; Average LUT depth     ; 1.11                        ;
+; Max LUT depth         ; 3.00                        ;
+; Average LUT depth     ; 2.53                        ;
 +-----------------------+-----------------------------+
 
 
@@ -279,7 +289,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-    Info: Processing started: Mon Feb 19 00:14:26 2024
+    Info: Processing started: Mon Feb 19 12:24:59 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off pCounter -c pCounter
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
@@ -290,24 +300,31 @@ Info (12021): Found 1 design units, including 1 entities, in source file pcounte
 Info (12021): Found 1 design units, including 1 entities, in source file display6bit.sv
     Info (12023): Found entity 1: display6bit File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/display6bit.sv Line: 1
 Info (12127): Elaborating entity "pCounter" for the top level hierarchy
-Warning (10230): Verilog HDL assignment warning at pCounter.sv(17): truncated value with size 32 to match size of target (6) File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter.sv Line: 17
+Warning (10230): Verilog HDL assignment warning at pCounter.sv(21): truncated value with size 32 to match size of target (6) File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter.sv Line: 21
 Info (12128): Elaborating entity "display6bit" for hierarchy "display6bit:numDisplay" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter.sv Line: 8
 Warning (10272): Verilog HDL Case Statement warning at display6bit.sv(25): case item expression covers a value already covered by a previous case item File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/display6bit.sv Line: 25
 Warning (10272): Verilog HDL Case Statement warning at display6bit.sv(26): case item expression covers a value already covered by a previous case item File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/display6bit.sv Line: 26
 Warning (10272): Verilog HDL Case Statement warning at display6bit.sv(46): case item expression covers a value already covered by a previous case item File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/display6bit.sv Line: 46
 Warning (10272): Verilog HDL Case Statement warning at display6bit.sv(47): case item expression covers a value already covered by a previous case item File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/display6bit.sv Line: 47
+Warning (13004): Presettable and clearable registers converted to equivalent circuits with latches. Registers power-up to an undefined state, and DEVCLRn places the registers in an undefined state.
+    Warning (13310): Register "count[0]" is converted into an equivalent circuit using register "count[0]~_emulated" and latch "count[0]~1" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter.sv Line: 14
+    Warning (13310): Register "count[1]" is converted into an equivalent circuit using register "count[1]~_emulated" and latch "count[1]~5" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter.sv Line: 14
+    Warning (13310): Register "count[2]" is converted into an equivalent circuit using register "count[2]~_emulated" and latch "count[2]~9" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter.sv Line: 14
+    Warning (13310): Register "count[3]" is converted into an equivalent circuit using register "count[3]~_emulated" and latch "count[3]~13" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter.sv Line: 14
+    Warning (13310): Register "count[4]" is converted into an equivalent circuit using register "count[4]~_emulated" and latch "count[4]~17" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter.sv Line: 14
+    Warning (13310): Register "count[5]" is converted into an equivalent circuit using register "count[5]~_emulated" and latch "count[5]~21" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter.sv Line: 14
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "dispOut[8]" is stuck at GND File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter.sv Line: 1
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 38 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 2 input pins
+Info (21057): Implemented 62 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 8 input pins
     Info (21059): Implemented 20 output pins
-    Info (21061): Implemented 16 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 8 warnings
-    Info: Peak virtual memory: 4869 megabytes
-    Info: Processing ended: Mon Feb 19 00:14:33 2024
+    Info (21061): Implemented 34 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 15 warnings
+    Info: Peak virtual memory: 4877 megabytes
+    Info: Processing ended: Mon Feb 19 12:25:06 2024
     Info: Elapsed time: 00:00:07
     Info: Total CPU time (on all processors): 00:00:15
 
