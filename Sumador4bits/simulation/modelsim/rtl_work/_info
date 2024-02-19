@@ -9,49 +9,49 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/simulation/modelsim
-Esumador1bit_tb
-Z1 w1708281066
+Esumador1bit
+Z1 w1708280140
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
 !i122 1
 R0
-Z4 8C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador1bit_tb.vht
-Z5 FC:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador1bit_tb.vht
+Z4 8C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador1bit.vhd
+Z5 FC:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador1bit.vhd
 l0
 L4 1
-V]E<fkPfU>o7B[^R`ei6eg1
-!s100 ]M6Wa=g2cCSL8RoH14`^J1
+VQXHeJ1W8I0kh2=j5hMZJ_0
+!s100 d:V6[RKZA0WU[5la=WE5?1
 Z6 OV;C;2020.1;71
 31
-Z7 !s110 1708281154
+Z7 !s110 1708297794
 !i10b 1
-Z8 !s108 1708281154.000000
-Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador1bit_tb.vht|
-!s107 C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador1bit_tb.vht|
+Z8 !s108 1708297794.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador1bit.vhd|
+Z10 !s107 C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador1bit.vhd|
 !i113 1
-Z10 o-93 -work work
-Z11 tExplicit 1 CvgOpt 0
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
 Abehavioral
 R2
 R3
-DEx4 work 14 sumador1bit_tb 0 22 ]E<fkPfU>o7B[^R`ei6eg1
+DEx4 work 11 sumador1bit 0 22 QXHeJ1W8I0kh2=j5hMZJ_0
 !i122 1
-l30
-L7 75
-VHR;SW6:ZUShglRzD<1N;T1
-!s100 BHl=?E=Y`7lJ?17BeANaM2
+l14
+L12 8
+V2jmRCBkieoFKFDKS;dH690
+!s100 hkjU4Y210R[L2RSEGBikD1
 R6
 31
 R7
 !i10b 1
 R8
 R9
-Z12 !s107 C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador1bit_tb.vht|
-!i113 1
 R10
+!i113 1
 R11
+R12
 Esumador4bits
-Z13 w1708212725
+Z13 w1708295582
 R2
 R3
 !i122 0
@@ -60,8 +60,8 @@ Z14 8C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2
 Z15 FC:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits.vhd
 l0
 L4 1
-Vz_I?S:;FIUb7hHYR`^?I:1
-!s100 WNANl0XbefD2@[QRIZC402
+ViO^6BgN>a[51KehN:;V9M1
+!s100 H533aaV]=`TDLVL]]>8TM2
 R6
 31
 R7
@@ -70,17 +70,17 @@ R8
 Z16 !s90 -reportprogress|300|-93|-work|work|C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits.vhd|
 Z17 !s107 C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits.vhd|
 !i113 1
-R10
 R11
-Agate
+R12
+Abehavioral
 R2
 R3
-DEx4 work 12 sumador4bits 0 22 z_I?S:;FIUb7hHYR`^?I:1
+DEx4 work 12 sumador4bits 0 22 iO^6BgN>a[51KehN:;V9M1
 !i122 0
-l14
-L12 6
-VEOAIoR>:BkM7H8QX5LVXl0
-!s100 jT>;ojHJ=:10lh5XNAY8M2
+l28
+L13 24
+VR[3A::eZzTM``:4NQ@1423
+!s100 IGXo?F7NhdSA4FUf`2:3G1
 R6
 31
 R7
@@ -89,5 +89,46 @@ R8
 R16
 R17
 !i113 1
-R10
 R11
+R12
+Esumador4bits_tb
+Z18 w1708297778
+R2
+R3
+!i122 2
+R0
+Z19 8C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits_tb.vht
+Z20 FC:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits_tb.vht
+l0
+L4 1
+V7RjHdSRhobGC:P[5T@:5:3
+!s100 =SFh;z`nO;GY`dbKmYc5d1
+R6
+31
+R7
+!i10b 1
+R8
+Z21 !s90 -reportprogress|300|-93|-work|work|C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits_tb.vht|
+!s107 C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits_tb.vht|
+!i113 1
+R11
+R12
+Abehavior
+R2
+R3
+DEx4 work 15 sumador4bits_tb 0 22 7RjHdSRhobGC:P[5T@:5:3
+!i122 2
+l29
+L7 60
+VzKba<;=kdMkhz77OT@b0H3
+!s100 FFF2Ioo0GDEjz5mmhJRi21
+R6
+31
+R7
+!i10b 1
+R8
+R21
+Z22 !s107 C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits_tb.vht|
+!i113 1
+R11
+R12

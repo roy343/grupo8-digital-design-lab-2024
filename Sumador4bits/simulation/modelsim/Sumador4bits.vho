@@ -17,7 +17,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition"
 
--- DATE "02/18/2024 16:34:37"
+-- DATE "02/18/2024 17:02:24"
 
 -- 
 -- Device: Altera 5CSEMA5F31C6 Package FBGA896
@@ -39,8 +39,8 @@ ENTITY 	Sumador4bits IS
 	A : IN std_logic_vector(3 DOWNTO 0);
 	B : IN std_logic_vector(3 DOWNTO 0);
 	CarryIn : IN std_logic;
-	Sum : OUT std_logic_vector(3 DOWNTO 0);
-	CarryOut : OUT std_logic
+	Sum : BUFFER std_logic_vector(3 DOWNTO 0);
+	CarryOut : BUFFER std_logic
 	);
 END Sumador4bits;
 
@@ -92,16 +92,16 @@ SIGNAL \B[3]~input_o\ : std_logic;
 SIGNAL \A[3]~input_o\ : std_logic;
 SIGNAL \SC4|Sum~combout\ : std_logic;
 SIGNAL \SC4|CarryOut~0_combout\ : std_logic;
+SIGNAL \ALT_INV_A[2]~input_o\ : std_logic;
+SIGNAL \ALT_INV_B[2]~input_o\ : std_logic;
+SIGNAL \ALT_INV_A[3]~input_o\ : std_logic;
+SIGNAL \ALT_INV_B[3]~input_o\ : std_logic;
 SIGNAL \SC2|ALT_INV_CarryOut~0_combout\ : std_logic;
 SIGNAL \ALT_INV_A[0]~input_o\ : std_logic;
 SIGNAL \ALT_INV_B[0]~input_o\ : std_logic;
 SIGNAL \ALT_INV_CarryIn~input_o\ : std_logic;
 SIGNAL \ALT_INV_A[1]~input_o\ : std_logic;
 SIGNAL \ALT_INV_B[1]~input_o\ : std_logic;
-SIGNAL \ALT_INV_A[2]~input_o\ : std_logic;
-SIGNAL \ALT_INV_B[2]~input_o\ : std_logic;
-SIGNAL \ALT_INV_A[3]~input_o\ : std_logic;
-SIGNAL \ALT_INV_B[3]~input_o\ : std_logic;
 
 BEGIN
 
@@ -113,16 +113,16 @@ CarryOut <= ww_CarryOut;
 ww_devoe <= devoe;
 ww_devclrn <= devclrn;
 ww_devpor <= devpor;
+\ALT_INV_A[2]~input_o\ <= NOT \A[2]~input_o\;
+\ALT_INV_B[2]~input_o\ <= NOT \B[2]~input_o\;
+\ALT_INV_A[3]~input_o\ <= NOT \A[3]~input_o\;
+\ALT_INV_B[3]~input_o\ <= NOT \B[3]~input_o\;
 \SC2|ALT_INV_CarryOut~0_combout\ <= NOT \SC2|CarryOut~0_combout\;
 \ALT_INV_A[0]~input_o\ <= NOT \A[0]~input_o\;
 \ALT_INV_B[0]~input_o\ <= NOT \B[0]~input_o\;
 \ALT_INV_CarryIn~input_o\ <= NOT \CarryIn~input_o\;
 \ALT_INV_A[1]~input_o\ <= NOT \A[1]~input_o\;
 \ALT_INV_B[1]~input_o\ <= NOT \B[1]~input_o\;
-\ALT_INV_A[2]~input_o\ <= NOT \A[2]~input_o\;
-\ALT_INV_B[2]~input_o\ <= NOT \B[2]~input_o\;
-\ALT_INV_A[3]~input_o\ <= NOT \A[3]~input_o\;
-\ALT_INV_B[3]~input_o\ <= NOT \B[3]~input_o\;
 
 -- Location: IOOBUF_X89_Y20_N96
 \Sum[0]~output\ : cyclonev_io_obuf

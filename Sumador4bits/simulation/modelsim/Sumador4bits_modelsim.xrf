@@ -2,6 +2,7 @@ vendor_name = ModelSim
 source_file = 1, C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits.vhd
 source_file = 1, C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador1bit.vhd
 source_file = 1, C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador1bit_tb.vht
+source_file = 1, C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits_tb.vht
 source_file = 1, c:/intelfpga_lite/22.1std/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
 source_file = 1, c:/intelfpga_lite/22.1std/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
 source_file = 1, c:/intelfpga_lite/22.1std/quartus/libraries/vhdl/ieee/timing_b.vhd

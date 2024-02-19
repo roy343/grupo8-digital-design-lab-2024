@@ -51,10 +51,11 @@ vlib rtl_work
 vmap work rtl_work
 
 vcom -93 -work work {C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits.vhd}
+vcom -93 -work work {C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador1bit.vhd}
 
-vcom -93 -work work {C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador1bit_tb.vht}
+vcom -93 -work work {C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits_tb.vht}
 
-vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L cyclonev_hssi -L rtl_work -L work -voptargs="+acc"  Sumador1bit_tb
+vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L cyclonev_hssi -L rtl_work -L work -voptargs="+acc"  Sumador4bits_tb
 
 add wave *
 view structure

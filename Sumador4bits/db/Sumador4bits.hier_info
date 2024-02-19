@@ -8,11 +8,11 @@ B[1] => Sumador1bit:SC2.B
 B[2] => Sumador1bit:SC3.B
 B[3] => Sumador1bit:SC4.B
 CarryIn => Sumador1bit:SC1.CarryIn
-Sum[0] <= Sumador1bit:SC1.Sum
-Sum[1] <= Sumador1bit:SC2.Sum
-Sum[2] <= Sumador1bit:SC3.Sum
-Sum[3] <= Sumador1bit:SC4.Sum
-CarryOut <= Sumador1bit:SC4.CarryOut
+Sum[0] << Sumador1bit:SC1.Sum
+Sum[1] << Sumador1bit:SC2.Sum
+Sum[2] << Sumador1bit:SC3.Sum
+Sum[3] << Sumador1bit:SC4.Sum
+CarryOut << Sumador1bit:SC4.CarryOut
 
 
 |Sumador4bits|Sumador1bit:SC1
