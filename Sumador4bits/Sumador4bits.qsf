@@ -73,4 +73,24 @@ set_global_assignment -name EDA_TEST_BENCH_NAME Sumador4bits_tb -section_id eda_
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id Sumador4bits_tb
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME Sumador4bits_tb -section_id Sumador4bits_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE Sumador4bits_tb.vht -section_id Sumador4bits_tb
+set_global_assignment -name VHDL_FILE Convertidor.vhd
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_location_assignment PIN_AG27 -to SumHex4[3]
+set_location_assignment PIN_AE12 -to A4[3]
+set_location_assignment PIN_AD10 -to A4[2]
+set_location_assignment PIN_AC9 -to A4[1]
+set_location_assignment PIN_AE11 -to A4[0]
+set_location_assignment PIN_AF10 -to B4[3]
+set_location_assignment PIN_AF9 -to B4[2]
+set_location_assignment PIN_AC12 -to B4[1]
+set_location_assignment PIN_AB12 -to B4[0]
+set_location_assignment PIN_AD11 -to CarryIn4
+set_location_assignment PIN_AH30 -to SumHex4[9]
+set_location_assignment PIN_AH29 -to SumHex4[8]
+set_location_assignment PIN_AJ29 -to SumHex4[7]
+set_location_assignment PIN_AH28 -to SumHex4[6]
+set_location_assignment PIN_AG28 -to SumHex4[5]
+set_location_assignment PIN_AF28 -to SumHex4[4]
+set_location_assignment PIN_AE28 -to SumHex4[2]
+set_location_assignment PIN_AE27 -to SumHex4[1]
+set_location_assignment PIN_AE26 -to SumHex4[0]

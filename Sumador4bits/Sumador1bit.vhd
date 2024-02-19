@@ -2,9 +2,11 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
  
 entity Sumador1bit is
+	--Inputs
  Port ( A : in STD_LOGIC;
  B : in STD_LOGIC;
  CarryIn : in STD_LOGIC;
+ --Outputs
  Sum : out STD_LOGIC;
  CarryOut : out STD_LOGIC);
 end Sumador1bit;

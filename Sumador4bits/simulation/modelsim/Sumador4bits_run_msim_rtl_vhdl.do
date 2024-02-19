@@ -52,6 +52,7 @@ vmap work rtl_work
 
 vcom -93 -work work {C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits.vhd}
 vcom -93 -work work {C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador1bit.vhd}
+vcom -93 -work work {C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Convertidor.vhd}
 
 vcom -93 -work work {C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits_tb.vht}
 
