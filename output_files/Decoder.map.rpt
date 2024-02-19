@@ -1,5 +1,5 @@
 Analysis & Elaboration report for Decoder
-Mon Feb 19 13:29:20 2024
+Mon Feb 19 14:33:05 2024
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -37,7 +37,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                 ;
 +-------------------------------+------------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Mon Feb 19 13:29:20 2024          ;
+; Analysis & Elaboration Status ; Successful - Mon Feb 19 14:33:05 2024          ;
 ; Quartus Prime Version         ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                 ; Decoder                                        ;
 ; Top-level Entity Name         ; Decoder                                        ;
@@ -161,7 +161,7 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-    Info: Processing started: Mon Feb 19 13:29:14 2024
+    Info: Processing started: Mon Feb 19 14:32:59 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Decoder -c Decoder --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
@@ -171,8 +171,8 @@ Info (12021): Found 1 design units, including 1 entities, in source file decoder
     Info (12023): Found entity 1: Decoder_tb File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Decoder_tb.sv Line: 1
 Info (12127): Elaborating entity "Decoder" for the top level hierarchy
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4791 megabytes
-    Info: Processing ended: Mon Feb 19 13:29:20 2024
+    Info: Peak virtual memory: 4778 megabytes
+    Info: Processing ended: Mon Feb 19 14:33:05 2024
     Info: Elapsed time: 00:00:06
     Info: Total CPU time (on all processors): 00:00:08
 

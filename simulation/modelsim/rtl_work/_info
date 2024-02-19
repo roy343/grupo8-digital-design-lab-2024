@@ -11,15 +11,15 @@ cModel Technology
 Z0 dC:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/simulation/modelsim
 vDecoder
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1708371016
+Z2 !s110 1708374808
 !i10b 1
-!s100 @EHiXZHYI?9UYTCg<MWI73
+!s100 jo6;_1jS>>8CVQ^:Pj0Rb1
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I_VC@Qz_eT:1W;Zl6ji?i30
+ICF><`CSB428ocUV>BW2XF2
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1708370951
+w1708374697
 8C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Decoder.sv
 FC:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Decoder.sv
 !i122 0
@@ -28,7 +28,7 @@ Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1708371016.000000
+Z6 !s108 1708374808.000000
 !s107 C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Decoder.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024|C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Decoder.sv|
 !i113 1
@@ -46,7 +46,7 @@ II9;4Shd3[6Jfc=z7PiP=T2
 R4
 S1
 R0
-w1708370867
+w1708374357
 8C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Decoder_tb.sv
 FC:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Decoder_tb.sv
 !i122 1
