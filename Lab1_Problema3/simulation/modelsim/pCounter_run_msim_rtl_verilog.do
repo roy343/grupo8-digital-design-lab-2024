@@ -46,6 +46,7 @@ vlib rtl_work
 vmap work rtl_work
 
 vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3 {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter.sv}
+vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3 {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/display6bit.sv}
 
 vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3 {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter_tb.sv}
 

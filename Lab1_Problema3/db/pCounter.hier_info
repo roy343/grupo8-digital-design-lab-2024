@@ -11,11 +11,48 @@ r => count[2].ACLR
 r => count[3].ACLR
 r => count[4].ACLR
 r => count[5].ACLR
-out[0] << count[0].DB_MAX_OUTPUT_PORT_TYPE
-out[1] << count[1].DB_MAX_OUTPUT_PORT_TYPE
-out[2] << count[2].DB_MAX_OUTPUT_PORT_TYPE
-out[3] << count[3].DB_MAX_OUTPUT_PORT_TYPE
-out[4] << count[4].DB_MAX_OUTPUT_PORT_TYPE
-out[5] << count[5].DB_MAX_OUTPUT_PORT_TYPE
+out[0] << out[0].DB_MAX_OUTPUT_PORT_TYPE
+out[1] << out[1].DB_MAX_OUTPUT_PORT_TYPE
+out[2] << out[2].DB_MAX_OUTPUT_PORT_TYPE
+out[3] << out[3].DB_MAX_OUTPUT_PORT_TYPE
+out[4] << out[4].DB_MAX_OUTPUT_PORT_TYPE
+out[5] << out[5].DB_MAX_OUTPUT_PORT_TYPE
+dispOut[0] << display6bit:numDisplay.dispOut
+dispOut[1] << display6bit:numDisplay.dispOut
+dispOut[2] << display6bit:numDisplay.dispOut
+dispOut[3] << display6bit:numDisplay.dispOut
+dispOut[4] << display6bit:numDisplay.dispOut
+dispOut[5] << display6bit:numDisplay.dispOut
+dispOut[6] << display6bit:numDisplay.dispOut
+dispOut[7] << display6bit:numDisplay.dispOut
+dispOut[8] << display6bit:numDisplay.dispOut
+dispOut[9] << display6bit:numDisplay.dispOut
+dispOut[10] << display6bit:numDisplay.dispOut
+dispOut[11] << display6bit:numDisplay.dispOut
+dispOut[12] << display6bit:numDisplay.dispOut
+dispOut[13] << display6bit:numDisplay.dispOut
+
+
+|pCounter|display6bit:numDisplay
+numAct[0] => Decoder0.IN3
+numAct[1] => Decoder0.IN2
+numAct[2] => Decoder0.IN1
+numAct[3] => Decoder0.IN0
+numAct[4] => Decoder1.IN3
+numAct[5] => Decoder1.IN2
+dispOut[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+dispOut[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+dispOut[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+dispOut[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+dispOut[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+dispOut[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+dispOut[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+dispOut[7] <= Decoder1.DB_MAX_OUTPUT_PORT_TYPE
+dispOut[8] <= <GND>
+dispOut[9] <= Decoder1.DB_MAX_OUTPUT_PORT_TYPE
+dispOut[10] <= Decoder1.DB_MAX_OUTPUT_PORT_TYPE
+dispOut[11] <= WideOr9.DB_MAX_OUTPUT_PORT_TYPE
+dispOut[12] <= WideOr8.DB_MAX_OUTPUT_PORT_TYPE
+dispOut[13] <= WideOr7.DB_MAX_OUTPUT_PORT_TYPE
 
 

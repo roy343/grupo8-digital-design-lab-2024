@@ -9,32 +9,58 @@ z2
 !i10f 100
 cModel Technology
 Z0 dE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/simulation/modelsim
-vpCounter
+vdisplay6bit
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1708293331
+Z2 !s110 1708321645
 !i10b 1
-!s100 E@<n^ABW6HKMIPGbHz3^<1
+!s100 I75DWm50Mn:NWBnD85i4j3
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I>;_d`KZ@feCf0<bozI9zo3
+IWj;58EnY8I0:5PKR@Xdcj3
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1708291919
-8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter.sv
-FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter.sv
-!i122 0
-L0 1 19
+w1708321250
+8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/display6bit.sv
+FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/display6bit.sv
+!i122 1
+L0 1 57
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1708293331.000000
-!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter.sv|
+Z6 !s108 1708321645.000000
+!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/display6bit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/display6bit.sv|
 !i113 1
 Z7 o-sv -work work
 Z8 !s92 -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3
 Z9 tCvgOpt 0
+vpCounter
+R1
+R2
+!i10b 1
+!s100 [QakiBmP50U30eb`Yga6Z1
+R3
+Iah>OZOz>nI93K63H^2LMX3
+R4
+S1
+R0
+w1708321612
+8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter.sv
+FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter.sv
+!i122 0
+L0 1 24
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter.sv|
+!i113 1
+R7
+R8
+R9
 np@counter
 vpCounter_tb
 R1
@@ -49,7 +75,7 @@ R0
 w1708293300
 8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter_tb.sv
 FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter_tb.sv
-!i122 1
+!i122 2
 L0 3 41
 R5
 r1

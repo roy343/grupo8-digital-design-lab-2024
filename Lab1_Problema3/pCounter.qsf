@@ -63,4 +63,27 @@ set_global_assignment -name EDA_TEST_BENCH_NAME pCounter_tb -section_id eda_simu
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id pCounter_tb
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME pCounter_tb -section_id pCounter_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE pCounter_tb.sv -section_id pCounter_tb
+set_global_assignment -name SYSTEMVERILOG_FILE display6bit.sv
+set_location_assignment PIN_AA14 -to clk
+set_location_assignment PIN_AE12 -to r
+set_location_assignment PIN_AD27 -to dispOut[13]
+set_location_assignment PIN_AF30 -to dispOut[12]
+set_location_assignment PIN_AF29 -to dispOut[11]
+set_location_assignment PIN_AG30 -to dispOut[10]
+set_location_assignment PIN_AH30 -to dispOut[9]
+set_location_assignment PIN_AH29 -to dispOut[8]
+set_location_assignment PIN_AJ29 -to dispOut[7]
+set_location_assignment PIN_AH28 -to dispOut[6]
+set_location_assignment PIN_AG28 -to dispOut[5]
+set_location_assignment PIN_AF28 -to dispOut[4]
+set_location_assignment PIN_AG27 -to dispOut[3]
+set_location_assignment PIN_AE28 -to dispOut[2]
+set_location_assignment PIN_AE27 -to dispOut[1]
+set_location_assignment PIN_AE26 -to dispOut[0]
+set_location_assignment PIN_V16 -to out[0]
+set_location_assignment PIN_W16 -to out[1]
+set_location_assignment PIN_V17 -to out[2]
+set_location_assignment PIN_V18 -to out[3]
+set_location_assignment PIN_W17 -to out[4]
+set_location_assignment PIN_W19 -to out[5]
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

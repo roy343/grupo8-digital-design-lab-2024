@@ -1,5 +1,5 @@
 Flow report for pCounter
-Sun Feb 18 15:55:10 2024
+Mon Feb 19 00:15:21 2024
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -38,24 +38,29 @@ https://fpgasoftware.intel.com/eula.
 
 
 
-+------------------------------------------------------------------------------+
-; Flow Summary                                                                 ;
-+-----------------------------+------------------------------------------------+
-; Flow Status                 ; Successful - Sun Feb 18 15:55:10 2024          ;
-; Quartus Prime Version       ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
-; Revision Name               ; pCounter                                       ;
-; Top-level Entity Name       ; pCounter                                       ;
-; Family                      ; Cyclone V                                      ;
-; Device                      ; 5CSEMA5F31C6                                   ;
-; Timing Models               ; Final                                          ;
-; Logic utilization (in ALMs) ; N/A until Partition Merge                      ;
-; Total registers             ; N/A until Partition Merge                      ;
-; Total pins                  ; N/A until Partition Merge                      ;
-; Total virtual pins          ; N/A until Partition Merge                      ;
-; Total block memory bits     ; N/A until Partition Merge                      ;
-; Total PLLs                  ; N/A until Partition Merge                      ;
-; Total DLLs                  ; N/A until Partition Merge                      ;
-+-----------------------------+------------------------------------------------+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++---------------------------------+------------------------------------------------+
+; Flow Status                     ; Successful - Mon Feb 19 00:15:21 2024          ;
+; Quartus Prime Version           ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
+; Revision Name                   ; pCounter                                       ;
+; Top-level Entity Name           ; pCounter                                       ;
+; Family                          ; Cyclone V                                      ;
+; Device                          ; 5CSEMA5F31C6                                   ;
+; Timing Models                   ; Final                                          ;
+; Logic utilization (in ALMs)     ; 9 / 32,070 ( < 1 % )                           ;
+; Total registers                 ; 10                                             ;
+; Total pins                      ; 22 / 457 ( 5 % )                               ;
+; Total virtual pins              ; 0                                              ;
+; Total block memory bits         ; 0 / 4,065,280 ( 0 % )                          ;
+; Total DSP Blocks                ; 0 / 87 ( 0 % )                                 ;
+; Total HSSI RX PCSs              ; 0                                              ;
+; Total HSSI PMA RX Deserializers ; 0                                              ;
+; Total HSSI TX PCSs              ; 0                                              ;
+; Total HSSI PMA TX Serializers   ; 0                                              ;
+; Total PLLs                      ; 0 / 6 ( 0 % )                                  ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                                  ;
++---------------------------------+------------------------------------------------+
 
 
 +-----------------------------------------+
@@ -63,7 +68,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 02/18/2024 15:55:04 ;
+; Start date & time ; 02/19/2024 00:14:26 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; pCounter            ;
 +-------------------+---------------------+
@@ -74,7 +79,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 27214213507332.170829330403152         ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 27214213507332.170832326626540         ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; pCounter_tb    ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; pCounter_tb                            ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                            ; --            ; --          ; eda_simulation ;
@@ -95,29 +100,41 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                          ;
-+------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:07     ; 1.0                     ; 4778 MB             ; 00:00:15                           ;
-; Total                  ; 00:00:07     ; --                      ; --                  ; 00:00:15                           ;
-+------------------------+--------------+-------------------------+---------------------+------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:07     ; 1.0                     ; 4869 MB             ; 00:00:15                           ;
+; Fitter               ; 00:00:33     ; 1.0                     ; 7347 MB             ; 00:01:57                           ;
+; Assembler            ; 00:00:05     ; 1.0                     ; 4882 MB             ; 00:00:05                           ;
+; Timing Analyzer      ; 00:00:04     ; 1.1                     ; 5237 MB             ; 00:00:04                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4726 MB             ; 00:00:01                           ;
+; Total                ; 00:00:50     ; --                      ; --                  ; 00:02:22                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+--------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                      ;
-+------------------------+------------------+------------+------------+----------------+
-; Module Name            ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
-+------------------------+------------------+------------+------------+----------------+
-; Analysis & Elaboration ; DESKTOP-AR6DVUB  ; Windows 10 ; 10.0       ; x86_64         ;
-+------------------------+------------------+------------+------------+----------------+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; DESKTOP-AR6DVUB  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; DESKTOP-AR6DVUB  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; DESKTOP-AR6DVUB  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; DESKTOP-AR6DVUB  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-AR6DVUB  ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
-quartus_map --read_settings_files=on --write_settings_files=off pCounter -c pCounter --analysis_and_elaboration
+quartus_map --read_settings_files=on --write_settings_files=off pCounter -c pCounter
+quartus_fit --read_settings_files=off --write_settings_files=off pCounter -c pCounter
+quartus_asm --read_settings_files=off --write_settings_files=off pCounter -c pCounter
+quartus_sta pCounter -c pCounter
+quartus_eda --read_settings_files=off --write_settings_files=off pCounter -c pCounter
 
 
 

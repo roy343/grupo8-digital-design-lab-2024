@@ -13,7 +13,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_ver {e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:55:18 on Feb 18,2024
+# Start time: 23:47:12 on Feb 18,2024
 # vlog -reportprogress 300 -vlog01compat -work altera_ver e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v 
 # -- Compiling module global
 # -- Compiling module carry
@@ -95,7 +95,7 @@
 # 	alt_iobuf_diff
 # 	alt_bidir_diff
 # 	alt_bidir_buf
-# End time: 15:55:19 on Feb 18,2024, Elapsed time: 0:00:01
+# End time: 23:47:12 on Feb 18,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/lpm_ver
@@ -106,7 +106,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work lpm_ver {e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:55:19 on Feb 18,2024
+# Start time: 23:47:13 on Feb 18,2024
 # vlog -reportprogress 300 -vlog01compat -work lpm_ver e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v 
 # -- Compiling module LPM_MEMORY_INITIALIZATION
 # -- Compiling module LPM_HINT_EVALUATION
@@ -170,7 +170,7 @@
 # 	lpm_inpad
 # 	lpm_outpad
 # 	lpm_bipad
-# End time: 15:55:19 on Feb 18,2024, Elapsed time: 0:00:00
+# End time: 23:47:13 on Feb 18,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/sgate_ver
@@ -181,7 +181,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work sgate_ver {e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/sgate.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:55:19 on Feb 18,2024
+# Start time: 23:47:13 on Feb 18,2024
 # vlog -reportprogress 300 -vlog01compat -work sgate_ver e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/sgate.v 
 # -- Compiling module oper_add
 # -- Compiling module oper_addsub
@@ -223,7 +223,7 @@
 # 	oper_decoder
 # 	oper_bus_mux
 # 	oper_latch
-# End time: 15:55:19 on Feb 18,2024, Elapsed time: 0:00:00
+# End time: 23:47:13 on Feb 18,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_mf_ver
@@ -234,7 +234,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_mf_ver {e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:55:19 on Feb 18,2024
+# Start time: 23:47:13 on Feb 18,2024
 # vlog -reportprogress 300 -vlog01compat -work altera_mf_ver e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v 
 # -- Compiling module lcell
 # -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
@@ -364,7 +364,7 @@
 # 	alt_fault_injection
 # 	sld_virtual_jtag_basic
 # 	altsource_probe
-# End time: 15:55:20 on Feb 18,2024, Elapsed time: 0:00:01
+# End time: 23:47:14 on Feb 18,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_lnsim_ver
@@ -375,7 +375,7 @@
 # Modifying modelsim.ini
 # vlog -sv -work altera_lnsim_ver {e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:55:21 on Feb 18,2024
+# Start time: 23:47:15 on Feb 18,2024
 # vlog -reportprogress 300 -sv -work altera_lnsim_ver e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv 
 # -- Compiling package altera_lnsim_functions
 # -- Compiling package altera_generic_pll_functions
@@ -458,7 +458,7 @@
 # 	altera_iopll
 # 	fourteennm_altera_iopll
 # 	fourteennm_simple_iopll
-# End time: 15:55:21 on Feb 18,2024, Elapsed time: 0:00:00
+# End time: 23:47:15 on Feb 18,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_ver
@@ -469,7 +469,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_ver {e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:55:21 on Feb 18,2024
+# Start time: 23:47:15 on Feb 18,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v 
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
@@ -483,19 +483,19 @@
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # 
 # Top level modules:
-# End time: 15:55:24 on Feb 18,2024, Elapsed time: 0:00:03
+# End time: 23:47:18 on Feb 18,2024, Elapsed time: 0:00:03
 # Errors: 0, Warnings: 10
 # vlog -vlog01compat -work cyclonev_ver {e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:55:24 on Feb 18,2024
+# Start time: 23:47:18 on Feb 18,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 15:55:25 on Feb 18,2024, Elapsed time: 0:00:01
+# End time: 23:47:19 on Feb 18,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_ver {e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:55:25 on Feb 18,2024
+# Start time: 23:47:19 on Feb 18,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_atoms.v 
 # -- Compiling UDP CYCLONEV_PRIM_DFFE
 # -- Compiling UDP CYCLONEV_PRIM_DFFEAS
@@ -635,7 +635,7 @@
 # 	cyclonev_mem_phy
 # 	cyclonev_oscillator
 # 	cyclonev_hps_interface_fpga2sdram
-# End time: 15:55:26 on Feb 18,2024, Elapsed time: 0:00:01
+# End time: 23:47:20 on Feb 18,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_hssi_ver
@@ -646,15 +646,15 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_hssi_ver {e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:55:26 on Feb 18,2024
+# Start time: 23:47:20 on Feb 18,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 15:55:28 on Feb 18,2024, Elapsed time: 0:00:02
+# End time: 23:47:22 on Feb 18,2024, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_hssi_ver {e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_hssi_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:55:28 on Feb 18,2024
+# Start time: 23:47:22 on Feb 18,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_hssi_atoms.v 
 # -- Compiling module cyclonev_hssi_8g_pcs_aggregate
 # -- Compiling module cyclonev_hssi_8g_rx_pcs
@@ -754,7 +754,7 @@
 # 	arriav_hssi_avmm_interface
 # 	arriav_hssi_pma_hi_pmaif
 # 	arriav_hssi_pma_hi_xcvrif
-# End time: 15:55:28 on Feb 18,2024, Elapsed time: 0:00:00
+# End time: 23:47:22 on Feb 18,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_pcie_hip_ver
@@ -765,7 +765,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_pcie_hip_ver {e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:55:28 on Feb 18,2024
+# Start time: 23:47:22 on Feb 18,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v 
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
@@ -775,18 +775,18 @@
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # 
 # Top level modules:
-# End time: 15:55:31 on Feb 18,2024, Elapsed time: 0:00:03
+# End time: 23:47:25 on Feb 18,2024, Elapsed time: 0:00:03
 # Errors: 0, Warnings: 6
 # vlog -vlog01compat -work cyclonev_pcie_hip_ver {e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:55:31 on Feb 18,2024
+# Start time: 23:47:25 on Feb 18,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v 
 # -- Compiling module cyclonev_hd_altpe2_hip_top
 # -- Compiling module arriav_hd_altpe2_hip_top
 # 
 # Top level modules:
 # 	cyclonev_hd_altpe2_hip_top
-# End time: 15:55:31 on Feb 18,2024, Elapsed time: 0:00:00
+# End time: 23:47:25 on Feb 18,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # if {[file exists rtl_work]} {
@@ -800,32 +800,56 @@
 # 
 # vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3 {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:55:31 on Feb 18,2024
+# Start time: 23:47:25 on Feb 18,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3" E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter.sv 
 # -- Compiling module pCounter
 # 
 # Top level modules:
 # 	pCounter
-# End time: 15:55:31 on Feb 18,2024, Elapsed time: 0:00:00
+# End time: 23:47:25 on Feb 18,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3 {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/display6bit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:47:25 on Feb 18,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3" E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/display6bit.sv 
+# -- Compiling module display6bit
+# 
+# Top level modules:
+# 	display6bit
+# End time: 23:47:25 on Feb 18,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3 {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter_tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:55:31 on Feb 18,2024
+# Start time: 23:47:25 on Feb 18,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3" E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter_tb.sv 
 # -- Compiling module pCounter_tb
 # 
 # Top level modules:
 # 	pCounter_tb
-# End time: 15:55:31 on Feb 18,2024, Elapsed time: 0:00:00
+# End time: 23:47:25 on Feb 18,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  pCounter_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" pCounter_tb 
-# Start time: 15:55:31 on Feb 18,2024
+# Start time: 23:47:25 on Feb 18,2024
 # Loading sv_std.std
 # Loading work.pCounter_tb
 # Loading work.pCounter
+# Loading work.display6bit
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'counter_2bit'.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /pCounter_tb/counter_2bit File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter_tb.sv Line: 10
+# ** Warning: (vsim-3722) E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter_tb.sv(10): [TFMPC] - Missing connection for port 'dispOut'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (2) for port 'numAct'. The port definition is at: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/display6bit.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /pCounter_tb/counter_2bit/numDisplay File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter.sv Line: 5
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'counter_4bit'.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /pCounter_tb/counter_4bit File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter_tb.sv Line: 16
+# ** Warning: (vsim-3722) E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter_tb.sv(16): [TFMPC] - Missing connection for port 'dispOut'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (4) for port 'numAct'. The port definition is at: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/display6bit.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /pCounter_tb/counter_4bit/numDisplay File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter.sv Line: 5
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'counter_6bit'.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /pCounter_tb/counter_6bit File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter_tb.sv Line: 22
+# ** Warning: (vsim-3722) E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter_tb.sv(22): [TFMPC] - Missing connection for port 'dispOut'.
 # 
 # add wave *
 # view structure
@@ -836,5 +860,5 @@
 # ** Note: $stop    : E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter_tb.sv(40)
 #    Time: 20 ns  Iteration: 0  Instance: /pCounter_tb
 # Break in Module pCounter_tb at E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Lab1_Problema3/pCounter_tb.sv line 40
-# End time: 15:56:12 on Feb 18,2024, Elapsed time: 0:00:41
-# Errors: 0, Warnings: 0
+# End time: 23:47:38 on Feb 18,2024, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 8
