@@ -12,7 +12,7 @@ assign x = (b|d) & (!c|d);
 
 assign y = (c|d) & (!b|c) & (!b|d) & !a;
 
-assign z = (b|!c) & (!b|c) & (!b|!d) & !a;
+assign z = (b|!c) & (!b|c) & (!b|d) & !a;
 
 
 endmodule
