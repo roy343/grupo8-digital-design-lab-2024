@@ -63,10 +63,10 @@ set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name EDA_TEST_BENCH_FILE Decoder_tb.sv -section_id Decoder_tb
-set_location_assignment PIN_AC12 -to b
-set_location_assignment PIN_AB12 -to a
-set_location_assignment PIN_AF9 -to c
-set_location_assignment PIN_AF10 -to d
+set_location_assignment PIN_AF9 -to b
+set_location_assignment PIN_AF10 -to a
+set_location_assignment PIN_AC12 -to c
+set_location_assignment PIN_AB12 -to d
 set_location_assignment PIN_AE26 -to t
 set_location_assignment PIN_AE27 -to u
 set_location_assignment PIN_AE28 -to v
