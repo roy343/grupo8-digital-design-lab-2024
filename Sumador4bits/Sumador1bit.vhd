@@ -1,6 +1,7 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
- 
+
+
 entity Sumador1bit is
 	--Inputs
  Port ( A : in STD_LOGIC;
@@ -12,7 +13,8 @@ entity Sumador1bit is
 end Sumador1bit;
  
 architecture Behavioral of Sumador1bit is
- 
+
+--Logica del sumador
 begin
  
  Sum <= A XOR B XOR CarryIn ;

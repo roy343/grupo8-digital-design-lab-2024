@@ -22,7 +22,7 @@ signal CarryOut : std_logic_vector(3 downto 0);
  
 BEGIN
  
-
+--Asignacion puestos para pruebas
 test: entity work.Sumador4bits PORT MAP (
 A4 => A,
 B4 => B,

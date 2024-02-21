@@ -17,7 +17,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition"
 
--- DATE "02/19/2024 16:02:46"
+-- DATE "02/20/2024 22:09:49"
 
 -- 
 -- Device: Altera 5CSEMA5F31C6 Package FBGA896
@@ -45,30 +45,30 @@ ENTITY 	Sumador4bits IS
 END Sumador4bits;
 
 -- Design Ports Information
--- Sum4[0]	=>  Location: PIN_AF30,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- Sum4[1]	=>  Location: PIN_AC28,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- Sum4[2]	=>  Location: PIN_AD26,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- Sum4[3]	=>  Location: PIN_AC29,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- Sum4[4]	=>  Location: PIN_Y27,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- SumHex4[0]	=>  Location: PIN_AD29,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- SumHex4[1]	=>  Location: PIN_AE29,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- SumHex4[2]	=>  Location: PIN_AB28,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- SumHex4[3]	=>  Location: PIN_AC27,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- SumHex4[4]	=>  Location: PIN_AB27,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- SumHex4[5]	=>  Location: PIN_W24,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- SumHex4[6]	=>  Location: PIN_V23,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- SumHex4[7]	=>  Location: PIN_AH18,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- SumHex4[8]	=>  Location: PIN_AD30,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- SumHex4[9]	=>  Location: PIN_Y26,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- A4[0]	=>  Location: PIN_AA26,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- B4[0]	=>  Location: PIN_AH30,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- CarryIn4	=>  Location: PIN_AA28,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- A4[1]	=>  Location: PIN_AF29,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- B4[1]	=>  Location: PIN_W25,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- A4[2]	=>  Location: PIN_V25,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- B4[2]	=>  Location: PIN_AA30,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- A4[3]	=>  Location: PIN_AG30,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- B4[3]	=>  Location: PIN_AB30,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- Sum4[0]	=>  Location: PIN_AG1,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- Sum4[1]	=>  Location: PIN_AA12,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- Sum4[2]	=>  Location: PIN_AF6,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- Sum4[3]	=>  Location: PIN_AG6,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- Sum4[4]	=>  Location: PIN_W20,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- SumHex4[0]	=>  Location: PIN_AE26,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- SumHex4[1]	=>  Location: PIN_AE27,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- SumHex4[2]	=>  Location: PIN_AE28,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- SumHex4[3]	=>  Location: PIN_AG27,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- SumHex4[4]	=>  Location: PIN_AF28,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- SumHex4[5]	=>  Location: PIN_AG28,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- SumHex4[6]	=>  Location: PIN_AH28,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- SumHex4[7]	=>  Location: PIN_AJ29,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- SumHex4[8]	=>  Location: PIN_AH29,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- SumHex4[9]	=>  Location: PIN_AH30,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- A4[0]	=>  Location: PIN_AE11,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- B4[0]	=>  Location: PIN_AB12,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- CarryIn4	=>  Location: PIN_AD11,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- A4[1]	=>  Location: PIN_AC9,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- B4[1]	=>  Location: PIN_AC12,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- A4[2]	=>  Location: PIN_AD10,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- B4[2]	=>  Location: PIN_AF9,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- A4[3]	=>  Location: PIN_AE12,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- B4[3]	=>  Location: PIN_AF10,	 I/O Standard: 2.5 V,	 Current Strength: Default
 
 
 ARCHITECTURE structure OF Sumador4bits IS
@@ -87,19 +87,19 @@ SIGNAL ww_CarryIn4 : std_logic;
 SIGNAL ww_Sum4 : std_logic_vector(4 DOWNTO 0);
 SIGNAL ww_SumHex4 : std_logic_vector(9 DOWNTO 0);
 SIGNAL \~QUARTUS_CREATED_GND~I_combout\ : std_logic;
+SIGNAL \A4[0]~input_o\ : std_logic;
 SIGNAL \CarryIn4~input_o\ : std_logic;
 SIGNAL \B4[0]~input_o\ : std_logic;
-SIGNAL \A4[0]~input_o\ : std_logic;
 SIGNAL \SC1|Sum~combout\ : std_logic;
 SIGNAL \B4[1]~input_o\ : std_logic;
 SIGNAL \A4[1]~input_o\ : std_logic;
 SIGNAL \SC2|Sum~combout\ : std_logic;
 SIGNAL \A4[2]~input_o\ : std_logic;
-SIGNAL \SC2|CarryOut~0_combout\ : std_logic;
 SIGNAL \B4[2]~input_o\ : std_logic;
+SIGNAL \SC2|CarryOut~0_combout\ : std_logic;
 SIGNAL \SC3|Sum~combout\ : std_logic;
-SIGNAL \B4[3]~input_o\ : std_logic;
 SIGNAL \A4[3]~input_o\ : std_logic;
+SIGNAL \B4[3]~input_o\ : std_logic;
 SIGNAL \SC4|Sum~combout\ : std_logic;
 SIGNAL \SC4|CarryOut~0_combout\ : std_logic;
 SIGNAL \conv|Ram0~0_combout\ : std_logic;
@@ -109,13 +109,13 @@ SIGNAL \conv|Ram0~3_combout\ : std_logic;
 SIGNAL \conv|Ram0~4_combout\ : std_logic;
 SIGNAL \conv|Ram0~5_combout\ : std_logic;
 SIGNAL \conv|Ram0~6_combout\ : std_logic;
+SIGNAL \ALT_INV_CarryIn4~input_o\ : std_logic;
 SIGNAL \ALT_INV_A4[1]~input_o\ : std_logic;
 SIGNAL \ALT_INV_B4[1]~input_o\ : std_logic;
 SIGNAL \ALT_INV_A4[2]~input_o\ : std_logic;
 SIGNAL \ALT_INV_B4[2]~input_o\ : std_logic;
-SIGNAL \ALT_INV_A4[3]~input_o\ : std_logic;
 SIGNAL \ALT_INV_B4[3]~input_o\ : std_logic;
-SIGNAL \ALT_INV_CarryIn4~input_o\ : std_logic;
+SIGNAL \ALT_INV_A4[3]~input_o\ : std_logic;
 SIGNAL \ALT_INV_B4[0]~input_o\ : std_logic;
 SIGNAL \ALT_INV_A4[0]~input_o\ : std_logic;
 SIGNAL \conv|ALT_INV_Ram0~6_combout\ : std_logic;
@@ -136,13 +136,13 @@ SumHex4 <= ww_SumHex4;
 ww_devoe <= devoe;
 ww_devclrn <= devclrn;
 ww_devpor <= devpor;
+\ALT_INV_CarryIn4~input_o\ <= NOT \CarryIn4~input_o\;
 \ALT_INV_A4[1]~input_o\ <= NOT \A4[1]~input_o\;
 \ALT_INV_B4[1]~input_o\ <= NOT \B4[1]~input_o\;
 \ALT_INV_A4[2]~input_o\ <= NOT \A4[2]~input_o\;
 \ALT_INV_B4[2]~input_o\ <= NOT \B4[2]~input_o\;
-\ALT_INV_A4[3]~input_o\ <= NOT \A4[3]~input_o\;
 \ALT_INV_B4[3]~input_o\ <= NOT \B4[3]~input_o\;
-\ALT_INV_CarryIn4~input_o\ <= NOT \CarryIn4~input_o\;
+\ALT_INV_A4[3]~input_o\ <= NOT \A4[3]~input_o\;
 \ALT_INV_B4[0]~input_o\ <= NOT \B4[0]~input_o\;
 \ALT_INV_A4[0]~input_o\ <= NOT \A4[0]~input_o\;
 \conv|ALT_INV_Ram0~6_combout\ <= NOT \conv|Ram0~6_combout\;
@@ -153,7 +153,7 @@ ww_devpor <= devpor;
 \SC2|ALT_INV_Sum~combout\ <= NOT \SC2|Sum~combout\;
 \SC1|ALT_INV_Sum~combout\ <= NOT \SC1|Sum~combout\;
 
--- Location: IOOBUF_X89_Y15_N56
+-- Location: IOOBUF_X10_Y0_N42
 \Sum4[0]~output\ : cyclonev_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -166,7 +166,7 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => ww_Sum4(0));
 
--- Location: IOOBUF_X89_Y20_N79
+-- Location: IOOBUF_X12_Y0_N2
 \Sum4[1]~output\ : cyclonev_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -179,7 +179,7 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => ww_Sum4(1));
 
--- Location: IOOBUF_X89_Y16_N5
+-- Location: IOOBUF_X12_Y0_N36
 \Sum4[2]~output\ : cyclonev_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -192,7 +192,7 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => ww_Sum4(2));
 
--- Location: IOOBUF_X89_Y20_N96
+-- Location: IOOBUF_X12_Y0_N53
 \Sum4[3]~output\ : cyclonev_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -205,7 +205,7 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => ww_Sum4(3));
 
--- Location: IOOBUF_X89_Y25_N22
+-- Location: IOOBUF_X89_Y6_N5
 \Sum4[4]~output\ : cyclonev_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -218,7 +218,7 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => ww_Sum4(4));
 
--- Location: IOOBUF_X89_Y23_N56
+-- Location: IOOBUF_X89_Y8_N39
 \SumHex4[0]~output\ : cyclonev_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -231,7 +231,7 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => ww_SumHex4(0));
 
--- Location: IOOBUF_X89_Y23_N39
+-- Location: IOOBUF_X89_Y11_N79
 \SumHex4[1]~output\ : cyclonev_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -244,7 +244,7 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => ww_SumHex4(1));
 
--- Location: IOOBUF_X89_Y21_N39
+-- Location: IOOBUF_X89_Y11_N96
 \SumHex4[2]~output\ : cyclonev_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -257,7 +257,7 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => ww_SumHex4(2));
 
--- Location: IOOBUF_X89_Y16_N22
+-- Location: IOOBUF_X89_Y4_N79
 \SumHex4[3]~output\ : cyclonev_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -270,7 +270,7 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => ww_SumHex4(3));
 
--- Location: IOOBUF_X89_Y23_N22
+-- Location: IOOBUF_X89_Y13_N56
 \SumHex4[4]~output\ : cyclonev_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -283,7 +283,7 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => ww_SumHex4(4));
 
--- Location: IOOBUF_X89_Y15_N22
+-- Location: IOOBUF_X89_Y13_N39
 \SumHex4[5]~output\ : cyclonev_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -296,7 +296,7 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => ww_SumHex4(5));
 
--- Location: IOOBUF_X89_Y15_N5
+-- Location: IOOBUF_X89_Y4_N96
 \SumHex4[6]~output\ : cyclonev_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -309,7 +309,7 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => ww_SumHex4(6));
 
--- Location: IOOBUF_X56_Y0_N53
+-- Location: IOOBUF_X89_Y6_N39
 \SumHex4[7]~output\ : cyclonev_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -322,7 +322,7 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => ww_SumHex4(7));
 
--- Location: IOOBUF_X89_Y25_N39
+-- Location: IOOBUF_X89_Y6_N56
 \SumHex4[8]~output\ : cyclonev_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -335,7 +335,7 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => ww_SumHex4(8));
 
--- Location: IOOBUF_X89_Y25_N5
+-- Location: IOOBUF_X89_Y16_N39
 \SumHex4[9]~output\ : cyclonev_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -348,29 +348,7 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => ww_SumHex4(9));
 
--- Location: IOIBUF_X89_Y21_N55
-\CarryIn4~input\ : cyclonev_io_ibuf
--- pragma translate_off
-GENERIC MAP (
-	bus_hold => "false",
-	simulate_z_as => "z")
--- pragma translate_on
-PORT MAP (
-	i => ww_CarryIn4,
-	o => \CarryIn4~input_o\);
-
--- Location: IOIBUF_X89_Y16_N38
-\B4[0]~input\ : cyclonev_io_ibuf
--- pragma translate_off
-GENERIC MAP (
-	bus_hold => "false",
-	simulate_z_as => "z")
--- pragma translate_on
-PORT MAP (
-	i => ww_B4(0),
-	o => \B4[0]~input_o\);
-
--- Location: IOIBUF_X89_Y23_N4
+-- Location: IOIBUF_X4_Y0_N35
 \A4[0]~input\ : cyclonev_io_ibuf
 -- pragma translate_off
 GENERIC MAP (
@@ -381,25 +359,46 @@ PORT MAP (
 	i => ww_A4(0),
 	o => \A4[0]~input_o\);
 
--- Location: LABCELL_X88_Y20_N0
+-- Location: IOIBUF_X2_Y0_N41
+\CarryIn4~input\ : cyclonev_io_ibuf
+-- pragma translate_off
+GENERIC MAP (
+	bus_hold => "false",
+	simulate_z_as => "z")
+-- pragma translate_on
+PORT MAP (
+	i => ww_CarryIn4,
+	o => \CarryIn4~input_o\);
+
+-- Location: IOIBUF_X12_Y0_N18
+\B4[0]~input\ : cyclonev_io_ibuf
+-- pragma translate_off
+GENERIC MAP (
+	bus_hold => "false",
+	simulate_z_as => "z")
+-- pragma translate_on
+PORT MAP (
+	i => ww_B4(0),
+	o => \B4[0]~input_o\);
+
+-- Location: LABCELL_X12_Y4_N0
 \SC1|Sum\ : cyclonev_lcell_comb
 -- Equation(s):
--- \SC1|Sum~combout\ = ( \B4[0]~input_o\ & ( \A4[0]~input_o\ & ( \CarryIn4~input_o\ ) ) ) # ( !\B4[0]~input_o\ & ( \A4[0]~input_o\ & ( !\CarryIn4~input_o\ ) ) ) # ( \B4[0]~input_o\ & ( !\A4[0]~input_o\ & ( !\CarryIn4~input_o\ ) ) ) # ( !\B4[0]~input_o\ & ( 
--- !\A4[0]~input_o\ & ( \CarryIn4~input_o\ ) ) )
+-- \SC1|Sum~combout\ = ( \B4[0]~input_o\ & ( !\A4[0]~input_o\ $ (\CarryIn4~input_o\) ) ) # ( !\B4[0]~input_o\ & ( !\A4[0]~input_o\ $ (!\CarryIn4~input_o\) ) )
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0000111100001111111100001111000011110000111100000000111100001111",
+	lut_mask => "0101101001011010010110100101101010100101101001011010010110100101",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
+	dataa => \ALT_INV_A4[0]~input_o\,
 	datac => \ALT_INV_CarryIn4~input_o\,
-	datae => \ALT_INV_B4[0]~input_o\,
-	dataf => \ALT_INV_A4[0]~input_o\,
+	dataf => \ALT_INV_B4[0]~input_o\,
 	combout => \SC1|Sum~combout\);
 
--- Location: IOIBUF_X89_Y20_N44
+-- Location: IOIBUF_X16_Y0_N1
 \B4[1]~input\ : cyclonev_io_ibuf
 -- pragma translate_off
 GENERIC MAP (
@@ -410,7 +409,7 @@ PORT MAP (
 	i => ww_B4(1),
 	o => \B4[1]~input_o\);
 
--- Location: IOIBUF_X89_Y15_N38
+-- Location: IOIBUF_X4_Y0_N1
 \A4[1]~input\ : cyclonev_io_ibuf
 -- pragma translate_off
 GENERIC MAP (
@@ -421,27 +420,27 @@ PORT MAP (
 	i => ww_A4(1),
 	o => \A4[1]~input_o\);
 
--- Location: LABCELL_X88_Y20_N9
+-- Location: LABCELL_X12_Y4_N9
 \SC2|Sum\ : cyclonev_lcell_comb
 -- Equation(s):
--- \SC2|Sum~combout\ = ( \B4[0]~input_o\ & ( \A4[0]~input_o\ & ( !\B4[1]~input_o\ $ (\A4[1]~input_o\) ) ) ) # ( !\B4[0]~input_o\ & ( \A4[0]~input_o\ & ( !\B4[1]~input_o\ $ (!\A4[1]~input_o\ $ (\CarryIn4~input_o\)) ) ) ) # ( \B4[0]~input_o\ & ( 
--- !\A4[0]~input_o\ & ( !\B4[1]~input_o\ $ (!\A4[1]~input_o\ $ (\CarryIn4~input_o\)) ) ) ) # ( !\B4[0]~input_o\ & ( !\A4[0]~input_o\ & ( !\B4[1]~input_o\ $ (!\A4[1]~input_o\) ) ) )
+-- \SC2|Sum~combout\ = ( \A4[1]~input_o\ & ( \B4[0]~input_o\ & ( !\B4[1]~input_o\ $ (((\A4[0]~input_o\) # (\CarryIn4~input_o\))) ) ) ) # ( !\A4[1]~input_o\ & ( \B4[0]~input_o\ & ( !\B4[1]~input_o\ $ (((!\CarryIn4~input_o\ & !\A4[0]~input_o\))) ) ) ) # ( 
+-- \A4[1]~input_o\ & ( !\B4[0]~input_o\ & ( !\B4[1]~input_o\ $ (((\CarryIn4~input_o\ & \A4[0]~input_o\))) ) ) ) # ( !\A4[1]~input_o\ & ( !\B4[0]~input_o\ & ( !\B4[1]~input_o\ $ (((!\CarryIn4~input_o\) # (!\A4[0]~input_o\))) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0101101001011010010110101010010101011010101001011010010110100101",
+	lut_mask => "0000111101011010111100001010010101011010111100001010010100001111",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \ALT_INV_B4[1]~input_o\,
-	datac => \ALT_INV_A4[1]~input_o\,
-	datad => \ALT_INV_CarryIn4~input_o\,
-	datae => \ALT_INV_B4[0]~input_o\,
-	dataf => \ALT_INV_A4[0]~input_o\,
+	dataa => \ALT_INV_CarryIn4~input_o\,
+	datac => \ALT_INV_B4[1]~input_o\,
+	datad => \ALT_INV_A4[0]~input_o\,
+	datae => \ALT_INV_A4[1]~input_o\,
+	dataf => \ALT_INV_B4[0]~input_o\,
 	combout => \SC2|Sum~combout\);
 
--- Location: IOIBUF_X89_Y20_N61
+-- Location: IOIBUF_X4_Y0_N18
 \A4[2]~input\ : cyclonev_io_ibuf
 -- pragma translate_off
 GENERIC MAP (
@@ -452,28 +451,7 @@ PORT MAP (
 	i => ww_A4(2),
 	o => \A4[2]~input_o\);
 
--- Location: LABCELL_X88_Y20_N12
-\SC2|CarryOut~0\ : cyclonev_lcell_comb
--- Equation(s):
--- \SC2|CarryOut~0_combout\ = ( \B4[0]~input_o\ & ( \A4[0]~input_o\ & ( (\B4[1]~input_o\) # (\A4[1]~input_o\) ) ) ) # ( !\B4[0]~input_o\ & ( \A4[0]~input_o\ & ( (!\CarryIn4~input_o\ & (\A4[1]~input_o\ & \B4[1]~input_o\)) # (\CarryIn4~input_o\ & 
--- ((\B4[1]~input_o\) # (\A4[1]~input_o\))) ) ) ) # ( \B4[0]~input_o\ & ( !\A4[0]~input_o\ & ( (!\CarryIn4~input_o\ & (\A4[1]~input_o\ & \B4[1]~input_o\)) # (\CarryIn4~input_o\ & ((\B4[1]~input_o\) # (\A4[1]~input_o\))) ) ) ) # ( !\B4[0]~input_o\ & ( 
--- !\A4[0]~input_o\ & ( (\A4[1]~input_o\ & \B4[1]~input_o\) ) ) )
-
--- pragma translate_off
-GENERIC MAP (
-	extended_lut => "off",
-	lut_mask => "0000001100000011000101110001011100010111000101110011111100111111",
-	shared_arith => "off")
--- pragma translate_on
-PORT MAP (
-	dataa => \ALT_INV_CarryIn4~input_o\,
-	datab => \ALT_INV_A4[1]~input_o\,
-	datac => \ALT_INV_B4[1]~input_o\,
-	datae => \ALT_INV_B4[0]~input_o\,
-	dataf => \ALT_INV_A4[0]~input_o\,
-	combout => \SC2|CarryOut~0_combout\);
-
--- Location: IOIBUF_X89_Y21_N21
+-- Location: IOIBUF_X8_Y0_N35
 \B4[2]~input\ : cyclonev_io_ibuf
 -- pragma translate_off
 GENERIC MAP (
@@ -484,35 +462,44 @@ PORT MAP (
 	i => ww_B4(2),
 	o => \B4[2]~input_o\);
 
--- Location: LABCELL_X88_Y20_N51
-\SC3|Sum\ : cyclonev_lcell_comb
+-- Location: LABCELL_X12_Y4_N12
+\SC2|CarryOut~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \SC3|Sum~combout\ = ( \B4[2]~input_o\ & ( !\A4[2]~input_o\ $ (\SC2|CarryOut~0_combout\) ) ) # ( !\B4[2]~input_o\ & ( !\A4[2]~input_o\ $ (!\SC2|CarryOut~0_combout\) ) )
+-- \SC2|CarryOut~0_combout\ = ( \A4[1]~input_o\ & ( \B4[0]~input_o\ & ( ((\CarryIn4~input_o\) # (\B4[1]~input_o\)) # (\A4[0]~input_o\) ) ) ) # ( !\A4[1]~input_o\ & ( \B4[0]~input_o\ & ( (\B4[1]~input_o\ & ((\CarryIn4~input_o\) # (\A4[0]~input_o\))) ) ) ) # ( 
+-- \A4[1]~input_o\ & ( !\B4[0]~input_o\ & ( ((\A4[0]~input_o\ & \CarryIn4~input_o\)) # (\B4[1]~input_o\) ) ) ) # ( !\A4[1]~input_o\ & ( !\B4[0]~input_o\ & ( (\A4[0]~input_o\ & (\B4[1]~input_o\ & \CarryIn4~input_o\)) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0101101001011010010110100101101010100101101001011010010110100101",
+	lut_mask => "0000000100000001001101110011011100010011000100110111111101111111",
+	shared_arith => "off")
+-- pragma translate_on
+PORT MAP (
+	dataa => \ALT_INV_A4[0]~input_o\,
+	datab => \ALT_INV_B4[1]~input_o\,
+	datac => \ALT_INV_CarryIn4~input_o\,
+	datae => \ALT_INV_A4[1]~input_o\,
+	dataf => \ALT_INV_B4[0]~input_o\,
+	combout => \SC2|CarryOut~0_combout\);
+
+-- Location: LABCELL_X12_Y4_N51
+\SC3|Sum\ : cyclonev_lcell_comb
+-- Equation(s):
+-- \SC3|Sum~combout\ = ( \SC2|CarryOut~0_combout\ & ( !\A4[2]~input_o\ $ (\B4[2]~input_o\) ) ) # ( !\SC2|CarryOut~0_combout\ & ( !\A4[2]~input_o\ $ (!\B4[2]~input_o\) ) )
+
+-- pragma translate_off
+GENERIC MAP (
+	extended_lut => "off",
+	lut_mask => "0101010110101010010101011010101010101010010101011010101001010101",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
 	dataa => \ALT_INV_A4[2]~input_o\,
-	datac => \SC2|ALT_INV_CarryOut~0_combout\,
-	dataf => \ALT_INV_B4[2]~input_o\,
+	datad => \ALT_INV_B4[2]~input_o\,
+	dataf => \SC2|ALT_INV_CarryOut~0_combout\,
 	combout => \SC3|Sum~combout\);
 
--- Location: IOIBUF_X89_Y21_N4
-\B4[3]~input\ : cyclonev_io_ibuf
--- pragma translate_off
-GENERIC MAP (
-	bus_hold => "false",
-	simulate_z_as => "z")
--- pragma translate_on
-PORT MAP (
-	i => ww_B4(3),
-	o => \B4[3]~input_o\);
-
--- Location: IOIBUF_X89_Y16_N55
+-- Location: IOIBUF_X2_Y0_N58
 \A4[3]~input\ : cyclonev_io_ibuf
 -- pragma translate_off
 GENERIC MAP (
@@ -523,177 +510,187 @@ PORT MAP (
 	i => ww_A4(3),
 	o => \A4[3]~input_o\);
 
--- Location: LABCELL_X88_Y20_N54
+-- Location: IOIBUF_X4_Y0_N52
+\B4[3]~input\ : cyclonev_io_ibuf
+-- pragma translate_off
+GENERIC MAP (
+	bus_hold => "false",
+	simulate_z_as => "z")
+-- pragma translate_on
+PORT MAP (
+	i => ww_B4(3),
+	o => \B4[3]~input_o\);
+
+-- Location: LABCELL_X12_Y4_N24
 \SC4|Sum\ : cyclonev_lcell_comb
 -- Equation(s):
--- \SC4|Sum~combout\ = ( \A4[3]~input_o\ & ( \B4[2]~input_o\ & ( !\B4[3]~input_o\ $ (((\A4[2]~input_o\) # (\SC2|CarryOut~0_combout\))) ) ) ) # ( !\A4[3]~input_o\ & ( \B4[2]~input_o\ & ( !\B4[3]~input_o\ $ (((!\SC2|CarryOut~0_combout\ & !\A4[2]~input_o\))) ) 
--- ) ) # ( \A4[3]~input_o\ & ( !\B4[2]~input_o\ & ( !\B4[3]~input_o\ $ (((\SC2|CarryOut~0_combout\ & \A4[2]~input_o\))) ) ) ) # ( !\A4[3]~input_o\ & ( !\B4[2]~input_o\ & ( !\B4[3]~input_o\ $ (((!\SC2|CarryOut~0_combout\) # (!\A4[2]~input_o\))) ) ) )
+-- \SC4|Sum~combout\ = ( \B4[3]~input_o\ & ( \SC2|CarryOut~0_combout\ & ( !\A4[3]~input_o\ $ (((\A4[2]~input_o\) # (\B4[2]~input_o\))) ) ) ) # ( !\B4[3]~input_o\ & ( \SC2|CarryOut~0_combout\ & ( !\A4[3]~input_o\ $ (((!\B4[2]~input_o\ & !\A4[2]~input_o\))) ) 
+-- ) ) # ( \B4[3]~input_o\ & ( !\SC2|CarryOut~0_combout\ & ( !\A4[3]~input_o\ $ (((\B4[2]~input_o\ & \A4[2]~input_o\))) ) ) ) # ( !\B4[3]~input_o\ & ( !\SC2|CarryOut~0_combout\ & ( !\A4[3]~input_o\ $ (((!\B4[2]~input_o\) # (!\A4[2]~input_o\))) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0101011001010110101010011010100101101010011010101001010110010101",
+	lut_mask => "0011011000110110110010011100100101101100011011001001001110010011",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \ALT_INV_B4[3]~input_o\,
-	datab => \SC2|ALT_INV_CarryOut~0_combout\,
+	dataa => \ALT_INV_B4[2]~input_o\,
+	datab => \ALT_INV_A4[3]~input_o\,
 	datac => \ALT_INV_A4[2]~input_o\,
-	datae => \ALT_INV_A4[3]~input_o\,
-	dataf => \ALT_INV_B4[2]~input_o\,
+	datae => \ALT_INV_B4[3]~input_o\,
+	dataf => \SC2|ALT_INV_CarryOut~0_combout\,
 	combout => \SC4|Sum~combout\);
 
--- Location: LABCELL_X88_Y20_N33
+-- Location: LABCELL_X12_Y4_N33
 \SC4|CarryOut~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \SC4|CarryOut~0_combout\ = ( \A4[3]~input_o\ & ( \B4[2]~input_o\ & ( ((\B4[3]~input_o\) # (\SC2|CarryOut~0_combout\)) # (\A4[2]~input_o\) ) ) ) # ( !\A4[3]~input_o\ & ( \B4[2]~input_o\ & ( (\B4[3]~input_o\ & ((\SC2|CarryOut~0_combout\) # 
--- (\A4[2]~input_o\))) ) ) ) # ( \A4[3]~input_o\ & ( !\B4[2]~input_o\ & ( ((\A4[2]~input_o\ & \SC2|CarryOut~0_combout\)) # (\B4[3]~input_o\) ) ) ) # ( !\A4[3]~input_o\ & ( !\B4[2]~input_o\ & ( (\A4[2]~input_o\ & (\SC2|CarryOut~0_combout\ & \B4[3]~input_o\)) 
+-- \SC4|CarryOut~0_combout\ = ( \B4[3]~input_o\ & ( \SC2|CarryOut~0_combout\ & ( ((\B4[2]~input_o\) # (\A4[3]~input_o\)) # (\A4[2]~input_o\) ) ) ) # ( !\B4[3]~input_o\ & ( \SC2|CarryOut~0_combout\ & ( (\A4[3]~input_o\ & ((\B4[2]~input_o\) # 
+-- (\A4[2]~input_o\))) ) ) ) # ( \B4[3]~input_o\ & ( !\SC2|CarryOut~0_combout\ & ( ((\A4[2]~input_o\ & \B4[2]~input_o\)) # (\A4[3]~input_o\) ) ) ) # ( !\B4[3]~input_o\ & ( !\SC2|CarryOut~0_combout\ & ( (\A4[2]~input_o\ & (\A4[3]~input_o\ & \B4[2]~input_o\)) 
 -- ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0000000000000101000001011111111100000000010111110101111111111111",
+	lut_mask => "0000000000000101000011110101111100000101000011110101111111111111",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
 	dataa => \ALT_INV_A4[2]~input_o\,
-	datac => \SC2|ALT_INV_CarryOut~0_combout\,
-	datad => \ALT_INV_B4[3]~input_o\,
-	datae => \ALT_INV_A4[3]~input_o\,
-	dataf => \ALT_INV_B4[2]~input_o\,
+	datac => \ALT_INV_A4[3]~input_o\,
+	datad => \ALT_INV_B4[2]~input_o\,
+	datae => \ALT_INV_B4[3]~input_o\,
+	dataf => \SC2|ALT_INV_CarryOut~0_combout\,
 	combout => \SC4|CarryOut~0_combout\);
 
--- Location: LABCELL_X88_Y20_N36
+-- Location: LABCELL_X12_Y4_N39
 \conv|Ram0~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \conv|Ram0~0_combout\ = ( \SC3|Sum~combout\ & ( (!\SC2|Sum~combout\ & (!\SC1|Sum~combout\ $ (\SC4|Sum~combout\))) ) ) # ( !\SC3|Sum~combout\ & ( (\SC1|Sum~combout\ & (!\SC2|Sum~combout\ $ (\SC4|Sum~combout\))) ) )
+-- \conv|Ram0~0_combout\ = ( \SC4|Sum~combout\ & ( (\SC1|Sum~combout\ & (!\SC3|Sum~combout\ $ (!\SC2|Sum~combout\))) ) ) # ( !\SC4|Sum~combout\ & ( (!\SC2|Sum~combout\ & (!\SC3|Sum~combout\ $ (!\SC1|Sum~combout\))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0100000101000001010000010100000110000100100001001000010010000100",
+	lut_mask => "0100010010001000010001001000100000000000011001100000000001100110",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \SC1|ALT_INV_Sum~combout\,
+	dataa => \SC3|ALT_INV_Sum~combout\,
 	datab => \SC2|ALT_INV_Sum~combout\,
-	datac => \SC4|ALT_INV_Sum~combout\,
-	dataf => \SC3|ALT_INV_Sum~combout\,
+	datad => \SC1|ALT_INV_Sum~combout\,
+	dataf => \SC4|ALT_INV_Sum~combout\,
 	combout => \conv|Ram0~0_combout\);
 
--- Location: LABCELL_X88_Y20_N39
+-- Location: LABCELL_X12_Y4_N36
 \conv|Ram0~1\ : cyclonev_lcell_comb
 -- Equation(s):
--- \conv|Ram0~1_combout\ = ( \SC3|Sum~combout\ & ( (!\SC1|Sum~combout\ & ((\SC4|Sum~combout\) # (\SC2|Sum~combout\))) # (\SC1|Sum~combout\ & (!\SC2|Sum~combout\ $ (\SC4|Sum~combout\))) ) ) # ( !\SC3|Sum~combout\ & ( (\SC1|Sum~combout\ & (\SC2|Sum~combout\ & 
--- \SC4|Sum~combout\)) ) )
+-- \conv|Ram0~1_combout\ = ( \SC4|Sum~combout\ & ( (!\SC1|Sum~combout\ & (\SC3|Sum~combout\)) # (\SC1|Sum~combout\ & ((\SC2|Sum~combout\))) ) ) # ( !\SC4|Sum~combout\ & ( (\SC3|Sum~combout\ & (!\SC2|Sum~combout\ $ (!\SC1|Sum~combout\))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0000000000010001000000000001000101100110101110110110011010111011",
+	lut_mask => "0001010000010100000101000001010001010011010100110101001101010011",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \SC1|ALT_INV_Sum~combout\,
+	dataa => \SC3|ALT_INV_Sum~combout\,
 	datab => \SC2|ALT_INV_Sum~combout\,
-	datad => \SC4|ALT_INV_Sum~combout\,
-	dataf => \SC3|ALT_INV_Sum~combout\,
+	datac => \SC1|ALT_INV_Sum~combout\,
+	dataf => \SC4|ALT_INV_Sum~combout\,
 	combout => \conv|Ram0~1_combout\);
 
--- Location: LABCELL_X88_Y20_N42
+-- Location: LABCELL_X12_Y4_N42
 \conv|Ram0~2\ : cyclonev_lcell_comb
 -- Equation(s):
--- \conv|Ram0~2_combout\ = ( \SC3|Sum~combout\ & ( (\SC4|Sum~combout\ & ((!\SC1|Sum~combout\) # (\SC2|Sum~combout\))) ) ) # ( !\SC3|Sum~combout\ & ( (!\SC1|Sum~combout\ & (\SC2|Sum~combout\ & !\SC4|Sum~combout\)) ) )
+-- \conv|Ram0~2_combout\ = ( \SC4|Sum~combout\ & ( (\SC3|Sum~combout\ & ((!\SC1|Sum~combout\) # (\SC2|Sum~combout\))) ) ) # ( !\SC4|Sum~combout\ & ( (!\SC3|Sum~combout\ & (\SC2|Sum~combout\ & !\SC1|Sum~combout\)) ) )
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0010000000100000001000000010000000001011000010110000101100001011",
+	lut_mask => "0010000000100000001000000010000001010001010100010101000101010001",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \SC1|ALT_INV_Sum~combout\,
+	dataa => \SC3|ALT_INV_Sum~combout\,
 	datab => \SC2|ALT_INV_Sum~combout\,
-	datac => \SC4|ALT_INV_Sum~combout\,
-	dataf => \SC3|ALT_INV_Sum~combout\,
+	datac => \SC1|ALT_INV_Sum~combout\,
+	dataf => \SC4|ALT_INV_Sum~combout\,
 	combout => \conv|Ram0~2_combout\);
 
--- Location: LABCELL_X88_Y20_N45
+-- Location: LABCELL_X12_Y4_N45
 \conv|Ram0~3\ : cyclonev_lcell_comb
 -- Equation(s):
--- \conv|Ram0~3_combout\ = ( \SC3|Sum~combout\ & ( (!\SC1|Sum~combout\ & (!\SC2|Sum~combout\ & !\SC4|Sum~combout\)) # (\SC1|Sum~combout\ & (\SC2|Sum~combout\)) ) ) # ( !\SC3|Sum~combout\ & ( (!\SC1|Sum~combout\ & (\SC2|Sum~combout\ & \SC4|Sum~combout\)) # 
--- (\SC1|Sum~combout\ & (!\SC2|Sum~combout\ & !\SC4|Sum~combout\)) ) )
+-- \conv|Ram0~3_combout\ = ( \SC4|Sum~combout\ & ( (\SC2|Sum~combout\ & (!\SC3|Sum~combout\ $ (\SC1|Sum~combout\))) ) ) # ( !\SC4|Sum~combout\ & ( (!\SC3|Sum~combout\ & (!\SC2|Sum~combout\ & \SC1|Sum~combout\)) # (\SC3|Sum~combout\ & (!\SC2|Sum~combout\ $ 
+-- (\SC1|Sum~combout\))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0100010000100010010001000010001010011001000100011001100100010001",
+	lut_mask => "0100010010011001010001001001100100100010000100010010001000010001",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \SC1|ALT_INV_Sum~combout\,
+	dataa => \SC3|ALT_INV_Sum~combout\,
 	datab => \SC2|ALT_INV_Sum~combout\,
-	datad => \SC4|ALT_INV_Sum~combout\,
-	dataf => \SC3|ALT_INV_Sum~combout\,
+	datad => \SC1|ALT_INV_Sum~combout\,
+	dataf => \SC4|ALT_INV_Sum~combout\,
 	combout => \conv|Ram0~3_combout\);
 
--- Location: LABCELL_X88_Y20_N18
+-- Location: LABCELL_X12_Y4_N18
 \conv|Ram0~4\ : cyclonev_lcell_comb
 -- Equation(s):
--- \conv|Ram0~4_combout\ = ( \SC3|Sum~combout\ & ( (!\SC4|Sum~combout\ & ((!\SC2|Sum~combout\) # (\SC1|Sum~combout\))) ) ) # ( !\SC3|Sum~combout\ & ( (\SC1|Sum~combout\ & ((!\SC2|Sum~combout\) # (!\SC4|Sum~combout\))) ) )
+-- \conv|Ram0~4_combout\ = ( \SC4|Sum~combout\ & ( (!\SC2|Sum~combout\ & (!\SC3|Sum~combout\ & \SC1|Sum~combout\)) ) ) # ( !\SC4|Sum~combout\ & ( ((!\SC2|Sum~combout\ & \SC3|Sum~combout\)) # (\SC1|Sum~combout\) ) )
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0000111100001100000011110000110011001111000000001100111100000000",
+	lut_mask => "0000110011111111000011001111111100000000110000000000000011000000",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
 	datab => \SC2|ALT_INV_Sum~combout\,
-	datac => \SC1|ALT_INV_Sum~combout\,
-	datad => \SC4|ALT_INV_Sum~combout\,
-	dataf => \SC3|ALT_INV_Sum~combout\,
+	datac => \SC3|ALT_INV_Sum~combout\,
+	datad => \SC1|ALT_INV_Sum~combout\,
+	dataf => \SC4|ALT_INV_Sum~combout\,
 	combout => \conv|Ram0~4_combout\);
 
--- Location: LABCELL_X88_Y20_N21
+-- Location: LABCELL_X12_Y4_N21
 \conv|Ram0~5\ : cyclonev_lcell_comb
 -- Equation(s):
--- \conv|Ram0~5_combout\ = ( \SC3|Sum~combout\ & ( (\SC1|Sum~combout\ & (!\SC2|Sum~combout\ $ (!\SC4|Sum~combout\))) ) ) # ( !\SC3|Sum~combout\ & ( (!\SC4|Sum~combout\ & ((\SC2|Sum~combout\) # (\SC1|Sum~combout\))) ) )
+-- \conv|Ram0~5_combout\ = ( \SC4|Sum~combout\ & ( (\SC3|Sum~combout\ & (!\SC2|Sum~combout\ & \SC1|Sum~combout\)) ) ) # ( !\SC4|Sum~combout\ & ( (!\SC3|Sum~combout\ & ((\SC1|Sum~combout\) # (\SC2|Sum~combout\))) # (\SC3|Sum~combout\ & (\SC2|Sum~combout\ & 
+-- \SC1|Sum~combout\)) ) )
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0111011100000000011101110000000000010001010001000001000101000100",
+	lut_mask => "0010001010111011001000101011101100000000010001000000000001000100",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \SC1|ALT_INV_Sum~combout\,
+	dataa => \SC3|ALT_INV_Sum~combout\,
 	datab => \SC2|ALT_INV_Sum~combout\,
-	datad => \SC4|ALT_INV_Sum~combout\,
-	dataf => \SC3|ALT_INV_Sum~combout\,
+	datad => \SC1|ALT_INV_Sum~combout\,
+	dataf => \SC4|ALT_INV_Sum~combout\,
 	combout => \conv|Ram0~5_combout\);
 
--- Location: LABCELL_X88_Y20_N24
+-- Location: LABCELL_X12_Y4_N54
 \conv|Ram0~6\ : cyclonev_lcell_comb
 -- Equation(s):
--- \conv|Ram0~6_combout\ = ( \SC4|Sum~combout\ & ( \SC3|Sum~combout\ & ( (\SC1|Sum~combout\) # (\SC2|Sum~combout\) ) ) ) # ( !\SC4|Sum~combout\ & ( \SC3|Sum~combout\ & ( (!\SC2|Sum~combout\) # (!\SC1|Sum~combout\) ) ) ) # ( \SC4|Sum~combout\ & ( 
--- !\SC3|Sum~combout\ ) ) # ( !\SC4|Sum~combout\ & ( !\SC3|Sum~combout\ & ( \SC2|Sum~combout\ ) ) )
+-- \conv|Ram0~6_combout\ = ( \SC1|Sum~combout\ & ( (!\SC3|Sum~combout\ $ (!\SC2|Sum~combout\)) # (\SC4|Sum~combout\) ) ) # ( !\SC1|Sum~combout\ & ( (!\SC3|Sum~combout\ $ (!\SC4|Sum~combout\)) # (\SC2|Sum~combout\) ) )
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0011001100110011111111111111111111111100111111000011111100111111",
+	lut_mask => "0111101101111011011011110110111101111011011110110110111101101111",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
+	dataa => \SC3|ALT_INV_Sum~combout\,
 	datab => \SC2|ALT_INV_Sum~combout\,
-	datac => \SC1|ALT_INV_Sum~combout\,
-	datae => \SC4|ALT_INV_Sum~combout\,
-	dataf => \SC3|ALT_INV_Sum~combout\,
+	datac => \SC4|ALT_INV_Sum~combout\,
+	datae => \SC1|ALT_INV_Sum~combout\,
 	combout => \conv|Ram0~6_combout\);
 
--- Location: LABCELL_X7_Y4_N0
+-- Location: MLABCELL_X47_Y62_N3
 \~QUARTUS_CREATED_GND~I\ : cyclonev_lcell_comb
 -- Equation(s):
 

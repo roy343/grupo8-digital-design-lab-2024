@@ -13,6 +13,7 @@ end Sumador4bits;
  
 architecture Behavioral of Sumador4bits is
 
+--Componente para llamar sumador 1 bit
 component Sumador1bit
 Port ( 
 A : in STD_LOGIC;
@@ -24,12 +25,11 @@ end component;
 
 
 
-	 component Convertidor is
-	     port (
-				sumh : in std_logic_vector (4 downto 0);
-				hex : out std_logic_vector (9 downto 0)
-		  );
-	 end component;
+component Convertidor is
+port (
+sumh : in std_logic_vector (4 downto 0);
+hex : out std_logic_vector (9 downto 0));
+end component;
  
 
 signal CarryAux : STD_LOGIC_VECTOR (4 downto 0);
@@ -45,10 +45,9 @@ SC3: Sumador1bit port map( A4(2), B4(2), CarryAux(2), Sum4(2), CarryAux(3));
 SC4: Sumador1bit port map( A4(3), B4(3), CarryAux(3), Sum4(3), CarryAux(4));
 
 Sum4(4) <= CarryAux(4);
-	 conv: Convertidor port map(
-		 hex => SumHex4,
-		 sumh => Sum4
-	 );
+conv: Convertidor port map(
+hex => SumHex4,
+sumh => Sum4);
  
  
 end Behavioral;

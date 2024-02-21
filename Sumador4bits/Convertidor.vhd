@@ -7,7 +7,8 @@ entity Convertidor is
              );
 end Convertidor;
 
-architecture converter_arch of Convertidor is
+
+architecture Behavioral of Convertidor is
 
 begin
 
@@ -50,4 +51,4 @@ BEGIN
     end case;
 end process;
 
-end converter_arch;
+end Behavioral;

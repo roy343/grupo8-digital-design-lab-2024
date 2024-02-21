@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 dC:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/simulation/modelsim
 Econvertidor
-Z1 w1708379654
+Z1 w1708488548
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
 !i122 2
@@ -23,23 +23,23 @@ V46Sd<f_:a6H767i]QoD6f2
 !s100 lDaIMzI<GR4oXR=>IY_ST0
 Z6 OV;C;2020.1;71
 31
-Z7 !s110 1708380212
+Z7 !s110 1708488612
 !i10b 1
-Z8 !s108 1708380211.000000
+Z8 !s108 1708488612.000000
 Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Convertidor.vhd|
 Z10 !s107 C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Convertidor.vhd|
 !i113 1
 Z11 o-93 -work work
 Z12 tExplicit 1 CvgOpt 0
-Aconverter_arch
+Abehavioral
 R2
 R3
 DEx4 work 11 convertidor 0 22 46Sd<f_:a6H767i]QoD6f2
 !i122 2
-l12
-L10 44
-V;JC?;IBO25g31O_QTIV8:2
-!s100 1n`a9ON@SPfJlX4NKeBR73
+l13
+L11 44
+VBY;H:ZG139][oT[63ZU?i3
+!s100 X;`mkJQGR4f@_bJY[jihj2
 R6
 31
 R7
@@ -51,7 +51,7 @@ R10
 R11
 R12
 Esumador1bit
-Z13 w1708379016
+Z13 w1708488117
 R2
 R3
 !i122 1
@@ -59,89 +59,89 @@ R0
 Z14 8C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador1bit.vhd
 Z15 FC:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador1bit.vhd
 l0
-L4 1
-VY<TXO_7B<zZN[Z[Cm>hPS2
-!s100 3g=]B1CL3HjfDWXh^9o=;0
+L5 1
+VNdJX=1D_83KcSnZ[gB>T;3
+!s100 Qj:CjB<;:Y_eQ?0c2D;<g0
 R6
 31
-Z16 !s110 1708380211
+R7
 !i10b 1
 R8
-Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador1bit.vhd|
-Z18 !s107 C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador1bit.vhd|
+Z16 !s90 -reportprogress|300|-93|-work|work|C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador1bit.vhd|
+Z17 !s107 C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador1bit.vhd|
 !i113 1
 R11
 R12
 Abehavioral
 R2
 R3
-DEx4 work 11 sumador1bit 0 22 Y<TXO_7B<zZN[Z[Cm>hPS2
+DEx4 work 11 sumador1bit 0 22 NdJX=1D_83KcSnZ[gB>T;3
 !i122 1
-l16
-L14 8
-V3J:]2z5IT^12QAk^>hfIc0
-!s100 lJok2gT@62HF;fQmf@kLE2
+l18
+L15 9
+V1]Oz0Y0?zHbN01S;AKGTX3
+!s100 D_6X3z7Z0NV1gK4bD[@183
 R6
 31
-R16
+R7
 !i10b 1
 R8
+R16
 R17
-R18
 !i113 1
 R11
 R12
 Esumador4bits
-Z19 w1708380104
+Z18 w1708488113
 R2
 R3
 !i122 0
 R0
-Z20 8C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits.vhd
-Z21 FC:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits.vhd
+Z19 8C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits.vhd
+Z20 FC:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits.vhd
 l0
 L4 1
 VO4EzLz7EUhjbAnbI=aQQ43
 !s100 HgjlQ`2AkM`=fodSPeKo:2
 R6
 31
-R16
+R7
 !i10b 1
 R8
-Z22 !s90 -reportprogress|300|-93|-work|work|C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits.vhd|
-Z23 !s107 C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits.vhd|
+Z21 !s90 -reportprogress|300|-93|-work|work|C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits.vhd|
+Z22 !s107 C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits.vhd|
 !i113 1
 R11
 R12
 Abehavioral
 R2
 R3
-Z24 DEx4 work 12 sumador4bits 0 22 O4EzLz7EUhjbAnbI=aQQ43
+Z23 DEx4 work 12 sumador4bits 0 22 O4EzLz7EUhjbAnbI=aQQ43
 !i122 0
 l38
-L14 41
-VOlNmU>MJbB_:?kebG9PJ_0
-!s100 4VnjNVeGmLH9;lj9a4GSJ2
+L14 40
+V9iz`N45h=kBkg9;K1PQUi2
+!s100 RVAefHRS[lad6dJS4h3l_3
 R6
 31
-R16
+R7
 !i10b 1
 R8
+R21
 R22
-R23
 !i113 1
 R11
 R12
 Esumador4bits_tb
-Z25 w1708378717
-Z26 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
-Z27 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z24 w1708487877
+Z25 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z26 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 R2
 R3
 !i122 3
 R0
-Z28 8C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits_tb.vht
-Z29 FC:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits_tb.vht
+Z27 8C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits_tb.vht
+Z28 FC:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits_tb.vht
 l0
 L6 1
 VEgNOPUTXJSMNfCV3nc5CM2
@@ -150,16 +150,16 @@ R6
 31
 R7
 !i10b 1
-Z30 !s108 1708380212.000000
-Z31 !s90 -reportprogress|300|-93|-work|work|C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits_tb.vht|
+R8
+Z29 !s90 -reportprogress|300|-93|-work|work|C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits_tb.vht|
 !s107 C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits_tb.vht|
 !i113 1
 R11
 R12
 Abehavior
-R24
+R23
+R25
 R26
-R27
 R2
 R3
 DEx4 work 15 sumador4bits_tb 0 22 EgNOPUTXJSMNfCV3nc5CM2
@@ -172,9 +172,9 @@ R6
 31
 R7
 !i10b 1
-R30
-R31
-Z32 !s107 C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits_tb.vht|
+R8
+R29
+Z30 !s107 C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Sumador4bits/Sumador4bits_tb.vht|
 !i113 1
 R11
 R12

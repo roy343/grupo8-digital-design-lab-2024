@@ -1,5 +1,5 @@
 Flow report for Sumador4bits
-Mon Feb 19 16:03:15 2024
+Tue Feb 20 22:09:58 2024
 Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------------------------------------------------+
 ; Flow Summary                                                                 ;
 +-----------------------------+------------------------------------------------+
-; Flow Status                 ; Successful - Mon Feb 19 16:03:15 2024          ;
+; Flow Status                 ; Successful - Tue Feb 20 22:09:58 2024          ;
 ; Quartus Prime Version       ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
 ; Revision Name               ; Sumador4bits                                   ;
 ; Top-level Entity Name       ; Sumador4bits                                   ;
@@ -63,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 02/19/2024 16:03:11 ;
+; Start date & time ; 02/20/2024 22:09:53 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Sumador4bits        ;
 +-------------------+---------------------+
@@ -74,7 +74,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                ; 4681952689326.170838019114940          ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID                ; 4681952689326.170848859321456          ; --            ; --          ; --                                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; Sumador1bit_tb                    ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; Sumador4bits_tb                   ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
