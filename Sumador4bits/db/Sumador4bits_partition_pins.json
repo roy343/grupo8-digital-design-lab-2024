@@ -1,0 +1,101 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Sum4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Sum4[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Sum4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Sum4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Sum4[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SumHex4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SumHex4[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SumHex4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SumHex4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SumHex4[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SumHex4[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SumHex4[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SumHex4[8]",
+					"strict" : false
+				},
+				{
+					"name" : "SumHex4[9]",
+					"strict" : false
+				},
+				{
+					"name" : "A4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "B4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CarryIn4",
+					"strict" : false
+				},
+				{
+					"name" : "A4[1]",
+					"strict" : false
+				},
+				{
+					"name" : "B4[1]",
+					"strict" : false
+				},
+				{
+					"name" : "A4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "B4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "A4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "B4[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
