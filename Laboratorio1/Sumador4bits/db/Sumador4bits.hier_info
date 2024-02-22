@@ -1,0 +1,101 @@
+|Sumador4bits
+A4[0] => Sumador1bit:SC1.A
+A4[1] => Sumador1bit:SC2.A
+A4[2] => Sumador1bit:SC3.A
+A4[3] => Sumador1bit:SC4.A
+B4[0] => Sumador1bit:SC1.B
+B4[1] => Sumador1bit:SC2.B
+B4[2] => Sumador1bit:SC3.B
+B4[3] => Sumador1bit:SC4.B
+CarryIn4 => Sumador1bit:SC1.CarryIn
+Sum4[0] << Sumador1bit:SC1.Sum
+Sum4[1] << Sumador1bit:SC2.Sum
+Sum4[2] << Sumador1bit:SC3.Sum
+Sum4[3] << Sumador1bit:SC4.Sum
+Sum4[4] << Sumador1bit:SC4.CarryOut
+SumHex4[0] << Convertidor:conv.hex[0]
+SumHex4[1] << Convertidor:conv.hex[1]
+SumHex4[2] << Convertidor:conv.hex[2]
+SumHex4[3] << Convertidor:conv.hex[3]
+SumHex4[4] << Convertidor:conv.hex[4]
+SumHex4[5] << Convertidor:conv.hex[5]
+SumHex4[6] << Convertidor:conv.hex[6]
+SumHex4[7] << Convertidor:conv.hex[7]
+SumHex4[8] << Convertidor:conv.hex[8]
+SumHex4[9] << Convertidor:conv.hex[9]
+
+
+|Sumador4bits|Sumador1bit:SC1
+A => Sum.IN0
+A => CarryOut.IN0
+A => CarryOut.IN0
+B => Sum.IN1
+B => CarryOut.IN1
+B => CarryOut.IN0
+CarryIn => Sum.IN1
+CarryIn => CarryOut.IN1
+CarryIn => CarryOut.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+CarryOut <= CarryOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Sumador4bits|Sumador1bit:SC2
+A => Sum.IN0
+A => CarryOut.IN0
+A => CarryOut.IN0
+B => Sum.IN1
+B => CarryOut.IN1
+B => CarryOut.IN0
+CarryIn => Sum.IN1
+CarryIn => CarryOut.IN1
+CarryIn => CarryOut.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+CarryOut <= CarryOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Sumador4bits|Sumador1bit:SC3
+A => Sum.IN0
+A => CarryOut.IN0
+A => CarryOut.IN0
+B => Sum.IN1
+B => CarryOut.IN1
+B => CarryOut.IN0
+CarryIn => Sum.IN1
+CarryIn => CarryOut.IN1
+CarryIn => CarryOut.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+CarryOut <= CarryOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Sumador4bits|Sumador1bit:SC4
+A => Sum.IN0
+A => CarryOut.IN0
+A => CarryOut.IN0
+B => Sum.IN1
+B => CarryOut.IN1
+B => CarryOut.IN0
+CarryIn => Sum.IN1
+CarryIn => CarryOut.IN1
+CarryIn => CarryOut.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+CarryOut <= CarryOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Sumador4bits|Convertidor:conv
+sumh[0] => Ram0.RADDR
+sumh[1] => Ram0.RADDR1
+sumh[2] => Ram0.RADDR2
+sumh[3] => Ram0.RADDR3
+sumh[4] => Ram0.RADDR4
+hex[0] <= Ram0.DATAOUT
+hex[1] <= Ram0.DATAOUT1
+hex[2] <= Ram0.DATAOUT2
+hex[3] <= Ram0.DATAOUT3
+hex[4] <= Ram0.DATAOUT4
+hex[5] <= Ram0.DATAOUT5
+hex[6] <= Ram0.DATAOUT6
+hex[7] <= Ram0.DATAOUT7
+hex[8] <= Ram0.DATAOUT8
+hex[9] <= Ram0.DATAOUT9
+
+
