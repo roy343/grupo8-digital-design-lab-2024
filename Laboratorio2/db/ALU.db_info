@@ -1,9 +1,13 @@
 <<<<<<< HEAD
 Quartus_Version = Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 Version_Index = 553882368
+<<<<<<< HEAD
 Creation_Time = Sun Mar  3 21:22:50 2024
 =======
 Quartus_Version = Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 Version_Index = 553884160
 Creation_Time = Sun Mar  3 22:42:34 2024
 >>>>>>> ALU/FLAGS
+=======
+Creation_Time = Sun Mar  3 22:44:02 2024
+>>>>>>> 52a958d05c2ff6c6c0ea77a69eaa2f661704ee42
