@@ -1,4 +1,4 @@
-module xor_module #(
+module XorModule #(
   parameter N = 4
 )
 (

@@ -1,4 +1,4 @@
-module shift_right_module #(
+module ShiftRight #(
   parameter N = 4
 )
 (
@@ -7,5 +7,7 @@ module shift_right_module #(
 );
 
   assign y = a >> 1;
+  
+  
   
 endmodule

@@ -1,4 +1,4 @@
-module or_module #(
+module OrModule #(
   parameter N = 4
 )
 (

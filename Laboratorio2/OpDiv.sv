@@ -2,7 +2,8 @@ module OpDiv #(parameter N = 4)(
     input logic [N-1:0] A,
     input logic [N-1:0] B,
     output logic [N-1:0] Q,
-    output logic [N-1:0] R
+    output logic [N-1:0] R,
+	 output logic v
 );
 
     logic [N-1:0] tempQ;
@@ -22,5 +23,8 @@ module OpDiv #(parameter N = 4)(
         R = tempR;
         Q = tempQ;
     end
+	 
+	 assign v = (B == 0) ? 1 : 0;
+	 
 
 endmodule

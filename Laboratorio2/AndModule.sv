@@ -1,4 +1,4 @@
-module and_module #(
+module AndModule #(
   parameter N = 4 
 )
 (

@@ -1,5 +1,5 @@
 Analysis & Elaboration report for ALU
-Sun Mar  3 22:51:30 2024
+Mon Mar  4 17:24:42 2024
 Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 
 
@@ -9,8 +9,21 @@ Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
   1. Legal Notice
   2. Analysis & Elaboration Summary
   3. Parallel Compilation
-  4. Analysis & Elaboration Settings
-  5. Analysis & Elaboration Messages
+  4. Parameter Settings for User Entity Instance: Top-level Entity: |ALU
+  5. Parameter Settings for User Entity Instance: OpSuma:sum
+  6. Parameter Settings for User Entity Instance: OpSuma:res
+  7. Parameter Settings for User Entity Instance: OpMult:mult
+  8. Parameter Settings for User Entity Instance: OpDiv:div
+  9. Parameter Settings for User Entity Instance: ShiftLeft:sll
+ 10. Parameter Settings for User Entity Instance: ShiftRight:srl
+ 11. Parameter Settings for User Entity Instance: AndModule:andG
+ 12. Parameter Settings for User Entity Instance: OrModule:orG
+ 13. Parameter Settings for User Entity Instance: XorModule:xorG
+ 14. Analysis & Elaboration Settings
+ 15. Port Connectivity Checks: "OpMult:mult"
+ 16. Port Connectivity Checks: "OpSuma:res"
+ 17. Port Connectivity Checks: "OpSuma:sum"
+ 18. Analysis & Elaboration Messages
 
 
 
@@ -37,7 +50,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                 ;
 +-------------------------------+------------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Sun Mar  3 22:51:30 2024          ;
+; Analysis & Elaboration Status ; Successful - Mon Mar  4 17:24:42 2024          ;
 ; Quartus Prime Version         ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
 ; Revision Name                 ; ALU                                            ;
 ; Top-level Entity Name         ; ALU                                            ;
@@ -66,6 +79,106 @@ https://fpgasoftware.intel.com/eula.
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
 +----------------------------+-------------+
+
+
++---------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |ALU ;
++----------------+-------+--------------------------------------------+
+; Parameter Name ; Value ; Type                                       ;
++----------------+-------+--------------------------------------------+
+; N              ; 4     ; Signed Integer                             ;
++----------------+-------+--------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------+
+; Parameter Settings for User Entity Instance: OpSuma:sum ;
++----------------+-------+--------------------------------+
+; Parameter Name ; Value ; Type                           ;
++----------------+-------+--------------------------------+
+; N              ; 4     ; Signed Integer                 ;
++----------------+-------+--------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------+
+; Parameter Settings for User Entity Instance: OpSuma:res ;
++----------------+-------+--------------------------------+
+; Parameter Name ; Value ; Type                           ;
++----------------+-------+--------------------------------+
+; N              ; 4     ; Signed Integer                 ;
++----------------+-------+--------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: OpMult:mult ;
++----------------+-------+---------------------------------+
+; Parameter Name ; Value ; Type                            ;
++----------------+-------+---------------------------------+
+; N              ; 4     ; Signed Integer                  ;
++----------------+-------+---------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------+
+; Parameter Settings for User Entity Instance: OpDiv:div ;
++----------------+-------+-------------------------------+
+; Parameter Name ; Value ; Type                          ;
++----------------+-------+-------------------------------+
+; N              ; 4     ; Signed Integer                ;
++----------------+-------+-------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ShiftLeft:sll ;
++----------------+-------+-----------------------------------+
+; Parameter Name ; Value ; Type                              ;
++----------------+-------+-----------------------------------+
+; N              ; 4     ; Signed Integer                    ;
++----------------+-------+-----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ShiftRight:srl ;
++----------------+-------+------------------------------------+
+; Parameter Name ; Value ; Type                               ;
++----------------+-------+------------------------------------+
+; N              ; 4     ; Signed Integer                     ;
++----------------+-------+------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: AndModule:andG ;
++----------------+-------+------------------------------------+
+; Parameter Name ; Value ; Type                               ;
++----------------+-------+------------------------------------+
+; N              ; 4     ; Signed Integer                     ;
++----------------+-------+------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: OrModule:orG ;
++----------------+-------+----------------------------------+
+; Parameter Name ; Value ; Type                             ;
++----------------+-------+----------------------------------+
+; N              ; 4     ; Signed Integer                   ;
++----------------+-------+----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: XorModule:xorG ;
++----------------+-------+------------------------------------+
+; Parameter Name ; Value ; Type                               ;
++----------------+-------+------------------------------------+
+; N              ; 4     ; Signed Integer                     ;
++----------------+-------+------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
 +---------------------------------------------------------------------------------------------------------------------------+
@@ -155,28 +268,93 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "OpMult:mult"                                                                                                         ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                              ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------------------+
+; C    ; Output ; Warning  ; Output or bidir port (8 bits) is wider than the port expression (4 bits) it drives; bit(s) "C[7..4]" have no fanouts ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------------------+
+
+
++----------------------------------------+
+; Port Connectivity Checks: "OpSuma:res" ;
++------+-------+----------+--------------+
+; Port ; Type  ; Severity ; Details      ;
++------+-------+----------+--------------+
+; Cin  ; Input ; Info     ; Stuck at VCC ;
++------+-------+----------+--------------+
+
+
++----------------------------------------+
+; Port Connectivity Checks: "OpSuma:sum" ;
++------+-------+----------+--------------+
+; Port ; Type  ; Severity ; Details      ;
++------+-------+----------+--------------+
+; Cin  ; Input ; Info     ; Stuck at GND ;
++------+-------+----------+--------------+
+
+
 +---------------------------------+
 ; Analysis & Elaboration Messages ;
 +---------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
-    Info: Processing started: Sun Mar  3 22:51:21 2024
+    Info: Processing started: Mon Mar  4 17:24:37 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ALU -c ALU --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file xormodule.sv
+    Info (12023): Found entity 1: XorModule File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/XorModule.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file shiftright.sv
+    Info (12023): Found entity 1: ShiftRight File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/ShiftRight.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file shiftleft.sv
+    Info (12023): Found entity 1: ShiftLeft File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/ShiftLeft.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file ormodule.sv
+    Info (12023): Found entity 1: OrModule File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/OrModule.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file andmodule.sv
+    Info (12023): Found entity 1: AndModule File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/AndModule.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu.sv
     Info (12023): Found entity 1: ALU File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/ALU.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file sumadorcompleto.sv
+    Info (12023): Found entity 1: SumadorCompleto File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/SumadorCompleto.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file opsuma.sv
+    Info (12023): Found entity 1: OpSuma File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/OpSuma.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file opmult.sv
+    Info (12023): Found entity 1: OpMult File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/OpMult.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file opdiv.sv
+    Info (12023): Found entity 1: OpDiv File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/OpDiv.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu_tb.sv
     Info (12023): Found entity 1: ALU_tb File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/ALU_tb.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file displayconverter.sv
+    Info (12023): Found entity 1: displayConverter File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/displayConverter.sv Line: 1
 Info (12127): Elaborating entity "ALU" for the top level hierarchy
-Warning (10034): Output port "NFlag" at ALU.sv(5) has no driver File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/ALU.sv Line: 5
-Warning (10034): Output port "CFlag" at ALU.sv(5) has no driver File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/ALU.sv Line: 5
-Warning (10034): Output port "VFlag" at ALU.sv(6) has no driver File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/ALU.sv Line: 6
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 4778 megabytes
-    Info: Processing ended: Sun Mar  3 22:51:30 2024
-    Info: Elapsed time: 00:00:09
+Warning (10240): Verilog HDL Always Construct warning at ALU.sv(34): inferring latch(es) for variable "tempOf", which holds its previous value in one or more paths through the always construct File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/ALU.sv Line: 34
+Warning (10240): Verilog HDL Always Construct warning at ALU.sv(34): inferring latch(es) for variable "tempCarry", which holds its previous value in one or more paths through the always construct File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/ALU.sv Line: 34
+Warning (10230): Verilog HDL assignment warning at ALU.sv(93): truncated value with size 32 to match size of target (1) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/ALU.sv Line: 93
+Info (10041): Inferred latch for "tempCarry" at ALU.sv(34) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/ALU.sv Line: 34
+Info (10041): Inferred latch for "tempOf" at ALU.sv(34) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/ALU.sv Line: 34
+Info (12128): Elaborating entity "OpSuma" for hierarchy "OpSuma:sum" File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/ALU.sv Line: 18
+Warning (10230): Verilog HDL assignment warning at OpSuma.sv(32): truncated value with size 32 to match size of target (1) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/OpSuma.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at OpSuma.sv(36): truncated value with size 32 to match size of target (1) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/OpSuma.sv Line: 36
+Info (12128): Elaborating entity "SumadorCompleto" for hierarchy "OpSuma:sum|SumadorCompleto:gen_for[0].SumCom" File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/OpSuma.sv Line: 21
+Info (12128): Elaborating entity "OpMult" for hierarchy "OpMult:mult" File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/ALU.sv Line: 20
+Warning (10230): Verilog HDL assignment warning at OpMult.sv(20): truncated value with size 32 to match size of target (1) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/OpMult.sv Line: 20
+Info (12128): Elaborating entity "OpDiv" for hierarchy "OpDiv:div" File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/ALU.sv Line: 21
+Warning (10230): Verilog HDL assignment warning at OpDiv.sv(20): truncated value with size 32 to match size of target (4) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/OpDiv.sv Line: 20
+Warning (10230): Verilog HDL assignment warning at OpDiv.sv(27): truncated value with size 32 to match size of target (1) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/OpDiv.sv Line: 27
+Info (12128): Elaborating entity "ShiftLeft" for hierarchy "ShiftLeft:sll" File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/ALU.sv Line: 24
+Warning (10230): Verilog HDL assignment warning at ShiftLeft.sv(12): truncated value with size 32 to match size of target (1) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/ShiftLeft.sv Line: 12
+Info (12128): Elaborating entity "ShiftRight" for hierarchy "ShiftRight:srl" File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/ALU.sv Line: 25
+Info (12128): Elaborating entity "AndModule" for hierarchy "AndModule:andG" File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/ALU.sv Line: 27
+Info (12128): Elaborating entity "OrModule" for hierarchy "OrModule:orG" File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/ALU.sv Line: 28
+Info (12128): Elaborating entity "XorModule" for hierarchy "XorModule:xorG" File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2/ALU.sv Line: 29
+Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 11 warnings
+    Info: Peak virtual memory: 4786 megabytes
+    Info: Processing ended: Mon Mar  4 17:24:42 2024
+    Info: Elapsed time: 00:00:05
     Info: Total CPU time (on all processors): 00:00:12
 
 
