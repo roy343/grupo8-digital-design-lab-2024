@@ -55,3 +55,4 @@ set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_
 set_global_assignment -name SYSTEMVERILOG_FILE ALU.sv
 set_global_assignment -name SYSTEMVERILOG_FILE SumadorCompleto.sv
 set_global_assignment -name SYSTEMVERILOG_FILE OpSuma.sv
+set_global_assignment -name SYSTEMVERILOG_FILE OpMult.sv
