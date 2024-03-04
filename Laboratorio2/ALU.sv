@@ -1,36 +1,39 @@
 module ALU(
-           input [3:0] A,B,                   
-           input [3:0] OpCode,
-           output [3:0] Out, 
-           output Flag 
+           input logic [3:0] a,b,                   
+           input logic [3:0] opCode,
+           output logic [3:0] out,
+			  output ZFlag, NFlag, CFlag, VFlag
     );
-    reg [3:0] Result;
-	 assign Out = Result;
-	 always @(*)
 	 
-
+    logic [3:0] result;
+	 
+	 always @(*)
     begin
-        case(OpCode)
+         case(opCode)
         4'b0000: // SUMA (CAMBIAR)
-           Result = A + B ; 
+           result = a + b;
         4'b0001: // RESTA (CAMBIAR)
-           Result = A - B ;
+           result = a - b ;
         4'b0010: // MULTIPLICACION (CAMBIAR)
-           Result = A * B; 
+           result = a * b; 
         4'b0011: // DIVISION (CAMBIAR)
-           Result = A/B;
+           result = a/b;
         4'b0100: // SHIFT LEFT
-           Result = A<<1;
+           result = a<<1;
         4'b0101: // SHIFT RIGHT
-           Result = A>>1;
-        4'b1000: //  AND 
-           Result = A & B;
-        4'b1001: //  OR
-           Result = A | B;
-		   4'b1010: //  XOR
-           Result = A ^ B;
-          default: Result = A & B ; 
+           result = a>>1;
+        4'b0110: //  AND 
+           result = a & b;
+        4'b0111: //  OR
+           result = a | b;
+		  4'b1000: //  XOR
+           result = a ^ b;
+          default: result = a & b ; 
         endcase
     end
+	 
+	 	  assign out = result;
+		  
+		  assign ZFlag = (out==0);
 
 endmodule
