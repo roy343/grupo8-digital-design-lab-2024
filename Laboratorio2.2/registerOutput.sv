@@ -4,7 +4,7 @@ module registerOutput  #(parameter N=4)(
 													 output reg reg_Nflag, reg_Zflag, reg_Cflag, reg_Vflag,
 													 output reg [N-1:0] regOutput);
 													 
-	always @(posedge clk or posedge rst) begin
+	always @(negedge clk or posedge rst) begin
 	
 		if(rst) begin
 			reg_Nflag <= 0;
