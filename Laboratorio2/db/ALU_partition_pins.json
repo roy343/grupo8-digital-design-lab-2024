@@ -24,7 +24,43 @@
 					"strict" : false
 				},
 				{
-					"name" : "b[3]",
+					"name" : "NFlag",
+					"strict" : false
+				},
+				{
+					"name" : "CFlag",
+					"strict" : false
+				},
+				{
+					"name" : "VFlag",
+					"strict" : false
+				},
+				{
+					"name" : "dispOut[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dispOut[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dispOut[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dispOut[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dispOut[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dispOut[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dispOut[6]",
 					"strict" : false
 				},
 				{
@@ -32,11 +68,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "a[3]",
-					"strict" : false
-				},
-				{
-					"name" : "b[2]",
+					"name" : "a[0]",
 					"strict" : false
 				},
 				{
@@ -44,7 +76,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "a[2]",
+					"name" : "b[3]",
 					"strict" : false
 				},
 				{
@@ -52,7 +84,15 @@
 					"strict" : false
 				},
 				{
-					"name" : "a[0]",
+					"name" : "b[2]",
+					"strict" : false
+				},
+				{
+					"name" : "a[2]",
+					"strict" : false
+				},
+				{
+					"name" : "a[3]",
 					"strict" : false
 				},
 				{
@@ -60,11 +100,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "opCode[2]",
+					"name" : "opCode[0]",
 					"strict" : false
 				},
 				{
-					"name" : "opCode[0]",
+					"name" : "opCode[2]",
 					"strict" : false
 				},
 				{

@@ -1,8 +1,8 @@
 module ALU_tb();
 
-	logic[3:0] a,b,opCode, out, ZFlag, NFlag, CFlag, VFlag;
+	logic[3:0] a,b,opCode, out, ZFlag, NFlag, CFlag, VFlag, dispOut;
 	
-	ALU modulo(a,b,opCode, out, ZFlag, NFlag, CFlag, VFlag);
+	ALU modulo(a,b,opCode, out, ZFlag, NFlag, CFlag, VFlag, dispOut);
 	
 	initial begin
 	//SUMA
@@ -81,6 +81,7 @@ module ALU_tb();
 	a = 4'b0001;
 	b = 4'b0000;
 	opCode = 4'b1000;	
+	#40
 	//XOR
 	a = 4'b0001;
 	b = 4'b0001;
@@ -89,9 +90,7 @@ module ALU_tb();
 	a = 4'b0001;
 	b = 4'b0000;
 	opCode = 4'b1001;
-	
-	
-
+	#40;
 	
 	end
 endmodule

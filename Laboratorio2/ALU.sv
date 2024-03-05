@@ -3,10 +3,12 @@ module ALU#(parameter N = 4)
            input logic [N-1:0] a,b,                   
            input logic [3:0] opCode,
            output logic [N-1:0] out,
-			  output logic ZFlag, NFlag, CFlag, VFlag
+			  output logic ZFlag, NFlag, CFlag, VFlag,
+			  output logic [6:0] dispOut
     );
 	 
 		logic [N-1:0] result;
+		logic [3:0] tempCode = 4'b0000;
 		logic tempCarry;
 		logic tempOf;
 
@@ -19,7 +21,6 @@ module ALU#(parameter N = 4)
 		OpSuma #(.N(N)) res(.A(a), .B(~b), .Cin(1'b1),.Sum(resResult), .Cout(resNeg), .v(resOf));
 		OpMult #(.N(N)) mult(.A(a), .B(b), .C(multResult), .v(multOf));
 		OpDiv  #(.N(N)) div(.A(a), .B(b), .Q(divResult), .R(modResult), .v(divOf));
-		//OpDiv #(.N(N))  mod(.A(a), .B(b), .Q(), .R(modResult));
   
 		ShiftLeft  #(.N(N)) sll(.a(a), .y(sllResult), .v(sllOf));
 		ShiftRight #(.N(N)) srl(.a(a), .y(srlResult));
@@ -28,10 +29,18 @@ module ALU#(parameter N = 4)
 		OrModule  #(.N(N)) orG(.a(a), .b(b), .y(orResult));
 		XorModule #(.N(N)) xorG(.a(a), .b(b), .y(xorResult));
 	 
+	 always @(opCode) begin
+		if (opCode == 4'b1111) begin
+			tempCode = tempCode;
+		end else begin
+			tempCode = ~opCode;
+		end
+	 end
+	 
 	 always @(*)
 	 
     begin
-         case(opCode)
+         case(tempCode)
         4'b0000: // SUMA 
 			begin
 				result = sumResult; 
@@ -90,7 +99,13 @@ module ALU#(parameter N = 4)
 		  
 		  assign ZFlag = (out==0);
 		  assign NFlag = result[N-1];
-		  assign CFlag = (opCode == 4'b0000 | opCode == 4'b0001) ? tempCarry : 0;
+		  assign CFlag = (tempCode == 4'b0000 | tempCode == 4'b0001) ? tempCarry : 0;
 		  assign VFlag = tempOf;
 
+		  
+		  displayConverter numDisplay(
+			.numAct(out),
+			.dispOut(dispOut)
+		  );
+		  
 endmodule
