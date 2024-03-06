@@ -1,0 +1,6 @@
+module ALU (input [7:0] A,B,  // ALU 8-bit Inputs                 
+           input [3:0] OpCode,// ALU Selection
+           output [7:0] Out, // ALU 8-bit Output
+           output Flag);
+			  
+	reg [7:0] ALU_Result;

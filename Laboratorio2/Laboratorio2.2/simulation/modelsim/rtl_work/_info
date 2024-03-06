@@ -1,0 +1,308 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/simulation/modelsim
+vALU
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1709595643
+!i10b 1
+!s100 jzTEOhBNl;ZYgfzB^iBj50
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I``>eFBWozC=1Be6>mE9jg0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1709594576
+8C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/ALU.sv
+FC:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/ALU.sv
+!i122 5
+L0 1 96
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1709595643.000000
+!s107 C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/ALU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2|C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/ALU.sv|
+!i113 1
+Z7 o-sv -work work
+Z8 !s92 -sv -work work +incdir+C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2
+Z9 tCvgOpt 0
+n@a@l@u
+vALU_tb
+R1
+R2
+!i10b 1
+!s100 EEA8<:WP_2UUMe;;0Fk`h1
+R3
+ISMSQLaT1H@lhgB@Xf0kK]3
+R4
+S1
+R0
+w1709594663
+8C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/ALU_tb.sv
+FC:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/ALU_tb.sv
+!i122 10
+L0 1 97
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/ALU_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2|C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/ALU_tb.sv|
+!i113 1
+R7
+R8
+R9
+n@a@l@u_tb
+vAndModule
+R1
+R2
+!i10b 1
+!s100 9zVdX=O3P91CNhFh1?WRf3
+R3
+IBdEo3>N97MQ=XJXTjKjY=1
+R4
+S1
+R0
+w1709584756
+8C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/AndModule.sv
+FC:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/AndModule.sv
+!i122 4
+Z10 L0 1 18
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/AndModule.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2|C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/AndModule.sv|
+!i113 1
+R7
+R8
+R9
+n@and@module
+vOpDiv
+R1
+R2
+!i10b 1
+!s100 7Sza`]Se3fC;8oR><`b1?3
+R3
+I>j0@j:KzW0L@Sg=jE9iZg3
+R4
+S1
+R0
+w1709593127
+8C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/OpDiv.sv
+FC:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/OpDiv.sv
+!i122 9
+L0 1 30
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/OpDiv.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2|C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/OpDiv.sv|
+!i113 1
+R7
+R8
+R9
+n@op@div
+vOpMult
+R1
+R2
+!i10b 1
+!s100 PR0ZNo`iNAzh3len5HzXj3
+R3
+IH:6zRF<UHlL^mfY3N[k:^2
+R4
+S1
+R0
+w1709594213
+8C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/OpMult.sv
+FC:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/OpMult.sv
+!i122 8
+L0 1 22
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/OpMult.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2|C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/OpMult.sv|
+!i113 1
+R7
+R8
+R9
+n@op@mult
+vOpSuma
+R1
+R2
+!i10b 1
+!s100 B[?5Va9R9>a6^OXM=Z:Im1
+R3
+IZ<mMMhSg2d5VKId^4UZ@X0
+R4
+S1
+R0
+w1709593826
+8C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/OpSuma.sv
+FC:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/OpSuma.sv
+!i122 7
+L0 1 42
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/OpSuma.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2|C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/OpSuma.sv|
+!i113 1
+R7
+R8
+R9
+n@op@suma
+vOrModule
+R1
+R2
+!i10b 1
+!s100 7ljT>2`BHXkF;CD3XI2>=1
+R3
+ILPQa<WhEj9T?ZR@VgBZ8<2
+R4
+S1
+R0
+w1709584755
+8C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/OrModule.sv
+FC:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/OrModule.sv
+!i122 3
+R10
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/OrModule.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2|C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/OrModule.sv|
+!i113 1
+R7
+R8
+R9
+n@or@module
+vShiftLeft
+R1
+R2
+!i10b 1
+!s100 knDMMn7ORRUXIK8O4MLj63
+R3
+IKezce<Ui>72Td5V4MZH?52
+R4
+S1
+R0
+w1709594505
+8C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/ShiftLeft.sv
+FC:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/ShiftLeft.sv
+!i122 2
+L0 1 14
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/ShiftLeft.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2|C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/ShiftLeft.sv|
+!i113 1
+R7
+R8
+R9
+n@shift@left
+vShiftRight
+R1
+R2
+!i10b 1
+!s100 DIMd6@j[IaK^WieJL8Rak1
+R3
+IF<`iRiR]d=ABh7Pi_c]Nm2
+R4
+S1
+R0
+w1709594586
+8C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/ShiftRight.sv
+FC:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/ShiftRight.sv
+!i122 1
+L0 1 13
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/ShiftRight.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2|C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/ShiftRight.sv|
+!i113 1
+R7
+R8
+R9
+n@shift@right
+vSumadorCompleto
+R1
+R2
+!i10b 1
+!s100 V`jNdC<Oh4_zaCz8acLiN2
+R3
+In?4oF^zf<CnW;4lUJ`EBj1
+R4
+S1
+R0
+w1709580876
+8C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/SumadorCompleto.sv
+FC:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/SumadorCompleto.sv
+!i122 6
+L0 1 10
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/SumadorCompleto.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2|C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/SumadorCompleto.sv|
+!i113 1
+R7
+R8
+R9
+n@sumador@completo
+vXorModule
+R1
+R2
+!i10b 1
+!s100 2VnSNNgV9b5?S^Gce9`4R2
+R3
+IT3gN9fC4V]jeeW3]zz9To2
+R4
+S1
+R0
+w1709584751
+8C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/XorModule.sv
+FC:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/XorModule.sv
+!i122 0
+R10
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/XorModule.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2|C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio2.2/XorModule.sv|
+!i113 1
+R7
+R8
+R9
+n@xor@module
