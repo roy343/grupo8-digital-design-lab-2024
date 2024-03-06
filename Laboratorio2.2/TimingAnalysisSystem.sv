@@ -1,4 +1,4 @@
-module TimingAnalysisSystem #(parameter N=16) (input[N-1:0] a, b, input [3:0] s, input clk, rst, output [N-1:0] output_reg, output [3:0] flags_aux_out);
+module TimingAnalysisSystem #(parameter N=2) (input[N-1:0] a, b, input [3:0] s, input clk, rst, output [N-1:0] output_reg, output [3:0] flags_aux_out);
 	
 	logic [3:0] sel_reg_input;
 	logic [N-1:0] a_reg_input;
@@ -12,7 +12,7 @@ module TimingAnalysisSystem #(parameter N=16) (input[N-1:0] a, b, input [3:0] s,
 	//ALU
 	
   ALU #(.N(N)) dut(.a(a_reg_input), .b(b_reg_input), .opCode(sel_reg_input), 
-  .out(r_aux), .Cflag(flags_aux[2]), .Vflag(flags_aux[3]), .Zflag(flags_aux[1]), .Nflag(flags_aux[0]));
+  .out(r_aux), .CFlag(flags_aux[2]), .VFlag(flags_aux[3]), .ZFlag(flags_aux[1]), .NFlag(flags_aux[0]));
 
 	
 	//Creacion del Registro oUTPUT
