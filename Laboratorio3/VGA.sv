@@ -1,5 +1,5 @@
 module VGA(input clock,
-			  imput reset
+			  input reset,
 			  output logic [2:0] red,
 			  output logic [2:0] green,
 			  output logic [2:0] blue,
@@ -12,3 +12,5 @@ module VGA(input clock,
 logic [10:0] hCount;
 logic [10:0] vCount;
 logic [1:0]  counter;
+
+endmodule
