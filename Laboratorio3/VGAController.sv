@@ -1,6 +1,6 @@
 module VGAController(
 	input logic clk25,
-	output logic hSync,vSync,syncBlank,syncB,
+	output logic hSync,vSync,syncBlank,bSync,
 	output logic [9:0]hs,vs);
 	
 	always @(posedge clk25) begin
@@ -21,7 +21,7 @@ module VGAController(
 										//Activa   Vertical    Activa    Vertical  Vertical
 	assign vSync = ~(vs > 10'd480 + 10'd11 & vs < 10'd480 + 10'd11 +  2);
 
-	assign syncB = hSync & vSync;		
+	assign bSync = hSync & vSync;		
 		
 									//Parte    				Parte	
 									//Activa H           Activa V

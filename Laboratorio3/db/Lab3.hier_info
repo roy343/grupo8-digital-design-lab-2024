@@ -1,16 +1,16 @@
 |VGA
 clock => ~NO_FANOUT~
 reset => ~NO_FANOUT~
-red[0] <= <GND>
-red[1] <= <GND>
-red[2] <= <GND>
-green[0] <= <GND>
-green[1] <= <GND>
-green[2] <= <GND>
-blue[0] <= <GND>
-blue[1] <= <GND>
-blue[2] <= <GND>
-hsync <= <GND>
-vsync <= <GND>
+red[0] << <GND>
+red[1] << <GND>
+red[2] << <GND>
+green[0] << <GND>
+green[1] << <GND>
+green[2] << <GND>
+blue[0] << <GND>
+blue[1] << <GND>
+blue[2] << <GND>
+hsync << <GND>
+vsync << <GND>
 
 
