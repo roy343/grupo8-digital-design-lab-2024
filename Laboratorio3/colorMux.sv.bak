@@ -7,7 +7,7 @@ module colorMux( input logic [2:0]state,
 		always @(*)
 			begin
 				case({state})
-											// | ROJO | VERDE  | AZUL	
+				
 				3'b000 : out_rgb <= 24'b000000000000000000000000; //Negro
 				3'b001 : out_rgb <= 24'b000000000110100110010100; //Azul marino - Agua
 				3'b010 : out_rgb <= 24'b011001100110011001100110; //Azul oscuro - Golpe en agua
