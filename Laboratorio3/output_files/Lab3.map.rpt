@@ -1,6 +1,6 @@
 Analysis & Synthesis report for Lab3
-Tue Apr 16 20:51:03 2024
-Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
+Wed Apr 17 17:00:49 2024
+Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
 ---------------------
@@ -14,17 +14,43 @@ Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. General Register Statistics
-  9. Post-Synthesis Netlist Statistics for Top Partition
- 10. Elapsed Time Per Partition
- 11. Analysis & Synthesis Messages
- 12. Analysis & Synthesis Suppressed Messages
+  9. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion24"
+ 10. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion23"
+ 11. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion22"
+ 12. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion21"
+ 13. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion20"
+ 14. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion19"
+ 15. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion18"
+ 16. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion17"
+ 17. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion16"
+ 18. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion15"
+ 19. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion14"
+ 20. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion13"
+ 21. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion12"
+ 22. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion11"
+ 23. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion10"
+ 24. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion9"
+ 25. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion8"
+ 26. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion7"
+ 27. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion6"
+ 28. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion5"
+ 29. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion4"
+ 30. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion3"
+ 31. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion2"
+ 32. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion1"
+ 33. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion0"
+ 34. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib"
+ 35. Port Connectivity Checks: "VGAMain:VGA"
+ 36. Post-Synthesis Netlist Statistics for Top Partition
+ 37. Elapsed Time Per Partition
+ 38. Analysis & Synthesis Messages
 
 
 
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2023  Intel Corporation. All rights reserved.
+Copyright (C) 2022  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
@@ -44,14 +70,14 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +---------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue Apr 16 20:51:03 2024          ;
-; Quartus Prime Version           ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
+; Analysis & Synthesis Status     ; Successful - Wed Apr 17 17:00:49 2024          ;
+; Quartus Prime Version           ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                   ; Lab3                                           ;
-; Top-level Entity Name           ; VGA                                            ;
+; Top-level Entity Name           ; BattleshipMain                                 ;
 ; Family                          ; Cyclone V                                      ;
 ; Logic utilization (in ALMs)     ; N/A                                            ;
-; Total registers                 ; 0                                              ;
-; Total pins                      ; 13                                             ;
+; Total registers                 ; 22                                             ;
+; Total pins                      ; 31                                             ;
 ; Total virtual pins              ; 0                                              ;
 ; Total block memory bits         ; 0                                              ;
 ; Total DSP Blocks                ; 0                                              ;
@@ -70,7 +96,7 @@ https://fpgasoftware.intel.com/eula.
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                          ; 5CSEMA5F31C6       ;                    ;
-; Top-level entity name                                                           ; VGA                ; Lab3               ;
+; Top-level entity name                                                           ; BattleshipMain     ; Lab3               ;
 ; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
 ; Use smart compilation                                                           ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
@@ -160,56 +186,70 @@ https://fpgasoftware.intel.com/eula.
 ; Maximum allowed            ; 12          ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
+; Maximum used               ; 12          ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
+;     Processors 2-12        ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                 ;
-+----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                                       ; Library ;
-+----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------------------------------------+---------+
-; vga.sv                           ; yes             ; Auto-Found SystemVerilog HDL File  ; C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/vga.sv ;         ;
-+----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                                               ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                                                                           ; Library ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; VGAMain.sv                       ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/VGAMain.sv             ;         ;
+; VGAController.sv                 ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/VGAController.sv       ;         ;
+; Verifica_posiciones.sv           ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv ;         ;
+; drawingMux.sv                    ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv          ;         ;
+; DibujarPantalla.sv               ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv     ;         ;
+; colorMux.sv                      ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/colorMux.sv            ;         ;
+; clockDivider.sv                  ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/clockDivider.sv        ;         ;
+; BattleshipMain.sv                ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/BattleshipMain.sv      ;         ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
 
 
-+-----------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary         ;
-+---------------------------------------------+-------+
-; Resource                                    ; Usage ;
-+---------------------------------------------+-------+
-; Estimate of Logic utilization (ALMs needed) ; 0     ;
-;                                             ;       ;
-; Combinational ALUT usage for logic          ; 0     ;
-;     -- 7 input functions                    ; 0     ;
-;     -- 6 input functions                    ; 0     ;
-;     -- 5 input functions                    ; 0     ;
-;     -- 4 input functions                    ; 0     ;
-;     -- <=3 input functions                  ; 0     ;
-;                                             ;       ;
-; Dedicated logic registers                   ; 0     ;
-;                                             ;       ;
-; I/O pins                                    ; 13    ;
-;                                             ;       ;
-; Total DSP Blocks                            ; 0     ;
-;                                             ;       ;
-; Maximum fan-out node                        ; clock ;
-; Maximum fan-out                             ; 1     ;
-; Total fan-out                               ; 13    ;
-; Average fan-out                             ; 0.50  ;
-+---------------------------------------------+-------+
++---------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                                                                   ;
++---------------------------------------------+-----------------------------------------------------------------+
+; Resource                                    ; Usage                                                           ;
++---------------------------------------------+-----------------------------------------------------------------+
+; Estimate of Logic utilization (ALMs needed) ; 54                                                              ;
+;                                             ;                                                                 ;
+; Combinational ALUT usage for logic          ; 86                                                              ;
+;     -- 7 input functions                    ; 4                                                               ;
+;     -- 6 input functions                    ; 17                                                              ;
+;     -- 5 input functions                    ; 12                                                              ;
+;     -- 4 input functions                    ; 15                                                              ;
+;     -- <=3 input functions                  ; 38                                                              ;
+;                                             ;                                                                 ;
+; Dedicated logic registers                   ; 22                                                              ;
+;                                             ;                                                                 ;
+; I/O pins                                    ; 31                                                              ;
+;                                             ;                                                                 ;
+; Total DSP Blocks                            ; 0                                                               ;
+;                                             ;                                                                 ;
+; Maximum fan-out node                        ; VGAMain:VGA|DibujarPantalla:dib|drawingMux:draw_mux|WideNor0~14 ;
+; Maximum fan-out                             ; 24                                                              ;
+; Total fan-out                               ; 465                                                             ;
+; Average fan-out                             ; 2.74                                                            ;
++---------------------------------------------+-----------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                    ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
-; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
-; |VGA                       ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 13   ; 0            ; |VGA                ; VGA         ; work         ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                  ;
++-----------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------+---------------------+--------------+
+; Compilation Hierarchy Node              ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                          ; Entity Name         ; Library Name ;
++-----------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------+---------------------+--------------+
+; |BattleshipMain                         ; 86 (0)              ; 22 (0)                    ; 0                 ; 0          ; 31   ; 0            ; |BattleshipMain                                                              ; BattleshipMain      ; work         ;
+;    |VGAMain:VGA|                        ; 86 (0)              ; 22 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |BattleshipMain|VGAMain:VGA                                                  ; VGAMain             ; work         ;
+;       |DibujarPantalla:dib|             ; 51 (8)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |BattleshipMain|VGAMain:VGA|DibujarPantalla:dib                              ; DibujarPantalla     ; work         ;
+;          |Verifica_posiciones:verifica| ; 28 (28)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |BattleshipMain|VGAMain:VGA|DibujarPantalla:dib|Verifica_posiciones:verifica ; Verifica_posiciones ; work         ;
+;          |drawingMux:draw_mux|          ; 15 (15)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |BattleshipMain|VGAMain:VGA|DibujarPantalla:dib|drawingMux:draw_mux          ; drawingMux          ; work         ;
+;       |VGAController:controller|        ; 34 (34)             ; 20 (20)                   ; 0                 ; 0          ; 0    ; 0            ; |BattleshipMain|VGAMain:VGA|VGAController:controller                         ; VGAController       ; work         ;
+;       |clockDivider:div|                ; 1 (1)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |BattleshipMain|VGAMain:VGA|clockDivider:div                                 ; clockDivider        ; work         ;
++-----------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -218,14 +258,261 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 0     ;
-; Number of registers using Synchronous Clear  ; 0     ;
+; Total registers                              ; 22    ;
+; Number of registers using Synchronous Clear  ; 20    ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Clock Enable       ; 10    ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion24"                                                                                                                              ;
++-------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type   ; Severity ; Details                                                                                                                                                                          ;
++-------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input  ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; rgb   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                                                              ;
++-------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion23"                                                                                                                             ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion22"                                                                                                                             ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion21"                                                                                                                             ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion20"                                                                                                                             ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion19"                                                                                                                             ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion18"                                                                                                                             ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion17"                                                                                                                             ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion16"                                                                                                                             ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion15"                                                                                                                             ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion14"                                                                                                                             ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion13"                                                                                                                             ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion12"                                                                                                                             ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion11"                                                                                                                             ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion10"                                                                                                                             ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion9"                                                                                                                              ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion8"                                                                                                                              ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion7"                                                                                                                              ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion6"                                                                                                                              ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion5"                                                                                                                              ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion4"                                                                                                                              ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion3"                                                                                                                              ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion2"                                                                                                                              ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion1"                                                                                                                              ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion0"                                                                                                                              ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib" ;
++-----------------+-------+----------+------------------------+
+; Port            ; Type  ; Severity ; Details                ;
++-----------------+-------+----------+------------------------+
+; states[24..7]   ; Input ; Info     ; Stuck at GND           ;
+; states[6][3..1] ; Input ; Info     ; Stuck at GND           ;
++-----------------+-------+----------+------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA"                                                                                                                                  ;
++--------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port   ; Type  ; Severity ; Details                                                                                                                                      ;
++--------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; matrix ; Input ; Info     ; Stuck at GND                                                                                                                                 ;
+; win    ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; lose   ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++--------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------------------------------+
@@ -233,13 +520,26 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_lcell_comb     ; 1                           ;
-;     normal            ; 1                           ;
-;         0 data inputs ; 1                           ;
-; boundary_port         ; 13                          ;
+; arriav_ff             ; 22                          ;
+;     ENA SCLR          ; 10                          ;
+;     SCLR              ; 10                          ;
+;     plain             ; 2                           ;
+; arriav_lcell_comb     ; 88                          ;
+;     arith             ; 20                          ;
+;         1 data inputs ; 20                          ;
+;     extend            ; 4                           ;
+;         7 data inputs ; 4                           ;
+;     normal            ; 64                          ;
+;         1 data inputs ; 3                           ;
+;         2 data inputs ; 9                           ;
+;         3 data inputs ; 8                           ;
+;         4 data inputs ; 15                          ;
+;         5 data inputs ; 12                          ;
+;         6 data inputs ; 17                          ;
+; boundary_port         ; 31                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 0.00                        ;
-; Average LUT depth     ; 0.00                        ;
+; Max LUT depth         ; 6.00                        ;
+; Average LUT depth     ; 4.70                        ;
 +-----------------------+-----------------------------+
 
 
@@ -257,71 +557,100 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
-    Info: Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
-    Info: Processing started: Tue Apr 16 20:50:58 2024
+    Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+    Info: Processing started: Wed Apr 17 17:00:42 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Lab3 -c Lab3
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file vgamain.sv
-    Info (12023): Found entity 1: VGA_Main_Module File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGAMain.sv Line: 1
+    Info (12023): Found entity 1: VGAMain File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/VGAMain.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file vgacontroller.sv
-    Info (12023): Found entity 1: VGAController File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGAController.sv Line: 1
+    Info (12023): Found entity 1: VGAController File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/VGAController.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file verifica_posiciones.sv
-    Info (12023): Found entity 1: Verifica_posiciones File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 1
+    Info (12023): Found entity 1: Verifica_posiciones File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file drawingmux.sv
-    Info (12023): Found entity 1: drawingMux File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 1
+    Info (12023): Found entity 1: drawingMux File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file dibujarpantalla.sv
-    Info (12023): Found entity 1: DibujarPantalla File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv Line: 1
+    Info (12023): Found entity 1: DibujarPantalla File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file colormux.sv
-    Info (12023): Found entity 1: colorMux File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/colorMux.sv Line: 1
+    Info (12023): Found entity 1: colorMux File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/colorMux.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file clockdivider.sv
-    Info (12023): Found entity 1: clockDivider File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/clockDivider.sv Line: 1
+    Info (12023): Found entity 1: clockDivider File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/clockDivider.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file battleshipmain.sv
-    Info (12023): Found entity 1: BattleshipMain File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/BattleshipMain.sv Line: 1
-Warning (10236): Verilog HDL Implicit Net warning at VGAMain.sv(18): created implicit net for "rst" File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGAMain.sv Line: 18
-Warning (10236): Verilog HDL Implicit Net warning at DibujarPantalla.sv(12): created implicit net for "lines" File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv Line: 12
-Warning (10236): Verilog HDL Implicit Net warning at DibujarPantalla.sv(22): created implicit net for "hs" File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv Line: 22
-Warning (10236): Verilog HDL Implicit Net warning at DibujarPantalla.sv(22): created implicit net for "vs" File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv Line: 22
-Critical Warning (10846): Verilog HDL Instantiation warning at DibujarPantalla.sv(22): instance has no name File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv Line: 22
-Warning (12125): Using design file vga.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: VGA File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/vga.sv Line: 1
-Info (12127): Elaborating entity "VGA" for the top level hierarchy
-Warning (10034): Output port "red" at VGA.sv(3) has no driver File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGA.sv Line: 3
-Warning (10034): Output port "green" at VGA.sv(4) has no driver File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGA.sv Line: 4
-Warning (10034): Output port "blue" at VGA.sv(5) has no driver File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGA.sv Line: 5
-Warning (10034): Output port "hsync" at VGA.sv(6) has no driver File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGA.sv Line: 6
-Warning (10034): Output port "vsync" at VGA.sv(8) has no driver File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGA.sv Line: 8
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "red[0]" is stuck at GND File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGA.sv Line: 3
-    Warning (13410): Pin "red[1]" is stuck at GND File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGA.sv Line: 3
-    Warning (13410): Pin "red[2]" is stuck at GND File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGA.sv Line: 3
-    Warning (13410): Pin "green[0]" is stuck at GND File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGA.sv Line: 4
-    Warning (13410): Pin "green[1]" is stuck at GND File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGA.sv Line: 4
-    Warning (13410): Pin "green[2]" is stuck at GND File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGA.sv Line: 4
-    Warning (13410): Pin "blue[0]" is stuck at GND File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGA.sv Line: 5
-    Warning (13410): Pin "blue[1]" is stuck at GND File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGA.sv Line: 5
-    Warning (13410): Pin "blue[2]" is stuck at GND File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGA.sv Line: 5
-    Warning (13410): Pin "hsync" is stuck at GND File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGA.sv Line: 6
-    Warning (13410): Pin "vsync" is stuck at GND File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGA.sv Line: 8
-Info (144001): Generated suppressed messages file C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/output_files/Lab3.map.smsg
+    Info (12023): Found entity 1: BattleshipMain File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/BattleshipMain.sv Line: 1
+Warning (10236): Verilog HDL Implicit Net warning at DibujarPantalla.sv(12): created implicit net for "lines" File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv Line: 12
+Info (12127): Elaborating entity "BattleshipMain" for the top level hierarchy
+Warning (10030): Net "matrix" at BattleshipMain.sv(11) has no driver or initial value, using a default initial value '0' File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/BattleshipMain.sv Line: 11
+Info (12128): Elaborating entity "VGAMain" for hierarchy "VGAMain:VGA" File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/BattleshipMain.sv Line: 22
+Info (12128): Elaborating entity "clockDivider" for hierarchy "VGAMain:VGA|clockDivider:div" File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/VGAMain.sv Line: 14
+Info (12128): Elaborating entity "VGAController" for hierarchy "VGAMain:VGA|VGAController:controller" File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/VGAMain.sv Line: 16
+Info (12128): Elaborating entity "DibujarPantalla" for hierarchy "VGAMain:VGA|DibujarPantalla:dib" File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/VGAMain.sv Line: 18
+Warning (10230): Verilog HDL assignment warning at DibujarPantalla.sv(12): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv Line: 12
+Info (12128): Elaborating entity "Verifica_posiciones" for hierarchy "VGAMain:VGA|DibujarPantalla:dib|Verifica_posiciones:verifica" File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv Line: 15
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(9): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 9
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(11): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 11
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(13): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 13
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(15): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 15
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(17): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 17
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(19): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 19
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(21): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 21
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(23): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 23
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(25): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 25
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(27): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 27
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(29): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 29
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(31): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 31
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(33): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 33
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(35): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 35
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(37): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 37
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(39): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 39
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(41): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 41
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(43): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 43
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(45): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 45
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(47): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 47
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(49): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 49
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(51): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 51
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(53): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 53
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(55): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 55
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(57): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 57
+Info (12128): Elaborating entity "colorMux" for hierarchy "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion0" File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv Line: 17
+Info (12128): Elaborating entity "drawingMux" for hierarchy "VGAMain:VGA|DibujarPantalla:dib|drawingMux:draw_mux" File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv Line: 55
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(21): variable "rgb0" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 21
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(22): variable "rgb1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 22
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(23): variable "rgb2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 23
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(24): variable "rgb3" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 24
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(25): variable "rgb4" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 25
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(26): variable "rgb5" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 26
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(27): variable "rgb6" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 27
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(28): variable "rgb7" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 28
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(29): variable "rgb8" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 29
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(30): variable "rgb9" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 30
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(31): variable "rgb10" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 31
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(32): variable "rgb11" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 32
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(33): variable "rgb12" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 33
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(34): variable "rgb13" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 34
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(35): variable "rgb14" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 35
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(36): variable "rgb16" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 36
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(37): variable "rgb17" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 37
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(38): variable "rgb18" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 38
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(39): variable "rgb19" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 39
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(40): variable "rgb20" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 40
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(41): variable "rgb21" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 41
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(42): variable "rgb22" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 42
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(43): variable "rgb23" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 43
+Warning (12241): 26 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 2 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "clock" File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGA.sv Line: 1
-    Warning (15610): No output dependent on input pin "reset" File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGA.sv Line: 2
-Info (21057): Implemented 13 device resources after synthesis - the final resource count might be different
+Warning (21074): Design contains 1 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "reset" File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/BattleshipMain.sv Line: 2
+Info (21057): Implemented 138 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
-    Info (21059): Implemented 11 output pins
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 27 warnings
-    Info: Peak virtual memory: 4810 megabytes
-    Info: Processing ended: Tue Apr 16 20:51:03 2024
-    Info: Elapsed time: 00:00:05
-    Info: Total CPU time (on all processors): 00:00:12
-
-
-+------------------------------------------+
-; Analysis & Synthesis Suppressed Messages ;
-+------------------------------------------+
-The suppressed messages can be found in C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/output_files/Lab3.map.smsg.
+    Info (21059): Implemented 29 output pins
+    Info (21061): Implemented 107 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 55 warnings
+    Info: Peak virtual memory: 4877 megabytes
+    Info: Processing ended: Wed Apr 17 17:00:49 2024
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:08
 
 

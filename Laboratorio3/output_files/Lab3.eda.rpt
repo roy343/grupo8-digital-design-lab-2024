@@ -1,6 +1,6 @@
 EDA Netlist Writer report for Lab3
-Tue Apr 16 20:51:37 2024
-Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
+Wed Apr 17 17:01:45 2024
+Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
 ---------------------
@@ -17,7 +17,7 @@ Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2023  Intel Corporation. All rights reserved.
+Copyright (C) 2022  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
@@ -37,9 +37,9 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Tue Apr 16 20:51:37 2024 ;
+; EDA Netlist Writer Status ; Successful - Wed Apr 17 17:01:45 2024 ;
 ; Revision Name             ; Lab3                                  ;
-; Top-level Entity Name     ; VGA                                   ;
+; Top-level Entity Name     ; BattleshipMain                        ;
 ; Family                    ; Cyclone V                             ;
 ; Simulation Files Creation ; Successful                            ;
 +---------------------------+---------------------------------------+
@@ -66,13 +66,13 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------------------------------+--------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------+
-; Simulation Generated Files                                                                                               ;
-+--------------------------------------------------------------------------------------------------------------------------+
-; Generated Files                                                                                                          ;
-+--------------------------------------------------------------------------------------------------------------------------+
-; C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/simulation/modelsim/Lab3.svo ;
-+--------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                                                                                   ;
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                                                                              ;
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/simulation/modelsim/Lab3.svo ;
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -80,14 +80,14 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
-    Info: Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
-    Info: Processing started: Tue Apr 16 20:51:36 2024
+    Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+    Info: Processing started: Wed Apr 17 17:01:44 2024
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off Lab3 -c Lab3
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (204019): Generated file Lab3.svo in folder "C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file Lab3.svo in folder "C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/simulation/modelsim/" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4731 megabytes
-    Info: Processing ended: Tue Apr 16 20:51:37 2024
+    Info: Peak virtual memory: 4733 megabytes
+    Info: Processing ended: Wed Apr 17 17:01:45 2024
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

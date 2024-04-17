@@ -1,7 +1,7 @@
 module drawingMux(
 
 	input logic line,
-	input logic [23:0]rgb0,rgb1,rgb2,rgb3,rgb4,rgb5,rgb6,rgb7,rgb8,rgb9,rgb10,rgb11,rgb12,rgb13,rgb14,rgb15,rgb16,rgb17,rgb18,rgb19,rgb20,rgb21,rgb22,rgb23,rgb24,
+	input logic [23:0]rgb0,rgb1,rgb2,rgb3,rgb4,rgb5,rgb6,rgb7,rgb8,rgb9,rgb10,rgb11,rgb12,rgb13,rgb14,rgb15,rgb16,rgb17,rgb18,rgb19,rgb20,rgb21,rgb22,rgb23,
 	input logic pos0,pos1,pos2,pos3,pos4,pos5,pos6,pos7,pos8,pos9,pos10,pos11,pos12,pos13,pos14,pos15,pos16,pos17,pos18,pos19,pos20,pos21,pos22,pos23,pos24,
 	input logic win,lose,
 	output logic [7:0]r,g,b
@@ -41,14 +41,13 @@ module drawingMux(
 			27'b000000000000000000000100000 : out_rgb     <= rgb21;
 			27'b000000000000000000000010000 : out_rgb     <= rgb22;
 			27'b000000000000000000000001000 : out_rgb     <= rgb23;
-			27'b000000000000000000000000100 : out_rgb     <= rgb24;
 						 
 			
 			//Casos win/lose
 			27'b100000000000000000000000010 : out_rgb     <= 24'b000000000000000011111111;
 			27'b100000000000000000000000001 : out_rgb     <= 24'b111111110000000000000000;
 			
-			default  : out_rgb <= 24'b000000000000000000000000;
+			default  : out_rgb <= 24'b111111111111111111111111;
 			
 			endcase
 		end

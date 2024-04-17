@@ -1,4 +1,5 @@
 module colorMux( input logic [2:0]state,
+						input logic inpos,
 						output logic [23:0]rgb
 						);
 						

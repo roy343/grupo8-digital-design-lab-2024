@@ -11,7 +11,7 @@ module BattleshipMain(
 	logic [4:0][4:0] matrix;
 
 
-	VGAMain display(.clk(clk), .reset(reset), .matrix(matrix),
+	VGAMain VGA(.clk(clk), .reset(reset), .matrix(matrix),
 	.hSync(hSync),
 	.vSync(vSync),
 	.syncBlank(syncBlank),
