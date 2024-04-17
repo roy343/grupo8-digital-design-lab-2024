@@ -17,8 +17,11 @@ module DibujarPantalla(
     
     generate
         genvar i;
-        for (i = 0; i < 25; i = i + 1) begin : colorMux _gen
-            colorMux  color(states[i], pos[i], rgb[i]);
+        for (i = 0; i < 25; i = i + 1) 
+		  begin : 
+				Verifica_posiciones check(hs,vs,pos);
+				//colorMux_gen
+            colorMux color(states[i], pos[i], rgb[i]);
         end
     endgenerate
 

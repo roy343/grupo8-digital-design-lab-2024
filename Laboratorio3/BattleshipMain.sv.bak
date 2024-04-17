@@ -1,0 +1,12 @@
+module mainJuego(
+	input logic clk, reset,
+
+	
+	
+	output logic hSync,vSync,syncBlank,bSync,
+	output logic [7:0]red,green,blue,
+	output logic clk25,
+
+	
+	output reg [6:0] salidaDisplay1
+);

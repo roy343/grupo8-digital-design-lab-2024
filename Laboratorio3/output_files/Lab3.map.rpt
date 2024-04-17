@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Lab3
-Mon Apr 15 11:33:18 2024
+Tue Apr 16 20:51:03 2024
 Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 
 
@@ -17,6 +17,7 @@ Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
   9. Post-Synthesis Netlist Statistics for Top Partition
  10. Elapsed Time Per Partition
  11. Analysis & Synthesis Messages
+ 12. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -43,7 +44,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +---------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Mon Apr 15 11:33:18 2024          ;
+; Analysis & Synthesis Status     ; Successful - Tue Apr 16 20:51:03 2024          ;
 ; Quartus Prime Version           ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
 ; Revision Name                   ; Lab3                                           ;
 ; Top-level Entity Name           ; VGA                                            ;
@@ -257,20 +258,31 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
-    Info: Processing started: Mon Apr 15 11:33:12 2024
+    Info: Processing started: Tue Apr 16 20:50:58 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Lab3 -c Lab3
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
-Info (12021): Found 1 design units, including 1 entities, in source file clockdivider.sv
-    Info (12023): Found entity 1: clockDivider File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/clockDivider.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file vgacontroller.sv
-    Info (12023): Found entity 1: VGAController File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGAController.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file drawingmux.sv
-    Info (12023): Found entity 1: drawingMux File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file colormux.sv
-    Info (12023): Found entity 1: colorMux File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/colorMux.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file vgamain.sv
     Info (12023): Found entity 1: VGA_Main_Module File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGAMain.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file vgacontroller.sv
+    Info (12023): Found entity 1: VGAController File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGAController.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file verifica_posiciones.sv
+    Info (12023): Found entity 1: Verifica_posiciones File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file drawingmux.sv
+    Info (12023): Found entity 1: drawingMux File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file dibujarpantalla.sv
+    Info (12023): Found entity 1: DibujarPantalla File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file colormux.sv
+    Info (12023): Found entity 1: colorMux File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/colorMux.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file clockdivider.sv
+    Info (12023): Found entity 1: clockDivider File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/clockDivider.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file battleshipmain.sv
+    Info (12023): Found entity 1: BattleshipMain File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/BattleshipMain.sv Line: 1
+Warning (10236): Verilog HDL Implicit Net warning at VGAMain.sv(18): created implicit net for "rst" File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGAMain.sv Line: 18
+Warning (10236): Verilog HDL Implicit Net warning at DibujarPantalla.sv(12): created implicit net for "lines" File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv Line: 12
+Warning (10236): Verilog HDL Implicit Net warning at DibujarPantalla.sv(22): created implicit net for "hs" File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv Line: 22
+Warning (10236): Verilog HDL Implicit Net warning at DibujarPantalla.sv(22): created implicit net for "vs" File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv Line: 22
+Critical Warning (10846): Verilog HDL Instantiation warning at DibujarPantalla.sv(22): instance has no name File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv Line: 22
 Warning (12125): Using design file vga.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: VGA File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/vga.sv Line: 1
 Info (12127): Elaborating entity "VGA" for the top level hierarchy
@@ -291,6 +303,7 @@ Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "blue[2]" is stuck at GND File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGA.sv Line: 5
     Warning (13410): Pin "hsync" is stuck at GND File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGA.sv Line: 6
     Warning (13410): Pin "vsync" is stuck at GND File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGA.sv Line: 8
+Info (144001): Generated suppressed messages file C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/output_files/Lab3.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 2 input pin(s) that do not drive logic
@@ -299,10 +312,16 @@ Warning (21074): Design contains 2 input pin(s) that do not drive logic
 Info (21057): Implemented 13 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 11 output pins
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 22 warnings
-    Info: Peak virtual memory: 4814 megabytes
-    Info: Processing ended: Mon Apr 15 11:33:18 2024
-    Info: Elapsed time: 00:00:06
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 27 warnings
+    Info: Peak virtual memory: 4810 megabytes
+    Info: Processing ended: Tue Apr 16 20:51:03 2024
+    Info: Elapsed time: 00:00:05
     Info: Total CPU time (on all processors): 00:00:12
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/output_files/Lab3.map.smsg.
 
 
