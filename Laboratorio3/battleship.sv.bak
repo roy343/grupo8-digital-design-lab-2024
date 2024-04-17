@@ -1,0 +1,53 @@
+/*
+ mov: 1000 left, 0100 up, 0010 down, 0001 right
+ game_state: 00 playing, 10 victory, 11 defeat
+*/
+module battleship (
+		input logic clk, rst,
+		input logic [2:0] shipQ,
+		input logic [3:0] mov,
+		output logic [1:0] boardP[4:0][4:0]
+		output logic [1:0] boardE[4:0][4:0],
+		output logic [1:0] game_state
+	);
+	
+	typedef enum logic [2:0] {SELSHIPQ, PLACESHIP, PLAYP, WIN, PLAYE, LOSE, END} state_t;
+	state_t state, next_state;
+	
+	logic [11:0] boardP_upt[3:0][3:0];
+	logic [11:0] boardE_upt[3:0][3:0];
+	logic ships_placed;
+	logic Pplayed;
+	logic Eplayed;
+	logic is_win;
+	logic is_loss;
+
+	always_ff @(posedge clk) begin
+		if (rst) begin
+			state <= SELSHIPQ;
+		end else begin
+			state <= next_state;
+		end
+	end
+	
+	always @* begin
+		case(state)
+		
+			SELSHIPQ: begin
+				for (int i = 0; i < 5; i++) begin
+					 for (int j = 0; j < 5; j++) begin
+						boardP[i][j] = 0;
+						boardE[i][j] = 0;
+					 end
+				end
+				
+				
+				
+			end
+			
+			
+			
+		endcase
+	end
+	
+endmodule
