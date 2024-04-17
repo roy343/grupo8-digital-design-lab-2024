@@ -18,7 +18,8 @@ module battleship (
 	logic [11:0] boardE_upt[3:0][3:0];
 	logic [4:0] count;
 	logic Place_ships;
-	logic Ships_placed;
+	logic Pships_placed;
+	logic Eships_placed;
 	logic Pturn;
 	logic Pplayed;
 	logic Eturn;
@@ -43,7 +44,16 @@ module battleship (
 		.shipQ(shipQ),
 		.board_in(boardP),
 		.board_out(boardP_upt),
-		.placed(Ships_placed)
+		.placed(Pships_placed)
+	);
+	
+	Epos_ships env_ships(
+		.clk(clk), 
+		.enable(Place_ships),
+		.shipQ(shipQ),
+		.board_in(boardE),
+		.board_out(boardE_upt),
+		.placed(Eships_placed)
 	);
 	
 	always_ff @(posedge clk) begin
@@ -76,7 +86,7 @@ module battleship (
 				Place_ships = 1;
 				x = 0;
 				y = 0;
-				if (Ships_placed) begin
+				if (Pships_placed && Eships_placed) begin
 					boardP = boardP_upt;
 					boardE = boardE_upt;
 					next_state = PLAYP;
