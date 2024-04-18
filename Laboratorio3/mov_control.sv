@@ -1,7 +1,7 @@
 module mov_control (
-		input logic x, y,
+		input logic [2:0] x, y,
 		input logic [3:0] mov,
-		output logic outX, outY
+		output logic [2:0] outX, outY
 	);
 	
 	always @(mov) begin

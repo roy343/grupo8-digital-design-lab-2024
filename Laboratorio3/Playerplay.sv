@@ -1,0 +1,30 @@
+module Playerplay (
+		input logic x, y, enable, confirm,
+		input logic [2:0] board_in[4:0][4:0],
+		output logic [2:0] board_out[4:0][4:0],
+		output logic done
+	);
+	
+	logic [2:0] local_board[4:0][4:0];
+	
+	always @(posedge enable && (x | y)) begin
+		local_board = board_in;
+		done = 0;
+		
+		if (local_board[x][y] == 3'd0) begin // missed shot
+			if (confirm) begin
+				local_board[x][y] = 3'd7;
+				done = 1;
+			end
+		end else if (local_board[x][y] == 3'd1 || local_board[x][y] == 3'd2 ||
+       local_board[x][y] == 3'd3 || local_board[x][y] == 3'd4 || local_board[x][y] == 3'd5) begin // ship hit
+			if (confirm) begin
+				local_board[x][y] = 3'd6;
+				done = 1;
+			end
+		end
+	end
+	
+	assign board_out = local_board;
+
+endmodule

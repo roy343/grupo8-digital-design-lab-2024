@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at battleship.sv(15): object "CHECK_WIN" differs only in case from object "check_win" in the same scope File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 15
+Info (10281): Verilog HDL Declaration information at battleship.sv(15): object "CHECK_LOSE" differs only in case from object "check_lose" in the same scope File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 15
