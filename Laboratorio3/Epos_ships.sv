@@ -22,101 +22,105 @@ module Epos_ships (
 		end
    end
 	
-	always @(enable) begin
+	initial begin
 		local_board = board_in;
-		placed = 0;
-		if (placedQ < shipQ) begin
-			case(placedQ) 
-				
-				0: begin
-					local_board[seedX & 4'b11][seedY & 3'b11] = 2'd1;
-					placedQ = placedQ + 1;
-				end
-				
-				1: begin
-				
-					if ((seedY & 3'b11) < 4) begin
-						if ((local_board[seedX & 4'b11][seedY & 3'b11] == 3'd0 && local_board[seedX & 4'b11][(seedY & 3'b11)+1] == 3'd0)) begin
-							local_board[seedX & 4'b11][seedY & 3'b11] = 3'd2;
-							local_board[seedX & 4'b11][(seedY & 3'b11)+1] = 3'd2;
-							placedQ = placedQ + 1;
-						end else if (local_board[seedX & 4'b100][seedY & 3'b11] == 3'd0 && local_board[seedX & 4'b100][(seedY & 3'b11)+1] == 3'd0) begin
-							local_board[seedX & 4'b100][seedY & 3'b11] = 3'd2;
-							local_board[seedX & 4'b100][(seedY & 3'b11)+1] = 3'd2;
-							placedQ = placedQ + 1;
-						end
+	end
+	
+	always @(posedge clk) begin
+		if (enable) begin
+			placed = 0;
+			if (placedQ < shipQ) begin
+				case(placedQ) 
+					
+					0: begin
+						local_board[seedX & 4'b11][seedY & 3'b11] = 2'd1;
+						placedQ = placedQ + 1;
 					end
-				
-				end
-				
-				2: begin
-				
-					if ((seedY & 3'b11) < 3) begin
-						if (local_board[seedX & 4'b11][seedY & 3'b11] == 3'd0 && local_board[seedX & 4'b11][(seedY & 3'b11)+1] == 3'd0 && local_board[seedX & 4'b11][(seedY & 3'b11)+2] == 3'd0) begin
-							local_board[seedX & 4'b11][seedY & 3'b11] = 3'd3;
-							local_board[seedX & 4'b11][(seedY & 3'b11)+1] = 3'd3;
-							local_board[seedX & 4'b11][(seedY & 3'b11)+2] = 3'd3;
-							placedQ = placedQ + 1;
-						end else if (local_board[seedX & 4'b100][seedY & 3'b11] == 3'd0 && local_board[seedX & 4'b100][(seedY & 3'b11)+1] == 3'd0 && local_board[seedX & 4'b100][(seedY & 3'b11)+2] == 3'd0) begin
-							local_board[seedX & 4'b100][seedY & 3'b11] = 3'd3;
-							local_board[seedX & 4'b100][(seedY & 3'b11)+1] = 3'd3;
-							local_board[seedX & 4'b100][(seedY & 3'b11)+2] = 3'd3;
-							placedQ = placedQ + 1;
+					
+					1: begin
+					
+						if ((seedY & 3'b11) < 4) begin
+							if ((local_board[seedX & 4'b11][seedY & 3'b11] == 3'd0 && local_board[seedX & 4'b11][(seedY & 3'b11)+1] == 3'd0)) begin
+								local_board[seedX & 4'b11][seedY & 3'b11] = 3'd2;
+								local_board[seedX & 4'b11][(seedY & 3'b11)+1] = 3'd2;
+								placedQ = placedQ + 1;
+							end else if (local_board[seedX & 4'b100][seedY & 3'b11] == 3'd0 && local_board[seedX & 4'b100][(seedY & 3'b11)+1] == 3'd0) begin
+								local_board[seedX & 4'b100][seedY & 3'b11] = 3'd2;
+								local_board[seedX & 4'b100][(seedY & 3'b11)+1] = 3'd2;
+								placedQ = placedQ + 1;
+							end
 						end
+					
 					end
-				
-				end
-				
-				3: begin
-				
-					if ((seedY & 3'b11) < 2) begin
-						if (local_board[seedX & 4'b11][seedY & 3'b11] == 3'd0 && local_board[seedX & 4'b11][(seedY & 3'b11)+1] == 3'd0 && local_board[seedX & 4'b11][(seedY & 3'b11)+2] == 3'd0 && local_board[seedX & 4'b11][(seedY & 3'b11)+3] == 3'd0) begin
-							local_board[seedX & 4'b11][seedY & 3'b11] = 3'd4;
-							local_board[seedX & 4'b11][(seedY & 3'b11)+1] = 3'd4;
-							local_board[seedX & 4'b11][(seedY & 3'b11)+2] = 3'd4;
-							local_board[seedX & 4'b11][(seedY & 3'b11)+3] = 3'd4;
-							placedQ = placedQ + 1;
-						end else if (local_board[seedX & 4'b100][seedY & 3'b11] == 3'd0 && local_board[seedX & 4'b100][(seedY & 3'b11)+1] == 3'd0 && local_board[seedX & 4'b100][(seedY & 3'b11)+2] == 3'd0 && local_board[seedX & 4'b100][(seedY & 3'b11)+3] == 3'd0) begin
-							local_board[seedX & 4'b100][seedY & 3'b11] = 3'd4;
-							local_board[seedX & 4'b100][(seedY & 3'b11)+1] = 3'd4;
-							local_board[seedX & 4'b100][(seedY & 3'b11)+2] = 3'd4;
-							local_board[seedX & 4'b100][(seedY & 3'b11)+3] = 3'd4;
-							placedQ = placedQ + 1;
+					
+					2: begin
+					
+						if ((seedY & 3'b11) < 3) begin
+							if (local_board[seedX & 4'b11][seedY & 3'b11] == 3'd0 && local_board[seedX & 4'b11][(seedY & 3'b11)+1] == 3'd0 && local_board[seedX & 4'b11][(seedY & 3'b11)+2] == 3'd0) begin
+								local_board[seedX & 4'b11][seedY & 3'b11] = 3'd3;
+								local_board[seedX & 4'b11][(seedY & 3'b11)+1] = 3'd3;
+								local_board[seedX & 4'b11][(seedY & 3'b11)+2] = 3'd3;
+								placedQ = placedQ + 1;
+							end else if (local_board[seedX & 4'b100][seedY & 3'b11] == 3'd0 && local_board[seedX & 4'b100][(seedY & 3'b11)+1] == 3'd0 && local_board[seedX & 4'b100][(seedY & 3'b11)+2] == 3'd0) begin
+								local_board[seedX & 4'b100][seedY & 3'b11] = 3'd3;
+								local_board[seedX & 4'b100][(seedY & 3'b11)+1] = 3'd3;
+								local_board[seedX & 4'b100][(seedY & 3'b11)+2] = 3'd3;
+								placedQ = placedQ + 1;
+							end
 						end
+					
 					end
-				
-				end
-				
-				4: begin
-				
-					if ((seedY & 3'b11) < 1) begin
-						if (local_board[seedX & 4'b11][seedY & 3'b11] == 3'd0 && local_board[seedX & 4'b11][(seedY & 3'b11)+1] == 3'd0 && local_board[seedX & 4'b11][(seedY & 3'b11)+2] == 3'd0 && local_board[seedX & 4'b11][(seedY & 3'b11)+3] == 3'd0 && local_board[seedX & 4'b11][(seedY & 3'b11)+4] == 3'd0) begin
-							local_board[seedX & 4'b11][seedY & 3'b11] = 3'd5;
-							local_board[seedX & 4'b11][(seedY & 3'b11)+1] = 3'd5;
-							local_board[seedX & 4'b11][(seedY & 3'b11)+2] = 3'd5;
-							local_board[seedX & 4'b11][(seedY & 3'b11)+3] = 3'd5;
-							local_board[seedX & 4'b11][(seedY & 3'b11)+4] = 3'd5;
-							placedQ = placedQ + 1;
-						end else if (local_board[seedX & 4'b100][seedY & 3'b11] == 3'd0 && local_board[seedX & 4'b100][(seedY & 3'b11)+1] == 3'd0 && local_board[seedX & 4'b100][(seedY & 3'b11)+2] == 3'd0 && local_board[seedX & 4'b100][(seedY & 3'b11)+3] == 3'd0 && local_board[seedX & 4'b100][(seedY & 3'b11)+4] == 3'd0) begin
-							local_board[seedX & 4'b100][seedY & 3'b11] = 3'd5;
-							local_board[seedX & 4'b100][(seedY & 3'b11)+1] = 3'd5;
-							local_board[seedX & 4'b100][(seedY & 3'b11)+2] = 3'd5;
-							local_board[seedX & 4'b100][(seedY & 3'b11)+3] = 3'd5;
-							local_board[seedX & 4'b100][(seedY & 3'b11)+4] = 3'd5;
-							placedQ = placedQ + 1;
+					
+					3: begin
+					
+						if ((seedY & 3'b11) < 2) begin
+							if (local_board[seedX & 4'b11][seedY & 3'b11] == 3'd0 && local_board[seedX & 4'b11][(seedY & 3'b11)+1] == 3'd0 && local_board[seedX & 4'b11][(seedY & 3'b11)+2] == 3'd0 && local_board[seedX & 4'b11][(seedY & 3'b11)+3] == 3'd0) begin
+								local_board[seedX & 4'b11][seedY & 3'b11] = 3'd4;
+								local_board[seedX & 4'b11][(seedY & 3'b11)+1] = 3'd4;
+								local_board[seedX & 4'b11][(seedY & 3'b11)+2] = 3'd4;
+								local_board[seedX & 4'b11][(seedY & 3'b11)+3] = 3'd4;
+								placedQ = placedQ + 1;
+							end else if (local_board[seedX & 4'b100][seedY & 3'b11] == 3'd0 && local_board[seedX & 4'b100][(seedY & 3'b11)+1] == 3'd0 && local_board[seedX & 4'b100][(seedY & 3'b11)+2] == 3'd0 && local_board[seedX & 4'b100][(seedY & 3'b11)+3] == 3'd0) begin
+								local_board[seedX & 4'b100][seedY & 3'b11] = 3'd4;
+								local_board[seedX & 4'b100][(seedY & 3'b11)+1] = 3'd4;
+								local_board[seedX & 4'b100][(seedY & 3'b11)+2] = 3'd4;
+								local_board[seedX & 4'b100][(seedY & 3'b11)+3] = 3'd4;
+								placedQ = placedQ + 1;
+							end
 						end
+					
 					end
-				
-				end
-				
-			endcase
+					
+					4: begin
+					
+						if ((seedY & 3'b11) < 1) begin
+							if (local_board[seedX & 4'b11][seedY & 3'b11] == 3'd0 && local_board[seedX & 4'b11][(seedY & 3'b11)+1] == 3'd0 && local_board[seedX & 4'b11][(seedY & 3'b11)+2] == 3'd0 && local_board[seedX & 4'b11][(seedY & 3'b11)+3] == 3'd0 && local_board[seedX & 4'b11][(seedY & 3'b11)+4] == 3'd0) begin
+								local_board[seedX & 4'b11][seedY & 3'b11] = 3'd5;
+								local_board[seedX & 4'b11][(seedY & 3'b11)+1] = 3'd5;
+								local_board[seedX & 4'b11][(seedY & 3'b11)+2] = 3'd5;
+								local_board[seedX & 4'b11][(seedY & 3'b11)+3] = 3'd5;
+								local_board[seedX & 4'b11][(seedY & 3'b11)+4] = 3'd5;
+								placedQ = placedQ + 1;
+							end else if (local_board[seedX & 4'b100][seedY & 3'b11] == 3'd0 && local_board[seedX & 4'b100][(seedY & 3'b11)+1] == 3'd0 && local_board[seedX & 4'b100][(seedY & 3'b11)+2] == 3'd0 && local_board[seedX & 4'b100][(seedY & 3'b11)+3] == 3'd0 && local_board[seedX & 4'b100][(seedY & 3'b11)+4] == 3'd0) begin
+								local_board[seedX & 4'b100][seedY & 3'b11] = 3'd5;
+								local_board[seedX & 4'b100][(seedY & 3'b11)+1] = 3'd5;
+								local_board[seedX & 4'b100][(seedY & 3'b11)+2] = 3'd5;
+								local_board[seedX & 4'b100][(seedY & 3'b11)+3] = 3'd5;
+								local_board[seedX & 4'b100][(seedY & 3'b11)+4] = 3'd5;
+								placedQ = placedQ + 1;
+							end
+						end
+					
+					end
+					
+				endcase
+			end
+			
+			if (placedQ == shipQ) begin
+				board_out = local_board;
+				placed = 1;
+			end
 		end
-		
-		if (placedQ == shipQ) begin
-			board_out = board_in;
-			placed = 1;
-		end
-		
 	end
 	
 endmodule

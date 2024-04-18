@@ -160,7 +160,7 @@ module battleship (
 				y = 0;
 				
 				if (count > 0 && Pplayed) begin
-					boardE = boardE_upt;
+					boardE = boardPplay_upt;
 					next_state = CHECK_WIN;
 				end else begin
 					next_state = PLAYE;
@@ -172,7 +172,7 @@ module battleship (
 				Eturn = 1;
 				startT = 0;
 				if (Eplayed) begin
-					boardP = boardP_upt;
+					boardP = boardEplay_upt;
 					next_state = CHECK_LOSE;
 				end
 			end

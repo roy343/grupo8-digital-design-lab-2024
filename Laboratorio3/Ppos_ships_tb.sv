@@ -42,8 +42,6 @@ module Ppos_ships_tb();
 
         #10;
 
-        enable = 1;
-
         x = 0;
         y = 0;
         confirm = 1;
