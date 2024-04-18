@@ -1,6 +1,6 @@
 module VGAMain(
 
-	input logic clk,reset,win,lose,
+	input logic clk,
 	input logic [4:0][4:0] matrix, //Cambiar valores luego
 	output logic hSync,vSync,syncBlank,bSync,
 	output logic [7:0]red,green,blue,

@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Wed Apr 17 17:00:49 2024
-Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+Analysis & Synthesis Status : Successful - Wed Apr 17 18:27:24 2024
+Quartus Prime Version : 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 Revision Name : Lab3
 Top-level Entity Name : BattleshipMain
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 22
-Total pins : 31
+Total registers : 31
+Total pins : 30
 Total virtual pins : 0
 Total block memory bits : 0
 Total DSP Blocks : 0

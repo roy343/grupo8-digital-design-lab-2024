@@ -1,42 +1,38 @@
 |BattleshipMain
 clk => VGAMain:VGA.clk
-reset => VGAMain:VGA.reset
-hSync << VGAMain:VGA.hSync
-vSync << VGAMain:VGA.vSync
-syncBlank << VGAMain:VGA.syncBlank
-bSync << VGAMain:VGA.bSync
-red[0] << VGAMain:VGA.red[0]
-red[1] << VGAMain:VGA.red[1]
-red[2] << VGAMain:VGA.red[2]
-red[3] << VGAMain:VGA.red[3]
-red[4] << VGAMain:VGA.red[4]
-red[5] << VGAMain:VGA.red[5]
-red[6] << VGAMain:VGA.red[6]
-red[7] << VGAMain:VGA.red[7]
-green[0] << VGAMain:VGA.green[0]
-green[1] << VGAMain:VGA.green[1]
-green[2] << VGAMain:VGA.green[2]
-green[3] << VGAMain:VGA.green[3]
-green[4] << VGAMain:VGA.green[4]
-green[5] << VGAMain:VGA.green[5]
-green[6] << VGAMain:VGA.green[6]
-green[7] << VGAMain:VGA.green[7]
-blue[0] << VGAMain:VGA.blue[0]
-blue[1] << VGAMain:VGA.blue[1]
-blue[2] << VGAMain:VGA.blue[2]
-blue[3] << VGAMain:VGA.blue[3]
-blue[4] << VGAMain:VGA.blue[4]
-blue[5] << VGAMain:VGA.blue[5]
-blue[6] << VGAMain:VGA.blue[6]
-blue[7] << VGAMain:VGA.blue[7]
-clk25 << VGAMain:VGA.clk25
+hSync <= VGAMain:VGA.hSync
+vSync <= VGAMain:VGA.vSync
+syncBlank <= VGAMain:VGA.syncBlank
+bSync <= VGAMain:VGA.bSync
+red[0] <= VGAMain:VGA.red[0]
+red[1] <= VGAMain:VGA.red[1]
+red[2] <= VGAMain:VGA.red[2]
+red[3] <= VGAMain:VGA.red[3]
+red[4] <= VGAMain:VGA.red[4]
+red[5] <= VGAMain:VGA.red[5]
+red[6] <= VGAMain:VGA.red[6]
+red[7] <= VGAMain:VGA.red[7]
+green[0] <= VGAMain:VGA.green[0]
+green[1] <= VGAMain:VGA.green[1]
+green[2] <= VGAMain:VGA.green[2]
+green[3] <= VGAMain:VGA.green[3]
+green[4] <= VGAMain:VGA.green[4]
+green[5] <= VGAMain:VGA.green[5]
+green[6] <= VGAMain:VGA.green[6]
+green[7] <= VGAMain:VGA.green[7]
+blue[0] <= VGAMain:VGA.blue[0]
+blue[1] <= VGAMain:VGA.blue[1]
+blue[2] <= VGAMain:VGA.blue[2]
+blue[3] <= VGAMain:VGA.blue[3]
+blue[4] <= VGAMain:VGA.blue[4]
+blue[5] <= VGAMain:VGA.blue[5]
+blue[6] <= VGAMain:VGA.blue[6]
+blue[7] <= VGAMain:VGA.blue[7]
+clk25 <= VGAMain:VGA.clk25
 
 
 |BattleshipMain|VGAMain:VGA
 clk => clk.IN1
-reset => DibujarPantalla:dib.reset
-win => DibujarPantalla:dib.win
-lose => DibujarPantalla:dib.lose
 matrix[0][0] => DibujarPantalla:dib.states[0][0]
 matrix[0][1] => DibujarPantalla:dib.states[0][1]
 matrix[0][2] => DibujarPantalla:dib.states[0][2]
@@ -95,6 +91,15 @@ clk25 <= clk25.DB_MAX_OUTPUT_PORT_TYPE
 
 |BattleshipMain|VGAMain:VGA|clockDivider:div
 clk => cnt[15].CLK
+clk => cnt[16].CLK
+clk => cnt[17].CLK
+clk => cnt[18].CLK
+clk => cnt[19].CLK
+clk => cnt[20].CLK
+clk => cnt[21].CLK
+clk => cnt[22].CLK
+clk => cnt[23].CLK
+clk => cnt[24].CLK
 clk => clk25~reg0.CLK
 clk25 <= clk25~reg0.DB_MAX_OUTPUT_PORT_TYPE
 

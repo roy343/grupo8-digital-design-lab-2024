@@ -42,7 +42,7 @@ set_global_assignment -name DEVICE 5CSEMA5F31C6
 set_global_assignment -name TOP_LEVEL_ENTITY BattleshipMain
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 22.1STD.2
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "21:57:55  MARCH 25, 2024"
-set_global_assignment -name LAST_QUARTUS_VERSION "22.1std.0 Lite Edition"
+set_global_assignment -name LAST_QUARTUS_VERSION "22.1std.2 Lite Edition"
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
 set_global_assignment -name BOARD "DE1-SoC Board"
 set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim (SystemVerilog)"
@@ -93,7 +93,7 @@ set_location_assignment PIN_G15 -to blue[6]
 set_location_assignment PIN_J14 -to blue[7]
 set_location_assignment PIN_B11 -to hSync
 set_location_assignment PIN_AF14 -to clk
-set_location_assignment PIN_D10 -to vSync
+set_location_assignment PIN_D11 -to vSync
 set_location_assignment PIN_A11 -to clk25
 set_location_assignment PIN_C10 -to syncBlank
 set_location_assignment PIN_F10 -to bSync
