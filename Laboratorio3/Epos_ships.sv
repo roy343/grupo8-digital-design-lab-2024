@@ -23,7 +23,13 @@ module Epos_ships (
    end
 	
 	initial begin
-		local_board = board_in;
+		local_board = '{
+            '{0, 0, 0, 0, 0},
+            '{0, 0, 0, 0, 0},
+            '{0, 0, 0, 0, 0},
+            '{0, 0, 0, 0, 0},
+				'{0, 0, 0, 0, 0}
+        };
 	end
 	
 	always @(posedge clk) begin

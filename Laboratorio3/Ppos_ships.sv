@@ -11,7 +11,13 @@ module Ppos_ships (
 	logic [2:0] local_board[4:0][4:0];
 	
 	initial begin
-		local_board = board_in;
+		local_board = '{
+            '{0, 0, 0, 0, 0},
+            '{0, 0, 0, 0, 0},
+            '{0, 0, 0, 0, 0},
+            '{0, 0, 0, 0, 0},
+				'{0, 0, 0, 0, 0}
+        };
 	end
 	
 	always @(posedge clk) begin

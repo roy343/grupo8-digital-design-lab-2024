@@ -30,7 +30,7 @@ module Epos_ships_tb();
 	 initial begin
         clk = 0;
         enable = 1;
-        shipQ = 5;
+        shipQ = 2;
 
         #1500;
 

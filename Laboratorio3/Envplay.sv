@@ -20,14 +20,11 @@ module Envplay (
 		end
    end
 	
-	initial begin
-		local_board = board_in;
-	end
 	
 	always @(posedge clk) begin
 		done = 0;
 		if (enable) begin
-			
+			local_board = board_in;
 			if (local_board[seedX & 4'b11][seedY & 3'b11] == 3'd0) begin // missed shot
 					local_board[seedX & 4'b11][seedY & 3'b11] = 3'd7;
 					done = 1;

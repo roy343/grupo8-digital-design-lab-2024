@@ -1,0 +1,102 @@
+module battleship_tb();
+  logic clk;
+  logic rst;
+  logic confirm;
+  logic [2:0] shipQ;
+  logic [3:0] mov;
+  logic [2:0] boardP[4:0][4:0];
+  logic [2:0] boardE[4:0][4:0];
+  logic [13:0] dispCount, dispPships, dispEships;
+  logic [1:0] game_state;
+
+  battleship dut (
+    .clk(clk),
+    .rst(rst),
+    .num_max_win(num_max_win),
+    .direction(direction),
+    .board(board_game),
+    .score(score),
+    .game_state(game_state)
+  );
+
+ 
+  always begin
+    #5 clk = ~clk;
+  end
+
+
+  task display_board;
+    input logic [2:0] board[4:0][4:0];
+    begin
+      for (int i = 0; i < 5; i++) begin
+        for (int j = 0; j < 5; j++) begin
+          $write("%4d \t", board[i][j]);
+        end
+        $display("\n");
+      end
+      $display("\n");
+    end
+  endtask
+
+  initial begin
+    // Initialize signals
+    clk = 0;
+    #10;
+    rst = 1;
+
+    // Test process
+    #10;
+    rst = 0;
+    #50;
+    $display("------PC Board---------");
+    display_board(boardE);
+	 $display("----Player Board-------");
+	 display_board(boardP);
+	 
+
+    #10;
+    shipQ = 2; 
+    #10;
+	 /*
+    direction = 4'b0000;
+    #50;
+    $display("Board after move right:");
+    display_board(board_game);
+
+    #10;
+    direction = 4'b0100; 
+    #10;
+    direction = 4'b0000;
+    #50;
+    $display("Board after move left:");
+    display_board(board_game);
+
+    #10;
+    direction = 4'b0010; 
+    #10;
+    direction = 4'b0000;
+    #50;
+    $display("Board after move bottom:");
+    display_board(board_game);
+
+    #10;
+    direction = 4'b0001;
+    #10;
+    direction = 4'b0000;
+    #50;
+    $display("Board after move top:");
+    display_board(board_game);
+
+    #10;
+    direction = 4'b0001; 
+    #10;
+    direction = 4'b0000;
+    #50;
+    $display("Board after move top:");
+    display_board(board_game);
+*/
+    // Finish simulation
+    $finish;
+  end
+
+endmodule

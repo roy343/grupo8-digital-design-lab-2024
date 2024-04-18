@@ -32,8 +32,11 @@ module battleship (
 	logic is_loss;
 	logic [2:0] PshipsLeft;
 	logic [2:0] EshipsLeft;
+	logic [2:0] x = 0;
+	logic [2:0] y = 0; 
+	logic [2:0] outX, outY;
 	
-	integer segs, x, y, outX, outY;
+	integer segs;
 	
 	mov_control boxSel (
 		.x(x), 
@@ -78,6 +81,7 @@ module battleship (
 	Playerplay pPlay (
 		.x(outX), 
 		.y(outY), 
+		.clk(clk),
 		.enable(Pturn), 
 		.confirm(confirm),
 		.board_in(boardE),
@@ -100,7 +104,7 @@ module battleship (
 	);
 	
 	displayConverter dispShipsE(
-		.numAct(EshipsLeft), 
+		.numAct({1'b0,EshipsLeft}), 
 		.dispOut(dispEships)
 	);
 	
@@ -111,7 +115,7 @@ module battleship (
 	);
 	
 	displayConverter dispShipsP(
-		.numAct(PshipsLeft), 
+		.numAct({1'b0, PshipsLeft}), 
 		.dispOut(dispPships)
 	);
 	
@@ -121,6 +125,11 @@ module battleship (
 		end else begin
 			state <= next_state;
 		end
+	end
+	
+	always @* begin
+		x = outX;
+		y = outY;
 	end
 	
 	always @* begin
@@ -143,8 +152,6 @@ module battleship (
 			
 			PLACESHIP: begin
 				Place_ships = 1;
-				x = 0;
-				y = 0;
 				if (Pships_placed && Eships_placed) begin
 					boardP = boardP_upt;
 					boardE = boardE_upt;
@@ -156,29 +163,31 @@ module battleship (
 				Place_ships = 0;
 				Pturn = 1;
 				startT = 1;
-				x = 0;
-				y = 0;
 				
-				if (count > 0 && Pplayed) begin
-					boardE = boardPplay_upt;
-					next_state = CHECK_WIN;
-				end else begin
+				if (count > 0) begin
+					if (Pplayed) begin
+						Pturn = 0;
+						boardE = boardPplay_upt;
+						next_state = CHECK_WIN;
+					end 
+				end else if (count == 0) begin
+					Pturn = 0;
 					next_state = PLAYE;
 				end
+				
 			end
 			
 			PLAYE: begin
-				Pturn = 0;
 				Eturn = 1;
 				startT = 0;
 				if (Eplayed) begin
+					Eturn = 0;
 					boardP = boardEplay_upt;
 					next_state = CHECK_LOSE;
 				end
 			end
 			
 			CHECK_WIN: begin
-				Pturn = 0;
 				startT = 0;
 				if (is_win) begin
 					game_state = 2'b10;
@@ -189,7 +198,6 @@ module battleship (
 			end
 			
 			CHECK_LOSE: begin
-				Eturn = 0;
 				if (is_loss) begin
 					game_state = 2'b11;
 					next_state = END;

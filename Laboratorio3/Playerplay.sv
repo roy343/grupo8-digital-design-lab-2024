@@ -8,14 +8,10 @@ module Playerplay (
 	
 	logic [2:0] local_board[4:0][4:0];
 	
-	initial begin
-		local_board = board_in;
-	end
-	
 	always @(posedge clk) begin
 		done = 0;
 		if (enable) begin
-			
+			local_board = board_in;
 			if (local_board[x][y] == 3'd0) begin // missed shot
 				if (confirm) begin
 					local_board[x][y] = 3'd7;

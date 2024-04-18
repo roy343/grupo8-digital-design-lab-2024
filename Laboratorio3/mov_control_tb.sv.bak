@@ -1,0 +1,28 @@
+module mov_control_tb();
+	logic [2:0] x, y;
+	logic [3:0] mov;
+	logic [2:0] outX, outY;
+
+	initial begin 
+		
+		x = 0;
+		y = 0;
+		mov = 0;
+		
+		#5
+		
+		mov = 4'1000;
+		
+		#5
+		
+		mov = 4'0100;
+		
+		#5
+		
+		mov = 4'0010;
+		#5
+		
+		mov = 4'0001;
+	end
+	
+endmodule
