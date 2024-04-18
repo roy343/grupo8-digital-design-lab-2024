@@ -13,8 +13,8 @@ module Playerplay (
 	end
 	
 	always @(posedge clk) begin
+		done = 0;
 		if (enable) begin
-			done = 0;
 			
 			if (local_board[x][y] == 3'd0) begin // missed shot
 				if (confirm) begin

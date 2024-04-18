@@ -20,18 +20,23 @@ module Envplay (
 		end
    end
 	
-	always @(posedge enable && (seedX | seedY)) begin
+	initial begin
 		local_board = board_in;
+	end
+	
+	always @(posedge clk) begin
 		done = 0;
-		
-		if (local_board[seedX & 4'b11][seedY & 3'b11] == 3'd0) begin // missed shot
-				local_board[seedX & 4'b11][seedY & 3'b11] = 3'd7;
-				done = 1;
-		end else if (local_board[seedX & 4'b11][seedY & 3'b11] == 3'd1 || local_board[seedX & 4'b11][seedY & 3'b11] == 3'd2 ||
-       local_board[seedX & 4'b11][seedY & 3'b11] == 3'd3 || local_board[seedX & 4'b11][seedY & 3'b11] == 3'd4 ||
-		 local_board[seedX & 4'b11][seedY & 3'b11] == 3'd5) begin // ship hit
-				local_board[seedX & 4'b11][seedY & 3'b11] = 3'd6;
-				done = 1;
+		if (enable) begin
+			
+			if (local_board[seedX & 4'b11][seedY & 3'b11] == 3'd0) begin // missed shot
+					local_board[seedX & 4'b11][seedY & 3'b11] = 3'd7;
+					done = 1;
+			end else if (local_board[seedX & 4'b11][seedY & 3'b11] == 3'd1 || local_board[seedX & 4'b11][seedY & 3'b11] == 3'd2 ||
+			 local_board[seedX & 4'b11][seedY & 3'b11] == 3'd3 || local_board[seedX & 4'b11][seedY & 3'b11] == 3'd4 ||
+			 local_board[seedX & 4'b11][seedY & 3'b11] == 3'd5) begin // ship hit
+					local_board[seedX & 4'b11][seedY & 3'b11] = 3'd6;
+					done = 1;
+			end
 		end
 	end
 	

@@ -79,10 +79,20 @@ set_global_assignment -name EDA_TEST_BENCH_NAME Epos_ships_tb -section_id eda_si
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id Epos_ships_tb
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME Epos_ships_tb -section_id Epos_ships_tb
 set_global_assignment -name SYSTEMVERILOG_FILE Playerplay_tb.sv
-set_global_assignment -name EDA_TEST_BENCH_FILE Ppos_ships_tb.sv -section_id Ppos_ships_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE Epos_ships_tb.sv -section_id Epos_ships_tb
 set_global_assignment -name EDA_TEST_BENCH_NAME Playerplay_tb -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id Playerplay_tb
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME Playerplay_tb -section_id Playerplay_tb
+set_global_assignment -name SYSTEMVERILOG_FILE Envplay_tb.sv
+set_global_assignment -name EDA_TEST_BENCH_NAME Envplay_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id Envplay_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME Envplay_tb -section_id Envplay_tb
+set_global_assignment -name SYSTEMVERILOG_FILE check_win_lose_tb.sv
+set_global_assignment -name EDA_TEST_BENCH_NAME check_win_lose_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id check_win_lose_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME check_win_lose_tb -section_id check_win_lose_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE Ppos_ships_tb.sv -section_id Ppos_ships_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE Epos_ships_tb.sv -section_id Epos_ships_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE Playerplay_tb.sv -section_id Playerplay_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE Envplay_tb.sv -section_id Envplay_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE check_win_lose_tb.sv -section_id check_win_lose_tb
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

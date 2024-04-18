@@ -1,5 +1,5 @@
 Flow report for Lab3
-Thu Apr 18 03:35:25 2024
+Thu Apr 18 13:50:24 2024
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------------------------------------------------+
 ; Flow Summary                                                                 ;
 +-----------------------------+------------------------------------------------+
-; Flow Status                 ; Successful - Thu Apr 18 03:35:25 2024          ;
+; Flow Status                 ; Successful - Thu Apr 18 13:50:24 2024          ;
 ; Quartus Prime Version       ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name               ; Lab3                                           ;
 ; Top-level Entity Name       ; battleship                                     ;
@@ -63,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/18/2024 03:35:11 ;
+; Start date & time ; 04/18/2024 13:50:16 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Lab3                ;
 +-------------------+---------------------+
@@ -74,10 +74,12 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                ; 96830616742285.171343291134884         ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID                ; 96830616742285.171346981631396         ; --            ; --          ; --                                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; Playerplay_tb                     ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; Epos_ships_tb                     ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; Ppos_ships_tb                     ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; Envplay_tb                        ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; check_win_lose_tb                 ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_signal_integrity ;
@@ -89,12 +91,18 @@ https://fpgasoftware.intel.com/eula.
 ; EDA_TEST_BENCH_FILE                  ; Playerplay_tb.sv                       ; --            ; --          ; Playerplay_tb                     ;
 ; EDA_TEST_BENCH_FILE                  ; Epos_ships_tb.sv                       ; --            ; --          ; Epos_ships_tb                     ;
 ; EDA_TEST_BENCH_FILE                  ; Ppos_ships_tb.sv                       ; --            ; --          ; Ppos_ships_tb                     ;
+; EDA_TEST_BENCH_FILE                  ; Envplay_tb.sv                          ; --            ; --          ; Envplay_tb                        ;
+; EDA_TEST_BENCH_FILE                  ; check_win_lose_tb.sv                   ; --            ; --          ; check_win_lose_tb                 ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; Playerplay_tb                          ; --            ; --          ; Playerplay_tb                     ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; Epos_ships_tb                          ; --            ; --          ; Epos_ships_tb                     ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; Ppos_ships_tb                          ; --            ; --          ; Ppos_ships_tb                     ;
+; EDA_TEST_BENCH_MODULE_NAME           ; Envplay_tb                             ; --            ; --          ; Envplay_tb                        ;
+; EDA_TEST_BENCH_MODULE_NAME           ; check_win_lose_tb                      ; --            ; --          ; check_win_lose_tb                 ;
 ; EDA_TEST_BENCH_NAME                  ; Ppos_ships_tb                          ; --            ; --          ; eda_simulation                    ;
 ; EDA_TEST_BENCH_NAME                  ; Epos_ships_tb                          ; --            ; --          ; eda_simulation                    ;
 ; EDA_TEST_BENCH_NAME                  ; Playerplay_tb                          ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; Envplay_tb                             ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; check_win_lose_tb                      ; --            ; --          ; eda_simulation                    ;
 ; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --          ; eda_simulation                    ;
 ; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --            ; --          ; --                                ;
 ; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --          ; --                                ;
@@ -113,8 +121,8 @@ https://fpgasoftware.intel.com/eula.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:16     ; 1.0                     ; 4789 MB             ; 00:00:08                           ;
-; Total                  ; 00:00:16     ; --                      ; --                  ; 00:00:08                           ;
+; Analysis & Elaboration ; 00:00:09     ; 1.0                     ; 4789 MB             ; 00:00:09                           ;
+; Total                  ; 00:00:09     ; --                      ; --                  ; 00:00:09                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
