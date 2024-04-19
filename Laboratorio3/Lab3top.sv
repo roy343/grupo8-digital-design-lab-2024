@@ -70,7 +70,7 @@ module Lab3top(
 				integer rowP = (i * 32) + 159; 
             integer colP = (j * 32) + 415;
 					
-            if ((colE < next_x < (colE + 33)) && (rowE < next_y < (rowE + 33))) begin
+            if (next_x > colE && next_x < colE + 33 && next_y > rowE && next_y < rowE + 33) begin
                 
                 case(EnvBoard[i][j])
                     
@@ -80,7 +80,7 @@ module Lab3top(
 						  7: pixel_color = 8'b11110000; // Yellow
                     default: pixel_color = 8'b00000000; // Default to black
                 endcase
-            end else if ((colP < next_x < (colP + 33)) && (rowP < next_y < (rowP + 33))) begin
+            end else if (next_x >= colP && next_x < colP + 33 && next_y >= rowP && next_y < rowP + 33) begin
                 
                 case(playerBoard[i][j])
                     
@@ -90,9 +90,9 @@ module Lab3top(
 						  7: pixel_color = 8'b11110000; // Yellow
                     default: pixel_color = 8'b00000000; // Default to black
                 endcase
-            end else if ((287 < next_x < 352) || ((127 < next_x < 160) && (351 < next_y < 448)) ||
-				((447 < next_x < 480) && (351 < next_y < 448)) || ((511 < next_x < 543) && (351 < next_y < 448)) ||
-				((479 < next_x < 512) && (415 < next_y < 448))) begin
+            end else if ((287 < next_x && next_x < 352) || ((127 < next_x && next_x < 160) && (351 < next_y && next_y < 448)) ||
+				((447 < next_x && next_x < 480) && (351 < next_y && next_y < 448)) || ((511 < next_x && next_x < 543) && (351 < next_y && next_y < 448)) ||
+				((479 < next_x && next_x < 512) && (415 < next_y  && next_y < 448))) begin
 					pixel_color = 8'b00000000; // black
 				end else begin
 					pixel_color = 8'b11111111; // white
