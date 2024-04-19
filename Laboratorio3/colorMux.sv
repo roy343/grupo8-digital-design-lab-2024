@@ -14,26 +14,26 @@ module colorMux( input logic [4:0][9:0]state,
 
 		always @(*)
 		
-			if(flag == 1'b1)	begin
+			if(flag == 1'b0)	begin
 				out_rgb <= 24'b111111110000000000000000; //rojo
 				
-			end else if(tierra == 1'b1) begin
+			end else if(tierra == 1'b0) begin
 			
 				out_rgb <= 24'b101110001000011000001011; //oro oscuro
 			
-			end else if(desbloqueado == 1'b1) begin
+			end else if(desbloqueado == 1'b0) begin
 			
 				out_rgb <= 24'b000000000000000011111111; //azul
 			
-			end else if(bloqueado == 1'b1) begin
+			end else if(bloqueado == 1'b0) begin
 			
 				out_rgb <= 24'b110000000000000011000000; //morado
 			
 			end else	begin
-				out_rgb <= 24'b000000000000000011111111;
+				out_rgb <= 24'b111111111000000000000000;
 			end
 			
 			
-		assign rgb = 24'b000000000000000011111111;
+		assign rgb = out_rgb;
 			
 endmodule

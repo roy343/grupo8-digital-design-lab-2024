@@ -12,7 +12,6 @@ module drawingMux(
 	output logic [7:0]r,g,b);
 
 	logic[24:0]out_rgb;
-	logic[49:0] hola;
 	
 	always @(line or pos0 or pos1 or pos2 or pos3 or pos4 or pos5 or pos6 or pos7 or pos8 or pos9 or pos10 or pos11 or pos12 or pos13 or 
 				 pos14 or pos15 or pos16 or pos17 or pos18 or pos19 or pos20 or pos21 or pos22 or pos23 or pos24 or pos25 or 

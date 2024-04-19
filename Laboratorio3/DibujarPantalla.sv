@@ -5,8 +5,9 @@ module DibujarPantalla(
 	output logic [7:0] r, g, b
 );
 	
-	logic [23:0] rgb[50:0]; 
+	logic [23:0] rgb[49:0]; 
 	logic [49:0] pos; // 
+	logic [5:0] inpos; // Declaración de la señal de entrada inpos
 	
 	 assign lines = 
 		((hs > 0) & (hs < 5)|
@@ -95,6 +96,7 @@ module DibujarPantalla(
 		colorMux posicion47(states[4][7], pos[47], rgb[47]);
 		colorMux posicion48(states[4][8], pos[48], rgb[48]);
 		colorMux posicion49(states[4][9], pos[49], rgb[49]);
+		
 	
 	
 	// Instancia de mux_dibujar
