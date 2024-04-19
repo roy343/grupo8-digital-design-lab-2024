@@ -1,11 +1,11 @@
 module DibujarPantalla(
 	input logic reset, win, lose,
 	input logic [9:0] hs, vs,
-	input logic [24:0][9:0] states, // 
+	input logic [4:0][9:0] states, // 
 	output logic [7:0] r, g, b
 );
 	
-	logic [23:0] rgb[49:0]; 
+	logic [23:0] rgb[50:0]; 
 	logic [49:0] pos; // 
 	
 	 assign lines = 
@@ -14,7 +14,7 @@ module DibujarPantalla(
 		(hs > 123) & (hs < 133) | 
 		(hs > 187) & (hs < 197) | 
 		(hs > 251) & (hs < 261) | 
-		(hs > 315) & (hs < 325) | 
+		(hs > 315) & (hs < 325) |
 		(hs > 379) & (hs < 389) | 
 		(hs > 443) & (hs < 453) | 
 		(hs > 507) & (hs < 517) | 
@@ -28,6 +28,8 @@ module DibujarPantalla(
 		(vs > 380) & (vs < 390) | 
 		(vs > 475) & (vs < 482)  
 		)? 1:0;
+		
+		//assign division_tablero = ()? 1:0;
 
 
 
@@ -35,7 +37,8 @@ module DibujarPantalla(
 	// Llamar a la lógica para asignar valores
 	Verifica_posiciones verifica(hs, vs, pos); // Cambiado el nombre del módulo
 	
-	
+		
+		
 		colorMux posicion0(states[0][0], pos[0], rgb[0]);
 		colorMux posicion1(states[0][1], pos[1], rgb[1]);
 		colorMux posicion2(states[0][2], pos[2], rgb[2]);
@@ -92,6 +95,7 @@ module DibujarPantalla(
 		colorMux posicion47(states[4][7], pos[47], rgb[47]);
 		colorMux posicion48(states[4][8], pos[48], rgb[48]);
 		colorMux posicion49(states[4][9], pos[49], rgb[49]);
+	
 	
 	// Instancia de mux_dibujar
 	drawingMux draw_mux(lines,rgb[0]

@@ -1,4 +1,4 @@
-module colorMux( input logic [9:0]state,
+module colorMux( input logic [4:0][9:0]state,
 						input logic inpos,
 						output logic [23:0]rgb
 						);
@@ -6,10 +6,11 @@ module colorMux( input logic [9:0]state,
 		logic [23:0]out_rgb;
 		logic [0:0]flag, tierra, desbloqueado, bloqueado;
 		
-		assign flag = state[4];
-		assign tierra = state[5];
-		assign desbloqueado = state[6];
-		assign bloqueado = state[7];
+		assign flag = state[4][1];
+		assign tierra = state[4][5];
+		assign desbloqueado = state[1][6];
+		assign bloqueado = state[3][7];
+		
 
 		always @(*)
 		
@@ -32,6 +33,7 @@ module colorMux( input logic [9:0]state,
 				out_rgb <= 24'b000000000000000011111111;
 			end
 			
-		assign rgb = out_rgb; 
+			
+		assign rgb = 24'b000000000000000011111111;
 			
 endmodule
