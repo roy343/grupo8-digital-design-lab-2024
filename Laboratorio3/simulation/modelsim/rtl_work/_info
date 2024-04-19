@@ -11,15 +11,15 @@ cModel Technology
 Z0 dC:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/simulation/modelsim
 vbattleship
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1713488977
+Z2 !s110 1713516716
 !i10b 1
-!s100 I`n7Z1gLS9<W<IcQ7<^YF1
+!s100 zU@?J4_1XA^^7AJdz?o572
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I_ThiXalk;n4:aUg0WQKbi2
+IRN?TJ?804Cdi<@ci?Jm3;0
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1713488872
+w1713516641
 8C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv
 FC:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv
 !i122 0
@@ -28,7 +28,7 @@ Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1713488977.000000
+Z6 !s108 1713516716.000000
 !s107 C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3|C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv|
 !i113 1
@@ -37,24 +37,24 @@ Z8 !s92 -sv -work work +incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital
 Z9 tCvgOpt 0
 vbattleship_tb
 R1
-Z10 !s110 1713488978
+Z10 !s110 1713516717
 !i10b 1
-!s100 W3>nJz`?PWXX;=oTBJgPZ2
+!s100 JlH[QC=52oH`@@WzADKBa0
 R3
-IK>3lQNL_AF[T>aCBdn72K2
+IAfKhfFoPzaY;bnbC_]8eV1
 R4
 S1
 R0
-w1713488854
+w1713516676
 8C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/battleship_tb.sv
 FC:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/battleship_tb.sv
 !i122 9
-L0 1 122
+L0 1 126
 R5
 r1
 !s85 0
 31
-Z11 !s108 1713488978.000000
+Z11 !s108 1713516717.000000
 !s107 C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/battleship_tb.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3|C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/battleship_tb.sv|
 !i113 1
@@ -80,7 +80,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/check_win_lose.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3|C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/check_win_lose.sv|
 !i113 1
@@ -116,7 +116,7 @@ R9
 ndisplay@converter
 vEnvplay
 R1
-R10
+R2
 !i10b 1
 !s100 EMjPfW624;5@X`2bg?6[l0
 R3
@@ -133,7 +133,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/Envplay.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3|C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/Envplay.sv|
 !i113 1
@@ -196,7 +196,7 @@ R8
 R9
 vPlayerplay
 R1
-R10
+R2
 !i10b 1
 !s100 ];;Ha=4Ub4QQUPzDLdjQP1
 R3
@@ -213,7 +213,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/Playerplay.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3|C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/Playerplay.sv|
 !i113 1
@@ -223,7 +223,7 @@ R9
 n@playerplay
 vplayTimer
 R1
-R10
+R2
 !i10b 1
 !s100 N^n=G4;SQV9_LD5_3c[NG0
 R3
@@ -240,7 +240,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/playTimer.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3|C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/playTimer.sv|
 !i113 1

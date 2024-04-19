@@ -6,6 +6,8 @@ module battleship (
 		input logic clk, clk1, rst, confirm,
 		input logic [2:0] shipQ,
 		input logic [3:0] mov,
+		output logic [2:0] x = 0,
+		output logic [2:0] y = 0, 
 		output logic [2:0] boardP[4:0][4:0],
 		output logic [2:0] boardE[4:0][4:0],
 		output logic [1:0] game_state,
@@ -32,8 +34,6 @@ module battleship (
 	logic is_loss;
 	logic [2:0] PshipsLeft;
 	logic [2:0] EshipsLeft;
-	logic [2:0] x = 0;
-	logic [2:0] y = 0; 
 	logic [2:0] outX, outY;
 	
 	integer segs;

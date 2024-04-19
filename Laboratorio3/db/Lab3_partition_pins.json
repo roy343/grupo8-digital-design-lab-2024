@@ -52,6 +52,30 @@
 					"strict" : false
 				},
 				{
+					"name" : "x[0]",
+					"strict" : false
+				},
+				{
+					"name" : "x[1]",
+					"strict" : false
+				},
+				{
+					"name" : "x[2]",
+					"strict" : false
+				},
+				{
+					"name" : "y[0]",
+					"strict" : false
+				},
+				{
+					"name" : "y[1]",
+					"strict" : false
+				},
+				{
+					"name" : "y[2]",
+					"strict" : false
+				},
+				{
 					"name" : "dispCount[0]",
 					"strict" : false
 				},
@@ -152,6 +176,22 @@
 					"strict" : false
 				},
 				{
+					"name" : "mov[0]",
+					"strict" : false
+				},
+				{
+					"name" : "mov[3]",
+					"strict" : false
+				},
+				{
+					"name" : "mov[1]",
+					"strict" : false
+				},
+				{
+					"name" : "mov[2]",
+					"strict" : false
+				},
+				{
 					"name" : "shipQ[2]",
 					"strict" : false
 				},
@@ -165,22 +205,6 @@
 				},
 				{
 					"name" : "confirm",
-					"strict" : false
-				},
-				{
-					"name" : "mov[1]",
-					"strict" : false
-				},
-				{
-					"name" : "mov[2]",
-					"strict" : false
-				},
-				{
-					"name" : "mov[0]",
-					"strict" : false
-				},
-				{
-					"name" : "mov[3]",
 					"strict" : false
 				}
 			]

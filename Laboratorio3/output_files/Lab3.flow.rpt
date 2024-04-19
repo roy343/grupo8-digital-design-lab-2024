@@ -1,5 +1,5 @@
 Flow report for Lab3
-Thu Apr 18 22:34:01 2024
+Fri Apr 19 02:58:48 2024
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -41,25 +41,25 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +---------------------------------+------------------------------------------------+
-; Flow Status                     ; Successful - Thu Apr 18 22:34:01 2024          ;
+; Flow Status                     ; Successful - Fri Apr 19 02:58:48 2024          ;
 ; Quartus Prime Version           ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                   ; Lab3                                           ;
 ; Top-level Entity Name           ; Lab3top                                        ;
 ; Family                          ; Cyclone V                                      ;
 ; Device                          ; 5CSEMA5F31C6                                   ;
 ; Timing Models                   ; Final                                          ;
-; Logic utilization (in ALMs)     ; 1,638 / 32,070 ( 5 % )                         ;
-; Total registers                 ; 525                                            ;
-; Total pins                      ; 81 / 457 ( 18 % )                              ;
+; Logic utilization (in ALMs)     ; N/A                                            ;
+; Total registers                 ; 520                                            ;
+; Total pins                      ; 87                                             ;
 ; Total virtual pins              ; 0                                              ;
-; Total block memory bits         ; 0 / 4,065,280 ( 0 % )                          ;
-; Total DSP Blocks                ; 0 / 87 ( 0 % )                                 ;
+; Total block memory bits         ; 0                                              ;
+; Total DSP Blocks                ; 0                                              ;
 ; Total HSSI RX PCSs              ; 0                                              ;
 ; Total HSSI PMA RX Deserializers ; 0                                              ;
 ; Total HSSI TX PCSs              ; 0                                              ;
 ; Total HSSI PMA TX Serializers   ; 0                                              ;
-; Total PLLs                      ; 0 / 6 ( 0 % )                                  ;
-; Total DLLs                      ; 0 / 4 ( 0 % )                                  ;
+; Total PLLs                      ; 0                                              ;
+; Total DLLs                      ; 0                                              ;
 +---------------------------------+------------------------------------------------+
 
 
@@ -68,7 +68,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/18/2024 22:28:23 ;
+; Start date & time ; 04/19/2024 02:58:27 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Lab3                ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                ; 96830616742285.171350090235228         ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID                ; 96830616742285.171351710733052         ; --            ; --          ; --                                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; Playerplay_tb                     ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; battleship_tb                     ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; Epos_ships_tb                     ;
@@ -134,12 +134,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:20     ; 1.0                     ; 4915 MB             ; 00:00:18                           ;
-; Fitter               ; 00:04:50     ; 1.1                     ; 7279 MB             ; 00:04:48                           ;
-; Assembler            ; 00:00:09     ; 1.0                     ; 4893 MB             ; 00:00:05                           ;
-; Timing Analyzer      ; 00:00:13     ; 2.3                     ; 5308 MB             ; 00:00:17                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4751 MB             ; 00:00:01                           ;
-; Total                ; 00:05:34     ; --                      ; --                  ; 00:05:29                           ;
+; Analysis & Synthesis ; 00:00:21     ; 1.0                     ; 4960 MB             ; 00:00:19                           ;
+; Total                ; 00:00:21     ; --                      ; --                  ; 00:00:19                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -149,10 +145,6 @@ https://fpgasoftware.intel.com/eula.
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
 ; Analysis & Synthesis ; umi              ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter               ; umi              ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler            ; umi              ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; umi              ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; umi              ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -160,10 +152,6 @@ https://fpgasoftware.intel.com/eula.
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off Lab3 -c Lab3
-quartus_fit --read_settings_files=off --write_settings_files=off Lab3 -c Lab3
-quartus_asm --read_settings_files=off --write_settings_files=off Lab3 -c Lab3
-quartus_sta Lab3 -c Lab3
-quartus_eda --read_settings_files=off --write_settings_files=off Lab3 -c Lab3
 
 
 

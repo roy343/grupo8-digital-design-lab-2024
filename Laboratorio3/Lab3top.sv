@@ -12,6 +12,8 @@ module Lab3top(
 	output logic VGA_SYNC_N,
 	output logic VGA_CLK,
 	output logic VGA_BLANK_N,
+	output logic [2:0] x = 0,
+	output logic [2:0] y = 0,
 	output logic [13:0] dispCount, dispPships, dispEships
 );
 
@@ -52,6 +54,8 @@ module Lab3top(
 	 .confirm(confirm),
     .shipQ(shipQ),
     .mov(~mov),
+	 .x(x),
+	 .y(y),
     .boardP(playerBoard),
 	 .boardE(EnvBoard),
     .game_state(game_state),
@@ -92,9 +96,9 @@ module Lab3top(
                 endcase
             end else if ((287 < next_x && next_x < 352) || ((127 < next_x && next_x < 160) && (351 < next_y && next_y < 448)) ||
 				((447 < next_x && next_x < 480) && (351 < next_y && next_y < 448)) || ((511 < next_x && next_x < 543) && (351 < next_y && next_y < 448)) ||
-				((479 < next_x && next_x < 512) && (415 < next_y  && next_y < 448))) begin
+				((479 < next_x && next_x < 512) && (415 < next_y  && next_y < 448)) && (i == 0 && j == 0)) begin
 					pixel_color = 8'b00000000; // black
-				end else begin
+				end else if (i == 0 && j == 0) begin
 					pixel_color = 8'b11111111; // white
 				end
         end
