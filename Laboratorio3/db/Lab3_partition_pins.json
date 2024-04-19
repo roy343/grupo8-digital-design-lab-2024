@@ -120,7 +120,159 @@
 					"strict" : false
 				},
 				{
+					"name" : "x[0]",
+					"strict" : false
+				},
+				{
+					"name" : "x[1]",
+					"strict" : false
+				},
+				{
+					"name" : "x[2]",
+					"strict" : false
+				},
+				{
+					"name" : "y[0]",
+					"strict" : false
+				},
+				{
+					"name" : "y[1]",
+					"strict" : false
+				},
+				{
+					"name" : "y[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dispCount[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dispCount[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dispCount[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dispCount[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dispCount[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dispCount[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dispCount[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dispCount[8]",
+					"strict" : false
+				},
+				{
+					"name" : "dispCount[9]",
+					"strict" : false
+				},
+				{
+					"name" : "dispPships[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dispPships[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dispPships[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dispPships[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dispPships[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dispPships[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dispPships[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dispEships[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dispEships[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dispEships[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dispEships[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dispEships[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dispEships[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dispEships[6]",
+					"strict" : false
+				},
+				{
 					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "mov[0]",
+					"strict" : false
+				},
+				{
+					"name" : "mov[3]",
+					"strict" : false
+				},
+				{
+					"name" : "mov[1]",
+					"strict" : false
+				},
+				{
+					"name" : "mov[2]",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "shipQ[2]",
+					"strict" : false
+				},
+				{
+					"name" : "shipQ[1]",
+					"strict" : false
+				},
+				{
+					"name" : "shipQ[0]",
+					"strict" : false
+				},
+				{
+					"name" : "confirm",
 					"strict" : false
 				}
 			]

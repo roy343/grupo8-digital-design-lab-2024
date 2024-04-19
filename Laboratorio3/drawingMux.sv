@@ -84,7 +84,7 @@ module drawingMux(
 
 			
 			
-			default  : out_rgb <= 24'b101110001000011000001011;
+			default  : out_rgb <= 24'b000000000000000000000000;
 			
 			endcase
 		end

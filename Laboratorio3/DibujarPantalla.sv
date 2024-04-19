@@ -1,7 +1,7 @@
 module DibujarPantalla(
 	input logic reset, win, lose,
 	input logic [9:0] hs, vs,
-	input logic [4:0][9:0] states, // 
+	input logic [2:0] states[4:0][9:0], // 
 	output logic [7:0] r, g, b
 );
 	

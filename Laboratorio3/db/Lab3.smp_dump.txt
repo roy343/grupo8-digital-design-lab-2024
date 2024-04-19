@@ -1,0 +1,10 @@
+
+State Machine - |BattleshipMain|battleship:gameFSM|state
+Name state.END state.CHECK_LOSE state.PLAYE state.CHECK_WIN state.PLAYP state.PLACESHIP state.SELSHIPQ 
+state.SELSHIPQ 0 0 0 0 0 0 0 
+state.PLACESHIP 0 0 0 0 0 1 1 
+state.PLAYP 0 0 0 0 1 0 1 
+state.CHECK_WIN 0 0 0 1 0 0 1 
+state.PLAYE 0 0 1 0 0 0 1 
+state.CHECK_LOSE 0 1 0 0 0 0 1 
+state.END 1 0 0 0 0 0 1 
