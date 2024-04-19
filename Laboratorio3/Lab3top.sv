@@ -94,8 +94,9 @@ module Lab3top(
 				((447 < next_x < 480) && (351 < next_y < 448)) || ((511 < next_x < 543) && (351 < next_y < 448)) ||
 				((479 < next_x < 512) && (415 < next_y < 448))) begin
 					pixel_color = 8'b00000000; // black
+				end else begin
+					pixel_color = 8'b11111111; // white
 				end
-				
         end
 		end
 	end
