@@ -120,6 +120,18 @@
 					"strict" : false
 				},
 				{
+					"name" : "state[0]",
+					"strict" : false
+				},
+				{
+					"name" : "state[1]",
+					"strict" : false
+				},
+				{
+					"name" : "state[2]",
+					"strict" : false
+				},
+				{
 					"name" : "x[0]",
 					"strict" : false
 				},
@@ -240,6 +252,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
 					"name" : "mov[0]",
 					"strict" : false
 				},
@@ -253,10 +269,6 @@
 				},
 				{
 					"name" : "mov[2]",
-					"strict" : false
-				},
-				{
-					"name" : "reset",
 					"strict" : false
 				},
 				{

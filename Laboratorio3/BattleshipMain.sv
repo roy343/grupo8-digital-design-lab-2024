@@ -6,6 +6,7 @@ module BattleshipMain(
 	output logic hSync,vSync,syncBlank,bSync,
 	output logic [7:0]red,green,blue,
 	output logic clk25,
+	output logic [2:0] state,
 	output logic [2:0] x = 0,
 	output logic [2:0] y = 0,
 	output logic [13:0] dispCount, dispPships, dispEships
@@ -57,6 +58,7 @@ module BattleshipMain(
 	 .confirm(confirm),
     .shipQ(shipQ),
     .mov(~mov),
+	 .state(state),
 	 .x(x),
 	 .y(y),
     .boardP(playerBoard),

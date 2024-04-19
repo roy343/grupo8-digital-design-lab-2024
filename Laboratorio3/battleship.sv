@@ -6,6 +6,7 @@ module battleship (
 		input logic clk, clk1, rst, confirm,
 		input logic [2:0] shipQ,
 		input logic [3:0] mov,
+		output logic [2:0] state,
 		output logic [2:0] x = 0,
 		output logic [2:0] y = 0, 
 		output logic [2:0] boardP[4:0][4:0],
@@ -15,7 +16,7 @@ module battleship (
 	);
 	
 	typedef enum logic [2:0] {SELSHIPQ, PLACESHIP, PLAYP, CHECK_WIN, PLAYE, CHECK_LOSE, END} state_t;
-	state_t state, next_state;
+	state_t next_state;
 	
 	logic [2:0] boardP_upt[4:0][4:0];
 	logic [2:0] boardPplay_upt[4:0][4:0];
