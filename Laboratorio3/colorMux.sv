@@ -1,24 +1,35 @@
-module colorMux( input logic [2:0]state,
+module colorMux( input logic [9:0]state,
 						input logic inpos,
 						output logic [23:0]rgb
 						);
 						
 		logic [23:0]out_rgb;
+		logic [0:0]flag, tierra, desbloqueado, bloqueado;
 		
-		always @(*)
-			begin
-				case({state})
-											// | ROJO | VERDE  | AZUL	
-				3'b000 : out_rgb <= 24'b000000000000000000000000; //Negro
-				3'b001 : out_rgb <= 24'b000000000110100110010100; //Azul marino - Agua
-				3'b010 : out_rgb <= 24'b011001100110011001100110; //Azul oscuro - Golpe en agua
-				3'b011 : out_rgb <= 24'b100000001000000010000000; //Gris - Barco
-				3'b100 : out_rgb <= 24'b001000000010000000100000; //Gris oscuro - Golpe en barco
+		assign flag = state[4];
+		assign tierra = state[5];
+		assign desbloqueado = state[6];
+		assign bloqueado = state[7];
 
-				                        
-				default : out_rgb <= 24'b000000000000000000000000;
+		always @(*)
+		
+			if(flag == 1'b1)	begin
+				out_rgb <= 24'b111111110000000000000000; //rojo
 				
-				endcase
+			end else if(tierra == 1'b1) begin
+			
+				out_rgb <= 24'b101110001000011000001011; //oro oscuro
+			
+			end else if(desbloqueado == 1'b1) begin
+			
+				out_rgb <= 24'b000000000000000011111111; //azul
+			
+			end else if(bloqueado == 1'b1) begin
+			
+				out_rgb <= 24'b110000000000000011000000; //morado
+			
+			end else	begin
+				out_rgb <= 24'b000000000000000011111111;
 			end
 			
 		assign rgb = out_rgb; 

@@ -1,6 +1,6 @@
 Analysis & Synthesis report for Lab3
-Wed Apr 17 18:27:24 2024
-Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
+Fri Apr 19 01:33:16 2024
+Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
 ---------------------
@@ -14,43 +14,68 @@ Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. General Register Statistics
-  9. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion24"
- 10. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion23"
- 11. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion22"
- 12. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion21"
- 13. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion20"
- 14. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion19"
- 15. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion18"
- 16. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion17"
- 17. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion16"
- 18. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion15"
- 19. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion14"
- 20. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion13"
- 21. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion12"
- 22. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion11"
- 23. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion10"
- 24. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion9"
- 25. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion8"
- 26. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion7"
- 27. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion6"
- 28. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion5"
- 29. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion4"
- 30. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion3"
- 31. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion2"
- 32. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion1"
- 33. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion0"
- 34. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib"
- 35. Port Connectivity Checks: "VGAMain:VGA"
- 36. Post-Synthesis Netlist Statistics for Top Partition
- 37. Elapsed Time Per Partition
- 38. Analysis & Synthesis Messages
+  9. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion49"
+ 10. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion48"
+ 11. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion47"
+ 12. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion46"
+ 13. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion45"
+ 14. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion44"
+ 15. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion43"
+ 16. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion42"
+ 17. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion41"
+ 18. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion40"
+ 19. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion39"
+ 20. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion38"
+ 21. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion37"
+ 22. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion36"
+ 23. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion35"
+ 24. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion34"
+ 25. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion33"
+ 26. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion32"
+ 27. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion31"
+ 28. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion30"
+ 29. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion29"
+ 30. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion28"
+ 31. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion27"
+ 32. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion26"
+ 33. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion25"
+ 34. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion24"
+ 35. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion23"
+ 36. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion22"
+ 37. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion21"
+ 38. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion20"
+ 39. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion19"
+ 40. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion18"
+ 41. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion17"
+ 42. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion16"
+ 43. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion15"
+ 44. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion14"
+ 45. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion13"
+ 46. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion12"
+ 47. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion11"
+ 48. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion10"
+ 49. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion9"
+ 50. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion8"
+ 51. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion7"
+ 52. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion6"
+ 53. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion5"
+ 54. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion4"
+ 55. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion3"
+ 56. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion2"
+ 57. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion1"
+ 58. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion0"
+ 59. Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib"
+ 60. Port Connectivity Checks: "VGAMain:VGA"
+ 61. Post-Synthesis Netlist Statistics for Top Partition
+ 62. Elapsed Time Per Partition
+ 63. Analysis & Synthesis Messages
 
 
 
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2023  Intel Corporation. All rights reserved.
+Copyright (C) 2022  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
@@ -70,13 +95,13 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +---------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Wed Apr 17 18:27:24 2024          ;
-; Quartus Prime Version           ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
+; Analysis & Synthesis Status     ; Successful - Fri Apr 19 01:33:16 2024          ;
+; Quartus Prime Version           ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                   ; Lab3                                           ;
 ; Top-level Entity Name           ; BattleshipMain                                 ;
 ; Family                          ; Cyclone V                                      ;
 ; Logic utilization (in ALMs)     ; N/A                                            ;
-; Total registers                 ; 31                                             ;
+; Total registers                 ; 22                                             ;
 ; Total pins                      ; 30                                             ;
 ; Total virtual pins              ; 0                                              ;
 ; Total block memory bits         ; 0                                              ;
@@ -194,47 +219,47 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                           ;
-+----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                                       ; Library ;
-+----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------------------------------------------+---------+
-; VGAMain.sv                       ; yes             ; User SystemVerilog HDL File  ; C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGAMain.sv             ;         ;
-; VGAController.sv                 ; yes             ; User SystemVerilog HDL File  ; C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGAController.sv       ;         ;
-; Verifica_posiciones.sv           ; yes             ; User SystemVerilog HDL File  ; C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv ;         ;
-; drawingMux.sv                    ; yes             ; User SystemVerilog HDL File  ; C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/drawingMux.sv          ;         ;
-; DibujarPantalla.sv               ; yes             ; User SystemVerilog HDL File  ; C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv     ;         ;
-; colorMux.sv                      ; yes             ; User SystemVerilog HDL File  ; C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/colorMux.sv            ;         ;
-; clockDivider.sv                  ; yes             ; User SystemVerilog HDL File  ; C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/clockDivider.sv        ;         ;
-; BattleshipMain.sv                ; yes             ; User SystemVerilog HDL File  ; C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/BattleshipMain.sv      ;         ;
-+----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                                               ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                                                                           ; Library ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; VGAMain.sv                       ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/VGAMain.sv             ;         ;
+; VGAController.sv                 ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/VGAController.sv       ;         ;
+; Verifica_posiciones.sv           ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv ;         ;
+; drawingMux.sv                    ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv          ;         ;
+; DibujarPantalla.sv               ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv     ;         ;
+; colorMux.sv                      ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/colorMux.sv            ;         ;
+; clockDivider.sv                  ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/clockDivider.sv        ;         ;
+; BattleshipMain.sv                ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/BattleshipMain.sv      ;         ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
 
 
-+---------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary                                                                   ;
-+---------------------------------------------+-----------------------------------------------------------------+
-; Resource                                    ; Usage                                                           ;
-+---------------------------------------------+-----------------------------------------------------------------+
-; Estimate of Logic utilization (ALMs needed) ; 59                                                              ;
-;                                             ;                                                                 ;
-; Combinational ALUT usage for logic          ; 96                                                              ;
-;     -- 7 input functions                    ; 4                                                               ;
-;     -- 6 input functions                    ; 17                                                              ;
-;     -- 5 input functions                    ; 12                                                              ;
-;     -- 4 input functions                    ; 15                                                              ;
-;     -- <=3 input functions                  ; 48                                                              ;
-;                                             ;                                                                 ;
-; Dedicated logic registers                   ; 31                                                              ;
-;                                             ;                                                                 ;
-; I/O pins                                    ; 30                                                              ;
-;                                             ;                                                                 ;
-; Total DSP Blocks                            ; 0                                                               ;
-;                                             ;                                                                 ;
-; Maximum fan-out node                        ; VGAMain:VGA|DibujarPantalla:dib|drawingMux:draw_mux|WideNor0~14 ;
-; Maximum fan-out                             ; 24                                                              ;
-; Total fan-out                               ; 501                                                             ;
-; Average fan-out                             ; 2.68                                                            ;
-+---------------------------------------------+-----------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                                                                          ;
++---------------------------------------------+------------------------------------------------------------------------+
+; Resource                                    ; Usage                                                                  ;
++---------------------------------------------+------------------------------------------------------------------------+
+; Estimate of Logic utilization (ALMs needed) ; 120                                                                    ;
+;                                             ;                                                                        ;
+; Combinational ALUT usage for logic          ; 192                                                                    ;
+;     -- 7 input functions                    ; 2                                                                      ;
+;     -- 6 input functions                    ; 45                                                                     ;
+;     -- 5 input functions                    ; 54                                                                     ;
+;     -- 4 input functions                    ; 51                                                                     ;
+;     -- <=3 input functions                  ; 40                                                                     ;
+;                                             ;                                                                        ;
+; Dedicated logic registers                   ; 22                                                                     ;
+;                                             ;                                                                        ;
+; I/O pins                                    ; 30                                                                     ;
+;                                             ;                                                                        ;
+; Total DSP Blocks                            ; 0                                                                      ;
+;                                             ;                                                                        ;
+; Maximum fan-out node                        ; VGAMain:VGA|DibujarPantalla:dib|Verifica_posiciones:verifica|pos[48]~2 ;
+; Maximum fan-out                             ; 39                                                                     ;
+; Total fan-out                               ; 977                                                                    ;
+; Average fan-out                             ; 3.57                                                                   ;
++---------------------------------------------+------------------------------------------------------------------------+
 
 
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -242,13 +267,13 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------+---------------------+--------------+
 ; Compilation Hierarchy Node              ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                          ; Entity Name         ; Library Name ;
 +-----------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------+---------------------+--------------+
-; |BattleshipMain                         ; 96 (0)              ; 31 (0)                    ; 0                 ; 0          ; 30   ; 0            ; |BattleshipMain                                                              ; BattleshipMain      ; work         ;
-;    |VGAMain:VGA|                        ; 96 (0)              ; 31 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |BattleshipMain|VGAMain:VGA                                                  ; VGAMain             ; work         ;
-;       |DibujarPantalla:dib|             ; 51 (8)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |BattleshipMain|VGAMain:VGA|DibujarPantalla:dib                              ; DibujarPantalla     ; work         ;
-;          |Verifica_posiciones:verifica| ; 28 (28)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |BattleshipMain|VGAMain:VGA|DibujarPantalla:dib|Verifica_posiciones:verifica ; Verifica_posiciones ; work         ;
-;          |drawingMux:draw_mux|          ; 15 (15)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |BattleshipMain|VGAMain:VGA|DibujarPantalla:dib|drawingMux:draw_mux          ; drawingMux          ; work         ;
-;       |VGAController:controller|        ; 34 (34)             ; 20 (20)                   ; 0                 ; 0          ; 0    ; 0            ; |BattleshipMain|VGAMain:VGA|VGAController:controller                         ; VGAController       ; work         ;
-;       |clockDivider:div|                ; 11 (11)             ; 11 (11)                   ; 0                 ; 0          ; 0    ; 0            ; |BattleshipMain|VGAMain:VGA|clockDivider:div                                 ; clockDivider        ; work         ;
+; |BattleshipMain                         ; 192 (0)             ; 22 (0)                    ; 0                 ; 0          ; 30   ; 0            ; |BattleshipMain                                                              ; BattleshipMain      ; work         ;
+;    |VGAMain:VGA|                        ; 192 (0)             ; 22 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |BattleshipMain|VGAMain:VGA                                                  ; VGAMain             ; work         ;
+;       |DibujarPantalla:dib|             ; 160 (21)            ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |BattleshipMain|VGAMain:VGA|DibujarPantalla:dib                              ; DibujarPantalla     ; work         ;
+;          |Verifica_posiciones:verifica| ; 37 (37)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |BattleshipMain|VGAMain:VGA|DibujarPantalla:dib|Verifica_posiciones:verifica ; Verifica_posiciones ; work         ;
+;          |drawingMux:draw_mux|          ; 102 (102)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |BattleshipMain|VGAMain:VGA|DibujarPantalla:dib|drawingMux:draw_mux          ; drawingMux          ; work         ;
+;       |VGAController:controller|        ; 31 (31)             ; 20 (20)                   ; 0                 ; 0          ; 0    ; 0            ; |BattleshipMain|VGAMain:VGA|VGAController:controller                         ; VGAController       ; work         ;
+;       |clockDivider:div|                ; 1 (1)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |BattleshipMain|VGAMain:VGA|clockDivider:div                                 ; clockDivider        ; work         ;
 +-----------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -258,7 +283,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 31    ;
+; Total registers                              ; 22    ;
 ; Number of registers using Synchronous Clear  ; 20    ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
@@ -268,257 +293,598 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion24"                                                                                                                              ;
-+-------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port  ; Type   ; Severity ; Details                                                                                                                                                                          ;
-+-------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; state ; Input  ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; rgb   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                                                              ;
-+-------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion49"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion23"                                                                                                                             ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion48"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion22"                                                                                                                             ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion47"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion21"                                                                                                                             ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion46"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion20"                                                                                                                             ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion45"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion19"                                                                                                                             ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion44"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion18"                                                                                                                             ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion43"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion17"                                                                                                                             ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion42"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion16"                                                                                                                             ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion41"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion15"                                                                                                                             ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion40"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion14"                                                                                                                             ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion39"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion13"                                                                                                                             ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion38"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion12"                                                                                                                             ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion37"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion11"                                                                                                                             ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion36"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion10"                                                                                                                             ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion35"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion9"                                                                                                                              ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion34"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion8"                                                                                                                              ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion33"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion7"                                                                                                                              ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion32"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion6"                                                                                                                              ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion31"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion5"                                                                                                                              ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion30"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion4"                                                                                                                              ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion29"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion3"                                                                                                                              ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion28"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion2"                                                                                                                              ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion27"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion1"                                                                                                                              ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion26"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion0"                                                                                                                              ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port  ; Type  ; Severity ; Details                                                                                                                                                                          ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; state ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion25"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion24"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion23"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion22"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion21"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion20"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion19"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion18"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion17"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion16"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion15"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion14"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion13"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion12"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion11"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion10"                                                                                           ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion9"                                                                                            ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion8"                                                                                            ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion7"                                                                                            ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion6"                                                                                            ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion5"                                                                                            ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion4"                                                                                            ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion3"                                                                                            ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion2"                                                                                            ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion1"                                                                                            ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion0"                                                                                            ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                        ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; state ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "state[9..1]" will be connected to GND. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +-------------------------------------------------------------+
 ; Port Connectivity Checks: "VGAMain:VGA|DibujarPantalla:dib" ;
-+-----------------+-------+----------+------------------------+
-; Port            ; Type  ; Severity ; Details                ;
-+-----------------+-------+----------+------------------------+
-; reset           ; Input ; Info     ; Stuck at GND           ;
-; win             ; Input ; Info     ; Stuck at GND           ;
-; lose            ; Input ; Info     ; Stuck at GND           ;
-; states[24..7]   ; Input ; Info     ; Stuck at GND           ;
-; states[6][3..1] ; Input ; Info     ; Stuck at GND           ;
-+-----------------+-------+----------+------------------------+
++-------+-------+----------+----------------------------------+
+; Port  ; Type  ; Severity ; Details                          ;
++-------+-------+----------+----------------------------------+
+; reset ; Input ; Info     ; Stuck at GND                     ;
+; win   ; Input ; Info     ; Stuck at GND                     ;
+; lose  ; Input ; Info     ; Stuck at GND                     ;
++-------+-------+----------+----------------------------------+
 
 
-+---------------------------------------------------+
-; Port Connectivity Checks: "VGAMain:VGA"           ;
-+-----------------+-------+----------+--------------+
-; Port            ; Type  ; Severity ; Details      ;
-+-----------------+-------+----------+--------------+
-; matrix[3..2]    ; Input ; Info     ; Stuck at VCC ;
-; matrix[4][3..0] ; Input ; Info     ; Stuck at GND ;
-; matrix[4][4]    ; Input ; Info     ; Stuck at VCC ;
-; matrix[1][3..0] ; Input ; Info     ; Stuck at VCC ;
-; matrix[1][4]    ; Input ; Info     ; Stuck at GND ;
-; matrix[0]       ; Input ; Info     ; Stuck at GND ;
-+-----------------+-------+----------+--------------+
++----------------------------------------------------+
+; Port Connectivity Checks: "VGAMain:VGA"            ;
++------------------+-------+----------+--------------+
+; Port             ; Type  ; Severity ; Details      ;
++------------------+-------+----------+--------------+
+; matrix[24][5..4] ; Input ; Info     ; Stuck at VCC ;
+; matrix[24][1..0] ; Input ; Info     ; Stuck at VCC ;
+; matrix[24][8..6] ; Input ; Info     ; Stuck at GND ;
+; matrix[24][3..2] ; Input ; Info     ; Stuck at GND ;
+; matrix[24][9]    ; Input ; Info     ; Stuck at VCC ;
+; matrix[23][5..4] ; Input ; Info     ; Stuck at VCC ;
+; matrix[23][1..0] ; Input ; Info     ; Stuck at VCC ;
+; matrix[23][8..6] ; Input ; Info     ; Stuck at GND ;
+; matrix[23][3..2] ; Input ; Info     ; Stuck at GND ;
+; matrix[23][9]    ; Input ; Info     ; Stuck at VCC ;
+; matrix[22][5..4] ; Input ; Info     ; Stuck at VCC ;
+; matrix[22][1..0] ; Input ; Info     ; Stuck at VCC ;
+; matrix[22][8..6] ; Input ; Info     ; Stuck at GND ;
+; matrix[22][3..2] ; Input ; Info     ; Stuck at GND ;
+; matrix[22][9]    ; Input ; Info     ; Stuck at VCC ;
+; matrix[21][5..4] ; Input ; Info     ; Stuck at VCC ;
+; matrix[21][1..0] ; Input ; Info     ; Stuck at VCC ;
+; matrix[21][8..6] ; Input ; Info     ; Stuck at GND ;
+; matrix[21][3..2] ; Input ; Info     ; Stuck at GND ;
+; matrix[21][9]    ; Input ; Info     ; Stuck at VCC ;
+; matrix[20][5..4] ; Input ; Info     ; Stuck at VCC ;
+; matrix[20][1..0] ; Input ; Info     ; Stuck at VCC ;
+; matrix[20][8..6] ; Input ; Info     ; Stuck at GND ;
+; matrix[20][3..2] ; Input ; Info     ; Stuck at GND ;
+; matrix[20][9]    ; Input ; Info     ; Stuck at VCC ;
+; matrix[19][5..4] ; Input ; Info     ; Stuck at VCC ;
+; matrix[19][1..0] ; Input ; Info     ; Stuck at VCC ;
+; matrix[19][8..6] ; Input ; Info     ; Stuck at GND ;
+; matrix[19][3..2] ; Input ; Info     ; Stuck at GND ;
+; matrix[19][9]    ; Input ; Info     ; Stuck at VCC ;
+; matrix[18][5..4] ; Input ; Info     ; Stuck at VCC ;
+; matrix[18][1..0] ; Input ; Info     ; Stuck at VCC ;
+; matrix[18][8..6] ; Input ; Info     ; Stuck at GND ;
+; matrix[18][3..2] ; Input ; Info     ; Stuck at GND ;
+; matrix[18][9]    ; Input ; Info     ; Stuck at VCC ;
+; matrix[17][5..4] ; Input ; Info     ; Stuck at VCC ;
+; matrix[17][1..0] ; Input ; Info     ; Stuck at VCC ;
+; matrix[17][8..6] ; Input ; Info     ; Stuck at GND ;
+; matrix[17][3..2] ; Input ; Info     ; Stuck at GND ;
+; matrix[17][9]    ; Input ; Info     ; Stuck at VCC ;
+; matrix[16][5..4] ; Input ; Info     ; Stuck at VCC ;
+; matrix[16][1..0] ; Input ; Info     ; Stuck at VCC ;
+; matrix[16][8..6] ; Input ; Info     ; Stuck at GND ;
+; matrix[16][3..2] ; Input ; Info     ; Stuck at GND ;
+; matrix[16][9]    ; Input ; Info     ; Stuck at VCC ;
+; matrix[15][5..4] ; Input ; Info     ; Stuck at VCC ;
+; matrix[15][1..0] ; Input ; Info     ; Stuck at VCC ;
+; matrix[15][8..6] ; Input ; Info     ; Stuck at GND ;
+; matrix[15][3..2] ; Input ; Info     ; Stuck at GND ;
+; matrix[15][9]    ; Input ; Info     ; Stuck at VCC ;
+; matrix[14][5..4] ; Input ; Info     ; Stuck at VCC ;
+; matrix[14][1..0] ; Input ; Info     ; Stuck at VCC ;
+; matrix[14][8..6] ; Input ; Info     ; Stuck at GND ;
+; matrix[14][3..2] ; Input ; Info     ; Stuck at GND ;
+; matrix[14][9]    ; Input ; Info     ; Stuck at VCC ;
+; matrix[13][5..4] ; Input ; Info     ; Stuck at VCC ;
+; matrix[13][1..0] ; Input ; Info     ; Stuck at VCC ;
+; matrix[13][8..6] ; Input ; Info     ; Stuck at GND ;
+; matrix[13][3..2] ; Input ; Info     ; Stuck at GND ;
+; matrix[13][9]    ; Input ; Info     ; Stuck at VCC ;
+; matrix[12][5..4] ; Input ; Info     ; Stuck at VCC ;
+; matrix[12][1..0] ; Input ; Info     ; Stuck at VCC ;
+; matrix[12][8..6] ; Input ; Info     ; Stuck at GND ;
+; matrix[12][3..2] ; Input ; Info     ; Stuck at GND ;
+; matrix[12][9]    ; Input ; Info     ; Stuck at VCC ;
+; matrix[11][5..4] ; Input ; Info     ; Stuck at VCC ;
+; matrix[11][1..0] ; Input ; Info     ; Stuck at VCC ;
+; matrix[11][8..6] ; Input ; Info     ; Stuck at GND ;
+; matrix[11][3..2] ; Input ; Info     ; Stuck at GND ;
+; matrix[11][9]    ; Input ; Info     ; Stuck at VCC ;
+; matrix[10][5..4] ; Input ; Info     ; Stuck at VCC ;
+; matrix[10][1..0] ; Input ; Info     ; Stuck at VCC ;
+; matrix[10][8..6] ; Input ; Info     ; Stuck at GND ;
+; matrix[10][3..2] ; Input ; Info     ; Stuck at GND ;
+; matrix[10][9]    ; Input ; Info     ; Stuck at VCC ;
+; matrix[9][5..4]  ; Input ; Info     ; Stuck at VCC ;
+; matrix[9][1..0]  ; Input ; Info     ; Stuck at VCC ;
+; matrix[9][8..6]  ; Input ; Info     ; Stuck at GND ;
+; matrix[9][3..2]  ; Input ; Info     ; Stuck at GND ;
+; matrix[9][9]     ; Input ; Info     ; Stuck at VCC ;
+; matrix[8][5..4]  ; Input ; Info     ; Stuck at VCC ;
+; matrix[8][1..0]  ; Input ; Info     ; Stuck at VCC ;
+; matrix[8][8..6]  ; Input ; Info     ; Stuck at GND ;
+; matrix[8][3..2]  ; Input ; Info     ; Stuck at GND ;
+; matrix[8][9]     ; Input ; Info     ; Stuck at VCC ;
+; matrix[7][5..4]  ; Input ; Info     ; Stuck at VCC ;
+; matrix[7][1..0]  ; Input ; Info     ; Stuck at VCC ;
+; matrix[7][8..6]  ; Input ; Info     ; Stuck at GND ;
+; matrix[7][3..2]  ; Input ; Info     ; Stuck at GND ;
+; matrix[7][9]     ; Input ; Info     ; Stuck at VCC ;
+; matrix[6][5..4]  ; Input ; Info     ; Stuck at VCC ;
+; matrix[6][1..0]  ; Input ; Info     ; Stuck at VCC ;
+; matrix[6][8..6]  ; Input ; Info     ; Stuck at GND ;
+; matrix[6][3..2]  ; Input ; Info     ; Stuck at GND ;
+; matrix[6][9]     ; Input ; Info     ; Stuck at VCC ;
+; matrix[5][5..4]  ; Input ; Info     ; Stuck at VCC ;
+; matrix[5][1..0]  ; Input ; Info     ; Stuck at VCC ;
+; matrix[5][8..6]  ; Input ; Info     ; Stuck at GND ;
+; matrix[5][3..2]  ; Input ; Info     ; Stuck at GND ;
+; matrix[5][9]     ; Input ; Info     ; Stuck at VCC ;
+; matrix[4][5..4]  ; Input ; Info     ; Stuck at VCC ;
+; matrix[4][1..0]  ; Input ; Info     ; Stuck at VCC ;
+; matrix[4][8..6]  ; Input ; Info     ; Stuck at GND ;
+; matrix[4][3..2]  ; Input ; Info     ; Stuck at GND ;
+; matrix[4][9]     ; Input ; Info     ; Stuck at VCC ;
+; matrix[3][5..4]  ; Input ; Info     ; Stuck at VCC ;
+; matrix[3][1..0]  ; Input ; Info     ; Stuck at VCC ;
+; matrix[3][8..6]  ; Input ; Info     ; Stuck at GND ;
+; matrix[3][3..2]  ; Input ; Info     ; Stuck at GND ;
+; matrix[3][9]     ; Input ; Info     ; Stuck at VCC ;
+; matrix[2][5..4]  ; Input ; Info     ; Stuck at VCC ;
+; matrix[2][1..0]  ; Input ; Info     ; Stuck at VCC ;
+; matrix[2][8..6]  ; Input ; Info     ; Stuck at GND ;
+; matrix[2][3..2]  ; Input ; Info     ; Stuck at GND ;
+; matrix[2][9]     ; Input ; Info     ; Stuck at VCC ;
+; matrix[1][5..4]  ; Input ; Info     ; Stuck at VCC ;
+; matrix[1][1..0]  ; Input ; Info     ; Stuck at VCC ;
+; matrix[1][8..6]  ; Input ; Info     ; Stuck at GND ;
+; matrix[1][3..2]  ; Input ; Info     ; Stuck at GND ;
+; matrix[1][9]     ; Input ; Info     ; Stuck at VCC ;
+; matrix[0][5..4]  ; Input ; Info     ; Stuck at VCC ;
+; matrix[0][1..0]  ; Input ; Info     ; Stuck at VCC ;
+; matrix[0][8..6]  ; Input ; Info     ; Stuck at GND ;
+; matrix[0][3..2]  ; Input ; Info     ; Stuck at GND ;
+; matrix[0][9]     ; Input ; Info     ; Stuck at VCC ;
++------------------+-------+----------+--------------+
 
 
 +-----------------------------------------------------+
@@ -526,28 +892,26 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_ff             ; 31                          ;
+; arriav_ff             ; 22                          ;
 ;     ENA SCLR          ; 10                          ;
 ;     SCLR              ; 10                          ;
-;     plain             ; 11                          ;
-; arriav_lcell_comb     ; 98                          ;
-;     arith             ; 30                          ;
-;         0 data inputs ; 1                           ;
-;         1 data inputs ; 28                          ;
-;         2 data inputs ; 1                           ;
-;     extend            ; 4                           ;
-;         7 data inputs ; 4                           ;
-;     normal            ; 64                          ;
+;     plain             ; 2                           ;
+; arriav_lcell_comb     ; 194                         ;
+;     arith             ; 20                          ;
+;         1 data inputs ; 20                          ;
+;     extend            ; 2                           ;
+;         7 data inputs ; 2                           ;
+;     normal            ; 172                         ;
 ;         1 data inputs ; 3                           ;
-;         2 data inputs ; 9                           ;
-;         3 data inputs ; 8                           ;
-;         4 data inputs ; 15                          ;
-;         5 data inputs ; 12                          ;
-;         6 data inputs ; 17                          ;
+;         2 data inputs ; 10                          ;
+;         3 data inputs ; 9                           ;
+;         4 data inputs ; 51                          ;
+;         5 data inputs ; 54                          ;
+;         6 data inputs ; 45                          ;
 ; boundary_port         ; 30                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 6.00                        ;
-; Average LUT depth     ; 4.15                        ;
+; Max LUT depth         ; 8.00                        ;
+; Average LUT depth     ; 6.74                        ;
 +-----------------------+-----------------------------+
 
 
@@ -556,7 +920,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:02     ;
 +----------------+--------------+
 
 
@@ -565,103 +929,156 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
-    Info: Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
-    Info: Processing started: Wed Apr 17 18:27:19 2024
+    Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+    Info: Processing started: Fri Apr 19 01:33:07 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Lab3 -c Lab3
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file vgamain.sv
-    Info (12023): Found entity 1: VGAMain File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGAMain.sv Line: 1
+    Info (12023): Found entity 1: VGAMain File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/VGAMain.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file vgacontroller.sv
-    Info (12023): Found entity 1: VGAController File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGAController.sv Line: 1
+    Info (12023): Found entity 1: VGAController File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/VGAController.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file verifica_posiciones.sv
-    Info (12023): Found entity 1: Verifica_posiciones File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 1
+    Info (12023): Found entity 1: Verifica_posiciones File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file drawingmux.sv
-    Info (12023): Found entity 1: drawingMux File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 1
+    Info (12023): Found entity 1: drawingMux File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file dibujarpantalla.sv
-    Info (12023): Found entity 1: DibujarPantalla File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv Line: 1
+    Info (12023): Found entity 1: DibujarPantalla File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file colormux.sv
-    Info (12023): Found entity 1: colorMux File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/colorMux.sv Line: 1
+    Info (12023): Found entity 1: colorMux File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/colorMux.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file clockdivider.sv
-    Info (12023): Found entity 1: clockDivider File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/clockDivider.sv Line: 1
+    Info (12023): Found entity 1: clockDivider File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/clockDivider.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file battleshipmain.sv
-    Info (12023): Found entity 1: BattleshipMain File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/BattleshipMain.sv Line: 1
-Warning (10236): Verilog HDL Implicit Net warning at VGAMain.sv(18): created implicit net for "reset" File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGAMain.sv Line: 18
-Warning (10236): Verilog HDL Implicit Net warning at VGAMain.sv(18): created implicit net for "win" File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGAMain.sv Line: 18
-Warning (10236): Verilog HDL Implicit Net warning at VGAMain.sv(18): created implicit net for "lose" File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGAMain.sv Line: 18
-Warning (10236): Verilog HDL Implicit Net warning at DibujarPantalla.sv(12): created implicit net for "lines" File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv Line: 12
+    Info (12023): Found entity 1: BattleshipMain File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/BattleshipMain.sv Line: 1
+Warning (10236): Verilog HDL Implicit Net warning at VGAMain.sv(17): created implicit net for "reset" File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/VGAMain.sv Line: 17
+Warning (10236): Verilog HDL Implicit Net warning at VGAMain.sv(17): created implicit net for "win" File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/VGAMain.sv Line: 17
+Warning (10236): Verilog HDL Implicit Net warning at VGAMain.sv(17): created implicit net for "lose" File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/VGAMain.sv Line: 17
+Warning (10236): Verilog HDL Implicit Net warning at DibujarPantalla.sv(11): created implicit net for "lines" File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv Line: 11
 Info (12127): Elaborating entity "BattleshipMain" for the top level hierarchy
-Info (12128): Elaborating entity "VGAMain" for hierarchy "VGAMain:VGA" File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/BattleshipMain.sv Line: 27
-Warning (10030): Net "reset" at VGAMain.sv(18) has no driver or initial value, using a default initial value '0' File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGAMain.sv Line: 18
-Warning (10030): Net "win" at VGAMain.sv(18) has no driver or initial value, using a default initial value '0' File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGAMain.sv Line: 18
-Warning (10030): Net "lose" at VGAMain.sv(18) has no driver or initial value, using a default initial value '0' File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGAMain.sv Line: 18
-Info (12128): Elaborating entity "clockDivider" for hierarchy "VGAMain:VGA|clockDivider:div" File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGAMain.sv Line: 14
-Info (12128): Elaborating entity "VGAController" for hierarchy "VGAMain:VGA|VGAController:controller" File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGAMain.sv Line: 16
-Info (12128): Elaborating entity "DibujarPantalla" for hierarchy "VGAMain:VGA|DibujarPantalla:dib" File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/VGAMain.sv Line: 18
-Warning (10230): Verilog HDL assignment warning at DibujarPantalla.sv(12): truncated value with size 32 to match size of target (1) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv Line: 12
-Info (12128): Elaborating entity "Verifica_posiciones" for hierarchy "VGAMain:VGA|DibujarPantalla:dib|Verifica_posiciones:verifica" File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv Line: 15
-Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(9): truncated value with size 32 to match size of target (1) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 9
-Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(11): truncated value with size 32 to match size of target (1) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 11
-Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(13): truncated value with size 32 to match size of target (1) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 13
-Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(15): truncated value with size 32 to match size of target (1) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 15
-Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(17): truncated value with size 32 to match size of target (1) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 17
-Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(19): truncated value with size 32 to match size of target (1) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 19
-Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(21): truncated value with size 32 to match size of target (1) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 21
-Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(23): truncated value with size 32 to match size of target (1) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 23
-Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(25): truncated value with size 32 to match size of target (1) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 25
-Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(27): truncated value with size 32 to match size of target (1) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 27
-Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(29): truncated value with size 32 to match size of target (1) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 29
-Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(31): truncated value with size 32 to match size of target (1) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 31
-Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(33): truncated value with size 32 to match size of target (1) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 33
-Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(35): truncated value with size 32 to match size of target (1) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 35
-Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(37): truncated value with size 32 to match size of target (1) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 37
-Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(39): truncated value with size 32 to match size of target (1) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 39
-Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(41): truncated value with size 32 to match size of target (1) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 41
-Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(43): truncated value with size 32 to match size of target (1) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 43
-Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(45): truncated value with size 32 to match size of target (1) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 45
-Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(47): truncated value with size 32 to match size of target (1) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 47
-Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(49): truncated value with size 32 to match size of target (1) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 49
-Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(51): truncated value with size 32 to match size of target (1) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 51
-Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(53): truncated value with size 32 to match size of target (1) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 53
-Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(55): truncated value with size 32 to match size of target (1) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 55
-Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(57): truncated value with size 32 to match size of target (1) File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 57
-Info (12128): Elaborating entity "colorMux" for hierarchy "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion0" File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv Line: 17
-Info (12128): Elaborating entity "drawingMux" for hierarchy "VGAMain:VGA|DibujarPantalla:dib|drawingMux:draw_mux" File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv Line: 55
-Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(21): variable "rgb0" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 21
-Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(22): variable "rgb1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 22
-Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(23): variable "rgb2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 23
-Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(24): variable "rgb3" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 24
-Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(25): variable "rgb4" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 25
-Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(26): variable "rgb5" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 26
-Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(27): variable "rgb6" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 27
-Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(28): variable "rgb7" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 28
-Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(29): variable "rgb8" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 29
-Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(30): variable "rgb9" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 30
-Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(31): variable "rgb10" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 31
-Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(32): variable "rgb11" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 32
-Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(33): variable "rgb12" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 33
-Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(34): variable "rgb13" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 34
-Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(35): variable "rgb14" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 35
-Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(36): variable "rgb16" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 36
-Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(37): variable "rgb17" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 37
-Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(38): variable "rgb18" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 38
-Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(39): variable "rgb19" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 39
-Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(40): variable "rgb20" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 40
-Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(41): variable "rgb21" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 41
-Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(42): variable "rgb22" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 42
-Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(43): variable "rgb23" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/spark/OneDrive/Escritorio/Proyecto/rchavarria-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 43
-Warning (12241): 25 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Info (12128): Elaborating entity "VGAMain" for hierarchy "VGAMain:VGA" File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/BattleshipMain.sv Line: 75
+Warning (10030): Net "reset" at VGAMain.sv(17) has no driver or initial value, using a default initial value '0' File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/VGAMain.sv Line: 17
+Warning (10030): Net "win" at VGAMain.sv(17) has no driver or initial value, using a default initial value '0' File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/VGAMain.sv Line: 17
+Warning (10030): Net "lose" at VGAMain.sv(17) has no driver or initial value, using a default initial value '0' File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/VGAMain.sv Line: 17
+Info (12128): Elaborating entity "clockDivider" for hierarchy "VGAMain:VGA|clockDivider:div" File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/VGAMain.sv Line: 13
+Info (12128): Elaborating entity "VGAController" for hierarchy "VGAMain:VGA|VGAController:controller" File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/VGAMain.sv Line: 15
+Info (12128): Elaborating entity "DibujarPantalla" for hierarchy "VGAMain:VGA|DibujarPantalla:dib" File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/VGAMain.sv Line: 17
+Warning (10230): Verilog HDL assignment warning at DibujarPantalla.sv(11): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv Line: 11
+Info (12128): Elaborating entity "Verifica_posiciones" for hierarchy "VGAMain:VGA|DibujarPantalla:dib|Verifica_posiciones:verifica" File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv Line: 36
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(7): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 7
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(8): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 8
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(9): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 9
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(10): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 10
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(11): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 11
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(15): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 15
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(16): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 16
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(17): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 17
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(18): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 18
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(19): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 19
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(26): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 26
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(27): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 27
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(28): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 28
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(29): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 29
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(30): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 30
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(34): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 34
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(35): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 35
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(36): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 36
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(37): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 37
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(38): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 38
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(44): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 44
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(45): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 45
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(46): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 46
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(47): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 47
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(48): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 48
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(52): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 52
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(53): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 53
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(54): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 54
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(55): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 55
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(56): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 56
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(60): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 60
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(61): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 61
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(62): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 62
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(63): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 63
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(64): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 64
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(68): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 68
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(69): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 69
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(70): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 70
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(71): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 71
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(72): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 72
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(76): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 76
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(77): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 77
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(78): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 78
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(79): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 79
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(80): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 80
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(83): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 83
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(84): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 84
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(85): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 85
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(86): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 86
+Warning (10230): Verilog HDL assignment warning at Verifica_posiciones.sv(87): truncated value with size 32 to match size of target (1) File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv Line: 87
+Info (12128): Elaborating entity "colorMux" for hierarchy "VGAMain:VGA|DibujarPantalla:dib|colorMux:posicion0" File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv Line: 39
+Info (12128): Elaborating entity "drawingMux" for hierarchy "VGAMain:VGA|DibujarPantalla:dib|drawingMux:draw_mux" File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv Line: 108
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(32): variable "rgb0" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 32
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(33): variable "rgb1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 33
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(34): variable "rgb2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 34
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(35): variable "rgb3" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 35
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(36): variable "rgb4" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 36
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(37): variable "rgb5" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 37
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(38): variable "rgb6" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 38
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(39): variable "rgb7" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 39
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(40): variable "rgb8" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 40
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(41): variable "rgb9" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 41
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(42): variable "rgb10" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 42
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(43): variable "rgb11" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 43
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(44): variable "rgb12" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 44
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(45): variable "rgb13" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 45
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(46): variable "rgb14" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 46
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(47): variable "rgb15" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 47
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(48): variable "rgb16" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 48
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(49): variable "rgb17" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 49
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(50): variable "rgb18" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 50
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(51): variable "rgb19" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 51
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(52): variable "rgb20" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 52
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(53): variable "rgb21" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 53
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(54): variable "rgb22" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 54
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(55): variable "rgb23" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 55
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(56): variable "rgb24" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 56
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(57): variable "rgb25" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 57
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(58): variable "rgb26" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 58
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(59): variable "rgb27" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 59
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(60): variable "rgb28" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 60
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(61): variable "rgb29" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 61
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(62): variable "rgb30" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 62
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(63): variable "rgb31" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 63
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(64): variable "rgb32" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 64
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(65): variable "rgb33" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 65
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(66): variable "rgb34" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 66
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(67): variable "rgb35" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 67
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(68): variable "rgb36" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 68
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(69): variable "rgb37" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 69
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(70): variable "rgb38" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 70
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(71): variable "rgb39" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 71
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(72): variable "rgb40" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 72
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(73): variable "rgb41" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 73
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(74): variable "rgb42" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 74
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(75): variable "rgb43" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 75
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(76): variable "rgb44" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 76
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(77): variable "rgb45" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 77
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(78): variable "rgb46" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 78
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(79): variable "rgb47" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 79
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(80): variable "rgb48" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 80
+Warning (10235): Verilog HDL Always Construct warning at drawingMux.sv(81): variable "rgb49" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 81
+Warning (10762): Verilog HDL Case Statement warning at drawingMux.sv(25): can't check case statement for completeness because the case expression has too many possible states File: C:/Users/andre/OneDrive - Estudiantes ITCR/2024/Semestre_1/Taller_de_diseno_digital/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv Line: 25
+Warning (12241): 50 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 146 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 243 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 1 input pins
     Info (21059): Implemented 29 output pins
-    Info (21061): Implemented 116 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 58 warnings
-    Info: Peak virtual memory: 4879 megabytes
-    Info: Processing ended: Wed Apr 17 18:27:24 2024
-    Info: Elapsed time: 00:00:05
-    Info: Total CPU time (on all processors): 00:00:12
+    Info (21061): Implemented 213 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 111 warnings
+    Info: Peak virtual memory: 4877 megabytes
+    Info: Processing ended: Fri Apr 19 01:33:16 2024
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:09
 
 

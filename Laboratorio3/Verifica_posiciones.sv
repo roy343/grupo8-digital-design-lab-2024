@@ -1,61 +1,91 @@
-module Verifica_posiciones(
-    input logic [9:0] sincronizacion_horizontal,
-    input logic [9:0] sincronizacion_vertical,
-    output logic [24:0] posiciones
-);
 
-
-
-assign posiciones[0]  = ((5   < sincronizacion_horizontal) & (151 > sincronizacion_horizontal) &
-                         (5   < sincronizacion_vertical)   & (110 > sincronizacion_vertical))? 1:0;
-assign posiciones[1]  = ((171 < sincronizacion_horizontal) & (311 > sincronizacion_horizontal) &
-                         (5   < sincronizacion_vertical)   & (110 > sincronizacion_vertical))? 1:0;
-assign posiciones[2]  = ((331 < sincronizacion_horizontal) & (471 > sincronizacion_horizontal) &
-                         (5   < sincronizacion_vertical)   & (110 > sincronizacion_vertical))? 1:0;
-assign posiciones[3]  = ((491 < sincronizacion_horizontal) & (631 > sincronizacion_horizontal) &
-                         (5   < sincronizacion_vertical)   & (110 > sincronizacion_vertical))? 1:0;
-assign posiciones[4]  = ((5   < sincronizacion_horizontal) & (151 > sincronizacion_horizontal) &
-                         (130 < sincronizacion_vertical)  & (230 > sincronizacion_vertical))? 1:0;
-assign posiciones[5]  = ((171 < sincronizacion_horizontal) & (311 > sincronizacion_horizontal) &
-                         (130 < sincronizacion_vertical)  & (230 > sincronizacion_vertical))? 1:0;
-assign posiciones[6]  = ((331 < sincronizacion_horizontal) & (471 > sincronizacion_horizontal) &
-                         (130 < sincronizacion_vertical)  & (230 > sincronizacion_vertical))? 1:0;
-assign posiciones[7]  = ((491 < sincronizacion_horizontal) & (631 > sincronizacion_horizontal) &
-                         (130 < sincronizacion_vertical)  & (230 > sincronizacion_vertical))? 1:0;
-assign posiciones[8]  = ((5   < sincronizacion_horizontal) & (151 > sincronizacion_horizontal) &
-                         (250 < sincronizacion_vertical)  & (350 > sincronizacion_vertical))? 1:0;
-assign posiciones[9]  = ((171 < sincronizacion_horizontal) & (311 > sincronizacion_horizontal) &
-                         (250 < sincronizacion_vertical)  & (350 > sincronizacion_vertical))? 1:0;
-assign posiciones[10] = ((331 < sincronizacion_horizontal) & (471 > sincronizacion_horizontal) &
-                         (250 < sincronizacion_vertical)  & (350 > sincronizacion_vertical))? 1:0;
-assign posiciones[11] = ((491 < sincronizacion_horizontal) & (631 > sincronizacion_horizontal) &
-                         (250 < sincronizacion_vertical)  & (350 > sincronizacion_vertical))? 1:0;
-assign posiciones[12] = ((5   < sincronizacion_horizontal) & (151 > sincronizacion_horizontal) &
-                         (375 < sincronizacion_vertical)  & (475 > sincronizacion_vertical))? 1:0;
-assign posiciones[13] = ((171 < sincronizacion_horizontal) & (311 > sincronizacion_horizontal) &
-                         (375 < sincronizacion_vertical)  & (475 > sincronizacion_vertical))? 1:0;
-assign posiciones[14] = ((331 < sincronizacion_horizontal) & (471 > sincronizacion_horizontal) &
-                         (375 < sincronizacion_vertical)  & (475 > sincronizacion_vertical))? 1:0;
-assign posiciones[15] = ((491 < sincronizacion_horizontal) & (631 > sincronizacion_horizontal) &
-                         (375 < sincronizacion_vertical)  & (475 > sincronizacion_vertical))? 1:0;
-assign posiciones[16] = ((5   < sincronizacion_horizontal) & (151 > sincronizacion_horizontal) &
-                         (5   < sincronizacion_vertical)   & (110 > sincronizacion_vertical))? 1:0;
-assign posiciones[17] = ((171 < sincronizacion_horizontal) & (311 > sincronizacion_horizontal) &
-                         (5   < sincronizacion_vertical)   & (110 > sincronizacion_vertical))? 1:0;
-assign posiciones[18] = ((331 < sincronizacion_horizontal) & (471 > sincronizacion_horizontal) &
-                         (5   < sincronizacion_vertical)   & (110 > sincronizacion_vertical))? 1:0;
-assign posiciones[19] = ((491 < sincronizacion_horizontal) & (631 > sincronizacion_horizontal) &
-                         (5   < sincronizacion_vertical)   & (110 > sincronizacion_vertical))? 1:0;
-assign posiciones[20] = ((5   < sincronizacion_horizontal) & (151 > sincronizacion_horizontal) &
-                         (130 < sincronizacion_vertical)  & (230 > sincronizacion_vertical))? 1:0;
-assign posiciones[21] = ((171 < sincronizacion_horizontal) & (311 > sincronizacion_horizontal) &
-                         (130 < sincronizacion_vertical)  & (230 > sincronizacion_vertical))? 1:0;
-assign posiciones[22] = ((331 < sincronizacion_horizontal) & (471 > sincronizacion_horizontal) &
-                         (130 < sincronizacion_vertical)  & (230 > sincronizacion_vertical))? 1:0;
-assign posiciones[23] = ((491 < sincronizacion_horizontal) & (631 > sincronizacion_horizontal) &
-                         (130 < sincronizacion_vertical)  & (230 > sincronizacion_vertical))? 1:0;
-assign posiciones[24] = ((5   < sincronizacion_horizontal) & (151 > sincronizacion_horizontal) &
-                         (250 < sincronizacion_vertical)  & (350 > sincronizacion_vertical))? 1:0;
-
+module Verifica_posiciones( input logic [9:0] hs,vs,
+					  output logic [49:0]pos);
+					  
+					  
+			//Columna 1
+			assign pos[0]  = ((5     < hs)&(59 > hs)&(5   < vs)&(95 > vs))? 1:0;
+			assign pos[8]  = ((5     < hs)&(59 > hs)&(105   < vs)&(190 > vs))? 1:0;
+			assign pos[16]  = ((5     < hs)&(59 > hs)&(200   < vs)&(285 > vs))? 1:0;
+			assign pos[24]  = ((5     < hs)&(59 > hs)&(295   < vs)&(380 > vs))? 1:0;
+			assign pos[32]  = ((5     < hs)&(59 > hs)&(390   < vs)&(475 > vs))? 1:0;
+			
+			
+			//Columna 2
+			assign pos[1]  = ((69     < hs)&(123 > hs)&(5   < vs)&(95 > vs))? 1:0;
+			assign pos[9]  = ((69     < hs)&(123 > hs)&(105   < vs)&(190 > vs))? 1:0;
+			assign pos[17]  = ((69     < hs)&(123 > hs)&(200   < vs)&(285 > vs))? 1:0;
+			assign pos[25]  = ((69     < hs)&(123 > hs)&(295   < vs)&(380 > vs))? 1:0;
+			assign pos[33]  = ((69     < hs)&(123 > hs)&(390   < vs)&(475 > vs))? 1:0;
+			
+			
+			
+			
+			
+			//Columna 3
+			assign pos[2]  = ((133     < hs)&(187 > hs)&(5   < vs)&(95 > vs))? 1:0;
+			assign pos[10]  = ((133     < hs)&(187 > hs)&(105   < vs)&(190 > vs))? 1:0;
+			assign pos[18]  = ((133     < hs)&(187 > hs)&(200   < vs)&(285 > vs))? 1:0;
+			assign pos[26]  = ((133     < hs)&(187 > hs)&(295   < vs)&(380 > vs))? 1:0;
+			assign pos[34]  = ((133     < hs)&(187 > hs)&(390   < vs)&(475 > vs))? 1:0;
+			
+			
+			//Columna 4
+			assign pos[3]  = ((197     < hs)&(251 > hs)&(5   < vs)&(95 > vs))? 1:0;
+			assign pos[11]  = ((197     < hs)&(251 > hs)&(105   < vs)&(190 > vs))? 1:0;
+			assign pos[19]  = ((197     < hs)&(251 > hs)&(200   < vs)&(285 > vs))? 1:0;
+			assign pos[27]  = ((197     < hs)&(251 > hs)&(295   < vs)&(380 > vs))? 1:0;
+			assign pos[35]  = ((197     < hs)&(251 > hs)&(390   < vs)&(475 > vs))? 1:0;
+			
+			
+			
+			
+			//Columna 5
+			assign pos[4]  = ((261     < hs)&(315 > hs)&(5   < vs)&(95 > vs))? 1:0;
+			assign pos[12]  = ((261     < hs)&(315 > hs)&(105   < vs)&(190 > vs))? 1:0;
+			assign pos[20]  = ((261     < hs)&(315 > hs)&(200   < vs)&(285 > vs))? 1:0;
+			assign pos[28]  = ((261     < hs)&(315 > hs)&(295   < vs)&(380 > vs))? 1:0;
+			assign pos[36]  = ((261     < hs)&(315 > hs)&(390   < vs)&(475 > vs))? 1:0;
+			
+			
+			//Columna 6
+			assign pos[5]  = ((325     < hs)&(379 > hs)&(5   < vs)&(95 > vs))? 1:0;
+			assign pos[13]  = ((325     < hs)&(379 > hs)&(105   < vs)&(190 > vs))? 1:0;
+			assign pos[21]  = ((325     < hs)&(379 > hs)&(200   < vs)&(285 > vs))? 1:0;
+			assign pos[29]  = ((325     < hs)&(379 > hs)&(295   < vs)&(380 > vs))? 1:0;
+			assign pos[37]  = ((325     < hs)&(379 > hs)&(390   < vs)&(475 > vs))? 1:0;
+			
+			
+			//Columna 7
+			assign pos[6]  = ((389     < hs)&(443 > hs)&(5   < vs)&(95 > vs))? 1:0;
+			assign pos[14]  = ((389     < hs)&(443 > hs)&(105   < vs)&(190 > vs))? 1:0;
+			assign pos[22]  = ((389     < hs)&(443 > hs)&(200   < vs)&(285 > vs))? 1:0;
+			assign pos[30]  = ((389     < hs)&(443 > hs)&(295   < vs)&(380 > vs))? 1:0;
+			assign pos[38]  = ((389     < hs)&(443 > hs)&(390   < vs)&(475 > vs))? 1:0;
+			
+			
+			//Columna 8
+			assign pos[7]  = ((453     < hs)&(507 > hs)&(5   < vs)&(95 > vs))? 1:0;
+			assign pos[15]  = ((453     < hs)&(507 > hs)&(105   < vs)&(190 > vs))? 1:0;
+			assign pos[23]  = ((453     < hs)&(507 > hs)&(200   < vs)&(285 > vs))? 1:0;
+			assign pos[31]  = ((453     < hs)&(507 > hs)&(295   < vs)&(380 > vs))? 1:0;
+			assign pos[39]  = ((453     < hs)&(507 > hs)&(390   < vs)&(475 > vs))? 1:0;
+			
+			
+			//Columna 9
+			assign pos[40]  = ((517     < hs)&(571 > hs)&(5   < vs)&(95 > vs))? 1:0;
+			assign pos[41]  = ((517     < hs)&(571 > hs)&(105   < vs)&(190 > vs))? 1:0;
+			assign pos[42]  = ((517     < hs)&(571 > hs)&(200   < vs)&(285 > vs))? 1:0;
+			assign pos[43]  = ((517     < hs)&(571 > hs)&(295   < vs)&(380 > vs))? 1:0;
+			assign pos[44]  = ((517     < hs)&(571 > hs)&(390   < vs)&(475 > vs))? 1:0;
+			
+			//Columna 10
+			assign pos[48]  = ((581     < hs)&(635 > hs)&(5   < vs)&(95 > vs))? 1:0;
+			assign pos[49]  = ((581     < hs)&(635 > hs)&(105   < vs)&(190 > vs))? 1:0;
+			assign pos[45]  = ((581     < hs)&(635 > hs)&(200   < vs)&(285 > vs))? 1:0;
+			assign pos[46]  = ((581     < hs)&(635 > hs)&(295   < vs)&(380 > vs))? 1:0;
+			assign pos[47]  = ((581     < hs)&(635 > hs)&(390   < vs)&(475 > vs))? 1:0;
+			
+		
 endmodule
 
