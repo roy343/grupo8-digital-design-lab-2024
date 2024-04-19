@@ -3,7 +3,7 @@
  game_state: 00 playing, 10 victory, 11 defeat
 */
 module battleship (
-		input logic clk, rst, confirm,
+		input logic clk, clk1, rst, confirm,
 		input logic [2:0] shipQ,
 		input logic [3:0] mov,
 		output logic [2:0] boardP[4:0][4:0],
@@ -68,7 +68,7 @@ module battleship (
 	);
 	
 	playTimer timer (
-	 .clk(clk),
+	 .clk(clk1),
     .startT(startT),
     .count(count)
 	);
@@ -136,14 +136,14 @@ module battleship (
 		case(state)
 		
 			SELSHIPQ: begin
+				game_state = 0;
+				
 				for (int i = 0; i < 5; i++) begin
 					 for (int j = 0; j < 5; j++) begin
 						boardP[i][j] = 0;
 						boardE[i][j] = 0;
 					 end
 				end
-				
-				game_state = 0;
 				
 				if (0 < shipQ < 6) begin
 					next_state = PLACESHIP;

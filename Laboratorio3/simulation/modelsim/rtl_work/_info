@@ -11,15 +11,15 @@ cModel Technology
 Z0 dC:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/simulation/modelsim
 vbattleship
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1713483027
+Z2 !s110 1713488977
 !i10b 1
-!s100 k35eS7P:HSE?WK^2jl7][1
+!s100 I`n7Z1gLS9<W<IcQ7<^YF1
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I4jW0V@moWiH^>zQFmB^SL0
+I_ThiXalk;n4:aUg0WQKbi2
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1713482978
+w1713488872
 8C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv
 FC:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv
 !i122 0
@@ -28,7 +28,7 @@ Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1713483027.000000
+Z6 !s108 1713488977.000000
 !s107 C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3|C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv|
 !i113 1
@@ -37,24 +37,24 @@ Z8 !s92 -sv -work work +incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital
 Z9 tCvgOpt 0
 vbattleship_tb
 R1
-Z10 !s110 1713483028
+Z10 !s110 1713488978
 !i10b 1
-!s100 L9P]T33<SZDGQX;iXYZKP0
+!s100 W3>nJz`?PWXX;=oTBJgPZ2
 R3
-I]E@niN7C^XjIR@<O6@<bh3
+IK>3lQNL_AF[T>aCBdn72K2
 R4
 S1
 R0
-w1713482328
+w1713488854
 8C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/battleship_tb.sv
 FC:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/battleship_tb.sv
 !i122 9
-L0 1 121
+L0 1 122
 R5
 r1
 !s85 0
 31
-Z11 !s108 1713483028.000000
+Z11 !s108 1713488978.000000
 !s107 C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/battleship_tb.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3|C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/battleship_tb.sv|
 !i113 1
@@ -143,7 +143,7 @@ R9
 n@envplay
 vEpos_ships
 R1
-R10
+R2
 !i10b 1
 !s100 U5;`1[51OaG457WM>P^Nh2
 R3
@@ -160,7 +160,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/Epos_ships.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3|C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/Epos_ships.sv|
 !i113 1

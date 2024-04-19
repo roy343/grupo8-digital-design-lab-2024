@@ -39,7 +39,7 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CSEMA5F31C6
-set_global_assignment -name TOP_LEVEL_ENTITY battleship
+set_global_assignment -name TOP_LEVEL_ENTITY Lab3top
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 22.1STD.2
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "21:57:55  MARCH 25, 2024"
 set_global_assignment -name LAST_QUARTUS_VERSION "22.1std.0 Lite Edition"
@@ -61,9 +61,6 @@ set_global_assignment -name SYSTEMVERILOG_FILE playTimer.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Envplay.sv
 set_global_assignment -name SYSTEMVERILOG_FILE check_win_lose.sv
 set_global_assignment -name SYSTEMVERILOG_FILE displayConverter.sv
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name SYSTEMVERILOG_FILE Ppos_ships_tb.sv
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
@@ -105,4 +102,91 @@ set_global_assignment -name EDA_TEST_BENCH_FILE Envplay_tb.sv -section_id Envpla
 set_global_assignment -name EDA_TEST_BENCH_FILE check_win_lose_tb.sv -section_id check_win_lose_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE battleship_tb.sv -section_id battleship_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE mov_control_tb.sv -section_id mov_control_tb
+set_global_assignment -name SYSTEMVERILOG_FILE clkdiv.sv
+set_global_assignment -name VERILOG_FILE vga_driver.v
+set_global_assignment -name SYSTEMVERILOG_FILE Lab3top.sv
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_J14 -to VGA_B[7]
+set_location_assignment PIN_G15 -to VGA_B[6]
+set_location_assignment PIN_F15 -to VGA_B[5]
+set_location_assignment PIN_H14 -to VGA_B[4]
+set_location_assignment PIN_F14 -to VGA_B[3]
+set_location_assignment PIN_H13 -to VGA_B[2]
+set_location_assignment PIN_G13 -to VGA_B[1]
+set_location_assignment PIN_B13 -to VGA_B[0]
+set_location_assignment PIN_F10 -to VGA_BLANK_N
+set_location_assignment PIN_A11 -to VGA_CLK
+set_location_assignment PIN_E11 -to VGA_G[7]
+set_location_assignment PIN_F11 -to VGA_G[6]
+set_location_assignment PIN_G12 -to VGA_G[5]
+set_location_assignment PIN_G11 -to VGA_G[4]
+set_location_assignment PIN_G10 -to VGA_G[3]
+set_location_assignment PIN_H12 -to VGA_G[2]
+set_location_assignment PIN_J10 -to VGA_G[1]
+set_location_assignment PIN_J9 -to VGA_G[0]
+set_location_assignment PIN_B11 -to VGA_HS
+set_location_assignment PIN_F13 -to VGA_R[7]
+set_location_assignment PIN_E12 -to VGA_R[6]
+set_location_assignment PIN_D12 -to VGA_R[5]
+set_location_assignment PIN_C12 -to VGA_R[4]
+set_location_assignment PIN_B12 -to VGA_R[3]
+set_location_assignment PIN_E13 -to VGA_R[2]
+set_location_assignment PIN_C13 -to VGA_R[1]
+set_location_assignment PIN_A13 -to VGA_R[0]
+set_location_assignment PIN_C10 -to VGA_SYNC_N
+set_location_assignment PIN_D11 -to VGA_VS
+set_location_assignment PIN_AF14 -to clk
+set_location_assignment PIN_AD10 -to confirm
+set_location_assignment PIN_AE12 -to reset
+set_location_assignment PIN_AB12 -to shipQ[0]
+set_location_assignment PIN_AC12 -to shipQ[1]
+set_location_assignment PIN_AF9 -to shipQ[2]
+set_location_assignment PIN_AA14 -to mov[0]
+set_location_assignment PIN_AA15 -to mov[1]
+set_location_assignment PIN_W15 -to mov[2]
+set_location_assignment PIN_Y16 -to mov[3]
+set_location_assignment PIN_AE26 -to dispPships[0]
+set_location_assignment PIN_AE27 -to dispPships[1]
+set_location_assignment PIN_AE28 -to dispPships[2]
+set_location_assignment PIN_AG27 -to dispPships[3]
+set_location_assignment PIN_AF28 -to dispPships[4]
+set_location_assignment PIN_AG28 -to dispPships[5]
+set_location_assignment PIN_AH28 -to dispPships[6]
+set_location_assignment PIN_AJ29 -to dispPships[7]
+set_location_assignment PIN_AH29 -to dispPships[8]
+set_location_assignment PIN_AH30 -to dispPships[9]
+set_location_assignment PIN_AG30 -to dispPships[10]
+set_location_assignment PIN_AF29 -to dispPships[11]
+set_location_assignment PIN_AF30 -to dispPships[12]
+set_location_assignment PIN_AD27 -to dispPships[13]
+set_location_assignment PIN_AA24 -to dispEships[0]
+set_location_assignment PIN_Y23 -to dispEships[1]
+set_location_assignment PIN_Y24 -to dispEships[2]
+set_location_assignment PIN_W22 -to dispEships[3]
+set_location_assignment PIN_W24 -to dispEships[4]
+set_location_assignment PIN_V23 -to dispEships[5]
+set_location_assignment PIN_W25 -to dispEships[6]
+set_location_assignment PIN_V25 -to dispEships[7]
+set_location_assignment PIN_AA28 -to dispEships[8]
+set_location_assignment PIN_Y27 -to dispEships[9]
+set_location_assignment PIN_AB27 -to dispEships[10]
+set_location_assignment PIN_AB26 -to dispEships[11]
+set_location_assignment PIN_AA26 -to dispEships[12]
+set_location_assignment PIN_AA25 -to dispEships[13]
+set_location_assignment PIN_AB23 -to dispCount[0]
+set_location_assignment PIN_AE29 -to dispCount[1]
+set_location_assignment PIN_AD29 -to dispCount[2]
+set_location_assignment PIN_AC28 -to dispCount[3]
+set_location_assignment PIN_AD30 -to dispCount[4]
+set_location_assignment PIN_AC29 -to dispCount[5]
+set_location_assignment PIN_AC30 -to dispCount[6]
+set_location_assignment PIN_AD26 -to dispCount[7]
+set_location_assignment PIN_AC27 -to dispCount[8]
+set_location_assignment PIN_AD25 -to dispCount[9]
+set_location_assignment PIN_AC25 -to dispCount[10]
+set_location_assignment PIN_AB28 -to dispCount[11]
+set_location_assignment PIN_AB25 -to dispCount[12]
+set_location_assignment PIN_AB22 -to dispCount[13]
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

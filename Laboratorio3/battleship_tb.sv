@@ -1,5 +1,5 @@
 module battleship_tb();
-  logic clk;
+  logic clk, clk1;
   logic rst;
   logic confirm;
   logic [2:0] shipQ;
@@ -11,6 +11,7 @@ module battleship_tb();
 
   battleship dut (
     .clk(clk),
+	 .clk1(clk),
     .rst(rst),
 	 .confirm(confirm),
     .shipQ(shipQ),
