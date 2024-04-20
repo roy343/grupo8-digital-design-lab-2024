@@ -1,35 +1,34 @@
 module DibujarPantalla(
-	input logic reset, win, lose,
+	input logic reset, 
 	input logic [9:0] hs, vs,
-	input logic [2:0] states[4:0][9:0], // 
+	input logic [2:0] states[4:0][9:0], 
 	output logic [7:0] r, g, b
 );
 	
-	logic [23:0] rgb[50:0]; 
-	logic [49:0] pos; // 
+	logic [23:0] rgb[49:0]; 
+	logic [49:0] pos; 
+	logic lines, division_tablero;
 	
 	 assign lines = 
-		((hs > 0) & (hs < 5)|
-		(hs > 59) & (hs < 69) |
-		(hs > 123) & (hs < 133) | 
-		(hs > 187) & (hs < 197) | 
-		(hs > 251) & (hs < 261) | 
-		(hs > 315) & (hs < 325) |
-		(hs > 379) & (hs < 389) | 
-		(hs > 443) & (hs < 453) | 
-		(hs > 507) & (hs < 517) | 
-		(hs > 571) & (hs < 581) |
-		(hs > 635) & (hs < 640) |
-
-		(vs > 0) & (vs < 5) |
-		(vs > 95) & (vs < 105) | 
-		(vs > 190) & (vs < 200) |
-		(vs > 285) & (vs < 295) | 
-		(vs > 380) & (vs < 390) | 
-		(vs > 475) & (vs < 482)  
+		(((hs > 0) & (hs < 5))|
+		((hs > 59) & (hs < 69)) |
+		((hs > 123) & (hs < 133)) | 
+		((hs > 187) & (hs < 197)) | 
+		((hs > 251) & (hs < 261)) | 
+		((hs > 379) & (hs < 389)) | 
+		((hs > 443) & (hs < 453)) | 
+		((hs > 507) & (hs < 517)) | 
+		((hs > 571) & (hs < 581)) |
+		((hs > 635) & (hs < 640)) |
+		((vs > 0) & (vs < 5)) |
+		((vs > 95) & (vs < 105)) | 
+		((vs > 190) & (vs < 200)) |
+		((vs > 285) & (vs < 295)) | 
+		((vs > 380) & (vs < 390)) | 
+		((vs > 475) & (vs < 480))  
 		)? 1:0;
 		
-		//assign division_tablero = ()? 1:0;
+		assign division_tablero = ((hs > 315) & (hs < 325))? 1:0;
 
 
 
@@ -109,7 +108,7 @@ module DibujarPantalla(
 		,pos[11],pos[12],pos[13],pos[14],pos[15],pos[16],pos[17],pos[18],pos[19],pos[20]
 		,pos[21],pos[22],pos[23],pos[24],pos[25],pos[26],pos[27],pos[28],pos[29],pos[30]
 		,pos[31],pos[32],pos[33],pos[34],pos[35],pos[36],pos[37],pos[38],pos[39],pos[40]
-		,pos[41],pos[42],pos[43],pos[44],pos[45],pos[46],pos[47],pos[48],pos[49],r,g,b);
+		,pos[41],pos[42],pos[43],pos[44],pos[45],pos[46],pos[47],pos[48],pos[49], division_tablero, r,g,b);
 			
 endmodule
 

@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Fri Apr 19 05:37:29 2024
+Analysis & Synthesis Status : Successful - Sat Apr 20 16:56:24 2024
 Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 Revision Name : Lab3
 Top-level Entity Name : BattleshipMain
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 498
+Total registers : 497
 Total pins : 90
 Total virtual pins : 0
 Total block memory bits : 0

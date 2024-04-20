@@ -13,7 +13,6 @@ module BattleshipMain(
 );
 
 	logic [2:0] matrix[4:0][9:0];
-	logic clk25MHz;
 	logic clk1Hz;
 	logic [2:0] playerBoard[4:0][4:0];
 	logic [2:0] EnvBoard[4:0][4:0];
@@ -35,24 +34,25 @@ module BattleshipMain(
 
 	clockDivider div(
 		.clk(clk),
-		.clk_25(clk25MHz),
+		.clk_25(clk25),
 		.clk_1Hz(clk1Hz)
 	);
 
 	VGAMain VGA(
-	clk,
-	matrix,
-	hSync,
-	vSync,
-	syncBlank,
-	bSync,
-	red,
-	green,
-	blue,
-	clk25);
+		clk25,
+		reset,
+		matrix,
+		hSync,
+		vSync,
+		syncBlank,
+		bSync,
+		red,
+		green,
+		blue
+	);
 	
 	battleship gameFSM (
-    .clk(clk25MHz),
+    .clk(clk25),
 	 .clk1(clk1Hz),
     .rst(reset),
 	 .confirm(confirm),
