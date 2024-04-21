@@ -272,10 +272,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "confirm",
-					"strict" : false
-				},
-				{
 					"name" : "shipQ[2]",
 					"strict" : false
 				},
@@ -285,6 +281,10 @@
 				},
 				{
 					"name" : "shipQ[0]",
+					"strict" : false
+				},
+				{
+					"name" : "confirm",
 					"strict" : false
 				}
 			]

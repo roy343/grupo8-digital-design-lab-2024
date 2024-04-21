@@ -153,12 +153,12 @@ module battleship (
 			SELSHIPQ: begin
 				for (int i = 0; i < 5; i++) begin
 					for (int j = 0; j < 5; j++) begin
-						boardP[i][j] = 0;
-						boardE[i][j] = 0;
+						boardP[i][j] = 3'd0;
+						boardE[i][j] = 3'd0;
 					end
 				end
 				
-				if (0 < shipQ || shipQ < 6) begin
+				if (3'd0 < shipQ || shipQ < 3'd6) begin
 					next_state = PLACESHIP;
 				end 
 			end
@@ -179,13 +179,13 @@ module battleship (
 				Pturn = 1;
 				startT = 1;
 				
-				if (count > 0) begin
+				if (count > 4'd0) begin
 					if (Pplayed) begin
 						Pturn = 0;
 						boardE = boardPplay_upt;
 						next_state = CHECK_WIN;
 					end 
-				end else if (count == 0) begin
+				end else if (count == 4'd0) begin
 					Pturn = 0;
 					next_state = PLAYE;
 				end

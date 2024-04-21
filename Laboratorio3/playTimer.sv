@@ -7,7 +7,7 @@ module playTimer (
 
 	always_ff @(posedge clk) begin
 		if (startT) begin
-			counter_reg <= counter_reg - 1;
+			counter_reg <= counter_reg - 4'd1;
 		end else begin
 			counter_reg <= 4'b1111;
 		end
