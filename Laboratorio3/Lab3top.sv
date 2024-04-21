@@ -66,47 +66,12 @@ module Lab3top(
 	 .dispEships(dispEships)
   );
 
-  always @(playerBoard or EnvBoard) begin
-		integer i, j;
-		for (i = 0; i < 5; i = i + 1) begin
-        for (j = 0; j < 5; j = j + 1) begin
-            
-            integer rowE = (i * 32) + 159; 
-            integer colE = (j * 32) + 63;
-				integer rowP = (i * 32) + 159; 
-            integer colP = (j * 32) + 415;
-					
-            if (next_x > colE && next_x < colE + 33 && next_y > rowE && next_y < rowE + 33) begin
-                
-                case(EnvBoard[i][j])
-                    
-                    0: pixel_color = 8'b00011111; // Light blue
-                    1, 2, 3, 4, 5: pixel_color = 8'b10010010; // Grey
-						  6: pixel_color = 8'b10110000; // Red
-						  7: pixel_color = 8'b11110000; // Yellow
-                    default: pixel_color = 8'b00000000; // Default to black
-                endcase
-            end 
-				if (next_x >= colP && next_x < colP + 33 && next_y >= rowP && next_y < rowP + 33) begin
-                
-                case(playerBoard[i][j])
-                    
-                    0: pixel_color = 8'b00011111; // Light blue
-                    1, 2, 3, 4, 5: pixel_color = 8'b10010010; // Grey
-						  6: pixel_color = 8'b10110000; // Red
-						  7: pixel_color = 8'b11110000; // Yellow
-                    default: pixel_color = 8'b00000000; // Default to black
-                endcase
-            end if ((287 < next_x && next_x < 352) || ((127 < next_x && next_x < 160) && (351 < next_y && next_y < 448)) ||
-				((447 < next_x && next_x < 480) && (351 < next_y && next_y < 448)) || ((511 < next_x && next_x < 543) && (351 < next_y && next_y < 448)) ||
-				((479 < next_x && next_x < 512) && (415 < next_y  && next_y < 448)) && (i == 0 && j == 0)) begin
-					pixel_color = 8'b00000000; // black
-				end 
-				else if (i == 0 && j == 0) begin
-					pixel_color = 8'b11111111; // white
-				end
-        end
-		end
-	end
+  paintScreen (
+		.next_x(next_x), 
+		.next_y(next_y),
+		.playerBoard(playerBoard),
+		.EnvBoard(EnvBoard),
+		.pixel_color(pixel_color)
+	);
   
 endmodule

@@ -39,7 +39,7 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CSEMA5F31C6
-set_global_assignment -name TOP_LEVEL_ENTITY battleship
+set_global_assignment -name TOP_LEVEL_ENTITY Lab3top
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 22.1STD.2
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "21:57:55  MARCH 25, 2024"
 set_global_assignment -name LAST_QUARTUS_VERSION "22.1std.0 Lite Edition"
@@ -67,7 +67,7 @@ set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
-set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH battleship_tb -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH paintScreen_tb -section_id eda_simulation
 set_global_assignment -name EDA_TEST_BENCH_NAME Ppos_ships_tb -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id Ppos_ships_tb
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME Ppos_ships_tb -section_id Ppos_ships_tb
@@ -95,13 +95,6 @@ set_global_assignment -name SYSTEMVERILOG_FILE mov_control_tb.sv
 set_global_assignment -name EDA_TEST_BENCH_NAME mov_control_tb -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id mov_control_tb
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME mov_control_tb -section_id mov_control_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE Ppos_ships_tb.sv -section_id Ppos_ships_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE Epos_ships_tb.sv -section_id Epos_ships_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE Playerplay_tb.sv -section_id Playerplay_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE Envplay_tb.sv -section_id Envplay_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE check_win_lose_tb.sv -section_id check_win_lose_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE battleship_tb.sv -section_id battleship_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE mov_control_tb.sv -section_id mov_control_tb
 set_global_assignment -name SYSTEMVERILOG_FILE clkdiv.sv
 set_global_assignment -name VERILOG_FILE vga_driver.v
 set_global_assignment -name SYSTEMVERILOG_FILE Lab3top.sv
@@ -192,6 +185,19 @@ set_location_assignment PIN_V17 -to y[2]
 set_location_assignment PIN_W20 -to x[0]
 set_location_assignment PIN_W21 -to x[1]
 set_location_assignment PIN_Y21 -to x[2]
+set_global_assignment -name SYSTEMVERILOG_FILE paintScreen.sv
+set_global_assignment -name SYSTEMVERILOG_FILE paintScreen_tb.sv
+set_global_assignment -name EDA_TEST_BENCH_NAME paintScreen_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id paintScreen_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME paintScreen_tb -section_id paintScreen_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE Ppos_ships_tb.sv -section_id Ppos_ships_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE Epos_ships_tb.sv -section_id Epos_ships_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE Playerplay_tb.sv -section_id Playerplay_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE Envplay_tb.sv -section_id Envplay_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE check_win_lose_tb.sv -section_id check_win_lose_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE battleship_tb.sv -section_id battleship_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE mov_control_tb.sv -section_id mov_control_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE paintScreen_tb.sv -section_id paintScreen_tb
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top

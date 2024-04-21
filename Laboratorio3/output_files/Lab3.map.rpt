@@ -1,5 +1,5 @@
-Analysis & Elaboration report for Lab3
-Sun Apr 21 02:58:38 2024
+Analysis & Synthesis report for Lab3
+Sun Apr 21 17:26:14 2024
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -7,13 +7,27 @@ Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 ; Table of Contents ;
 ---------------------
   1. Legal Notice
-  2. Analysis & Elaboration Summary
-  3. Parallel Compilation
-  4. Analysis & Elaboration Settings
-  5. Port Connectivity Checks: "displayConverter:dispShipsP"
-  6. Port Connectivity Checks: "displayConverter:dispShipsE"
-  7. Analysis & Elaboration Messages
-  8. Analysis & Elaboration Suppressed Messages
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. State Machine - |Lab3top|vga_driver:draw|v_state
+  9. State Machine - |Lab3top|vga_driver:draw|h_state
+ 10. User-Specified and Inferred Latches
+ 11. Registers Removed During Synthesis
+ 12. General Register Statistics
+ 13. Inverted Register Statistics
+ 14. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 15. Parameter Settings for User Entity Instance: vga_driver:draw
+ 16. Port Connectivity Checks: "battleship:gameFSM|displayConverter:dispShipsP"
+ 17. Port Connectivity Checks: "battleship:gameFSM|displayConverter:dispShipsE"
+ 18. Port Connectivity Checks: "battleship:gameFSM"
+ 19. Post-Synthesis Netlist Statistics for Top Partition
+ 20. Elapsed Time Per Partition
+ 21. Analysis & Synthesis Messages
+ 22. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -37,47 +51,36 @@ https://fpgasoftware.intel.com/eula.
 
 
 
-+--------------------------------------------------------------------------------+
-; Analysis & Elaboration Summary                                                 ;
-+-------------------------------+------------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Sun Apr 21 02:58:38 2024          ;
-; Quartus Prime Version         ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
-; Revision Name                 ; Lab3                                           ;
-; Top-level Entity Name         ; battleship                                     ;
-; Family                        ; Cyclone V                                      ;
-; Logic utilization (in ALMs)   ; N/A until Partition Merge                      ;
-; Total registers               ; N/A until Partition Merge                      ;
-; Total pins                    ; N/A until Partition Merge                      ;
-; Total virtual pins            ; N/A until Partition Merge                      ;
-; Total block memory bits       ; N/A until Partition Merge                      ;
-; Total PLLs                    ; N/A until Partition Merge                      ;
-; Total DLLs                    ; N/A until Partition Merge                      ;
-+-------------------------------+------------------------------------------------+
-
-
-+------------------------------------------+
-; Parallel Compilation                     ;
-+----------------------------+-------------+
-; Processors                 ; Number      ;
-+----------------------------+-------------+
-; Number detected on machine ; 12          ;
-; Maximum allowed            ; 12          ;
-;                            ;             ;
-; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
-;                            ;             ;
-; Usage by Processor         ; % Time Used ;
-;     Processor 1            ; 100.0%      ;
-+----------------------------+-------------+
++----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                     ;
++---------------------------------+------------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Sun Apr 21 17:26:14 2024          ;
+; Quartus Prime Version           ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
+; Revision Name                   ; Lab3                                           ;
+; Top-level Entity Name           ; Lab3top                                        ;
+; Family                          ; Cyclone V                                      ;
+; Logic utilization (in ALMs)     ; N/A                                            ;
+; Total registers                 ; 516                                            ;
+; Total pins                      ; 90                                             ;
+; Total virtual pins              ; 0                                              ;
+; Total block memory bits         ; 0                                              ;
+; Total DSP Blocks                ; 0                                              ;
+; Total HSSI RX PCSs              ; 0                                              ;
+; Total HSSI PMA RX Deserializers ; 0                                              ;
+; Total HSSI TX PCSs              ; 0                                              ;
+; Total HSSI PMA TX Serializers   ; 0                                              ;
+; Total PLLs                      ; 0                                              ;
+; Total DLLs                      ; 0                                              ;
++---------------------------------+------------------------------------------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Elaboration Settings                                                                                           ;
+; Analysis & Synthesis Settings                                                                                             ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                          ; 5CSEMA5F31C6       ;                    ;
-; Top-level entity name                                                           ; battleship         ; Lab3               ;
+; Top-level entity name                                                           ; Lab3top            ; Lab3               ;
 ; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
 ; Use smart compilation                                                           ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
@@ -158,32 +161,470 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
-+---------------------------------------------------------+
-; Port Connectivity Checks: "displayConverter:dispShipsP" ;
-+-----------+-------+----------+--------------------------+
-; Port      ; Type  ; Severity ; Details                  ;
-+-----------+-------+----------+--------------------------+
-; numAct[3] ; Input ; Info     ; Stuck at GND             ;
-+-----------+-------+----------+--------------------------+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 12          ;
+; Maximum allowed            ; 12          ;
+;                            ;             ;
+; Average used               ; 1.01        ;
+; Maximum used               ; 12          ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.1%      ;
+;     Processor 3            ;   0.1%      ;
+;     Processor 4            ;   0.1%      ;
+;     Processor 5            ;   0.1%      ;
+;     Processor 6            ;   0.1%      ;
+;     Processor 7            ;   0.1%      ;
+;     Processor 8            ;   0.1%      ;
+;     Processors 9-12        ;   0.0%      ;
++----------------------------+-------------+
 
 
-+---------------------------------------------------------+
-; Port Connectivity Checks: "displayConverter:dispShipsE" ;
-+-----------+-------+----------+--------------------------+
-; Port      ; Type  ; Severity ; Details                  ;
-+-----------+-------+----------+--------------------------+
-; numAct[3] ; Input ; Info     ; Stuck at GND             ;
-+-----------+-------+----------+--------------------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                   ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                               ; Library ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------------------+---------+
+; battleship.sv                    ; yes             ; User SystemVerilog HDL File  ; E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv       ;         ;
+; mov_control.sv                   ; yes             ; User SystemVerilog HDL File  ; E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/mov_control.sv      ;         ;
+; Ppos_ships.sv                    ; yes             ; User SystemVerilog HDL File  ; E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Ppos_ships.sv       ;         ;
+; Epos_ships.sv                    ; yes             ; User SystemVerilog HDL File  ; E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Epos_ships.sv       ;         ;
+; Playerplay.sv                    ; yes             ; User SystemVerilog HDL File  ; E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Playerplay.sv       ;         ;
+; playTimer.sv                     ; yes             ; User SystemVerilog HDL File  ; E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/playTimer.sv        ;         ;
+; Envplay.sv                       ; yes             ; User SystemVerilog HDL File  ; E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Envplay.sv          ;         ;
+; check_win_lose.sv                ; yes             ; User SystemVerilog HDL File  ; E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/check_win_lose.sv   ;         ;
+; displayConverter.sv              ; yes             ; User SystemVerilog HDL File  ; E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/displayConverter.sv ;         ;
+; clkdiv.sv                        ; yes             ; User SystemVerilog HDL File  ; E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/clkdiv.sv           ;         ;
+; vga_driver.v                     ; yes             ; User Verilog HDL File        ; E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/vga_driver.v        ;         ;
+; Lab3top.sv                       ; yes             ; User SystemVerilog HDL File  ; E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv          ;         ;
+; paintScreen.sv                   ; yes             ; User SystemVerilog HDL File  ; E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/paintScreen.sv      ;         ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------------------+---------+
 
 
-+---------------------------------+
-; Analysis & Elaboration Messages ;
-+---------------------------------+
++-----------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                     ;
++---------------------------------------------+-------------------+
+; Resource                                    ; Usage             ;
++---------------------------------------------+-------------------+
+; Estimate of Logic utilization (ALMs needed) ; 2011              ;
+;                                             ;                   ;
+; Combinational ALUT usage for logic          ; 2923              ;
+;     -- 7 input functions                    ; 100               ;
+;     -- 6 input functions                    ; 981               ;
+;     -- 5 input functions                    ; 484               ;
+;     -- 4 input functions                    ; 464               ;
+;     -- <=3 input functions                  ; 894               ;
+;                                             ;                   ;
+; Dedicated logic registers                   ; 516               ;
+;                                             ;                   ;
+; I/O pins                                    ; 90                ;
+;                                             ;                   ;
+; Total DSP Blocks                            ; 0                 ;
+;                                             ;                   ;
+; Maximum fan-out node                        ; clkdiv:div|clk_25 ;
+; Maximum fan-out                             ; 510               ;
+; Total fan-out                               ; 15033             ;
+; Average fan-out                             ; 4.15              ;
++---------------------------------------------+-------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                      ;
++-------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------+------------------+--------------+
+; Compilation Hierarchy Node          ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                     ; Entity Name      ; Library Name ;
++-------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------+------------------+--------------+
+; |Lab3top                            ; 2923 (0)            ; 516 (0)                   ; 0                 ; 0          ; 90   ; 0            ; |Lab3top                                                ; Lab3top          ; work         ;
+;    |battleship:gameFSM|             ; 2660 (335)          ; 474 (3)                   ; 0                 ; 0          ; 0    ; 0            ; |Lab3top|battleship:gameFSM                             ; battleship       ; work         ;
+;       |Envplay:ePlay|               ; 91 (91)             ; 83 (83)                   ; 0                 ; 0          ; 0    ; 0            ; |Lab3top|battleship:gameFSM|Envplay:ePlay               ; Envplay          ; work         ;
+;       |Epos_ships:env_ships|        ; 550 (550)           ; 154 (154)                 ; 0                 ; 0          ; 0    ; 0            ; |Lab3top|battleship:gameFSM|Epos_ships:env_ships        ; Epos_ships       ; work         ;
+;       |Playerplay:pPlay|            ; 104 (104)           ; 76 (76)                   ; 0                 ; 0          ; 0    ; 0            ; |Lab3top|battleship:gameFSM|Playerplay:pPlay            ; Playerplay       ; work         ;
+;       |Ppos_ships:player_ships|     ; 689 (689)           ; 154 (154)                 ; 0                 ; 0          ; 0    ; 0            ; |Lab3top|battleship:gameFSM|Ppos_ships:player_ships     ; Ppos_ships       ; work         ;
+;       |check_win_lose:check_lose|   ; 424 (424)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Lab3top|battleship:gameFSM|check_win_lose:check_lose   ; check_win_lose   ; work         ;
+;       |check_win_lose:check_win|    ; 414 (414)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Lab3top|battleship:gameFSM|check_win_lose:check_win    ; check_win_lose   ; work         ;
+;       |displayConverter:dispShipsE| ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Lab3top|battleship:gameFSM|displayConverter:dispShipsE ; displayConverter ; work         ;
+;       |displayConverter:dispShipsP| ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Lab3top|battleship:gameFSM|displayConverter:dispShipsP ; displayConverter ; work         ;
+;       |displayConverter:dispTimer|  ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Lab3top|battleship:gameFSM|displayConverter:dispTimer  ; displayConverter ; work         ;
+;       |mov_control:boxSel|          ; 27 (27)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Lab3top|battleship:gameFSM|mov_control:boxSel          ; mov_control      ; work         ;
+;       |playTimer:timer|             ; 4 (4)               ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |Lab3top|battleship:gameFSM|playTimer:timer             ; playTimer        ; work         ;
+;    |clkdiv:div|                     ; 1 (1)               ; 3 (3)                     ; 0                 ; 0          ; 0    ; 0            ; |Lab3top|clkdiv:div                                     ; clkdiv           ; work         ;
+;    |paintScreen:comb_7|             ; 204 (204)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Lab3top|paintScreen:comb_7                             ; paintScreen      ; work         ;
+;    |vga_driver:draw|                ; 58 (58)             ; 39 (39)                   ; 0                 ; 0          ; 0    ; 0            ; |Lab3top|vga_driver:draw                                ; vga_driver       ; work         ;
++-------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------+------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
+Encoding Type:  One-Hot
++------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |Lab3top|vga_driver:draw|v_state                                                                       ;
++------------------------+----------------------+-----------------------+-----------------------+------------------------+
+; Name                   ; v_state.V_BACK_STATE ; v_state.V_PULSE_STATE ; v_state.V_FRONT_STATE ; v_state.V_ACTIVE_STATE ;
++------------------------+----------------------+-----------------------+-----------------------+------------------------+
+; v_state.V_ACTIVE_STATE ; 0                    ; 0                     ; 0                     ; 0                      ;
+; v_state.V_FRONT_STATE  ; 0                    ; 0                     ; 1                     ; 1                      ;
+; v_state.V_PULSE_STATE  ; 0                    ; 1                     ; 0                     ; 1                      ;
+; v_state.V_BACK_STATE   ; 1                    ; 0                     ; 0                     ; 1                      ;
++------------------------+----------------------+-----------------------+-----------------------+------------------------+
+
+
+Encoding Type:  One-Hot
++------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |Lab3top|vga_driver:draw|h_state                                                                       ;
++------------------------+----------------------+-----------------------+-----------------------+------------------------+
+; Name                   ; h_state.H_BACK_STATE ; h_state.H_PULSE_STATE ; h_state.H_FRONT_STATE ; h_state.H_ACTIVE_STATE ;
++------------------------+----------------------+-----------------------+-----------------------+------------------------+
+; h_state.H_ACTIVE_STATE ; 0                    ; 0                     ; 0                     ; 0                      ;
+; h_state.H_FRONT_STATE  ; 0                    ; 0                     ; 1                     ; 1                      ;
+; h_state.H_PULSE_STATE  ; 0                    ; 1                     ; 0                     ; 1                      ;
+; h_state.H_BACK_STATE   ; 1                    ; 0                     ; 0                     ; 1                      ;
++------------------------+----------------------+-----------------------+-----------------------+------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                                           ;
++------------------------------------------------------+-----------------------------------------------+------------------------+
+; Latch Name                                           ; Latch Enable Signal                           ; Free of Timing Hazards ;
++------------------------------------------------------+-----------------------------------------------+------------------------+
+; battleship:gameFSM|mov_control:boxSel|outX[0]        ; battleship:gameFSM|mov_control:boxSel|outX[2] ; yes                    ;
+; battleship:gameFSM|mov_control:boxSel|outX[1]        ; battleship:gameFSM|mov_control:boxSel|outX[2] ; yes                    ;
+; battleship:gameFSM|mov_control:boxSel|outX[2]        ; battleship:gameFSM|mov_control:boxSel|outX[2] ; yes                    ;
+; battleship:gameFSM|mov_control:boxSel|outY[0]        ; battleship:gameFSM|mov_control:boxSel|outX[2] ; yes                    ;
+; battleship:gameFSM|mov_control:boxSel|outY[1]        ; battleship:gameFSM|mov_control:boxSel|outX[2] ; yes                    ;
+; battleship:gameFSM|mov_control:boxSel|outY[2]        ; battleship:gameFSM|mov_control:boxSel|outX[2] ; yes                    ;
+; battleship:gameFSM|boardP[3][2][0]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[3][2][1]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[3][1][0]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[3][1][1]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[3][1][2]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[3][0][0]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[3][0][1]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[3][0][2]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[2][4][0]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[2][4][1]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[2][4][2]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[2][3][0]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[2][3][1]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[2][3][2]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[2][2][0]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[2][2][1]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[2][2][2]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[2][1][0]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[2][1][1]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[2][1][2]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[2][0][0]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[2][0][1]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[2][0][2]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[1][4][0]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[1][4][1]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[1][4][2]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[1][3][0]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[1][3][1]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[1][3][2]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[1][2][0]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[1][2][1]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[1][2][2]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[1][1][0]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[1][1][1]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[1][1][2]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[1][0][0]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[1][0][1]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[1][0][2]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[0][4][0]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[0][4][1]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[0][4][2]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[0][3][0]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[0][3][1]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[0][3][2]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[0][2][0]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[0][2][1]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[0][2][2]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[0][1][0]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[0][1][1]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[0][1][2]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[0][0][0]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[0][0][1]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[0][0][2]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[3][2][2]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[3][4][0]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[3][4][1]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[3][3][0]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[3][3][1]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[3][3][2]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[3][4][2]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[4][1][0]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[4][1][1]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[4][0][0]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[4][0][1]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[4][0][2]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[4][1][2]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[4][3][0]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[4][3][1]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[4][2][0]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[4][2][1]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[4][2][2]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[4][3][2]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[4][4][0]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[4][4][1]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardP[4][4][2]                   ; battleship:gameFSM|Mux159                     ; yes                    ;
+; battleship:gameFSM|boardE[3][2][0]                   ; battleship:gameFSM|Mux155                     ; yes                    ;
+; battleship:gameFSM|boardE[3][2][1]                   ; battleship:gameFSM|Mux155                     ; yes                    ;
+; battleship:gameFSM|boardE[3][1][0]                   ; battleship:gameFSM|Mux155                     ; yes                    ;
+; battleship:gameFSM|boardE[3][1][1]                   ; battleship:gameFSM|Mux155                     ; yes                    ;
+; battleship:gameFSM|boardE[3][1][2]                   ; battleship:gameFSM|Mux155                     ; yes                    ;
+; battleship:gameFSM|boardE[3][0][1]                   ; battleship:gameFSM|Mux155                     ; yes                    ;
+; battleship:gameFSM|boardE[3][0][0]                   ; battleship:gameFSM|Mux155                     ; yes                    ;
+; battleship:gameFSM|boardE[3][0][2]                   ; battleship:gameFSM|Mux155                     ; yes                    ;
+; battleship:gameFSM|boardE[2][4][2]                   ; battleship:gameFSM|Mux155                     ; yes                    ;
+; battleship:gameFSM|boardE[2][4][1]                   ; battleship:gameFSM|Mux155                     ; yes                    ;
+; battleship:gameFSM|boardE[2][4][0]                   ; battleship:gameFSM|Mux155                     ; yes                    ;
+; battleship:gameFSM|boardE[2][3][2]                   ; battleship:gameFSM|Mux155                     ; yes                    ;
+; battleship:gameFSM|boardE[2][3][1]                   ; battleship:gameFSM|Mux155                     ; yes                    ;
+; battleship:gameFSM|boardE[2][3][0]                   ; battleship:gameFSM|Mux155                     ; yes                    ;
+; battleship:gameFSM|boardE[2][2][2]                   ; battleship:gameFSM|Mux155                     ; yes                    ;
+; battleship:gameFSM|boardE[2][2][1]                   ; battleship:gameFSM|Mux155                     ; yes                    ;
+; battleship:gameFSM|boardE[2][2][0]                   ; battleship:gameFSM|Mux155                     ; yes                    ;
+; battleship:gameFSM|boardE[2][1][2]                   ; battleship:gameFSM|Mux155                     ; yes                    ;
+; battleship:gameFSM|boardE[2][1][1]                   ; battleship:gameFSM|Mux155                     ; yes                    ;
+; Number of user-specified and inferred latches = 171  ;                                               ;                        ;
++------------------------------------------------------+-----------------------------------------------+------------------------+
+Table restricted to first 100 entries. Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
+
+
++----------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                       ;
++--------------------------------------------------+-------------------------------------------------------+
+; Register name                                    ; Reason for Removal                                    ;
++--------------------------------------------------+-------------------------------------------------------+
+; vga_driver:draw|red_reg[0]                       ; Stuck at GND due to stuck port data_in                ;
+; vga_driver:draw|green_reg[0..4]                  ; Stuck at GND due to stuck port data_in                ;
+; vga_driver:draw|blue_reg[0..5]                   ; Stuck at GND due to stuck port data_in                ;
+; vga_driver:draw|red_reg[1..4]                    ; Stuck at GND due to stuck port data_in                ;
+; clkdiv:div|cnt[15]                               ; Merged with clkdiv:div|cnt1[25]                       ;
+; battleship:gameFSM|Epos_ships:env_ships|seedX[1] ; Merged with battleship:gameFSM|Envplay:ePlay|seedX[1] ;
+; battleship:gameFSM|Epos_ships:env_ships|seedX[0] ; Merged with battleship:gameFSM|Envplay:ePlay|seedX[0] ;
+; battleship:gameFSM|Epos_ships:env_ships|seedY[1] ; Merged with battleship:gameFSM|Envplay:ePlay|seedY[1] ;
+; battleship:gameFSM|Epos_ships:env_ships|seedY[0] ; Merged with battleship:gameFSM|Envplay:ePlay|seedY[0] ;
+; battleship:gameFSM|Epos_ships:env_ships|seedX[2] ; Merged with battleship:gameFSM|Envplay:ePlay|seedX[2] ;
+; battleship:gameFSM|Epos_ships:env_ships|seedX[3] ; Merged with battleship:gameFSM|Envplay:ePlay|seedX[3] ;
+; battleship:gameFSM|Epos_ships:env_ships|seedY[2] ; Merged with battleship:gameFSM|Envplay:ePlay|seedY[2] ;
+; vga_driver:draw|v_state~5                        ; Lost fanout                                           ;
+; vga_driver:draw|v_state~6                        ; Lost fanout                                           ;
+; vga_driver:draw|v_state~7                        ; Lost fanout                                           ;
+; vga_driver:draw|v_state~8                        ; Lost fanout                                           ;
+; vga_driver:draw|v_state~9                        ; Lost fanout                                           ;
+; vga_driver:draw|v_state~10                       ; Lost fanout                                           ;
+; vga_driver:draw|v_state~11                       ; Lost fanout                                           ;
+; vga_driver:draw|v_state~12                       ; Lost fanout                                           ;
+; vga_driver:draw|h_state~5                        ; Lost fanout                                           ;
+; vga_driver:draw|h_state~6                        ; Lost fanout                                           ;
+; vga_driver:draw|h_state~7                        ; Lost fanout                                           ;
+; vga_driver:draw|h_state~8                        ; Lost fanout                                           ;
+; vga_driver:draw|h_state~9                        ; Lost fanout                                           ;
+; vga_driver:draw|h_state~10                       ; Lost fanout                                           ;
+; vga_driver:draw|h_state~11                       ; Lost fanout                                           ;
+; vga_driver:draw|h_state~12                       ; Lost fanout                                           ;
+; Total Number of Removed Registers = 40           ;                                                       ;
++--------------------------------------------------+-------------------------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 516   ;
+; Number of registers using Synchronous Clear  ; 36    ;
+; Number of registers using Synchronous Load   ; 150   ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 399   ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-----------------------------------------------------+
+; Inverted Register Statistics                        ;
++-------------------------------------------+---------+
+; Inverted Register                         ; Fan out ;
++-------------------------------------------+---------+
+; battleship:gameFSM|Envplay:ePlay|seedY[1] ; 184     ;
+; battleship:gameFSM|Envplay:ePlay|seedY[2] ; 2       ;
+; Total number of inverted registers = 2    ;         ;
++-------------------------------------------+---------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                       ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                             ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------+
+; 3:1                ; 8 bits    ; 16 LEs        ; 0 LEs                ; 16 LEs                 ; Yes        ; |Lab3top|vga_driver:draw|green_reg[6]                                  ;
+; 3:1                ; 75 bits   ; 150 LEs       ; 0 LEs                ; 150 LEs                ; Yes        ; |Lab3top|battleship:gameFSM|Ppos_ships:player_ships|board_out[2][2][0] ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |Lab3top|battleship:gameFSM|Envplay:ePlay|local_board[0][0][1]         ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |Lab3top|battleship:gameFSM|Envplay:ePlay|local_board[0][1][2]         ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |Lab3top|battleship:gameFSM|Envplay:ePlay|local_board[0][2][1]         ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |Lab3top|battleship:gameFSM|Envplay:ePlay|local_board[0][3][1]         ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |Lab3top|battleship:gameFSM|Envplay:ePlay|local_board[1][0][1]         ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |Lab3top|battleship:gameFSM|Envplay:ePlay|local_board[1][1][1]         ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |Lab3top|battleship:gameFSM|Envplay:ePlay|local_board[1][2][2]         ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |Lab3top|battleship:gameFSM|Envplay:ePlay|local_board[1][3][2]         ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |Lab3top|battleship:gameFSM|Envplay:ePlay|local_board[2][0][2]         ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |Lab3top|battleship:gameFSM|Envplay:ePlay|local_board[2][1][2]         ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |Lab3top|battleship:gameFSM|Envplay:ePlay|local_board[2][2][2]         ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |Lab3top|battleship:gameFSM|Envplay:ePlay|local_board[2][3][2]         ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |Lab3top|battleship:gameFSM|Envplay:ePlay|local_board[3][0][2]         ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |Lab3top|battleship:gameFSM|Envplay:ePlay|local_board[3][1][2]         ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |Lab3top|battleship:gameFSM|Envplay:ePlay|local_board[3][2][1]         ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |Lab3top|battleship:gameFSM|Envplay:ePlay|local_board[3][3][1]         ;
+; 3:1                ; 75 bits   ; 150 LEs       ; 0 LEs                ; 150 LEs                ; Yes        ; |Lab3top|battleship:gameFSM|Epos_ships:env_ships|board_out[1][3][0]    ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |Lab3top|battleship:gameFSM|Envplay:ePlay|seedX[1]                     ;
+; 10:1               ; 10 bits   ; 60 LEs        ; 0 LEs                ; 60 LEs                 ; Yes        ; |Lab3top|vga_driver:draw|v_counter[8]                                  ;
+; 10:1               ; 10 bits   ; 60 LEs        ; 0 LEs                ; 60 LEs                 ; Yes        ; |Lab3top|vga_driver:draw|h_counter[6]                                  ;
+; 4:1                ; 15 bits   ; 30 LEs        ; 30 LEs               ; 0 LEs                  ; No         ; |Lab3top|battleship:gameFSM|Ppos_ships:player_ships|Mux14              ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |Lab3top|battleship:gameFSM|Epos_ships:env_ships|Mux64                 ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |Lab3top|battleship:gameFSM|Epos_ships:env_ships|Mux27                 ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |Lab3top|battleship:gameFSM|Epos_ships:env_ships|Mux102                ;
+; 3:1                ; 75 bits   ; 150 LEs       ; 150 LEs              ; 0 LEs                  ; No         ; |Lab3top|battleship:gameFSM|Mux62                                      ;
+; 3:1                ; 75 bits   ; 150 LEs       ; 150 LEs              ; 0 LEs                  ; No         ; |Lab3top|battleship:gameFSM|Mux79                                      ;
+; 5:1                ; 3 bits    ; 9 LEs         ; 9 LEs                ; 0 LEs                  ; No         ; |Lab3top|battleship:gameFSM|Epos_ships:env_ships|Mux67                 ;
+; 5:1                ; 3 bits    ; 9 LEs         ; 9 LEs                ; 0 LEs                  ; No         ; |Lab3top|battleship:gameFSM|Epos_ships:env_ships|Mux32                 ;
+; 5:1                ; 3 bits    ; 9 LEs         ; 9 LEs                ; 0 LEs                  ; No         ; |Lab3top|battleship:gameFSM|Epos_ships:env_ships|Mux81                 ;
+; 6:1                ; 3 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |Lab3top|battleship:gameFSM|Epos_ships:env_ships|Mux45                 ;
+; 6:1                ; 3 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |Lab3top|battleship:gameFSM|Epos_ships:env_ships|Mux85                 ;
+; 6:1                ; 2 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; No         ; |Lab3top|battleship:gameFSM|mov_control:boxSel|outX[2]                 ;
+; 6:1                ; 2 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; No         ; |Lab3top|battleship:gameFSM|mov_control:boxSel|outY[1]                 ;
+; 7:1                ; 3 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |Lab3top|battleship:gameFSM|Epos_ships:env_ships|Mux48                 ;
+; 8:1                ; 3 bits    ; 15 LEs        ; 15 LEs               ; 0 LEs                  ; No         ; |Lab3top|battleship:gameFSM|Epos_ships:env_ships|Mux12                 ;
+; 13:1               ; 6 bits    ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; No         ; |Lab3top|battleship:gameFSM|Ppos_ships:player_ships|Mux16              ;
+; 13:1               ; 3 bits    ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; No         ; |Lab3top|battleship:gameFSM|Epos_ships:env_ships|Mux6                  ;
+; 13:1               ; 3 bits    ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; No         ; |Lab3top|battleship:gameFSM|Epos_ships:env_ships|Mux2                  ;
+; 16:1               ; 3 bits    ; 30 LEs        ; 30 LEs               ; 0 LEs                  ; No         ; |Lab3top|battleship:gameFSM|Envplay:ePlay|Mux12                        ;
+; 13:1               ; 2 bits    ; 16 LEs        ; 4 LEs                ; 12 LEs                 ; No         ; |Lab3top|battleship:gameFSM|Epos_ships:env_ships|local_board           ;
+; 16:1               ; 3 bits    ; 30 LEs        ; 30 LEs               ; 0 LEs                  ; No         ; |Lab3top|battleship:gameFSM|Epos_ships:env_ships|Mux11                 ;
+; 15:1               ; 2 bits    ; 20 LEs        ; 6 LEs                ; 14 LEs                 ; No         ; |Lab3top|battleship:gameFSM|Epos_ships:env_ships|local_board           ;
+; 23:1               ; 3 bits    ; 45 LEs        ; 42 LEs               ; 3 LEs                  ; No         ; |Lab3top|battleship:gameFSM|Ppos_ships:player_ships|Mux34              ;
+; 23:1               ; 3 bits    ; 45 LEs        ; 42 LEs               ; 3 LEs                  ; No         ; |Lab3top|battleship:gameFSM|Ppos_ships:player_ships|Mux69              ;
+; 19:1               ; 3 bits    ; 36 LEs        ; 36 LEs               ; 0 LEs                  ; No         ; |Lab3top|battleship:gameFSM|Epos_ships:env_ships|Mux5                  ;
+; 17:1               ; 2 bits    ; 22 LEs        ; 8 LEs                ; 14 LEs                 ; No         ; |Lab3top|battleship:gameFSM|Epos_ships:env_ships|local_board           ;
+; 17:1               ; 2 bits    ; 22 LEs        ; 8 LEs                ; 14 LEs                 ; No         ; |Lab3top|battleship:gameFSM|Epos_ships:env_ships|local_board           ;
+; 17:1               ; 2 bits    ; 22 LEs        ; 8 LEs                ; 14 LEs                 ; No         ; |Lab3top|battleship:gameFSM|Epos_ships:env_ships|local_board           ;
+; 17:1               ; 2 bits    ; 22 LEs        ; 8 LEs                ; 14 LEs                 ; No         ; |Lab3top|battleship:gameFSM|Epos_ships:env_ships|local_board           ;
+; 17:1               ; 2 bits    ; 22 LEs        ; 8 LEs                ; 14 LEs                 ; No         ; |Lab3top|battleship:gameFSM|Epos_ships:env_ships|local_board           ;
+; 20:1               ; 3 bits    ; 39 LEs        ; 24 LEs               ; 15 LEs                 ; No         ; |Lab3top|battleship:gameFSM|Epos_ships:env_ships|placedQ               ;
+; 18:1               ; 2 bits    ; 24 LEs        ; 10 LEs               ; 14 LEs                 ; No         ; |Lab3top|battleship:gameFSM|Epos_ships:env_ships|local_board           ;
+; 43:1               ; 3 bits    ; 84 LEs        ; 72 LEs               ; 12 LEs                 ; No         ; |Lab3top|battleship:gameFSM|Playerplay:pPlay|Mux16                     ;
+; 33:1               ; 3 bits    ; 66 LEs        ; 63 LEs               ; 3 LEs                  ; No         ; |Lab3top|battleship:gameFSM|Ppos_ships:player_ships|Mux53              ;
+; 28:1               ; 2 bits    ; 36 LEs        ; 8 LEs                ; 28 LEs                 ; No         ; |Lab3top|battleship:gameFSM|Epos_ships:env_ships|local_board           ;
+; 51:1               ; 5 bits    ; 170 LEs       ; 170 LEs              ; 0 LEs                  ; No         ; |Lab3top|paintScreen:comb_7|pixel_color[5]                             ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: vga_driver:draw ;
++----------------+------------+--------------------------------+
+; Parameter Name ; Value      ; Type                           ;
++----------------+------------+--------------------------------+
+; H_ACTIVE       ; 1001111111 ; Unsigned Binary                ;
+; H_FRONT        ; 0000001111 ; Unsigned Binary                ;
+; H_PULSE        ; 0001011111 ; Unsigned Binary                ;
+; H_BACK         ; 0000101111 ; Unsigned Binary                ;
+; v_ACTIVE       ; 0111011111 ; Unsigned Binary                ;
+; v_FRONT        ; 0000001001 ; Unsigned Binary                ;
+; v_PULSE        ; 0000000001 ; Unsigned Binary                ;
+; v_BACK         ; 0000100000 ; Unsigned Binary                ;
+; LOW            ; 0          ; Unsigned Binary                ;
+; HIGH           ; 1          ; Unsigned Binary                ;
+; H_ACTIVE_STATE ; 00000000   ; Unsigned Binary                ;
+; H_FRONT_STATE  ; 00000001   ; Unsigned Binary                ;
+; H_PULSE_STATE  ; 00000010   ; Unsigned Binary                ;
+; H_BACK_STATE   ; 00000011   ; Unsigned Binary                ;
+; V_ACTIVE_STATE ; 00000000   ; Unsigned Binary                ;
+; V_FRONT_STATE  ; 00000001   ; Unsigned Binary                ;
+; V_PULSE_STATE  ; 00000010   ; Unsigned Binary                ;
+; V_BACK_STATE   ; 00000011   ; Unsigned Binary                ;
++----------------+------------+--------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Port Connectivity Checks: "battleship:gameFSM|displayConverter:dispShipsP" ;
++-----------+-------+----------+---------------------------------------------+
+; Port      ; Type  ; Severity ; Details                                     ;
++-----------+-------+----------+---------------------------------------------+
+; numAct[3] ; Input ; Info     ; Stuck at GND                                ;
++-----------+-------+----------+---------------------------------------------+
+
+
++----------------------------------------------------------------------------+
+; Port Connectivity Checks: "battleship:gameFSM|displayConverter:dispShipsE" ;
++-----------+-------+----------+---------------------------------------------+
+; Port      ; Type  ; Severity ; Details                                     ;
++-----------+-------+----------+---------------------------------------------+
+; numAct[3] ; Input ; Info     ; Stuck at GND                                ;
++-----------+-------+----------+---------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "battleship:gameFSM"                                                                       ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port       ; Type   ; Severity ; Details                                                                             ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; game_state ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; arriav_ff             ; 516                         ;
+;     ENA               ; 231                         ;
+;     ENA SCLR          ; 18                          ;
+;     ENA SLD           ; 150                         ;
+;     SCLR              ; 18                          ;
+;     plain             ; 99                          ;
+; arriav_lcell_comb     ; 2926                        ;
+;     arith             ; 20                          ;
+;         1 data inputs ; 20                          ;
+;     extend            ; 100                         ;
+;         7 data inputs ; 100                         ;
+;     normal            ; 2806                        ;
+;         0 data inputs ; 2                           ;
+;         1 data inputs ; 3                           ;
+;         2 data inputs ; 386                         ;
+;         3 data inputs ; 486                         ;
+;         4 data inputs ; 464                         ;
+;         5 data inputs ; 484                         ;
+;         6 data inputs ; 981                         ;
+; boundary_port         ; 90                          ;
+;                       ;                             ;
+; Max LUT depth         ; 33.00                       ;
+; Average LUT depth     ; 10.76                       ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:11     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
 Info: *******************************************************************
-Info: Running Quartus Prime Analysis & Elaboration
+Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-    Info: Processing started: Sun Apr 21 02:58:31 2024
-Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Lab3 -c Lab3 --analysis_and_elaboration
+    Info: Processing started: Sun Apr 21 17:25:56 2024
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Lab3 -c Lab3
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file battleship.sv
@@ -224,7 +665,17 @@ Info (12021): Found 1 design units, including 1 entities, in source file vga_dri
     Info (12023): Found entity 1: vga_driver File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/vga_driver.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file lab3top.sv
     Info (12023): Found entity 1: Lab3top File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 1
-Info (12127): Elaborating entity "battleship" for the top level hierarchy
+Info (12021): Found 1 design units, including 1 entities, in source file paintscreen.sv
+    Info (12023): Found entity 1: paintScreen File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/paintScreen.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file paintscreen_tb.sv
+    Info (12023): Found entity 1: paintScreen_tb File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/paintScreen_tb.sv Line: 1
+Critical Warning (10846): Verilog HDL Instantiation warning at Lab3top.sv(75): instance has no name File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 75
+Info (12127): Elaborating entity "Lab3top" for the top level hierarchy
+Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "playerBoard" into its bus
+Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "EnvBoard" into its bus
+Info (12128): Elaborating entity "clkdiv" for hierarchy "clkdiv:div" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 33
+Info (12128): Elaborating entity "vga_driver" for hierarchy "vga_driver:draw" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 49
+Info (12128): Elaborating entity "battleship" for hierarchy "battleship:gameFSM" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 67
 Warning (10240): Verilog HDL Always Construct warning at battleship.sv(151): inferring latch(es) for variable "next_state", which holds its previous value in one or more paths through the always construct File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 151
 Warning (10240): Verilog HDL Always Construct warning at battleship.sv(151): inferring latch(es) for variable "game_state", which holds its previous value in one or more paths through the always construct File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 151
 Warning (10240): Verilog HDL Always Construct warning at battleship.sv(151): inferring latch(es) for variable "Eturn", which holds its previous value in one or more paths through the always construct File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 151
@@ -398,7 +849,7 @@ Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "boardEplay_upt" into its bus
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "boardP" into its bus
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "boardE" into its bus
-Info (12128): Elaborating entity "mov_control" for hierarchy "mov_control:boxSel" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 50
+Info (12128): Elaborating entity "mov_control" for hierarchy "battleship:gameFSM|mov_control:boxSel" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 50
 Warning (10235): Verilog HDL Always Construct warning at mov_control.sv(9): variable "y" is read inside the Always Construct but isn't in the Always Construct's Event Control File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/mov_control.sv Line: 9
 Warning (10235): Verilog HDL Always Construct warning at mov_control.sv(10): variable "x" is read inside the Always Construct but isn't in the Always Construct's Event Control File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/mov_control.sv Line: 10
 Warning (10235): Verilog HDL Always Construct warning at mov_control.sv(11): variable "y" is read inside the Always Construct but isn't in the Always Construct's Event Control File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/mov_control.sv Line: 11
@@ -429,13 +880,13 @@ Info (10041): Inferred latch for "outY[2]" at mov_control.sv(16) File: E:/Users/
 Info (10041): Inferred latch for "outX[0]" at mov_control.sv(16) File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/mov_control.sv Line: 16
 Info (10041): Inferred latch for "outX[1]" at mov_control.sv(16) File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/mov_control.sv Line: 16
 Info (10041): Inferred latch for "outX[2]" at mov_control.sv(16) File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/mov_control.sv Line: 16
-Info (12128): Elaborating entity "Ppos_ships" for hierarchy "Ppos_ships:player_ships" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 63
+Info (12128): Elaborating entity "Ppos_ships" for hierarchy "battleship:gameFSM|Ppos_ships:player_ships" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 63
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "board_in" into its bus
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "board_out" into its bus
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "local_board" into its bus
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "board_in" into its bus
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "board_out" into its bus
-Info (12128): Elaborating entity "Epos_ships" for hierarchy "Epos_ships:env_ships" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 73
+Info (12128): Elaborating entity "Epos_ships" for hierarchy "battleship:gameFSM|Epos_ships:env_ships" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 73
 Warning (10230): Verilog HDL assignment warning at Epos_ships.sv(20): truncated value with size 32 to match size of target (4) File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Epos_ships.sv Line: 20
 Warning (10230): Verilog HDL assignment warning at Epos_ships.sv(21): truncated value with size 32 to match size of target (3) File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Epos_ships.sv Line: 21
 Warning (10230): Verilog HDL assignment warning at Epos_ships.sv(44): truncated value with size 32 to match size of target (3) File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Epos_ships.sv Line: 44
@@ -460,15 +911,15 @@ Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "local_board" into its bus
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "board_in" into its bus
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "board_out" into its bus
-Info (12128): Elaborating entity "playTimer" for hierarchy "playTimer:timer" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 79
-Info (12128): Elaborating entity "displayConverter" for hierarchy "displayConverter:dispTimer" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 84
-Info (12128): Elaborating entity "Playerplay" for hierarchy "Playerplay:pPlay" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 95
+Info (12128): Elaborating entity "playTimer" for hierarchy "battleship:gameFSM|playTimer:timer" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 79
+Info (12128): Elaborating entity "displayConverter" for hierarchy "battleship:gameFSM|displayConverter:dispTimer" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 84
+Info (12128): Elaborating entity "Playerplay" for hierarchy "battleship:gameFSM|Playerplay:pPlay" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 95
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "board_in" into its bus
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "board_out" into its bus
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "local_board" into its bus
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "board_in" into its bus
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "board_out" into its bus
-Info (12128): Elaborating entity "Envplay" for hierarchy "Envplay:ePlay" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 103
+Info (12128): Elaborating entity "Envplay" for hierarchy "battleship:gameFSM|Envplay:ePlay" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 103
 Warning (10230): Verilog HDL assignment warning at Envplay.sv(18): truncated value with size 32 to match size of target (4) File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Envplay.sv Line: 18
 Warning (10230): Verilog HDL assignment warning at Envplay.sv(19): truncated value with size 32 to match size of target (3) File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Envplay.sv Line: 19
 Warning (10027): Verilog HDL or VHDL warning at the Envplay.sv(28): index expression is not wide enough to address all of the elements in the array File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Envplay.sv Line: 28
@@ -480,21 +931,417 @@ Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "local_board" into its bus
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "board_in" into its bus
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "board_out" into its bus
-Info (12128): Elaborating entity "check_win_lose" for hierarchy "check_win_lose:check_win" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 109
+Info (12128): Elaborating entity "check_win_lose" for hierarchy "battleship:gameFSM|check_win_lose:check_win" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 109
 Warning (10230): Verilog HDL assignment warning at check_win_lose.sv(19): truncated value with size 32 to match size of target (3) File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/check_win_lose.sv Line: 19
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "board_in" into its bus
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "board_in" into its bus
+Info (12128): Elaborating entity "paintScreen" for hierarchy "paintScreen:comb_7" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 75
+Warning (10240): Verilog HDL Always Construct warning at paintScreen.sv(8): inferring latch(es) for variable "pixel_color", which holds its previous value in one or more paths through the always construct File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/paintScreen.sv Line: 8
+Info (10041): Inferred latch for "pixel_color[0]" at paintScreen.sv(211) File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/paintScreen.sv Line: 211
+Info (10041): Inferred latch for "pixel_color[1]" at paintScreen.sv(211) File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/paintScreen.sv Line: 211
+Info (10041): Inferred latch for "pixel_color[2]" at paintScreen.sv(211) File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/paintScreen.sv Line: 211
+Info (10041): Inferred latch for "pixel_color[3]" at paintScreen.sv(211) File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/paintScreen.sv Line: 211
+Info (10041): Inferred latch for "pixel_color[4]" at paintScreen.sv(211) File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/paintScreen.sv Line: 211
+Info (10041): Inferred latch for "pixel_color[5]" at paintScreen.sv(211) File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/paintScreen.sv Line: 211
+Info (10041): Inferred latch for "pixel_color[6]" at paintScreen.sv(211) File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/paintScreen.sv Line: 211
+Info (10041): Inferred latch for "pixel_color[7]" at paintScreen.sv(211) File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/paintScreen.sv Line: 211
+Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "playerBoard" into its bus
+Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "EnvBoard" into its bus
+Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "playerBoard" into its bus
+Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "EnvBoard" into its bus
+Info (13025): Duplicate LATCH primitives merged into single LATCH primitive
+    Info (13026): Duplicate LATCH primitive "paintScreen:comb_7|pixel_color[3]" merged with LATCH primitive "paintScreen:comb_7|pixel_color[2]" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/paintScreen.sv Line: 211
+    Info (13026): Duplicate LATCH primitive "paintScreen:comb_7|pixel_color[0]" merged with LATCH primitive "paintScreen:comb_7|pixel_color[2]" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/paintScreen.sv Line: 211
+Warning (13012): Latch battleship:gameFSM|mov_control:boxSel|outX[0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/mov_control.sv Line: 16
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|mov_control:boxSel|outX[0] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/mov_control.sv Line: 16
+Warning (13012): Latch battleship:gameFSM|mov_control:boxSel|outX[1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/mov_control.sv Line: 16
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|mov_control:boxSel|outX[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/mov_control.sv Line: 16
+Warning (13012): Latch battleship:gameFSM|mov_control:boxSel|outX[2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/mov_control.sv Line: 16
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|mov_control:boxSel|outX[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/mov_control.sv Line: 16
+Warning (13012): Latch battleship:gameFSM|mov_control:boxSel|outY[0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/mov_control.sv Line: 16
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|mov_control:boxSel|outY[0] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/mov_control.sv Line: 16
+Warning (13012): Latch battleship:gameFSM|mov_control:boxSel|outY[1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/mov_control.sv Line: 16
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|mov_control:boxSel|outY[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/mov_control.sv Line: 16
+Warning (13012): Latch battleship:gameFSM|mov_control:boxSel|outY[2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/mov_control.sv Line: 16
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|mov_control:boxSel|outY[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/mov_control.sv Line: 16
+Warning (13012): Latch battleship:gameFSM|boardP[3][2][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[3][2][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[3][1][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[3][1][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[3][1][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[3][0][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[3][0][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[3][0][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[2][4][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[2][4][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[2][4][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[2][3][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[2][3][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[2][3][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[2][2][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[2][2][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[2][2][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[2][1][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[2][1][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[2][1][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[2][0][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[2][0][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[2][0][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[1][4][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[1][4][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[1][4][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[1][3][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[1][3][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[1][3][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[1][2][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[1][2][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[1][2][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[1][1][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[1][1][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[1][1][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[1][0][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[1][0][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[1][0][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[0][4][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[0][4][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[0][4][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[0][3][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[0][3][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[0][3][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[0][2][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[0][2][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[0][2][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[0][1][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[0][1][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[0][1][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[0][0][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[0][0][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[0][0][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[3][2][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[3][4][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[3][4][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[3][3][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[3][3][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[3][3][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[3][4][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[4][1][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[4][1][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[4][0][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[4][0][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[4][0][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[4][1][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[4][3][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[4][3][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[4][2][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[4][2][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[4][2][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[4][3][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[4][4][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[4][4][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardP[4][4][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[3][2][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[3][2][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[3][1][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[3][1][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[3][1][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[3][0][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[3][0][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[3][0][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[2][4][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[2][4][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[2][4][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[2][3][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[2][3][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[2][3][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[2][2][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[2][2][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[2][2][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[2][1][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[2][1][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[2][1][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[2][0][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[2][0][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[2][0][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[1][4][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[1][4][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[1][4][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[1][3][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[1][3][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[1][3][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[1][2][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[1][2][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[1][2][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[1][1][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[1][1][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[1][1][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[1][0][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[1][0][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[1][0][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[0][4][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[0][4][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[0][4][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[0][3][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[0][3][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[0][3][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[0][2][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[0][2][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[0][2][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[0][1][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[0][1][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[0][1][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[0][0][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[0][0][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[0][0][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[3][2][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[3][4][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[3][4][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[3][3][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[3][3][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[3][3][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[3][4][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[4][1][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[4][1][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[4][0][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[4][0][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[4][0][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[4][1][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[4][3][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[4][3][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[4][2][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[4][2][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[4][2][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[4][3][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[4][4][0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[4][4][1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|boardE[4][4][2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 13
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[1] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch paintScreen:comb_7|pixel_color[5] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/paintScreen.sv Line: 211
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal vga_driver:draw|h_state.H_ACTIVE_STATE File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/vga_driver.v Line: 50
+Warning (13012): Latch paintScreen:comb_7|pixel_color[6] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/paintScreen.sv Line: 211
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal vga_driver:draw|h_state.H_ACTIVE_STATE File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/vga_driver.v Line: 50
+Warning (13012): Latch paintScreen:comb_7|pixel_color[7] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/paintScreen.sv Line: 211
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal vga_driver:draw|h_state.H_ACTIVE_STATE File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/vga_driver.v Line: 50
+Warning (13012): Latch paintScreen:comb_7|pixel_color[2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/paintScreen.sv Line: 211
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal vga_driver:draw|h_state.H_ACTIVE_STATE File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/vga_driver.v Line: 50
+Warning (13012): Latch paintScreen:comb_7|pixel_color[4] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/paintScreen.sv Line: 211
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal vga_driver:draw|h_state.H_ACTIVE_STATE File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/vga_driver.v Line: 50
+Warning (13012): Latch paintScreen:comb_7|pixel_color[1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/paintScreen.sv Line: 211
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal vga_driver:draw|h_state.H_ACTIVE_STATE File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/vga_driver.v Line: 50
+Warning (13012): Latch battleship:gameFSM|next_state[0] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 151
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[0] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|next_state[1] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 151
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[0] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|next_state[2] has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 151
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[2] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|startT has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 30
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[0] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13012): Latch battleship:gameFSM|Place_ships has unsafe behavior File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 26
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal battleship:gameFSM|state[0] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv Line: 137
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "VGA_R[0]" is stuck at GND File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 9
+    Warning (13410): Pin "VGA_R[1]" is stuck at GND File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 9
+    Warning (13410): Pin "VGA_R[2]" is stuck at GND File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 9
+    Warning (13410): Pin "VGA_R[3]" is stuck at GND File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 9
+    Warning (13410): Pin "VGA_R[4]" is stuck at GND File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 9
+    Warning (13410): Pin "VGA_G[0]" is stuck at GND File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 10
+    Warning (13410): Pin "VGA_G[1]" is stuck at GND File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 10
+    Warning (13410): Pin "VGA_G[2]" is stuck at GND File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 10
+    Warning (13410): Pin "VGA_G[3]" is stuck at GND File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 10
+    Warning (13410): Pin "VGA_G[4]" is stuck at GND File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 10
+    Warning (13410): Pin "VGA_B[0]" is stuck at GND File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 11
+    Warning (13410): Pin "VGA_B[1]" is stuck at GND File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 11
+    Warning (13410): Pin "VGA_B[2]" is stuck at GND File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 11
+    Warning (13410): Pin "VGA_B[3]" is stuck at GND File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 11
+    Warning (13410): Pin "VGA_B[4]" is stuck at GND File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 11
+    Warning (13410): Pin "VGA_B[5]" is stuck at GND File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 11
+    Warning (13410): Pin "VGA_SYNC_N" is stuck at GND File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 12
+    Warning (13410): Pin "dispCount[7]" is stuck at VCC File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 18
+    Warning (13410): Pin "dispCount[10]" is stuck at VCC File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 18
+    Warning (13410): Pin "dispCount[11]" is stuck at VCC File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 18
+    Warning (13410): Pin "dispCount[12]" is stuck at VCC File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 18
+    Warning (13410): Pin "dispCount[13]" is stuck at VCC File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 18
+    Warning (13410): Pin "dispPships[7]" is stuck at VCC File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 18
+    Warning (13410): Pin "dispPships[8]" is stuck at VCC File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 18
+    Warning (13410): Pin "dispPships[9]" is stuck at VCC File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 18
+    Warning (13410): Pin "dispPships[10]" is stuck at VCC File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 18
+    Warning (13410): Pin "dispPships[11]" is stuck at VCC File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 18
+    Warning (13410): Pin "dispPships[12]" is stuck at VCC File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 18
+    Warning (13410): Pin "dispPships[13]" is stuck at VCC File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 18
+    Warning (13410): Pin "dispEships[7]" is stuck at VCC File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 19
+    Warning (13410): Pin "dispEships[8]" is stuck at VCC File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 19
+    Warning (13410): Pin "dispEships[9]" is stuck at VCC File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 19
+    Warning (13410): Pin "dispEships[10]" is stuck at VCC File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 19
+    Warning (13410): Pin "dispEships[11]" is stuck at VCC File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 19
+    Warning (13410): Pin "dispEships[12]" is stuck at VCC File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 19
+    Warning (13410): Pin "dispEships[13]" is stuck at VCC File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Lab3top.sv Line: 19
+Info (286030): Timing-Driven Synthesis is running
+Info (17049): 16 registers lost all their fanouts during netlist optimizations.
 Info (144001): Generated suppressed messages file E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/output_files/Lab3.map.smsg
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 57 warnings
-    Info: Peak virtual memory: 4789 megabytes
-    Info: Processing ended: Sun Apr 21 02:58:38 2024
-    Info: Elapsed time: 00:00:07
-    Info: Total CPU time (on all processors): 00:00:17
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 3357 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 10 input pins
+    Info (21059): Implemented 80 output pins
+    Info (21061): Implemented 3267 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 430 warnings
+    Info: Peak virtual memory: 4911 megabytes
+    Info: Processing ended: Sun Apr 21 17:26:14 2024
+    Info: Elapsed time: 00:00:18
+    Info: Total CPU time (on all processors): 00:00:27
 
 
-+--------------------------------------------+
-; Analysis & Elaboration Suppressed Messages ;
-+--------------------------------------------+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
 The suppressed messages can be found in E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/output_files/Lab3.map.smsg.
 
 
