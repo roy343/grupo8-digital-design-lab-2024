@@ -4,8 +4,9 @@ module battleship_tb();
   logic confirm;
   logic [2:0] shipQ;
   logic [3:0] mov;
-  logic [2:0] x = 0;
-  logic [2:0] y = 0; 
+  logic [2:0] state;
+  logic [2:0] x;
+  logic [2:0] y; 
   logic [2:0] boardP[4:0][4:0];
   logic [2:0] boardE[4:0][4:0];
   logic [13:0] dispCount, dispPships, dispEships;
@@ -18,6 +19,7 @@ module battleship_tb();
 	 .confirm(confirm),
     .shipQ(shipQ),
     .mov(mov),
+	 .state(state),
 	 .x(x),
 	 .y(y),
     .boardP(boardP),
@@ -78,9 +80,9 @@ module battleship_tb();
 	 #5;
 	 mov = 4'b1000;
 	 #5;
-	 mov = 4'b0001;
+	 mov = 4'b0010;
 	 #5;
-	 mov = 4'b0100;
+	 mov = 4'b0010;
 	 confirm = 1;
 	 #5;
 	 confirm = 0;

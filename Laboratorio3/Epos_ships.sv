@@ -3,10 +3,10 @@ module Epos_ships (
 		input logic [2:0] shipQ,
 		input logic [2:0] board_in[4:0][4:0],
 		output logic [2:0] board_out[4:0][4:0],
+		output logic [2:0] placedQ,
 		output logic placed
 	);
 	
-	logic [2:0] placedQ = 0;
 	logic [3:0] seedX = 4'b0000;
 	logic [2:0] seedY = 3'b110;
 	logic [2:0] local_board[4:0][4:0];
@@ -23,6 +23,7 @@ module Epos_ships (
    end
 	
 	initial begin
+		placedQ = 0;
 		local_board = '{
             '{0, 0, 0, 0, 0},
             '{0, 0, 0, 0, 0},
@@ -122,9 +123,13 @@ module Epos_ships (
 				endcase
 			end
 			
-			if (placedQ == shipQ) begin
+			else if (placedQ == shipQ) begin
 				board_out = local_board;
 				placed = 1;
+			end
+			
+			if (0 < placedQ) begin
+				board_out = local_board;
 			end
 		end
 	end

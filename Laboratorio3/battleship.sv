@@ -6,8 +6,9 @@ module battleship (
 		input logic clk, clk1, rst, confirm,
 		input logic [2:0] shipQ,
 		input logic [3:0] mov,
-		output logic [2:0] x = 0,
-		output logic [2:0] y = 0, 
+		output logic [2:0] state,
+		output logic [2:0] x = 3'd0,
+		output logic [2:0] y = 3'd0, 
 		output logic [2:0] boardP[4:0][4:0],
 		output logic [2:0] boardE[4:0][4:0],
 		output logic [1:0] game_state,
@@ -15,7 +16,7 @@ module battleship (
 	);
 	
 	typedef enum logic [2:0] {SELSHIPQ, PLACESHIP, PLAYP, CHECK_WIN, PLAYE, CHECK_LOSE, END} state_t;
-	state_t state, next_state;
+	state_t next_state;
 	
 	logic [2:0] boardP_upt[4:0][4:0];
 	logic [2:0] boardPplay_upt[4:0][4:0];
@@ -32,6 +33,8 @@ module battleship (
 	logic Eplayed;
 	logic is_win;
 	logic is_loss;
+	logic [2:0] placedPQ;
+	logic [2:0] placedEQ;
 	logic [2:0] PshipsLeft;
 	logic [2:0] EshipsLeft;
 	logic [2:0] outX, outY;
@@ -55,6 +58,7 @@ module battleship (
 		.shipQ(shipQ),
 		.board_in(boardP),
 		.board_out(boardP_upt),
+		.placedQ(placedPQ),
 		.placed(Pships_placed)
 	);
 	
@@ -64,6 +68,7 @@ module battleship (
 		.shipQ(shipQ),
 		.board_in(boardE),
 		.board_out(boardE_upt),
+		.placedQ(placedEQ),
 		.placed(Eships_placed)
 	);
 	
@@ -79,8 +84,8 @@ module battleship (
 	);
 	
 	Playerplay pPlay (
-		.x(outX), 
-		.y(outY), 
+		.x(x), 
+		.y(y), 
 		.clk(clk),
 		.enable(Pturn), 
 		.confirm(confirm),
@@ -119,6 +124,16 @@ module battleship (
 		.dispOut(dispPships)
 	);
 	
+	initial begin
+		game_state = 0;
+		for (int i = 0; i < 5; i++) begin
+			for (int j = 0; j < 5; j++) begin
+				boardP[i][j] = 0;
+				boardE[i][j] = 0;
+			end
+		end
+	end 
+	
 	always_ff @(posedge clk) begin
 		if (rst) begin
 			state <= SELSHIPQ;
@@ -136,16 +151,14 @@ module battleship (
 		case(state)
 		
 			SELSHIPQ: begin
-				game_state = 0;
-				
 				for (int i = 0; i < 5; i++) begin
-					 for (int j = 0; j < 5; j++) begin
-						boardP[i][j] = 0;
-						boardE[i][j] = 0;
-					 end
+					for (int j = 0; j < 5; j++) begin
+						boardP[i][j] = 3'd0;
+						boardE[i][j] = 3'd0;
+					end
 				end
 				
-				if (0 < shipQ < 6) begin
+				if (3'd0 < shipQ || shipQ < 3'd6) begin
 					next_state = PLACESHIP;
 				end 
 			end
@@ -153,9 +166,11 @@ module battleship (
 			PLACESHIP: begin
 				Place_ships = 1;
 				if (Pships_placed && Eships_placed) begin
-					boardP = boardP_upt;
-					boardE = boardE_upt;
 					next_state = PLAYP;
+				end else if (0 < placedPQ) begin
+					boardP = boardP_upt;
+				end if (0 < placedEQ) begin
+					boardE = boardE_upt;
 				end
 			end
 			
@@ -164,13 +179,13 @@ module battleship (
 				Pturn = 1;
 				startT = 1;
 				
-				if (count > 0) begin
+				if (count > 4'd0) begin
 					if (Pplayed) begin
 						Pturn = 0;
 						boardE = boardPplay_upt;
 						next_state = CHECK_WIN;
 					end 
-				end else if (count == 0) begin
+				end else if (count == 4'd0) begin
 					Pturn = 0;
 					next_state = PLAYE;
 				end

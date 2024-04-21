@@ -9,12 +9,12 @@
 # vmap altera_ver ./verilog_libs/altera_ver
 # Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
 # vmap altera_ver ./verilog_libs/altera_ver 
-# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Copying E:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
-# vlog -vlog01compat -work altera_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v}
+# vlog -vlog01compat -work altera_ver {e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:51:39 on Apr 19,2024
-# vlog -reportprogress 300 -vlog01compat -work altera_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v 
+# Start time: 02:58:47 on Apr 21,2024
+# vlog -reportprogress 300 -vlog01compat -work altera_ver e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v 
 # -- Compiling module global
 # -- Compiling module carry
 # -- Compiling module cascade
@@ -95,7 +95,7 @@
 # 	alt_iobuf_diff
 # 	alt_bidir_diff
 # 	alt_bidir_buf
-# End time: 02:51:40 on Apr 19,2024, Elapsed time: 0:00:01
+# End time: 02:58:48 on Apr 21,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/lpm_ver
@@ -104,10 +104,10 @@
 # Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
 # vmap lpm_ver ./verilog_libs/lpm_ver 
 # Modifying modelsim.ini
-# vlog -vlog01compat -work lpm_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v}
+# vlog -vlog01compat -work lpm_ver {e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:51:40 on Apr 19,2024
-# vlog -reportprogress 300 -vlog01compat -work lpm_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v 
+# Start time: 02:58:48 on Apr 21,2024
+# vlog -reportprogress 300 -vlog01compat -work lpm_ver e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v 
 # -- Compiling module LPM_MEMORY_INITIALIZATION
 # -- Compiling module LPM_HINT_EVALUATION
 # -- Compiling module LPM_DEVICE_FAMILIES
@@ -170,7 +170,7 @@
 # 	lpm_inpad
 # 	lpm_outpad
 # 	lpm_bipad
-# End time: 02:51:40 on Apr 19,2024, Elapsed time: 0:00:00
+# End time: 02:58:48 on Apr 21,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/sgate_ver
@@ -179,10 +179,10 @@
 # Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
 # vmap sgate_ver ./verilog_libs/sgate_ver 
 # Modifying modelsim.ini
-# vlog -vlog01compat -work sgate_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/sgate.v}
+# vlog -vlog01compat -work sgate_ver {e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/sgate.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:51:41 on Apr 19,2024
-# vlog -reportprogress 300 -vlog01compat -work sgate_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/sgate.v 
+# Start time: 02:58:49 on Apr 21,2024
+# vlog -reportprogress 300 -vlog01compat -work sgate_ver e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/sgate.v 
 # -- Compiling module oper_add
 # -- Compiling module oper_addsub
 # -- Compiling module mux21
@@ -223,7 +223,7 @@
 # 	oper_decoder
 # 	oper_bus_mux
 # 	oper_latch
-# End time: 02:51:41 on Apr 19,2024, Elapsed time: 0:00:00
+# End time: 02:58:49 on Apr 21,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_mf_ver
@@ -232,10 +232,10 @@
 # Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
 # vmap altera_mf_ver ./verilog_libs/altera_mf_ver 
 # Modifying modelsim.ini
-# vlog -vlog01compat -work altera_mf_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v}
+# vlog -vlog01compat -work altera_mf_ver {e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:51:41 on Apr 19,2024
-# vlog -reportprogress 300 -vlog01compat -work altera_mf_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v 
+# Start time: 02:58:49 on Apr 21,2024
+# vlog -reportprogress 300 -vlog01compat -work altera_mf_ver e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v 
 # -- Compiling module lcell
 # -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
 # -- Compiling module ALTERA_MF_HINT_EVALUATION
@@ -364,7 +364,7 @@
 # 	alt_fault_injection
 # 	sld_virtual_jtag_basic
 # 	altsource_probe
-# End time: 02:51:42 on Apr 19,2024, Elapsed time: 0:00:01
+# End time: 02:58:50 on Apr 21,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_lnsim_ver
@@ -373,10 +373,10 @@
 # Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
 # vmap altera_lnsim_ver ./verilog_libs/altera_lnsim_ver 
 # Modifying modelsim.ini
-# vlog -sv -work altera_lnsim_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv}
+# vlog -sv -work altera_lnsim_ver {e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:51:43 on Apr 19,2024
-# vlog -reportprogress 300 -sv -work altera_lnsim_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv 
+# Start time: 02:58:50 on Apr 21,2024
+# vlog -reportprogress 300 -sv -work altera_lnsim_ver e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv 
 # -- Compiling package altera_lnsim_functions
 # -- Compiling package altera_generic_pll_functions
 # -- Compiling module generic_pll
@@ -458,7 +458,7 @@
 # 	altera_iopll
 # 	fourteennm_altera_iopll
 # 	fourteennm_simple_iopll
-# End time: 02:51:44 on Apr 19,2024, Elapsed time: 0:00:01
+# End time: 02:58:51 on Apr 21,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_ver
@@ -467,10 +467,10 @@
 # Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
 # vmap cyclonev_ver ./verilog_libs/cyclonev_ver 
 # Modifying modelsim.ini
-# vlog -vlog01compat -work cyclonev_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v}
+# vlog -vlog01compat -work cyclonev_ver {e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:51:44 on Apr 19,2024
-# vlog -reportprogress 300 -vlog01compat -work cyclonev_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v 
+# Start time: 02:58:51 on Apr 21,2024
+# vlog -reportprogress 300 -vlog01compat -work cyclonev_ver e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v 
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
@@ -483,20 +483,20 @@
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # 
 # Top level modules:
-# End time: 02:51:46 on Apr 19,2024, Elapsed time: 0:00:02
+# End time: 02:58:54 on Apr 21,2024, Elapsed time: 0:00:03
 # Errors: 0, Warnings: 10
-# vlog -vlog01compat -work cyclonev_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v}
+# vlog -vlog01compat -work cyclonev_ver {e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:51:47 on Apr 19,2024
-# vlog -reportprogress 300 -vlog01compat -work cyclonev_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v 
+# Start time: 02:58:54 on Apr 21,2024
+# vlog -reportprogress 300 -vlog01compat -work cyclonev_ver e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 02:51:48 on Apr 19,2024, Elapsed time: 0:00:01
+# End time: 02:58:55 on Apr 21,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work cyclonev_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_atoms.v}
+# vlog -vlog01compat -work cyclonev_ver {e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:51:48 on Apr 19,2024
-# vlog -reportprogress 300 -vlog01compat -work cyclonev_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_atoms.v 
+# Start time: 02:58:55 on Apr 21,2024
+# vlog -reportprogress 300 -vlog01compat -work cyclonev_ver e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_atoms.v 
 # -- Compiling UDP CYCLONEV_PRIM_DFFE
 # -- Compiling UDP CYCLONEV_PRIM_DFFEAS
 # -- Compiling UDP CYCLONEV_PRIM_DFFEAS_HIGH
@@ -635,7 +635,7 @@
 # 	cyclonev_mem_phy
 # 	cyclonev_oscillator
 # 	cyclonev_hps_interface_fpga2sdram
-# End time: 02:51:49 on Apr 19,2024, Elapsed time: 0:00:01
+# End time: 02:58:56 on Apr 21,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_hssi_ver
@@ -644,18 +644,18 @@
 # Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
 # vmap cyclonev_hssi_ver ./verilog_libs/cyclonev_hssi_ver 
 # Modifying modelsim.ini
-# vlog -vlog01compat -work cyclonev_hssi_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v}
+# vlog -vlog01compat -work cyclonev_hssi_ver {e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:51:50 on Apr 19,2024
-# vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v 
+# Start time: 02:58:56 on Apr 21,2024
+# vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 02:51:52 on Apr 19,2024, Elapsed time: 0:00:02
+# End time: 02:58:58 on Apr 21,2024, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work cyclonev_hssi_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_hssi_atoms.v}
+# vlog -vlog01compat -work cyclonev_hssi_ver {e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_hssi_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:51:52 on Apr 19,2024
-# vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_hssi_atoms.v 
+# Start time: 02:58:58 on Apr 21,2024
+# vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_hssi_atoms.v 
 # -- Compiling module cyclonev_hssi_8g_pcs_aggregate
 # -- Compiling module cyclonev_hssi_8g_rx_pcs
 # -- Compiling module cyclonev_hssi_8g_tx_pcs
@@ -754,7 +754,7 @@
 # 	arriav_hssi_avmm_interface
 # 	arriav_hssi_pma_hi_pmaif
 # 	arriav_hssi_pma_hi_xcvrif
-# End time: 02:51:52 on Apr 19,2024, Elapsed time: 0:00:00
+# End time: 02:58:59 on Apr 21,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_pcie_hip_ver
@@ -763,10 +763,10 @@
 # Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
 # vmap cyclonev_pcie_hip_ver ./verilog_libs/cyclonev_pcie_hip_ver 
 # Modifying modelsim.ini
-# vlog -vlog01compat -work cyclonev_pcie_hip_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v}
+# vlog -vlog01compat -work cyclonev_pcie_hip_ver {e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:51:52 on Apr 19,2024
-# vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v 
+# Start time: 02:58:59 on Apr 21,2024
+# vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v 
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
@@ -775,18 +775,18 @@
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # 
 # Top level modules:
-# End time: 02:51:55 on Apr 19,2024, Elapsed time: 0:00:03
+# End time: 02:59:02 on Apr 21,2024, Elapsed time: 0:00:03
 # Errors: 0, Warnings: 6
-# vlog -vlog01compat -work cyclonev_pcie_hip_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v}
+# vlog -vlog01compat -work cyclonev_pcie_hip_ver {e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:51:55 on Apr 19,2024
-# vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v 
+# Start time: 02:59:02 on Apr 21,2024
+# vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver e:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v 
 # -- Compiling module cyclonev_hd_altpe2_hip_top
 # -- Compiling module arriav_hd_altpe2_hip_top
 # 
 # Top level modules:
 # 	cyclonev_hd_altpe2_hip_top
-# End time: 02:51:55 on Apr 19,2024, Elapsed time: 0:00:00
+# End time: 02:59:02 on Apr 21,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # if {[file exists rtl_work]} {
@@ -798,116 +798,116 @@
 # vmap work rtl_work 
 # Modifying modelsim.ini
 # 
-# vlog -sv -work work +incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3 {C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv}
+# vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3 {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:51:56 on Apr 19,2024
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3" C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv 
+# Start time: 02:59:02 on Apr 21,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3" E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv 
 # -- Compiling module battleship
 # 
 # Top level modules:
 # 	battleship
-# End time: 02:51:56 on Apr 19,2024, Elapsed time: 0:00:00
+# End time: 02:59:02 on Apr 21,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3 {C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/mov_control.sv}
+# vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3 {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/mov_control.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:51:56 on Apr 19,2024
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3" C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/mov_control.sv 
+# Start time: 02:59:02 on Apr 21,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3" E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/mov_control.sv 
 # -- Compiling module mov_control
 # 
 # Top level modules:
 # 	mov_control
-# End time: 02:51:56 on Apr 19,2024, Elapsed time: 0:00:00
+# End time: 02:59:02 on Apr 21,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3 {C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/Ppos_ships.sv}
+# vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3 {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Ppos_ships.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:51:56 on Apr 19,2024
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3" C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/Ppos_ships.sv 
+# Start time: 02:59:02 on Apr 21,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3" E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Ppos_ships.sv 
 # -- Compiling module Ppos_ships
-# ** Warning: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/Ppos_ships.sv(5): (vlog-13314) Defaulting port 'board_in' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Ppos_ships.sv(5): (vlog-13314) Defaulting port 'board_in' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # 
 # Top level modules:
 # 	Ppos_ships
-# End time: 02:51:56 on Apr 19,2024, Elapsed time: 0:00:00
+# End time: 02:59:02 on Apr 21,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
-# vlog -sv -work work +incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3 {C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/Epos_ships.sv}
+# vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3 {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Epos_ships.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:51:56 on Apr 19,2024
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3" C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/Epos_ships.sv 
+# Start time: 02:59:02 on Apr 21,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3" E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Epos_ships.sv 
 # -- Compiling module Epos_ships
-# ** Warning: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/Epos_ships.sv(4): (vlog-13314) Defaulting port 'board_in' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Epos_ships.sv(4): (vlog-13314) Defaulting port 'board_in' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # 
 # Top level modules:
 # 	Epos_ships
-# End time: 02:51:56 on Apr 19,2024, Elapsed time: 0:00:00
+# End time: 02:59:03 on Apr 21,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 1
-# vlog -sv -work work +incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3 {C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/Playerplay.sv}
+# vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3 {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Playerplay.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:51:56 on Apr 19,2024
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3" C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/Playerplay.sv 
+# Start time: 02:59:03 on Apr 21,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3" E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Playerplay.sv 
 # -- Compiling module Playerplay
-# ** Warning: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/Playerplay.sv(4): (vlog-13314) Defaulting port 'board_in' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Playerplay.sv(4): (vlog-13314) Defaulting port 'board_in' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # 
 # Top level modules:
 # 	Playerplay
-# End time: 02:51:56 on Apr 19,2024, Elapsed time: 0:00:00
+# End time: 02:59:03 on Apr 21,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
-# vlog -sv -work work +incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3 {C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/playTimer.sv}
+# vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3 {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/playTimer.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:51:56 on Apr 19,2024
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3" C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/playTimer.sv 
+# Start time: 02:59:03 on Apr 21,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3" E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/playTimer.sv 
 # -- Compiling module playTimer
 # 
 # Top level modules:
 # 	playTimer
-# End time: 02:51:56 on Apr 19,2024, Elapsed time: 0:00:00
+# End time: 02:59:03 on Apr 21,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3 {C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/Envplay.sv}
+# vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3 {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Envplay.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:51:56 on Apr 19,2024
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3" C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/Envplay.sv 
+# Start time: 02:59:03 on Apr 21,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3" E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Envplay.sv 
 # -- Compiling module Envplay
-# ** Warning: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/Envplay.sv(3): (vlog-13314) Defaulting port 'board_in' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Envplay.sv(3): (vlog-13314) Defaulting port 'board_in' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # 
 # Top level modules:
 # 	Envplay
-# End time: 02:51:56 on Apr 19,2024, Elapsed time: 0:00:00
+# End time: 02:59:03 on Apr 21,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
-# vlog -sv -work work +incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3 {C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/check_win_lose.sv}
+# vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3 {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/check_win_lose.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:51:56 on Apr 19,2024
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3" C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/check_win_lose.sv 
+# Start time: 02:59:03 on Apr 21,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3" E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/check_win_lose.sv 
 # -- Compiling module check_win_lose
-# ** Warning: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/check_win_lose.sv(2): (vlog-13314) Defaulting port 'board_in' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/check_win_lose.sv(2): (vlog-13314) Defaulting port 'board_in' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # 
 # Top level modules:
 # 	check_win_lose
-# End time: 02:51:57 on Apr 19,2024, Elapsed time: 0:00:01
+# End time: 02:59:03 on Apr 21,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
-# vlog -sv -work work +incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3 {C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/displayConverter.sv}
+# vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3 {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/displayConverter.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:51:57 on Apr 19,2024
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3" C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/displayConverter.sv 
+# Start time: 02:59:03 on Apr 21,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3" E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/displayConverter.sv 
 # -- Compiling module displayConverter
 # 
 # Top level modules:
 # 	displayConverter
-# End time: 02:51:57 on Apr 19,2024, Elapsed time: 0:00:00
+# End time: 02:59:03 on Apr 21,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -sv -work work +incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3 {C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/battleship_tb.sv}
+# vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3 {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship_tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:51:57 on Apr 19,2024
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3" C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/battleship_tb.sv 
+# Start time: 02:59:03 on Apr 21,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3" E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship_tb.sv 
 # -- Compiling module battleship_tb
 # 
 # Top level modules:
 # 	battleship_tb
-# End time: 02:51:57 on Apr 19,2024, Elapsed time: 0:00:00
+# End time: 02:59:03 on Apr 21,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  battleship_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" battleship_tb 
-# Start time: 02:51:57 on Apr 19,2024
+# Start time: 02:59:03 on Apr 21,2024
 # Loading sv_std.std
 # Loading work.battleship_tb
 # Loading work.battleship
@@ -923,9 +923,9 @@
 # add wave *
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: jcur1  Hostname: UMI  ProcessID: 30636
-#           Attempting to use alternate WLF file "./wlft3mbjzy".
+#           Attempting to use alternate WLF file "./wlftjzh7dh".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlft3mbjzy
+#           Using alternate file: ./wlftjzh7dh
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
@@ -974,7 +974,7 @@
 # ----Player Board-------
 #    0 	   1 	   0 	   0 	   0 	
 # 
-#    0 	   2 	   2 	   0 	   0 	
+#    2 	   2 	   0 	   0 	   0 	
 # 
 #    0 	   0 	   0 	   0 	   0 	
 # 
@@ -986,98 +986,7 @@
 # 
 # Board after player attack:
 # ------PC Board---------
-#    0 	   0 	   0 	   2 	   2 	
-# 
-#    0 	   0 	   0 	   0 	   0 	
-# 
-#    0 	   0 	   0 	   0 	   0 	
-# 
-#    0 	   0 	   6 	   0 	   0 	
-# 
-#    0 	   0 	   0 	   0 	   0 	
-# 
-# 
-# 
-# ----Player Board-------
-#    0 	   1 	   0 	   0 	   0 	
-# 
-#    0 	   2 	   2 	   0 	   0 	
-# 
-#    0 	   0 	   0 	   0 	   0 	
-# 
-#    0 	   0 	   0 	   0 	   0 	
-# 
-#    0 	   0 	   0 	   0 	   0 	
-# 
-# 
-# 
-# Board after PC attack:
-# ------PC Board---------
-#    0 	   0 	   0 	   2 	   2 	
-# 
-#    0 	   0 	   0 	   0 	   0 	
-# 
-#    0 	   0 	   0 	   0 	   0 	
-# 
-#    0 	   0 	   6 	   0 	   0 	
-# 
-#    0 	   0 	   0 	   0 	   0 	
-# 
-# 
-# 
-# ----Player Board-------
-#    0 	   1 	   0 	   0 	   0 	
-# 
-#    0 	   2 	   2 	   0 	   0 	
-# 
-#    0 	   0 	   0 	   0 	   0 	
-# 
-#    0 	   0 	   0 	   7 	   0 	
-# 
-#    0 	   0 	   0 	   0 	   0 	
-# 
-# 
-# 
-# ** Note: $finish    : C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/battleship_tb.sv(123)
-#    Time: 385 ps  Iteration: 0  Instance: /battleship_tb
-# 1
-# Break in Module battleship_tb at C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/battleship_tb.sv line 123
-add wave -position 3  sim:/battleship_tb/dut/state
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-run -all
-# GetModuleFileName: No se puede encontrar el módulo especificado.
-# 
-# 
-# ------PC Board---------
-#    0 	   0 	   0 	   0 	   0 	
-# 
-#    0 	   0 	   0 	   0 	   0 	
-# 
-#    0 	   0 	   0 	   0 	   0 	
-# 
-#    0 	   0 	   0 	   0 	   0 	
-# 
-#    0 	   0 	   0 	   0 	   0 	
-# 
-# 
-# 
-# ----Player Board-------
-#    0 	   0 	   0 	   0 	   0 	
-# 
-#    0 	   0 	   0 	   0 	   0 	
-# 
-#    0 	   0 	   0 	   0 	   0 	
-# 
-#    0 	   0 	   0 	   0 	   0 	
-# 
-#    0 	   0 	   0 	   0 	   0 	
-# 
-# 
-# 
-# Boards after placing boats:
-# ------PC Board---------
-#    0 	   0 	   0 	   2 	   2 	
+#    0 	   7 	   0 	   2 	   2 	
 # 
 #    0 	   0 	   0 	   0 	   0 	
 # 
@@ -1092,34 +1001,7 @@ run -all
 # ----Player Board-------
 #    0 	   1 	   0 	   0 	   0 	
 # 
-#    0 	   2 	   2 	   0 	   0 	
-# 
-#    0 	   0 	   0 	   0 	   0 	
-# 
-#    0 	   0 	   0 	   0 	   0 	
-# 
-#    0 	   0 	   0 	   0 	   0 	
-# 
-# 
-# 
-# Board after player attack:
-# ------PC Board---------
-#    0 	   0 	   0 	   2 	   2 	
-# 
-#    0 	   0 	   0 	   0 	   0 	
-# 
-#    0 	   0 	   0 	   0 	   0 	
-# 
-#    0 	   0 	   6 	   0 	   0 	
-# 
-#    0 	   0 	   0 	   0 	   0 	
-# 
-# 
-# 
-# ----Player Board-------
-#    0 	   1 	   0 	   0 	   0 	
-# 
-#    0 	   2 	   2 	   0 	   0 	
+#    2 	   2 	   0 	   0 	   0 	
 # 
 #    0 	   0 	   0 	   0 	   0 	
 # 
@@ -1131,13 +1013,13 @@ run -all
 # 
 # Board after PC attack:
 # ------PC Board---------
-#    0 	   0 	   0 	   2 	   2 	
+#    0 	   7 	   0 	   2 	   2 	
 # 
 #    0 	   0 	   0 	   0 	   0 	
 # 
 #    0 	   0 	   0 	   0 	   0 	
 # 
-#    0 	   0 	   6 	   0 	   0 	
+#    0 	   0 	   1 	   0 	   0 	
 # 
 #    0 	   0 	   0 	   0 	   0 	
 # 
@@ -1146,7 +1028,7 @@ run -all
 # ----Player Board-------
 #    0 	   1 	   0 	   0 	   0 	
 # 
-#    0 	   2 	   2 	   0 	   0 	
+#    2 	   2 	   0 	   0 	   0 	
 # 
 #    0 	   0 	   0 	   0 	   0 	
 # 
@@ -1156,9 +1038,9 @@ run -all
 # 
 # 
 # 
-# ** Note: $finish    : C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/battleship_tb.sv(123)
+# ** Note: $finish    : E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship_tb.sv(125)
 #    Time: 385 ps  Iteration: 0  Instance: /battleship_tb
 # 1
-# Break in Module battleship_tb at C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Laboratorio3/battleship_tb.sv line 123
-# End time: 02:54:14 on Apr 19,2024, Elapsed time: 0:02:17
-# Errors: 0, Warnings: 0
+# Break in Module battleship_tb at E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship_tb.sv line 125
+# End time: 03:00:05 on Apr 21,2024, Elapsed time: 0:01:02
+# Errors: 0, Warnings: 2
