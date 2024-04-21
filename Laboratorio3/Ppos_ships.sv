@@ -26,61 +26,61 @@ module Ppos_ships (
 		if (placedQ < shipQ) begin
 			case(placedQ) 
 				
-				0: begin
+				3'd0: begin
 					if (confirm && enable) begin
 						local_board[x][y] = 3'd1;
-						placedQ = placedQ + 1;
+						placedQ = placedQ + 3'd1;
 					end
 				end
 				
-				1: begin
+				3'd1: begin
 				
-					if (y < 4) begin
+					if (y < 3'd4) begin
 						if (local_board[x][y] == 3'd0 && local_board[x][y+1] == 3'd0) begin
 							if (confirm && enable) begin
 								local_board[x][y] = 3'd2;
 								local_board[x][y+1] = 3'd2;
-								placedQ = placedQ + 1;
+								placedQ = placedQ + 3'd1;
 							end
 						end
 					end
 				
 				end
 				
-				2: begin
+				3'd2: begin
 				
-					if (y < 3) begin
+					if (y < 3'd3) begin
 						if (local_board[x][y] == 3'd0 && local_board[x][y+1] == 3'd0 && local_board[x][y+2] == 3'd0) begin
 							if (confirm && enable) begin
 								local_board[x][y] = 3'd3;
 								local_board[x][y+1] = 3'd3;
 								local_board[x][y+2] = 3'd3;
-								placedQ = placedQ + 1;
+								placedQ = placedQ + 3'd1;
 							end
 						end
 					end
 				
 				end
 				
-				3: begin
+				3'd3: begin
 				
-					if (y < 2) begin
+					if (y < 3'd2) begin
 						if (local_board[x][y] == 3'd0 && local_board[x][y+1] == 3'd0 && local_board[x][y+2] == 3'd0 && local_board[x][y+3] == 3'd0) begin
 							if (confirm && enable) begin
 								local_board[x][y] = 3'd4;
 								local_board[x][y+1] = 3'd4;
 								local_board[x][y+2] = 3'd4;
 								local_board[x][y+3] = 3'd4;
-								placedQ = placedQ + 1;
+								placedQ = placedQ + 3'd1;
 							end
 						end
 					end
 				
 				end
 				
-				4: begin
+				3'd4: begin
 				
-					if (y < 1) begin
+					if (y < 3'd1) begin
 						if (local_board[x][y] == 3'd0 && local_board[x][y+1] == 3'd0 && local_board[x][y+2] == 3'd0 && local_board[x][y+3] == 3'd0 && local_board[x][y+4] == 3'd0) begin
 							if (confirm && enable) begin
 								local_board[x][y] = 3'd5;
@@ -88,7 +88,7 @@ module Ppos_ships (
 								local_board[x][y+2] = 3'd5;
 								local_board[x][y+3] = 3'd5;
 								local_board[x][y+4] = 3'd5;
-								placedQ = placedQ + 1;
+								placedQ = placedQ + 3'd1;
 							end
 						end
 					end
@@ -104,7 +104,7 @@ module Ppos_ships (
 			placed = 1;
 		end
 		
-		if (0 < placedQ) begin
+		if (3'd0 < placedQ) begin
 				board_out = local_board;
 		end
 		

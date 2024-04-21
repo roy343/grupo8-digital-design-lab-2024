@@ -9,269 +9,192 @@ z2
 !i10f 100
 cModel Technology
 Z0 dE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/simulation/modelsim
-vbattleship
+vclockDivider
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1713677474
+Z2 !s110 1713682526
 !i10b 1
-!s100 :kFbEfoRHzROe:FFIg9z82
+!s100 f^oJE0bEZW3;dZmjjQ2>Y2
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IlWhJ5]kTiWLU44@zbbh^U0
+Ic@J_K1l1`P8@=YL@T^7bi0
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1713676388
-8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv
-FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv
-!i122 0
-L0 5 230
+w1713643392
+8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/clockDivider.sv
+FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/clockDivider.sv
+!i122 6
+L0 1 12
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1713677474.000000
-!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv|
+Z6 !s108 1713682526.000000
+!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/clockDivider.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/clockDivider.sv|
 !i113 1
 Z7 o-sv -work work
 Z8 !s92 -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3
 Z9 tCvgOpt 0
-vbattleship_tb
+nclock@divider
+vcolorMux
 R1
 R2
 !i10b 1
-!s100 UdEK?M7C3[^lIG>oFf2dP2
+!s100 C@PR=gJEQL262g>912ZFa0
 R3
-I2_E86G_`2?zXPR2HY_ZXe2
+IG=0knid9Uz<S<1B`MD<2J3
 R4
 S1
 R0
-w1713677068
-8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship_tb.sv
-FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship_tb.sv
-!i122 9
-L0 1 128
-R5
-r1
-!s85 0
-31
-R6
-!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship_tb.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship_tb.sv|
-!i113 1
-R7
-R8
-R9
-vcheck_win_lose
-R1
-R2
-!i10b 1
-!s100 9MUkf@ZY_2fD@9n>Ym?CD1
-R3
-IAa?KGNL88dXnE7dmB`PLP0
-R4
-S1
-R0
-Z10 w1713643392
-8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/check_win_lose.sv
-FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/check_win_lose.sv
-!i122 8
-L0 1 33
-R5
-r1
-!s85 0
-31
-R6
-!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/check_win_lose.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/check_win_lose.sv|
-!i113 1
-R7
-R8
-R9
-vdisplayConverter
-R1
-R2
-!i10b 1
-!s100 <S6KTBPU2fET]XM_e^Eg91
-R3
-Izf_`4fKYNffWWYMJ]3g<a3
-R4
-S1
-R0
-R10
-8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/displayConverter.sv
-FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/displayConverter.sv
+w1713652315
+8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/colorMux.sv
+FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/colorMux.sv
 !i122 5
-L0 1 27
+L0 1 20
 R5
 r1
 !s85 0
 31
 R6
-!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/displayConverter.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/displayConverter.sv|
+!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/colorMux.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/colorMux.sv|
 !i113 1
 R7
 R8
 R9
-ndisplay@converter
-vEnvplay
+ncolor@mux
+vDibujarPantalla
 R1
 R2
 !i10b 1
-!s100 EMjPfW624;5@X`2bg?6[l0
+!s100 [ACVo6NQMGh:dS3OEChAO3
 R3
-I]BfVREdVf2O14D63i<Ocz3
+I>Vi[S`jKXC8ADV<f5C<Hd1
 R4
 S1
 R0
-R10
-8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Envplay.sv
-FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Envplay.sv
-!i122 7
-L0 1 42
-R5
-r1
-!s85 0
-31
-R6
-!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Envplay.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Envplay.sv|
-!i113 1
-R7
-R8
-R9
-n@envplay
-vEpos_ships
-R1
-R2
-!i10b 1
-!s100 dfoCAfLaBoH_aY30T_ZEN3
-R3
-Ij8==H?mX:CHoSzmR59f680
-R4
-S1
-R0
-w1713646820
-8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Epos_ships.sv
-FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Epos_ships.sv
-!i122 3
-L0 1 137
-R5
-r1
-!s85 0
-31
-R6
-!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Epos_ships.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Epos_ships.sv|
-!i113 1
-R7
-R8
-R9
-n@epos_ships
-vmov_control
-R1
-R2
-!i10b 1
-!s100 ZV02jGggZ_3Z>9VL;T?b83
-R3
-ILhO6@^N2X7O=XkQdaJKom3
-R4
-S1
-R0
-w1713655173
-8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/mov_control.sv
-FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/mov_control.sv
-!i122 1
-L0 1 48
-R5
-r1
-!s85 0
-31
-R6
-!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/mov_control.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/mov_control.sv|
-!i113 1
-R7
-R8
-R9
-vPlayerplay
-R1
-R2
-!i10b 1
-!s100 ];;Ha=4Ub4QQUPzDLdjQP1
-R3
-IF]NFY`4W:GKd:MD?i_hB^0
-R4
-S1
-R0
-R10
-8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Playerplay.sv
-FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Playerplay.sv
-!i122 6
-L0 1 31
-R5
-r1
-!s85 0
-31
-R6
-!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Playerplay.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Playerplay.sv|
-!i113 1
-R7
-R8
-R9
-n@playerplay
-vplayTimer
-R1
-R2
-!i10b 1
-!s100 zR8AiMDk=>ojf0Nmzme>K2
-R3
-IKTnBG5nE7:De>N?PlnckS3
-R4
-S1
-R0
-w1713676122
-8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/playTimer.sv
-FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/playTimer.sv
+w1713652770
+8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv
+FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv
 !i122 4
-L0 1 18
+L0 1 113
 R5
 r1
 !s85 0
 31
 R6
-!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/playTimer.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/playTimer.sv|
+!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv|
 !i113 1
 R7
 R8
 R9
-nplay@timer
-vPpos_ships
+n@dibujar@pantalla
+vdrawingMux
 R1
 R2
 !i10b 1
-!s100 ;acHn19i=od]eCB6AGiW;3
+!s100 R[RDC<ZPKYFi@z[gYU^^n3
 R3
-I@=UAM6TOG9Eb1RIgUiG322
+IR^;kLchTCdcTc]Cg?WOiS2
 R4
 S1
 R0
-w1713646814
-8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Ppos_ships.sv
-FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Ppos_ships.sv
-!i122 2
-L0 1 114
+w1713652538
+8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv
+FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv
+!i122 3
+L0 1 90
 R5
 r1
 !s85 0
 31
 R6
-!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Ppos_ships.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Ppos_ships.sv|
+!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv|
 !i113 1
 R7
 R8
 R9
-n@ppos_ships
+ndrawing@mux
+vVerifica_posiciones
+R1
+R2
+!i10b 1
+!s100 CBD7I[<;Bj7GM0?:z88382
+R3
+IDFi1h24z^V[D<^2dHB=9A1
+R4
+S1
+R0
+w1713651520
+8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv
+FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv
+!i122 2
+L0 2 84
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv|
+!i113 1
+R7
+R8
+R9
+n@verifica_posiciones
+vVGAController
+R1
+R2
+!i10b 1
+!s100 HEKNS]U^E6]Z`DCad@S>H0
+R3
+IQ?a@gV<A2^A4>W0;<A9LI0
+R4
+S1
+R0
+w1713654785
+8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/VGAController.sv
+FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/VGAController.sv
+!i122 1
+L0 1 29
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/VGAController.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/VGAController.sv|
+!i113 1
+R7
+R8
+R9
+n@v@g@a@controller
+vVGAMain
+R1
+R2
+!i10b 1
+!s100 Qo^4M0@jIJL`imf=hQne^2
+R3
+IDUHE`EJkHIgbc4;Sf3S]:1
+R4
+S1
+R0
+w1713649622
+8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/VGAMain.sv
+FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/VGAMain.sv
+!i122 0
+L0 1 15
+R5
+r1
+!s85 0
+31
+!s108 1713682525.000000
+!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/VGAMain.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/VGAMain.sv|
+!i113 1
+R7
+R8
+R9
+n@v@g@a@main

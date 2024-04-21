@@ -6,41 +6,41 @@ module mov_control (
 	
 	always @(mov) begin
 		if (mov == 4'b1000) begin // left
-			if (y == 0) begin
+			if (y == 3'd0) begin
 				outX = x;
 				outY = y;
 			end else begin
 				outX = x;
-				outY = y - 1;
+				outY = y - 3'd1;
 			end
 		end else if (mov == 4'b0100) begin // up
-			if (x == 0) begin
+			if (x == 3'd0) begin
 				outX = x;
 				outY = y;
 			end else begin
-				outX = x - 1;
+				outX = x - 3'd1;
 				outY = y;
 			end
 		end else if (mov == 4'b0010) begin // down
-			if (x == 4) begin
+			if (x == 3'd4) begin
 				outX = x;
 				outY = y;
 			end else begin
-				outX = x + 1;
+				outX = x + 3'd1;
 				outY = y;
 			end
 		end else if (mov == 4'b0001) begin // right
-			if (y == 4) begin
+			if (y == 3'd4) begin
 				outX = x;
 				outY = y;
 			end else begin
 				outX = x;
-				outY = y + 1;
+				outY = y + 3'd1;
 			end
 		end else begin
-			if (y < 0 || y > 4 || x < 0 || x > 4) begin
-				outX = 0;
-				outY = 0;
+			if (y < 3'd0 || y > 3'd4 || x < 3'd0 || x > 3'd4) begin
+				outX = 3'd0;
+				outY = 3'd0;
 			end 
 		end
 	end

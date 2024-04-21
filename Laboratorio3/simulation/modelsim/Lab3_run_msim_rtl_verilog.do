@@ -45,6 +45,14 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
+vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3 {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/VGAMain.sv}
+vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3 {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/VGAController.sv}
+vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3 {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Verifica_posiciones.sv}
+vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3 {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/drawingMux.sv}
+vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3 {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/DibujarPantalla.sv}
+vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3 {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/colorMux.sv}
+vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3 {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/clockDivider.sv}
+vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3 {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/BattleshipMain.sv}
 vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3 {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship.sv}
 vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3 {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/mov_control.sv}
 vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3 {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Ppos_ships.sv}
@@ -55,9 +63,9 @@ vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab
 vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3 {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/Envplay.sv}
 vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3 {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/check_win_lose.sv}
 
-vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3 {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/battleship_tb.sv}
+vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3 {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Laboratorio3/BattleshipMain_tb.sv}
 
-vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  battleship_tb
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  BattleshipMain_tb
 
 add wave *
 view structure

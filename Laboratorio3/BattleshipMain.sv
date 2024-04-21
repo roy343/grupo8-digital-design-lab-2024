@@ -22,11 +22,6 @@ module BattleshipMain(
 		for (int i = 0; i < 5; i++) begin
 			 for (int j = 0; j < 5; j++) begin
 				  matrix[i][j] = EnvBoard[i][j];
-			 end
-		end
-
-		for (int i = 0; i < 5; i++) begin
-			 for (int j = 0; j < 5; j++) begin
 				  matrix[i][j+5] = playerBoard[i][j];
 			 end
 		end

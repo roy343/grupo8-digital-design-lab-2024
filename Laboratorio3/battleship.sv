@@ -7,8 +7,8 @@ module battleship (
 		input logic [2:0] shipQ,
 		input logic [3:0] mov,
 		output logic [2:0] state,
-		output logic [2:0] x = 0,
-		output logic [2:0] y = 0, 
+		output logic [2:0] x = 3'd0,
+		output logic [2:0] y = 3'd0, 
 		output logic [2:0] boardP[4:0][4:0],
 		output logic [2:0] boardE[4:0][4:0],
 		output logic [1:0] game_state,
@@ -84,8 +84,8 @@ module battleship (
 	);
 	
 	Playerplay pPlay (
-		.x(outX), 
-		.y(outY), 
+		.x(x), 
+		.y(y), 
 		.clk(clk),
 		.enable(Pturn), 
 		.confirm(confirm),
