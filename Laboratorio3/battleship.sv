@@ -150,7 +150,14 @@ module battleship (
 	always @* begin
 		case(state)
 		
-			SELSHIPQ: begin	
+			SELSHIPQ: begin
+				for (int i = 0; i < 5; i++) begin
+					for (int j = 0; j < 5; j++) begin
+						boardP[i][j] = 0;
+						boardE[i][j] = 0;
+					end
+				end
+				
 				if (0 < shipQ || shipQ < 6) begin
 					next_state = PLACESHIP;
 				end 

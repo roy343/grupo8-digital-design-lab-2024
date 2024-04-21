@@ -39,8 +39,8 @@ module mov_control (
 			end
 		end else begin
 			if (y < 0 || y > 4 || x < 0 || x > 4) begin
-				outX = x;
-				outY = y;
+				outX = 0;
+				outY = 0;
 			end 
 		end
 	end
