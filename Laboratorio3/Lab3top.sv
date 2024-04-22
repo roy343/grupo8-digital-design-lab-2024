@@ -66,7 +66,7 @@ module Lab3top(
 	 .dispEships(dispEships)
   );
 
-  paintScreen (
+  paintScreen picasso (
 		.next_x(next_x), 
 		.next_y(next_y),
 		.playerBoard(playerBoard),

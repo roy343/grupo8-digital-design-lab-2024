@@ -54,6 +54,7 @@ module battleship_tb();
     clk = 0;
     rst = 1;
 	 confirm = 0;
+	 mov = 4'b0000;
 
     // Test process
     #10;

@@ -4,7 +4,7 @@ module playTimer (
 );
 
 	logic [3:0] counter_reg;
-
+	
 	always_ff @(posedge clk) begin
 		if (startT) begin
 			counter_reg <= counter_reg - 4'd1;

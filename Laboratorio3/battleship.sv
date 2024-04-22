@@ -38,9 +38,7 @@ module battleship (
 	logic [2:0] PshipsLeft;
 	logic [2:0] EshipsLeft;
 	logic [2:0] outX, outY;
-	
-	integer segs;
-	
+
 	mov_control boxSel (
 		.x(x), 
 		.y(y),
