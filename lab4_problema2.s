@@ -1,43 +1,33 @@
-.global _start
+.global main
+main:
+    mov r0, #12  @ Aqui se define el X "quemado"
+    bl fib
+    bx lr
 
-.section .data
-fib_limit:  .word   10          @ Número máximo de Fibonacci a calcular (Este es el X "quemado" X = 10)
-newline:    .asciz  "\n"        @ Carácter de nueva línea
+fib:
+    cmp r0, #0
+    beq exit0
+    cmp r0, #1
+    beq exit1
 
-.section .bss
-fib_array:  .skip   40          @ Reservar espacio para almacenar los números de Fibonacci
+    mov r1, #0
+    mov r2, #1
 
-.section .text
-_start:
-    mov r0, #10                 @ Definir X
-    mov r1, #0                  @ Primer número de Fibonacci
-    mov r2, #1                  @ Segundo número de Fibonacci
-    mov r3, #2                  @ Contador de iteraciones
+loop:
+    sub r0, #1 @ Se resta 1 al X
+    cmp r0, #0 @ Aqui se compara si se llega a 0
+    beq exit0
 
-fib_loop:
-    cmp r3, r0                  @ Comparar contador con límite
-    bge fib_done                @ Salir si se alcanza el límite
+    add r3, r1, r2   @Se hacen los pasos de fibonacci
+    mov r1, r2
+    mov r2, r3
 
-    add r4, r1, r2              @ Sumar los dos últimos números
-    str r4, [r5], #4            @ Almacenar el resultado en el array y actualizar el puntero
-    mov r1, r2                  @ Actualizar el primer número con el segundo
-    mov r2, r4                  @ Actualizar el segundo número con el resultado
-    add r3, r3, #1              @ Se incrementa el contador
+    b loop
 
-    b fib_loop
+exit1:
+    mov r0, #1
+    bx lr
 
-fib_done:
-    mov r0, #1                  @ File descriptor 1 (stdout)
-    ldr r1, =fib_array          @ Puntero al array de Fibonacci
-    mov r2, #10                 @ Longitud del array (10 para este ejemplo)
-    mov r7, #4                  @ Llamada al sistema para escribir en la consola
-    swi 0
-
-    mov r0, #1                  @ File descriptor 1 (stdout)
-    ldr r1, =newline            @ Puntero al carácter de nueva línea
-    mov r2, #1                  @ Longitud del carácter de nueva línea
-    mov r7, #4                  @ Llamada al sistema para escribir en la consola
-    swi 0
-
-    mov r7, #1                  @ Salir del programa
-    swi 0
+exit0:
+    mov r0, #0
+    bx lr
