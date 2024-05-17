@@ -52,3 +52,4 @@ set_global_assignment -name SYSTEMVERILOG_FILE DataMem.sv
 set_global_assignment -name SYSTEMVERILOG_FILE MUX.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Adder.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Extend.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ALU.sv
