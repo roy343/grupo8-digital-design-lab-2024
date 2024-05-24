@@ -61,3 +61,4 @@ set_global_assignment -name SYSTEMVERILOG_FILE Condition_Check.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Flagsreg.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Conditional_Logic.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Control_Unit.sv
+set_global_assignment -name SYSTEMVERILOG_FILE processorTop.sv

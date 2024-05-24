@@ -1,5 +1,5 @@
 module Conditional_Logic (
-	input logic clk, PCS, MemW, RegW,
+	input logic clk, PCS, MemW, RegW, NoWrite,
 	input logic [1:0] FlagW,
 	input logic [3:0] Cond, ALUFlags,
 	output logic PCSrc, RegWrite, MemWrite
@@ -32,7 +32,7 @@ module Conditional_Logic (
 	);
 	
 	assign PCSrc = PCS & CondEx;
-	assign RegWrite = RegW & CondEx;
+	assign RegWrite = RegW & CondEx & ~NoWrite;
 	assign MemWrite = MemW & CondEx;
 	
 endmodule

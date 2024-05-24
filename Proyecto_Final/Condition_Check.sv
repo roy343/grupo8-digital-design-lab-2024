@@ -27,7 +27,7 @@ module Condition_Check (
             4'b1011: CondEx = N ^ V; // LT
             4'b1100: CondEx = ~Z & ~(N ^ V); // GT
             4'b1101: CondEx = Z | (N ^ V); // LE
-            4'b1110: CondEx = 1'b1; // AL
+            4'b1110: CondEx = 1'b1; // AL (or none)
             default: CondEx = 1'b0; 
         endcase
 	end

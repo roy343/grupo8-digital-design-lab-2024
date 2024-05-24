@@ -2,7 +2,7 @@ module Decoder (
 	input logic [1:0] Op,
 	input logic [5:0] Funct,
 	input logic [3:0] Rd,
-	output logic RegW, MemW, MemtoReg, ALUSrc, PCS,
+	output logic RegW, MemW, MemtoReg, ALUSrc, PCS, NoWrite,
 	output logic [1:0] ImmSrc, RegSrc, FlagW,
 	output logic [4:0] ALUControl
 );
@@ -33,7 +33,8 @@ module Decoder (
 		.ALUOp(ALUOp),
 		.Funct(Funct[4:0]),
 		.FlagW(FlagW),
-		.ALUControl(ALUControl)
+		.ALUControl(ALUControl),
+		.NoWrite(NoWrite)
 	);
 
 endmodule

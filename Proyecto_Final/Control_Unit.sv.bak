@@ -8,7 +8,7 @@ module Control_Unit (
 	output logic [4:0] ALUControl
 );
 
-	logic PCS, MemW, RegW, NoWrite;
+	logic PCS, MemW, RegW;
 	logic [1:0] FlagW;
 
 	Conditional_Logic condlogic(
@@ -33,7 +33,6 @@ module Control_Unit (
 		.MemtoReg(MemtoReg), 
 		.ALUSrc(ALUSrc), 
 		.PCS(PCS),
-		.NoWrite(NoWrite),
 		.ImmSrc(ImmSrc), 
 		.RegSrc(RegSrc), 
 		.FlagW(FlagW),
