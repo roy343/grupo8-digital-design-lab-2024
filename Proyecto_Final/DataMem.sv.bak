@@ -3,6 +3,7 @@ module DataMem (
     input logic [31:0] Address,
     input logic [31:0] Write_data,
     input logic MemWrite,
+    input logic MemRead,
     output logic [31:0] Read_data
 );
 
@@ -13,7 +14,9 @@ module DataMem (
     end
 
     always @* begin
-		  Read_data = Memory[Address[9:2]];
+		if (MemRead) begin
+            Read_data = Memory[Address[9:2]];
+      end
 	 end
 	 
     always @(posedge clk) begin

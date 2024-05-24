@@ -53,3 +53,11 @@ set_global_assignment -name SYSTEMVERILOG_FILE MUX.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Adder.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Extend.sv
 set_global_assignment -name SYSTEMVERILOG_FILE ALU.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Main_Decoder.sv
+set_global_assignment -name SYSTEMVERILOG_FILE PC_Logic.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ALU_Decoder.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Decoder.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Condition_Check.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Flagsreg.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Conditional_Logic.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Control_Unit.sv

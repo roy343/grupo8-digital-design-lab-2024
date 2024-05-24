@@ -2,7 +2,6 @@ module ALU (
     input logic [31:0] A,
     input logic [31:0] B,
     input logic [3:0] opcode,
-
     output logic [31:0] result,
 	 output logic [3:0] ALUFlags
 );
