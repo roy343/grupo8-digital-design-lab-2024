@@ -11,7 +11,7 @@ output logic [31:0]    data1,
 output logic [31:0]    data2
     );
 
-	logic [15:0] Registro [31:0];
+	logic [31:0] Registro [15:0];
 
 	integer i;
 	initial begin

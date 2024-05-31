@@ -16,6 +16,7 @@ module Control_Unit (
 		.PCS(PCS), 
 		.MemW(MemW), 
 		.RegW(RegW),
+		.NoWrite(NoWrite),
 		.FlagW(FlagW),
 		.Cond(Cond), 
 		.ALUFlags(ALUFlags),

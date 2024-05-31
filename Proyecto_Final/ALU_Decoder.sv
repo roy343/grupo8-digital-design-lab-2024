@@ -7,6 +7,10 @@ module ALU_Decoder (
 );
 	
 	always_comb begin
+	
+		ALUControl = 4'b0000;
+      FlagW = 2'b00;
+      NoWrite = 0;
 		case (ALUOp) 
 			1'b1: begin // DP
 				case (Funct[4:1])
@@ -61,6 +65,11 @@ module ALU_Decoder (
 							NoWrite = 1;
 						end
 					end
+					default: begin
+                  ALUControl = 4'b0000;
+                  FlagW = 2'b00;
+						NoWrite = 0;
+					end
 				endcase
 			end
 			1'b0: begin  // Not DP
@@ -68,6 +77,11 @@ module ALU_Decoder (
 				FlagW = 2'b00;
 				NoWrite = 0;
 			end
+			default: begin
+            ALUControl = 4'b0000;
+            FlagW = 2'b00;
+            NoWrite = 0;
+         end
 		endcase
 	end
 endmodule

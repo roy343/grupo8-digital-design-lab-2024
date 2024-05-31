@@ -13,7 +13,7 @@ module DataMem (
     end
 
     always @* begin
-		  Read_data = Memory[Address[9:2]];
+		  Read_data = Memory[Address];
 	 end
 	 
     always @(posedge clk) begin

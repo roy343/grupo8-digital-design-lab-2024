@@ -10,14 +10,14 @@ module Conditional_Logic (
 
 	assign FlagWrite = FlagW & { 1'b0, CondEx };
 	
-	Flagsreg (
+	Flagsreg flagsreg32(
 		.clk(clk), 
 		.enable(FlagWrite[1]),
 		.in(ALUFlags[3:2]),
 		.out(Flags32)
 	);
 
-	Flagsreg (
+	Flagsreg flagsreg10(
 		.clk(clk), 
 		.enable(FlagWrite[0]),
 		.in(ALUFlags[1:0]),

@@ -6,7 +6,7 @@ module InstMem (
     logic [31:0] Memory [0:31]; 
 
     initial begin
-        $readmemh("program2.hex", Memory);
+        $readmemh("pruebatb.hex", Memory);
     end
 
     always @* begin

@@ -1,0 +1,35 @@
+module Fetch_tb;
+
+    logic clk;
+    logic [31:0] Read_Address;
+    logic [31:0] Instruction;
+
+    InstMem inst_mem (
+        .Read_Address(Read_Address),
+        .Instruction(Instruction)
+    );
+
+    always begin
+        #5 clk = ~clk; 
+    end
+
+    initial begin
+
+        Read_Address = 0;
+        clk = 0;
+
+        #10;
+
+        #5;
+        Read_Address = 32'h4; #10;
+
+        Read_Address = 32'h8; #10;
+
+        Read_Address = 32'hC; #10;
+
+        Read_Address = 32'h10; #10;
+        
+        $finish;
+    end
+
+endmodule

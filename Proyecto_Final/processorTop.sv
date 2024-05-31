@@ -60,7 +60,7 @@ module processorTop (
 	);
 	
 	// Register File
-	Registro register(
+	Register register(
 		.rs1(ReadAddr1),
 		.rs2(ReadAddr2),
 		.rd(ProgInstruction[15:12]),
@@ -113,7 +113,7 @@ module processorTop (
 		.out(Result)
 	);
 	
-	Control_Unit (
+	Control_Unit controlunit(
 		.clk(clk),
 		.Cond(ProgInstruction[31:28]), 
 		.Rd(ProgInstruction[15:12]), 

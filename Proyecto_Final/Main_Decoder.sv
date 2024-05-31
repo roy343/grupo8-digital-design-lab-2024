@@ -61,6 +61,17 @@ module Main_Decoder (
 				RegSrc = 2'b01;
 				ALUOp = 0;
 			end
+			
+			default: begin
+				Branch = 0;
+				RegW = 0;
+				MemW = 0;
+				MemtoReg = 0;
+				ALUSrc = 0;
+				ALUOp = 0;
+				ImmSrc = 2'b00;
+				RegSrc = 2'b00;
+			end
 		endcase
 	end
 endmodule
