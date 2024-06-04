@@ -3,12 +3,12 @@ module Control_Unit (
 	input logic [3:0] Cond, Rd, ALUFlags,
 	input logic [1:0] Op,
 	input logic [5:0] Funct,
-	output logic PCSrc, RegWrite, MemWrite, MemtoReg, ALUSrc,
-	output logic [1:0] ImmSrc, RegSrc, 
-	output logic [4:0] ALUControl
+	output logic PCSrc, MemtoReg, ALUSrc,
+	output logic [1:0] ImmSrc, RegSrc, RegWrite, MemWrite, 
+	output logic [3:0] ALUControl
 );
 
-	logic PCS, MemW, RegW, NoWrite;
+	logic PCS, MemW, RegW, NoWrite, RegW1, MemW1, Byte;
 	logic [1:0] FlagW;
 
 	Conditional_Logic condlogic(
@@ -21,8 +21,8 @@ module Control_Unit (
 		.Cond(Cond), 
 		.ALUFlags(ALUFlags),
 		.PCSrc(PCSrc), 
-		.RegWrite(RegWrite), 
-		.MemWrite(MemWrite)
+		.RegWrite(RegW1), 
+		.MemWrite(MemW1)
 	);
 	
 	Decoder deco(
@@ -35,10 +35,14 @@ module Control_Unit (
 		.ALUSrc(ALUSrc), 
 		.PCS(PCS),
 		.NoWrite(NoWrite),
+		.Byte(Byte),
 		.ImmSrc(ImmSrc), 
 		.RegSrc(RegSrc), 
 		.FlagW(FlagW),
 		.ALUControl(ALUControl)
 	);
 
+	assign RegWrite = {Byte, RegW1};
+	assign MemWrite = {Byte, MemW1};
+	
 endmodule

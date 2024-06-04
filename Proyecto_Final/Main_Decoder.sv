@@ -1,12 +1,13 @@
 module Main_Decoder (
 	input logic [1:0] Op,
 	input logic [5:0] Funct,
-	output logic Branch, RegW, MemW, MemtoReg, ALUSrc, ALUOp,
+	output logic Branch, RegW, MemW, MemtoReg, ALUSrc, ALUOp, Byte,
 	output logic [1:0] ImmSrc, RegSrc
 );
 	
 	
 	always_comb begin
+		Byte = 0;
 		case (Op) 
 			2'b00: begin // Data_Processing
 				if (Funct[5]) begin // Immediate
@@ -39,6 +40,12 @@ module Main_Decoder (
 					RegW = 1;
 					RegSrc = 2'b00;
 					ALUOp = 0;
+					if (Funct[5]) begin
+						ALUSrc = 0;
+					end
+					if (Funct[2]) begin
+						Byte = 1;
+					end
 				end else begin  // Store
 					Branch = 0;
 					MemtoReg = 0;
@@ -48,6 +55,9 @@ module Main_Decoder (
 					RegW = 0;
 					RegSrc = 2'b10;
 					ALUOp = 0;
+					if (Funct[2]) begin
+						Byte = 1;
+					end
 				end
 			end
 			

@@ -2,7 +2,7 @@ module ALU_Decoder (
 	input logic ALUOp,
 	input logic [4:0] Funct,
 	output logic [1:0] FlagW,
-	output logic [4:0] ALUControl,
+	output logic [3:0] ALUControl,
 	output logic NoWrite
 );
 	

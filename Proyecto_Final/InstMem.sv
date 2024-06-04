@@ -3,10 +3,10 @@ module InstMem (
     output logic [31:0] Instruction
 );
 
-    logic [31:0] Memory [0:31]; 
+    logic [31:0] Memory [0:63]; 
 
     initial begin
-        $readmemh("pruebatb.hex", Memory);
+        $readmemh("changeVowels.hex", Memory);
     end
 
     always @* begin

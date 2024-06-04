@@ -8,7 +8,7 @@ module Conditional_Logic (
 	logic CondEx;
 	logic [1:0] FlagWrite, Flags32, Flags10;
 
-	assign FlagWrite = FlagW & { 1'b0, CondEx };
+	assign FlagWrite = FlagW & { 1'b1, CondEx };
 	
 	Flagsreg flagsreg32(
 		.clk(clk), 

@@ -1,5 +1,5 @@
 Analysis & Elaboration report for final_proyect
-Fri May 31 02:12:52 2024
+Tue Jun  4 02:00:43 2024
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -9,18 +9,16 @@ Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
   1. Legal Notice
   2. Analysis & Elaboration Summary
   3. Parallel Compilation
-  4. Parameter Settings for User Entity Instance: processorTop:unicycle|MUX:pcsr
-  5. Parameter Settings for User Entity Instance: processorTop:unicycle|MUX:regsrc0
-  6. Parameter Settings for User Entity Instance: processorTop:unicycle|MUX:regsrc1
-  7. Parameter Settings for User Entity Instance: processorTop:unicycle|MUX:alusr
-  8. Parameter Settings for User Entity Instance: processorTop:unicycle|MUX:mem2reg
+  4. Parameter Settings for User Entity Instance: MUX:pcsr
+  5. Parameter Settings for User Entity Instance: MUX:regsrc0
+  6. Parameter Settings for User Entity Instance: MUX:regsrc1
+  7. Parameter Settings for User Entity Instance: MUX:alusr
+  8. Parameter Settings for User Entity Instance: MUX:mem2reg
   9. Analysis & Elaboration Settings
- 10. Port Connectivity Checks: "processorTop:unicycle|Control_Unit:controlunit|Conditional_Logic:condlogic|Flagsreg:flagsreg32"
- 11. Port Connectivity Checks: "processorTop:unicycle|Control_Unit:controlunit"
- 12. Port Connectivity Checks: "processorTop:unicycle|MUX:regsrc0"
- 13. Port Connectivity Checks: "processorTop:unicycle|Adder:ADD8"
- 14. Port Connectivity Checks: "processorTop:unicycle|Adder:ADD4"
- 15. Analysis & Elaboration Messages
+ 10. Port Connectivity Checks: "MUX:regsrc0"
+ 11. Port Connectivity Checks: "Adder:ADD8"
+ 12. Port Connectivity Checks: "Adder:ADD4"
+ 13. Analysis & Elaboration Messages
 
 
 
@@ -47,10 +45,10 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                 ;
 +-------------------------------+------------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Fri May 31 02:12:52 2024          ;
+; Analysis & Elaboration Status ; Successful - Tue Jun  4 02:00:43 2024          ;
 ; Quartus Prime Version         ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                 ; final_proyect                                  ;
-; Top-level Entity Name         ; processorTop_tb4                               ;
+; Top-level Entity Name         ; processorTop                                   ;
 ; Family                        ; Cyclone V                                      ;
 ; Logic utilization (in ALMs)   ; N/A until Partition Merge                      ;
 ; Total registers               ; N/A until Partition Merge                      ;
@@ -78,53 +76,53 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+-----------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: processorTop:unicycle|MUX:pcsr ;
-+----------------+-------+----------------------------------------------------+
-; Parameter Name ; Value ; Type                                               ;
-+----------------+-------+----------------------------------------------------+
-; N              ; 32    ; Signed Integer                                     ;
-+----------------+-------+----------------------------------------------------+
++-------------------------------------------------------+
+; Parameter Settings for User Entity Instance: MUX:pcsr ;
++----------------+-------+------------------------------+
+; Parameter Name ; Value ; Type                         ;
++----------------+-------+------------------------------+
+; N              ; 32    ; Signed Integer               ;
++----------------+-------+------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+--------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: processorTop:unicycle|MUX:regsrc0 ;
-+----------------+-------+-------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                  ;
-+----------------+-------+-------------------------------------------------------+
-; N              ; 4     ; Signed Integer                                        ;
-+----------------+-------+-------------------------------------------------------+
++----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: MUX:regsrc0 ;
++----------------+-------+---------------------------------+
+; Parameter Name ; Value ; Type                            ;
++----------------+-------+---------------------------------+
+; N              ; 4     ; Signed Integer                  ;
++----------------+-------+---------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+--------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: processorTop:unicycle|MUX:regsrc1 ;
-+----------------+-------+-------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                  ;
-+----------------+-------+-------------------------------------------------------+
-; N              ; 4     ; Signed Integer                                        ;
-+----------------+-------+-------------------------------------------------------+
++----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: MUX:regsrc1 ;
++----------------+-------+---------------------------------+
+; Parameter Name ; Value ; Type                            ;
++----------------+-------+---------------------------------+
+; N              ; 4     ; Signed Integer                  ;
++----------------+-------+---------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: processorTop:unicycle|MUX:alusr ;
-+----------------+-------+-----------------------------------------------------+
-; Parameter Name ; Value ; Type                                                ;
-+----------------+-------+-----------------------------------------------------+
-; N              ; 32    ; Signed Integer                                      ;
-+----------------+-------+-----------------------------------------------------+
++--------------------------------------------------------+
+; Parameter Settings for User Entity Instance: MUX:alusr ;
++----------------+-------+-------------------------------+
+; Parameter Name ; Value ; Type                          ;
++----------------+-------+-------------------------------+
+; N              ; 32    ; Signed Integer                ;
++----------------+-------+-------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+--------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: processorTop:unicycle|MUX:mem2reg ;
-+----------------+-------+-------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                  ;
-+----------------+-------+-------------------------------------------------------+
-; N              ; 32    ; Signed Integer                                        ;
-+----------------+-------+-------------------------------------------------------+
++----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: MUX:mem2reg ;
++----------------+-------+---------------------------------+
+; Parameter Name ; Value ; Type                            ;
++----------------+-------+---------------------------------+
+; N              ; 32    ; Signed Integer                  ;
++----------------+-------+---------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -134,7 +132,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                          ; 5CSEMA5F31C6       ;                    ;
-; Top-level entity name                                                           ; processorTop_tb4   ; final_proyect      ;
+; Top-level entity name                                                           ; processorTop       ; final_proyect      ;
 ; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
 ; Use smart compilation                                                           ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
@@ -215,53 +213,35 @@ Note: In order to hide this table in the UI and the text report file, please set
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "processorTop:unicycle|Control_Unit:controlunit|Conditional_Logic:condlogic|Flagsreg:flagsreg32" ;
-+--------+-------+----------+------------------------------------------------------------------------------------------------+
-; Port   ; Type  ; Severity ; Details                                                                                        ;
-+--------+-------+----------+------------------------------------------------------------------------------------------------+
-; enable ; Input ; Info     ; Stuck at GND                                                                                   ;
-+--------+-------+----------+------------------------------------------------------------------------------------------------+
++-----------------------------------------+
+; Port Connectivity Checks: "MUX:regsrc0" ;
++------+-------+----------+---------------+
+; Port ; Type  ; Severity ; Details       ;
++------+-------+----------+---------------+
+; in2  ; Input ; Info     ; Stuck at VCC  ;
++------+-------+----------+---------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "processorTop:unicycle|Control_Unit:controlunit"                                                                                     ;
-+------------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------+
-; Port       ; Type   ; Severity ; Details                                                                                                                       ;
-+------------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------+
-; ALUControl ; Output ; Warning  ; Output or bidir port (5 bits) is wider than the port expression (4 bits) it drives; bit(s) "ALUControl[4..4]" have no fanouts ;
-+------------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------+
+; Port Connectivity Checks: "Adder:ADD8"     ;
++----------+-------+----------+--------------+
+; Port     ; Type  ; Severity ; Details      ;
++----------+-------+----------+--------------+
+; b[31..4] ; Input ; Info     ; Stuck at GND ;
+; b[2..0]  ; Input ; Info     ; Stuck at GND ;
+; b[3]     ; Input ; Info     ; Stuck at VCC ;
++----------+-------+----------+--------------+
 
 
-+---------------------------------------------------------------+
-; Port Connectivity Checks: "processorTop:unicycle|MUX:regsrc0" ;
-+------+-------+----------+-------------------------------------+
-; Port ; Type  ; Severity ; Details                             ;
-+------+-------+----------+-------------------------------------+
-; in2  ; Input ; Info     ; Stuck at VCC                        ;
-+------+-------+----------+-------------------------------------+
-
-
-+--------------------------------------------------------------+
-; Port Connectivity Checks: "processorTop:unicycle|Adder:ADD8" ;
-+----------+-------+----------+--------------------------------+
-; Port     ; Type  ; Severity ; Details                        ;
-+----------+-------+----------+--------------------------------+
-; b[31..3] ; Input ; Info     ; Stuck at GND                   ;
-; b[1..0]  ; Input ; Info     ; Stuck at GND                   ;
-; b[2]     ; Input ; Info     ; Stuck at VCC                   ;
-+----------+-------+----------+--------------------------------+
-
-
-+--------------------------------------------------------------+
-; Port Connectivity Checks: "processorTop:unicycle|Adder:ADD4" ;
-+----------+-------+----------+--------------------------------+
-; Port     ; Type  ; Severity ; Details                        ;
-+----------+-------+----------+--------------------------------+
-; b[31..3] ; Input ; Info     ; Stuck at GND                   ;
-; b[1..0]  ; Input ; Info     ; Stuck at GND                   ;
-; b[2]     ; Input ; Info     ; Stuck at VCC                   ;
-+----------+-------+----------+--------------------------------+
++--------------------------------------------+
+; Port Connectivity Checks: "Adder:ADD4"     ;
++----------+-------+----------+--------------+
+; Port     ; Type  ; Severity ; Details      ;
++----------+-------+----------+--------------+
+; b[31..3] ; Input ; Info     ; Stuck at GND ;
+; b[1..0]  ; Input ; Info     ; Stuck at GND ;
+; b[2]     ; Input ; Info     ; Stuck at VCC ;
++----------+-------+----------+--------------+
 
 
 +---------------------------------+
@@ -270,88 +250,83 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-    Info: Processing started: Fri May 31 02:12:41 2024
+    Info: Processing started: Tue Jun  4 02:00:26 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off final_proyect -c final_proyect --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file program_counter.sv
-    Info (12023): Found entity 1: Program_counter File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Program_counter.sv Line: 1
+    Info (12023): Found entity 1: Program_counter File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Program_counter.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file instmem.sv
-    Info (12023): Found entity 1: InstMem File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/InstMem.sv Line: 1
+    Info (12023): Found entity 1: InstMem File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/InstMem.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file register.sv
-    Info (12023): Found entity 1: Register File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Register.sv Line: 1
+    Info (12023): Found entity 1: Register File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Register.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file datamem.sv
-    Info (12023): Found entity 1: DataMem File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/DataMem.sv Line: 1
-Warning (12090): Entity "MUX" obtained from "MUX.sv" instead of from Quartus Prime megafunction library File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/MUX.sv Line: 1
+    Info (12023): Found entity 1: DataMem File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/DataMem.sv Line: 1
+Warning (12090): Entity "MUX" obtained from "MUX.sv" instead of from Quartus Prime megafunction library File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/MUX.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mux.sv
-    Info (12023): Found entity 1: MUX File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/MUX.sv Line: 1
+    Info (12023): Found entity 1: MUX File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/MUX.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file adder.sv
-    Info (12023): Found entity 1: Adder File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Adder.sv Line: 1
+    Info (12023): Found entity 1: Adder File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Adder.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file extend.sv
-    Info (12023): Found entity 1: Extend File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Extend.sv Line: 1
+    Info (12023): Found entity 1: Extend File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Extend.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu.sv
-    Info (12023): Found entity 1: ALU File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/ALU.sv Line: 1
+    Info (12023): Found entity 1: ALU File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/ALU.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file main_decoder.sv
-    Info (12023): Found entity 1: Main_Decoder File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Main_Decoder.sv Line: 1
+    Info (12023): Found entity 1: Main_Decoder File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Main_Decoder.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file pc_logic.sv
-    Info (12023): Found entity 1: PC_Logic File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/PC_Logic.sv Line: 1
+    Info (12023): Found entity 1: PC_Logic File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/PC_Logic.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu_decoder.sv
-    Info (12023): Found entity 1: ALU_Decoder File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/ALU_Decoder.sv Line: 1
+    Info (12023): Found entity 1: ALU_Decoder File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/ALU_Decoder.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file decoder.sv
-    Info (12023): Found entity 1: Decoder File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Decoder.sv Line: 1
+    Info (12023): Found entity 1: Decoder File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Decoder.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file condition_check.sv
-    Info (12023): Found entity 1: Condition_Check File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Condition_Check.sv Line: 1
+    Info (12023): Found entity 1: Condition_Check File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Condition_Check.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file flagsreg.sv
-    Info (12023): Found entity 1: Flagsreg File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Flagsreg.sv Line: 1
+    Info (12023): Found entity 1: Flagsreg File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Flagsreg.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file conditional_logic.sv
-    Info (12023): Found entity 1: Conditional_Logic File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Conditional_Logic.sv Line: 1
+    Info (12023): Found entity 1: Conditional_Logic File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Conditional_Logic.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file control_unit.sv
-    Info (12023): Found entity 1: Control_Unit File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Control_Unit.sv Line: 1
+    Info (12023): Found entity 1: Control_Unit File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Control_Unit.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file processortop.sv
-    Info (12023): Found entity 1: processorTop File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 1
+    Info (12023): Found entity 1: processorTop File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file fetch_tb.sv
-    Info (12023): Found entity 1: Fetch_tb File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Fetch_tb.sv Line: 1
+    Info (12023): Found entity 1: Fetch_tb File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Fetch_tb.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file decode_tb.sv
-    Info (12023): Found entity 1: Decode_tb File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Decode_tb.sv Line: 1
+    Info (12023): Found entity 1: Decode_tb File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Decode_tb.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file excecute_tb.sv
-    Info (12023): Found entity 1: Excecute_tb File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Excecute_tb.sv Line: 1
+    Info (12023): Found entity 1: Excecute_tb File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Excecute_tb.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file datamem_tb.sv
-    Info (12023): Found entity 1: DataMem_tb File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/DataMem_tb.sv Line: 1
+    Info (12023): Found entity 1: DataMem_tb File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/DataMem_tb.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file processortop_tb4.sv
-    Info (12023): Found entity 1: processorTop_tb4 File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop_tb4.sv Line: 1
-Info (12127): Elaborating entity "processorTop_tb4" for the top level hierarchy
-Warning (10755): Verilog HDL warning at processorTop_tb4.sv(10): assignments to clk create a combinational loop File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop_tb4.sv Line: 10
-Warning (10175): Verilog HDL warning at processorTop_tb4.sv(28): ignoring unsupported system task File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop_tb4.sv Line: 28
-Info (12128): Elaborating entity "processorTop" for hierarchy "processorTop:unicycle" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop_tb4.sv Line: 7
-Info (12128): Elaborating entity "MUX" for hierarchy "processorTop:unicycle|MUX:pcsr" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 16
-Info (12128): Elaborating entity "Program_counter" for hierarchy "processorTop:unicycle|Program_counter:PC" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 24
-Info (12128): Elaborating entity "Adder" for hierarchy "processorTop:unicycle|Adder:ADD4" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 31
-Info (12128): Elaborating entity "InstMem" for hierarchy "processorTop:unicycle|InstMem:Imem" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 44
-Warning (10850): Verilog HDL warning at InstMem.sv(9): number of words (3) in memory file does not match the number of elements in the address range [0:31] File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/InstMem.sv Line: 9
-Warning (10030): Net "Memory.data_a" at InstMem.sv(6) has no driver or initial value, using a default initial value '0' File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/InstMem.sv Line: 6
-Warning (10030): Net "Memory.waddr_a" at InstMem.sv(6) has no driver or initial value, using a default initial value '0' File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/InstMem.sv Line: 6
-Warning (10030): Net "Memory.we_a" at InstMem.sv(6) has no driver or initial value, using a default initial value '0' File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/InstMem.sv Line: 6
-Info (12128): Elaborating entity "MUX" for hierarchy "processorTop:unicycle|MUX:regsrc0" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 52
-Info (12128): Elaborating entity "Register" for hierarchy "processorTop:unicycle|Register:register" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 73
-Info (12128): Elaborating entity "Extend" for hierarchy "processorTop:unicycle|Extend:ext" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 80
-Info (12128): Elaborating entity "ALU" for hierarchy "processorTop:unicycle|ALU:alu" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 97
-Info (12128): Elaborating entity "DataMem" for hierarchy "processorTop:unicycle|DataMem:dmem" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 106
-Warning (10850): Verilog HDL warning at DataMem.sv(12): number of words (4) in memory file does not match the number of elements in the address range [0:31] File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/DataMem.sv Line: 12
-Info (12128): Elaborating entity "Control_Unit" for hierarchy "processorTop:unicycle|Control_Unit:controlunit" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 131
-Info (12128): Elaborating entity "Conditional_Logic" for hierarchy "processorTop:unicycle|Control_Unit:controlunit|Conditional_Logic:condlogic" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Control_Unit.sv Line: 26
-Info (12128): Elaborating entity "Flagsreg" for hierarchy "processorTop:unicycle|Control_Unit:controlunit|Conditional_Logic:condlogic|Flagsreg:flagsreg32" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Conditional_Logic.sv Line: 18
-Info (12128): Elaborating entity "Condition_Check" for hierarchy "processorTop:unicycle|Control_Unit:controlunit|Conditional_Logic:condlogic|Condition_Check:condcheck" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Conditional_Logic.sv Line: 32
-Info (12128): Elaborating entity "Decoder" for hierarchy "processorTop:unicycle|Control_Unit:controlunit|Decoder:deco" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Control_Unit.sv Line: 42
-Info (12128): Elaborating entity "Main_Decoder" for hierarchy "processorTop:unicycle|Control_Unit:controlunit|Decoder:deco|Main_Decoder:maindeco" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Decoder.sv Line: 23
-Info (12128): Elaborating entity "PC_Logic" for hierarchy "processorTop:unicycle|Control_Unit:controlunit|Decoder:deco|PC_Logic:pclogic" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Decoder.sv Line: 30
-Info (12128): Elaborating entity "ALU_Decoder" for hierarchy "processorTop:unicycle|Control_Unit:controlunit|Decoder:deco|ALU_Decoder:aludeco" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Decoder.sv Line: 38
-Warning (12011): Net is missing source, defaulting to GND
-    Warning (12110): Net "clk" is missing source, defaulting to GND File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop_tb4.sv Line: 2
-Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 12 warnings
-    Info: Peak virtual memory: 4793 megabytes
-    Info: Processing ended: Fri May 31 02:12:52 2024
-    Info: Elapsed time: 00:00:11
-    Info: Total CPU time (on all processors): 00:00:14
+    Info (12023): Found entity 1: processorTop_tb4 File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop_tb4.sv Line: 1
+Info (12127): Elaborating entity "processorTop" for the top level hierarchy
+Info (12128): Elaborating entity "MUX" for hierarchy "MUX:pcsr" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 16
+Info (12128): Elaborating entity "Program_counter" for hierarchy "Program_counter:PC" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 24
+Info (12128): Elaborating entity "Adder" for hierarchy "Adder:ADD4" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 31
+Info (12128): Elaborating entity "InstMem" for hierarchy "InstMem:Imem" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 44
+Warning (10850): Verilog HDL warning at InstMem.sv(9): number of words (38) in memory file does not match the number of elements in the address range [0:63] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/InstMem.sv Line: 9
+Warning (10030): Net "Memory.data_a" at InstMem.sv(6) has no driver or initial value, using a default initial value '0' File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/InstMem.sv Line: 6
+Warning (10030): Net "Memory.waddr_a" at InstMem.sv(6) has no driver or initial value, using a default initial value '0' File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/InstMem.sv Line: 6
+Warning (10030): Net "Memory.we_a" at InstMem.sv(6) has no driver or initial value, using a default initial value '0' File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/InstMem.sv Line: 6
+Info (12128): Elaborating entity "MUX" for hierarchy "MUX:regsrc0" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 52
+Info (12128): Elaborating entity "Register" for hierarchy "Register:register" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 73
+Info (12128): Elaborating entity "Extend" for hierarchy "Extend:ext" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 80
+Info (12128): Elaborating entity "ALU" for hierarchy "ALU:alu" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 97
+Info (12128): Elaborating entity "DataMem" for hierarchy "DataMem:dmem" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 106
+Warning (10850): Verilog HDL warning at DataMem.sv(12): number of words (3) in memory file does not match the number of elements in the address range [0:511] File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/DataMem.sv Line: 12
+Warning (10855): Verilog HDL warning at DataMem.sv(11): initial value for variable Memory should be constant File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/DataMem.sv Line: 11
+Info (12128): Elaborating entity "Control_Unit" for hierarchy "Control_Unit:controlunit" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 131
+Info (12128): Elaborating entity "Conditional_Logic" for hierarchy "Control_Unit:controlunit|Conditional_Logic:condlogic" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Control_Unit.sv Line: 26
+Info (12128): Elaborating entity "Flagsreg" for hierarchy "Control_Unit:controlunit|Conditional_Logic:condlogic|Flagsreg:flagsreg32" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Conditional_Logic.sv Line: 18
+Info (12128): Elaborating entity "Condition_Check" for hierarchy "Control_Unit:controlunit|Conditional_Logic:condlogic|Condition_Check:condcheck" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Conditional_Logic.sv Line: 32
+Info (12128): Elaborating entity "Decoder" for hierarchy "Control_Unit:controlunit|Decoder:deco" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Control_Unit.sv Line: 43
+Info (12128): Elaborating entity "Main_Decoder" for hierarchy "Control_Unit:controlunit|Decoder:deco|Main_Decoder:maindeco" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Decoder.sv Line: 24
+Info (12128): Elaborating entity "PC_Logic" for hierarchy "Control_Unit:controlunit|Decoder:deco|PC_Logic:pclogic" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Decoder.sv Line: 31
+Info (12128): Elaborating entity "ALU_Decoder" for hierarchy "Control_Unit:controlunit|Decoder:deco|ALU_Decoder:aludeco" File: E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Decoder.sv Line: 39
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 8 warnings
+    Info: Peak virtual memory: 4883 megabytes
+    Info: Processing ended: Tue Jun  4 02:00:43 2024
+    Info: Elapsed time: 00:00:17
+    Info: Total CPU time (on all processors): 00:00:17
 
 

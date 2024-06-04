@@ -3,9 +3,9 @@ module processorTop (
 );
 
 	logic [31:0] PCact, PCnext, PCp4, PCp8, ProgInstruction, Result, data1, data2, ExtImm, SrcB, ALUResult, ReadData;
-	logic [1:0] RegSrc, ImmSrc; 
+	logic [1:0] RegSrc,  RegWrite, MemWrite, ImmSrc; 
 	logic [3:0] ReadAddr1, ReadAddr2, ALUControl, ALUFlags;
-	logic ALUSrc, RegWrite, MemWrite, MemtoReg, PCSrc;
+	logic ALUSrc, MemtoReg, PCSrc;
 
 	// MUX PCSrc
 	MUX #(.N(32)) pcsr( 
@@ -33,7 +33,7 @@ module processorTop (
 	// PC + 8
 	Adder ADD8 (
 		.a(PCp4), 
-		.b(32'h4),
+		.b(32'h8),
 		.s(PCp8)
 	);
 	
