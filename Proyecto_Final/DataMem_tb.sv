@@ -1,17 +1,19 @@
 module DataMem_tb;
 
     logic clk;
-    logic [31:0] Address;
+    logic [31:0] Address, Address1;
     logic [31:0] Write_data;
     logic [1:0]   MemWrite;
-    logic [31:0] Read_data;
+    logic [31:0] Read_data, Read_data1;
 
     DataMem data_mem (
         .clk(clk),
         .Address(Address),
+		  .Address1(Address1),
         .Write_data(Write_data),
         .MemWrite(MemWrite),
-        .Read_data(Read_data)
+        .Read_data(Read_data),
+		  .Read_data1(Read_data1)
     );
 
     always begin

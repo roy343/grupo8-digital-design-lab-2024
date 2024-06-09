@@ -1,5 +1,7 @@
 module processorTop (
-	input logic clk, rst
+	input logic clk, rst,
+	input logic [31:0] address,
+	output logic [31:0] ram_data
 );
 
 	logic [31:0] PCact, PCnext, PCp4, PCp8, ProgInstruction, Result, data1, data2, ExtImm, SrcB, ALUResult, ReadData;
@@ -100,9 +102,11 @@ module processorTop (
 	DataMem dmem(
 		 .clk(clk),
 		 .Address(ALUResult),
+		 .Address1(address),
 		 .Write_data(data2),
 		 .MemWrite(MemWrite),
-		 .Read_data(ReadData)
+		 .Read_data(ReadData),
+		 .Read_data1(ram_data)
 	);
 	
 	// MUX MemtoReg

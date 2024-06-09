@@ -1,9 +1,9 @@
 module DataMem (
     input logic clk,
-    input logic  [31:0] Address,
+    input logic  [31:0] Address, Address1,
     input logic  [31:0] Write_data,
     input logic  [1:0]  MemWrite,
-    output logic [31:0] Read_data
+    output logic [31:0] Read_data, Read_data1
 );
 
     reg [31:0] Memory [0:511];
@@ -13,6 +13,7 @@ module DataMem (
     end
 
     always @* begin
+		  Read_data1 = Memory[Address1];
 		  Read_data = Memory[Address[31:2]]; // Load word
 		  if (MemWrite[1]) begin  // Load Byte
 			  case (Address[1:0])

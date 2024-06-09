@@ -18,20 +18,22 @@ ALU Alu_X(
 
 initial begin
 
- A = 32'd15;
- B = 32'd10;
- opcode = 4'b0010;
+ A = 32'd5;
+ B = 32'd8;
+ opcode = 4'b0100;
  
  #5
  
- opcode = 4'b0001;
+ opcode = 4'b0101;
+ 
+ #5
+ A = 32'd1;
+ B = 32'd4;
+ opcode = 4'b0100;
  
  #5
  
- opcode = 4'b0000;
- 
- #5
- opcode = 4'b0110;
+ opcode = 4'b0101;
  
  #5
  

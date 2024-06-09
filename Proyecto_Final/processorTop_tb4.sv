@@ -1,9 +1,12 @@
 module processorTop_tb4;
     logic clk, rst;
+	 logic [31:0] addr, data;
 
     processorTop unicycle(
     .clk(clk),
-    .rst(rst)
+    .rst(rst),
+	 .address(addr),
+	 .ram_data(data)
     );
 
     always begin
