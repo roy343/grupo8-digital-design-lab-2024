@@ -7,7 +7,7 @@ module chargenrom(
 	logic [5:0] charrom [1023:0]; 
 	logic [7:0] line; 
 	
-	initial $readmemb("E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/charrom.bin", charrom);
+	initial $readmemb("C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/charrom.bin", charrom);
 	
 	assign line = charrom[yoff + {ch - 32, 3'b000}]; 
 	

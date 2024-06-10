@@ -1,7 +1,7 @@
 module DataMem (
     input logic clk,
     input logic  [31:0] Address, Address1,
-    input logic  [31:0] Write_data,
+    input logic  [31:0] Write_data, Write_data1,
     input logic  [1:0]  MemWrite,
     output logic [31:0] Read_data, Read_data1
 );
@@ -26,7 +26,7 @@ module DataMem (
 	 end
 	 
     always @(posedge clk) begin
-		  Memory[510] <= 32'd3;
+		  Memory[510] <= Write_data1;
         if (MemWrite[0]) begin
             case (MemWrite[1])
                 1'b0: Memory[Address[31:2]] <= Write_data;  // Store word

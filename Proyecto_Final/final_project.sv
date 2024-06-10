@@ -54,6 +54,10 @@ module final_project (
 	);
 	
     text_display txt_disp (
+		  .clk(clk25MHz),
+		  .rst(reset),
+		  .run(run),
+		  .vowels(vowels),
         .pixel_x(next_x),
         .pixel_y(next_y),
         .pixel(pixel)

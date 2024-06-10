@@ -1,4 +1,6 @@
 module text_display (
+	 input logic clk, rst, run,
+	 input logic [3:0] vowels,
     input logic [9:0] pixel_x, pixel_y,
     output logic pixel
 );
@@ -11,6 +13,10 @@ module text_display (
 	 logic charpixelv;
 
     processorTop proce (
+		  .clk(clk),
+		  .rst(rst),
+		  .run(run),
+		  .vowels(vowels),
         .address(Address),
         .ram_data(data)
     );
@@ -43,14 +49,32 @@ module text_display (
         endcase
     end
 	 
-	 
+	 /*
 	 always_comb begin
 		 if (ch == 8'h00 || Address >= 15) begin
 			  pixel = 1'b0;
 		 end else begin
 			  pixel = charpixelv;
 		 end
-	end
+	end*/
+	
+	always_comb begin
+        if (run) begin
+            if (Address < 16 || Address >= 31) begin
+                pixel = 1'b0;
+            end else if (ch == 8'h00) begin
+                pixel = 1'b0;
+            end else begin
+                pixel = charpixelv;
+            end
+        end else begin
+            if (Address >= 15 || ch == 8'h00) begin
+                pixel = 1'b0;
+            end else begin
+                pixel = charpixelv;
+            end
+        end
+    end
 
     assign xoff = pixel_x % CHAR_WIDTH;
     assign yoff = pixel_y % CHAR_HEIGHT;

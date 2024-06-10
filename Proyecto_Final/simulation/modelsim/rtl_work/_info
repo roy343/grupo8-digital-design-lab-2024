@@ -8,33 +8,33 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/simulation/modelsim
+Z0 dC:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/simulation/modelsim
 vAdder
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1717981942
+Z2 !s110 1718051995
 !i10b 1
 !s100 UKS;T2<H2kLAZVdGgPF3a3
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I3OT@c31oaidPhXQd70mo`1
+IGHn0<8S0KIXKzY<AKRcB`2
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-Z5 w1717352960
-8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Adder.sv
-FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Adder.sv
+w1715795101
+8C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Adder.sv
+FC:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Adder.sv
 !i122 3
-Z6 L0 1 11
-Z7 OV;L;2020.1;71
+Z5 L0 1 11
+Z6 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z8 !s108 1717981942.000000
-!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Adder.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Adder.sv|
+Z7 !s108 1718051994.000000
+!s107 C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final|C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Adder.sv|
 !i113 1
-Z9 o-sv -work work
-Z10 !s92 -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final
-Z11 tCvgOpt 0
+Z8 o-sv -work work
+Z9 !s92 -sv -work work +incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final
+Z10 tCvgOpt 0
 n@adder
 vALU
 R1
@@ -42,26 +42,26 @@ R2
 !i10b 1
 !s100 fhn_Q4>O8`6EfdEbH^l7>0
 R3
-IV4BNDD`ecWMfGoNNP@BIB2
+IVeMgX?zgE=;>b]^I8U?:U2
 R4
 S1
 R0
-R5
-8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/ALU.sv
-FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/ALU.sv
+w1717131112
+8C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/ALU.sv
+FC:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/ALU.sv
 !i122 5
 L0 1 68
-R7
+R6
 r1
 !s85 0
 31
-R8
-!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/ALU.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/ALU.sv|
+Z11 !s108 1718051995.000000
+!s107 C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/ALU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final|C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/ALU.sv|
 !i113 1
+R8
 R9
 R10
-R11
 n@a@l@u
 vALU_Decoder
 R1
@@ -69,161 +69,161 @@ R2
 !i10b 1
 !s100 IAjDa4PD:b^OFg2H9F9?O2
 R3
-In9`P4fF4L_FilQ4U@?5[42
+I?hQ`[na4O?Ji`j3VS4jVl3
 R4
 S1
 R0
-w1717473132
-8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/ALU_Decoder.sv
-FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/ALU_Decoder.sv
+Z12 w1718031256
+8C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/ALU_Decoder.sv
+FC:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/ALU_Decoder.sv
 !i122 8
-Z12 L0 1 87
-R7
+Z13 L0 1 87
+R6
 r1
 !s85 0
 31
-R8
-!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/ALU_Decoder.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/ALU_Decoder.sv|
+R11
+!s107 C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/ALU_Decoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final|C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/ALU_Decoder.sv|
 !i113 1
+R8
 R9
 R10
-R11
 n@a@l@u_@decoder
 vCondition_Check
 R1
-Z13 !s110 1717981943
+R2
 !i10b 1
 !s100 b:]O1^6UQG:bTTAE]E;k`3
 R3
-IG?2m`D>A`P4`E5_Qk>KI92
+I3EcJ4zFP99ACLJ`LH:<Gj2
 R4
 S1
 R0
-R5
-8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Condition_Check.sv
-FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Condition_Check.sv
+w1716581535
+8C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Condition_Check.sv
+FC:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Condition_Check.sv
 !i122 10
 L0 1 34
-R7
+R6
 r1
 !s85 0
 31
-Z14 !s108 1717981943.000000
-!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Condition_Check.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Condition_Check.sv|
+R11
+!s107 C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Condition_Check.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final|C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Condition_Check.sv|
 !i113 1
+R8
 R9
 R10
-R11
 n@condition_@check
 vConditional_Logic
 R1
-R13
+Z14 !s110 1718051996
 !i10b 1
 !s100 gF5k@cJJMJbL??zc<BEDK3
 R3
-ID5Al?4ol04M^]hQ^62CAf3
+Iiab4`KT=M@YgYz3HA00nc2
 R4
 S1
 R0
-w1717483870
-8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Conditional_Logic.sv
-FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Conditional_Logic.sv
+R12
+8C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Conditional_Logic.sv
+FC:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Conditional_Logic.sv
 !i122 12
-L0 1 38
-R7
+Z15 L0 1 38
+R6
 r1
 !s85 0
 31
-R14
-!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Conditional_Logic.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Conditional_Logic.sv|
+R11
+!s107 C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Conditional_Logic.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final|C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Conditional_Logic.sv|
 !i113 1
+R8
 R9
 R10
-R11
 n@conditional_@logic
 vControl_Unit
 R1
-R13
+R14
 !i10b 1
 !s100 LPEG10lz^[<O3M^fYP]KV1
 R3
-IeZ_WzAT:fiFFWbl8Y`YR@2
+Ih4QVAFY`CdY=S6jAcn9A_1
 R4
 S1
 R0
-w1717473097
-8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Control_Unit.sv
-FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Control_Unit.sv
+R12
+8C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Control_Unit.sv
+FC:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Control_Unit.sv
 !i122 13
 L0 1 48
-R7
+R6
 r1
 !s85 0
 31
-R14
-!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Control_Unit.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Control_Unit.sv|
+Z16 !s108 1718051996.000000
+!s107 C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Control_Unit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final|C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Control_Unit.sv|
 !i113 1
+R8
 R9
 R10
-R11
 n@control_@unit
 vDataMem
 R1
-R13
+R14
 !i10b 1
-!s100 E13b`h3m?oEGfBAQG5<Pk1
+!s100 [A`VOcZfMOeD:7aR2c9:]1
 R3
-IoUDMak8??5`hLJ48i[5OU2
+IJ6h1lUSk`Z:l_;=[WmoaZ1
 R4
 S1
 R0
-w1717975825
-8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/DataMem.sv
-FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/DataMem.sv
+w1718050956
+8C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/DataMem.sv
+FC:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/DataMem.sv
 !i122 16
 L0 1 45
-R7
+R6
 r1
 !s85 0
 31
-R14
-!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/DataMem.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/DataMem.sv|
+R16
+!s107 C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/DataMem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final|C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/DataMem.sv|
 !i113 1
+R8
 R9
 R10
-R11
 n@data@mem
 vDecoder
 R1
-R13
+R2
 !i10b 1
 !s100 dJhdJf98j2Z<iaHC4`c4H3
 R3
-IBX:ci;X6A``c3K9Pn3<G;3
+ITIYn]NkVID>CoAlH=OOMW2
 R4
 S1
 R0
-w1717473125
-8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Decoder.sv
-FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Decoder.sv
+R12
+8C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Decoder.sv
+FC:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Decoder.sv
 !i122 9
 L0 1 41
-R7
+R6
 r1
 !s85 0
 31
-R8
-!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Decoder.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Decoder.sv|
+R11
+!s107 C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Decoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final|C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Decoder.sv|
 !i113 1
+R8
 R9
 R10
-R11
 n@decoder
 vExtend
 R1
@@ -231,80 +231,80 @@ R2
 !i10b 1
 !s100 :ohLWPHbzK>0YBMO8WXh`3
 R3
-IC=BjcilSfj`PjVbVfDTkI1
+IVjW;d?<gzlk0Qb:IFM5B02
 R4
 S1
 R0
-R5
-8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Extend.sv
-FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Extend.sv
+w1717130852
+8C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Extend.sv
+FC:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Extend.sv
 !i122 4
 L0 1 19
-R7
+R6
 r1
 !s85 0
 31
-R8
-!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Extend.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Extend.sv|
+R11
+!s107 C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Extend.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final|C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Extend.sv|
 !i113 1
+R8
 R9
 R10
-R11
 n@extend
 vFlagsreg
 R1
-R13
+R2
 !i10b 1
 !s100 VAbk9[DHL:e:9fXo:1SdQ1
 R3
-I=Im[86=IJ`O<QnRLeNm?H3
+IDi[UU^YF?NSTRki1TNNEG1
 R4
 S1
 R0
-R5
-8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Flagsreg.sv
-FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Flagsreg.sv
+w1716538120
+8C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Flagsreg.sv
+FC:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Flagsreg.sv
 !i122 11
 L0 1 12
-R7
+R6
 r1
 !s85 0
 31
-R14
-!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Flagsreg.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Flagsreg.sv|
+R11
+!s107 C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Flagsreg.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final|C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Flagsreg.sv|
 !i113 1
+R8
 R9
 R10
-R11
 n@flagsreg
 vInstMem
 R1
-R13
+R14
 !i10b 1
 !s100 T00RJEjd`d@@]B1n1?93f2
 R3
-IaG7`lWAh9IVO@KO08DJXg2
+IV;77F]hnf4HE3N;A=AIOQ3
 R4
 S1
 R0
-w1717970669
-8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/InstMem.sv
-FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/InstMem.sv
+R12
+8C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/InstMem.sv
+FC:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/InstMem.sv
 !i122 15
 L0 1 16
-R7
+R6
 r1
 !s85 0
 31
-R14
-!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/InstMem.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/InstMem.sv|
+R16
+!s107 C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/InstMem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final|C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/InstMem.sv|
 !i113 1
+R8
 R9
 R10
-R11
 n@inst@mem
 vMain_Decoder
 R1
@@ -312,53 +312,53 @@ R2
 !i10b 1
 !s100 QfAliDD45g951EcO2c_8U1
 R3
-IdiHHMo0EboCA:YM?>6A_@2
+IRaFNAoQmIBmj?_fPk22@>3
 R4
 S1
 R0
-w1717488017
-8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Main_Decoder.sv
-FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Main_Decoder.sv
-!i122 6
 R12
-R7
+8C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Main_Decoder.sv
+FC:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Main_Decoder.sv
+!i122 6
+R13
+R6
 r1
 !s85 0
 31
-R8
-!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Main_Decoder.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Main_Decoder.sv|
+R11
+!s107 C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Main_Decoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final|C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Main_Decoder.sv|
 !i113 1
+R8
 R9
 R10
-R11
 n@main_@decoder
 vMUX
 R1
-R2
+Z17 !s110 1718051994
 !i10b 1
 !s100 ^?DLT>BijSL]Wc189MRJ<0
 R3
-IAk;1B3mfG2RP^=C[:P=NQ3
+I3lOKQ2ee<aY^ie?NzDDzn3
 R4
 S1
 R0
-R5
-8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/MUX.sv
-FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/MUX.sv
+w1716583259
+8C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/MUX.sv
+FC:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/MUX.sv
 !i122 2
+R5
 R6
-R7
 r1
 !s85 0
 31
-R8
-!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/MUX.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/MUX.sv|
+R7
+!s107 C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/MUX.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final|C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/MUX.sv|
 !i113 1
+R8
 R9
 R10
-R11
 n@m@u@x
 vPC_Logic
 R1
@@ -366,132 +366,132 @@ R2
 !i10b 1
 !s100 ?M?17M^3KW[HUooeB7zSm1
 R3
-I^_81I2ERXILZEY[9W_MU=1
+I2[5cF`Q3^GeZ2T<BFEDJZ3
 R4
 S1
 R0
-R5
-8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/PC_Logic.sv
-FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/PC_Logic.sv
+w1716535042
+8C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/PC_Logic.sv
+FC:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/PC_Logic.sv
 !i122 7
 L0 1 9
-R7
+R6
 r1
 !s85 0
 31
-R8
-!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/PC_Logic.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/PC_Logic.sv|
+R11
+!s107 C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/PC_Logic.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final|C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/PC_Logic.sv|
 !i113 1
+R8
 R9
 R10
-R11
 n@p@c_@logic
 vprocessorTop
 R1
-R13
+R14
 !i10b 1
-!s100 Ec[C00=7:L5iHAo;f^[?S3
+!s100 <5CoZL:F0A_O>oR<F7IS=2
 R3
-I0V@5UO1?ZNlbT^ofWRLSg1
+IfibELc;ciH7Xd03[g5<UG3
 R4
 S1
 R0
-w1717877665
-8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv
-FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv
+w1718051378
+8C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv
+FC:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv
 !i122 14
-L0 1 138
-R7
+L0 1 141
+R6
 r1
 !s85 0
 31
-R14
-!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv|
+R16
+!s107 C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final|C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv|
 !i113 1
+R8
 R9
 R10
-R11
 nprocessor@top
 vprocessorTop_tb4
 R1
-R13
+R14
 !i10b 1
-!s100 S9VDBCC6hAQcEd?D<37eQ3
+!s100 O684Y>6mOY[1ZUX=li9UX2
 R3
-Ik[Ace[3XGLDVS>NmPi^GN2
+Ia[[ZW:M_fDBzZBe5R0BBO2
 R4
 S1
 R0
-w1717877453
-8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop_tb4.sv
-FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop_tb4.sv
+w1718051556
+8C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop_tb4.sv
+FC:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop_tb4.sv
 !i122 17
-L0 1 33
-R7
+R15
+R6
 r1
 !s85 0
 31
-R14
-!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop_tb4.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop_tb4.sv|
+R16
+!s107 C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop_tb4.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final|C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop_tb4.sv|
 !i113 1
+R8
 R9
 R10
-R11
 nprocessor@top_tb4
 vProgram_counter
 R1
-R2
+R17
 !i10b 1
-!s100 @DPLo>nRKVWOlEcO8C0TN1
+!s100 Haj@^5QYk`b;LiC^OnKH;0
 R3
-I@h]R5FRF@lUnZ4F_9TTP?2
+IYlE7U5aEWMj<mJ<0W9bai3
 R4
 S1
 R0
-R5
-8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Program_counter.sv
-FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Program_counter.sv
+w1718050688
+8C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Program_counter.sv
+FC:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Program_counter.sv
 !i122 0
 L0 1 14
-R7
+R6
 r1
 !s85 0
 31
-R8
-!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Program_counter.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Program_counter.sv|
+R7
+!s107 C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Program_counter.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final|C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Program_counter.sv|
 !i113 1
+R8
 R9
 R10
-R11
 n@program_counter
 vRegister
 R1
-R2
+R17
 !i10b 1
 !s100 c9E]J=76L?nbRZXEiVX010
 R3
-IQ54IC^GQ4Y9ZOJ7KI@Zn61
+ILkPzPJ4l`bleaf>n]E]3k2
 R4
 S1
 R0
-w1717481068
-8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Register.sv
-FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Register.sv
+R12
+8C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Register.sv
+FC:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Register.sv
 !i122 1
 L0 1 28
-R7
+R6
 r1
 !s85 0
 31
-R8
-!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Register.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Register.sv|
+R7
+!s107 C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Register.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final|C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Register.sv|
 !i113 1
+R8
 R9
 R10
-R11
 n@register

@@ -56,7 +56,27 @@
 					"strict" : false
 				},
 				{
+					"name" : "run",
+					"strict" : false
+				},
+				{
 					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "vowels[0]",
+					"strict" : false
+				},
+				{
+					"name" : "vowels[3]",
+					"strict" : false
+				},
+				{
+					"name" : "vowels[2]",
+					"strict" : false
+				},
+				{
+					"name" : "vowels[1]",
 					"strict" : false
 				}
 			]

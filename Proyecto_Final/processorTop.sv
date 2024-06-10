@@ -1,5 +1,6 @@
 module processorTop (
-	input logic clk, rst,
+	input logic clk, rst, run,
+	input logic [3:0] vowels,
 	input logic [31:0] address,
 	output logic [31:0] ram_data
 );
@@ -21,6 +22,7 @@ module processorTop (
 	Program_counter PC (
 		.clk(clk),
 		.rst(rst),
+		.enable(run),
 		.in(PCnext),
 		.out(PCact)
 	);
@@ -104,6 +106,7 @@ module processorTop (
 		 .Address(ALUResult),
 		 .Address1(address),
 		 .Write_data(data2),
+		 .Write_data1({28'b0 ,vowels}),
 		 .MemWrite(MemWrite),
 		 .Read_data(ReadData),
 		 .Read_data1(ram_data)
