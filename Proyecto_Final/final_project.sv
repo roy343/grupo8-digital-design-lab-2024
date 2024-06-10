@@ -1,6 +1,7 @@
 module final_project (
-   input logic clk,
-	input logic reset,
+   input logic clk, 
+	input logic reset, run,
+	input logic [3:0] vowels,
 	output logic VGA_HS, 
 	output logic VGA_VS,
 	output logic [7:0] VGA_R,
@@ -31,7 +32,7 @@ module final_project (
         end
     end	 */
 	 
-	 assign pixel_color = (pixel)? 8'b00000000 : 8'b11111111;
+	 assign pixel_color = (pixel)? 8'b11111111 : 8'b00000000;
 	// assign pixel_color = 8'b11100000;
 	 
 	/*vgaController vgaCont(VGA_CLK, reset, VGA_HS, VGA_VS, VGA_SYNC_N, VGA_BLANK_N, next_x, next_y);*/

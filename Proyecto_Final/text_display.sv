@@ -43,13 +43,14 @@ module text_display (
         endcase
     end
 	 
+	 
 	 always_comb begin
-        if (Address < 3) begin
-            pixel = charpixelv;
-        end else begin
-            pixel = 1'b0;
-        end
-    end
+		 if (ch == 8'h00 || Address >= 15) begin
+			  pixel = 1'b0;
+		 end else begin
+			  pixel = charpixelv;
+		 end
+	end
 
     assign xoff = pixel_x % CHAR_WIDTH;
     assign yoff = pixel_y % CHAR_HEIGHT;

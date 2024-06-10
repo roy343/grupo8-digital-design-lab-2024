@@ -60,14 +60,12 @@ vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab
 vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Conditional_Logic.sv}
 vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Control_Unit.sv}
 vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv}
-vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/text_display.sv}
 vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/InstMem.sv}
 vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/DataMem.sv}
-vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/chargenrom.sv}
 
-vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/text_display_tb.sv}
+vlog -sv -work work +incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final {E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop_tb4.sv}
 
-vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  text_display_tb
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  processorTop_tb4
 
 add wave *
 view structure

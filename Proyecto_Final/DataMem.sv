@@ -9,7 +9,7 @@ module DataMem (
     reg [31:0] Memory [0:511];
 
 	 initial begin
-        $readmemh("projectText.hex", Memory);
+        $readmemh("projectText2.hex", Memory);
     end
 
     always @* begin
@@ -26,6 +26,7 @@ module DataMem (
 	 end
 	 
     always @(posedge clk) begin
+		  Memory[510] <= 32'd3;
         if (MemWrite[0]) begin
             case (MemWrite[1])
                 1'b0: Memory[Address[31:2]] <= Write_data;  // Store word

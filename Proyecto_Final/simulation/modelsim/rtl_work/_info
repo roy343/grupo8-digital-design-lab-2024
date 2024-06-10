@@ -11,7 +11,7 @@ cModel Technology
 Z0 dE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/simulation/modelsim
 vAdder
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1717960666
+Z2 !s110 1717981942
 !i10b 1
 !s100 UKS;T2<H2kLAZVdGgPF3a3
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -28,7 +28,7 @@ Z7 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z8 !s108 1717960666.000000
+Z8 !s108 1717981942.000000
 !s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Adder.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Adder.sv|
 !i113 1
@@ -65,7 +65,7 @@ R11
 n@a@l@u
 vALU_Decoder
 R1
-Z12 !s110 1717960667
+R2
 !i10b 1
 !s100 IAjDa4PD:b^OFg2H9F9?O2
 R3
@@ -77,12 +77,12 @@ w1717473132
 8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/ALU_Decoder.sv
 FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/ALU_Decoder.sv
 !i122 8
-Z13 L0 1 87
+Z12 L0 1 87
 R7
 r1
 !s85 0
 31
-Z14 !s108 1717960667.000000
+R8
 !s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/ALU_Decoder.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/ALU_Decoder.sv|
 !i113 1
@@ -90,35 +90,9 @@ R9
 R10
 R11
 n@a@l@u_@decoder
-vchargenrom
-R1
-R12
-!i10b 1
-!s100 ?AejX^DnY`:Ca0azfCRoC3
-R3
-IX;f@dEcCoi3?T3h]MKlje2
-R4
-S1
-R0
-w1717895819
-8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/chargenrom.sv
-FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/chargenrom.sv
-!i122 18
-Z15 L0 1 16
-R7
-r1
-!s85 0
-31
-R14
-!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/chargenrom.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/chargenrom.sv|
-!i113 1
-R9
-R10
-R11
 vCondition_Check
 R1
-R12
+Z13 !s110 1717981943
 !i10b 1
 !s100 b:]O1^6UQG:bTTAE]E;k`3
 R3
@@ -135,7 +109,7 @@ R7
 r1
 !s85 0
 31
-R14
+Z14 !s108 1717981943.000000
 !s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Condition_Check.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Condition_Check.sv|
 !i113 1
@@ -145,7 +119,7 @@ R11
 n@condition_@check
 vConditional_Logic
 R1
-R12
+R13
 !i10b 1
 !s100 gF5k@cJJMJbL??zc<BEDK3
 R3
@@ -172,7 +146,7 @@ R11
 n@conditional_@logic
 vControl_Unit
 R1
-R12
+R13
 !i10b 1
 !s100 LPEG10lz^[<O3M^fYP]KV1
 R3
@@ -199,19 +173,19 @@ R11
 n@control_@unit
 vDataMem
 R1
-R12
+R13
 !i10b 1
-!s100 =CaiR<QjN[U3GC7hHo<Ck1
+!s100 E13b`h3m?oEGfBAQG5<Pk1
 R3
-IK`CCQ_lbemiI[5D5P7Z^f1
+IoUDMak8??5`hLJ48i[5OU2
 R4
 S1
 R0
-w1717893076
+w1717975825
 8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/DataMem.sv
 FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/DataMem.sv
-!i122 17
-L0 1 44
+!i122 16
+L0 1 45
 R7
 r1
 !s85 0
@@ -226,7 +200,7 @@ R11
 n@data@mem
 vDecoder
 R1
-R12
+R13
 !i10b 1
 !s100 dJhdJf98j2Z<iaHC4`c4H3
 R3
@@ -243,7 +217,7 @@ R7
 r1
 !s85 0
 31
-R14
+R8
 !s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Decoder.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Decoder.sv|
 !i113 1
@@ -280,7 +254,7 @@ R11
 n@extend
 vFlagsreg
 R1
-R12
+R13
 !i10b 1
 !s100 VAbk9[DHL:e:9fXo:1SdQ1
 R3
@@ -307,19 +281,19 @@ R11
 n@flagsreg
 vInstMem
 R1
-R12
+R13
 !i10b 1
-!s100 0Ci<F@]k@bY<DHbYB?]fg1
+!s100 T00RJEjd`d@@]B1n1?93f2
 R3
-I_Mlkm>dTzh;:6jhh[`TXT0
+IaG7`lWAh9IVO@KO08DJXg2
 R4
 S1
 R0
-w1717486009
+w1717970669
 8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/InstMem.sv
 FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/InstMem.sv
-!i122 16
-R15
+!i122 15
+L0 1 16
 R7
 r1
 !s85 0
@@ -346,7 +320,7 @@ w1717488017
 8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Main_Decoder.sv
 FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/Main_Decoder.sv
 !i122 6
-R13
+R12
 R7
 r1
 !s85 0
@@ -388,7 +362,7 @@ R11
 n@m@u@x
 vPC_Logic
 R1
-R12
+R2
 !i10b 1
 !s100 ?M?17M^3KW[HUooeB7zSm1
 R3
@@ -405,7 +379,7 @@ R7
 r1
 !s85 0
 31
-R14
+R8
 !s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/PC_Logic.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/PC_Logic.sv|
 !i113 1
@@ -415,7 +389,7 @@ R11
 n@p@c_@logic
 vprocessorTop
 R1
-R12
+R13
 !i10b 1
 !s100 Ec[C00=7:L5iHAo;f^[?S3
 R3
@@ -440,6 +414,33 @@ R9
 R10
 R11
 nprocessor@top
+vprocessorTop_tb4
+R1
+R13
+!i10b 1
+!s100 S9VDBCC6hAQcEd?D<37eQ3
+R3
+Ik[Ace[3XGLDVS>NmPi^GN2
+R4
+S1
+R0
+w1717877453
+8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop_tb4.sv
+FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop_tb4.sv
+!i122 17
+L0 1 33
+R7
+r1
+!s85 0
+31
+R14
+!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop_tb4.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop_tb4.sv|
+!i113 1
+R9
+R10
+R11
+nprocessor@top_tb4
 vProgram_counter
 R1
 R2
@@ -494,55 +495,3 @@ R9
 R10
 R11
 n@register
-vtext_display
-R1
-R12
-!i10b 1
-!s100 WBI;]Mn5;CJ@5[OiHWPfR3
-R3
-I@4=2`G2Xo28df3L9Jd]C;1
-R4
-S1
-R0
-w1717960208
-8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/text_display.sv
-FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/text_display.sv
-!i122 15
-L0 1 57
-R7
-r1
-!s85 0
-31
-R14
-!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/text_display.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/text_display.sv|
-!i113 1
-R9
-R10
-R11
-vtext_display_tb
-R1
-!s110 1717960668
-!i10b 1
-!s100 AGRgoV9XLY00YCK7H3DHb0
-R3
-I00oFj542WRh:j4g1RTngJ3
-R4
-S1
-R0
-w1717960249
-8E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/text_display_tb.sv
-FE:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/text_display_tb.sv
-!i122 19
-L0 1 61
-R7
-r1
-!s85 0
-31
-R14
-!s107 E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/text_display_tb.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final|E:/Users/Usuario/Documents/grupo8-digital-design-lab-2024/Proyecto_Final/text_display_tb.sv|
-!i113 1
-R9
-R10
-R11

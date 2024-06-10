@@ -3,6 +3,8 @@ module final_project_tb;
     // Inputs
     logic clk;
     logic reset;
+	 logic run;
+	 logic [3:0] vowels;
 
     // Outputs
     logic VGA_HS;
@@ -18,6 +20,8 @@ module final_project_tb;
     final_project uut (
         .clk(clk),
         .reset(reset),
+		  .run(run),
+		  .vowels(vowels),
         .VGA_HS(VGA_HS),
         .VGA_VS(VGA_VS),
         .VGA_R(VGA_R),
