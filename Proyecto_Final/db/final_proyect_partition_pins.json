@@ -56,10 +56,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "run",
-					"strict" : false
-				},
-				{
 					"name" : "clk",
 					"strict" : false
 				},
@@ -77,6 +73,10 @@
 				},
 				{
 					"name" : "vowels[1]",
+					"strict" : false
+				},
+				{
+					"name" : "run",
 					"strict" : false
 				}
 			]

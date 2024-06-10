@@ -1,5 +1,5 @@
 Flow report for final_proyect
-Mon Jun 10 15:28:39 2024
+Mon Jun 10 17:10:40 2024
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -41,14 +41,14 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +---------------------------------+------------------------------------------------+
-; Flow Status                     ; Flow Failed - Mon Jun 10 15:28:38 2024         ;
+; Flow Status                     ; Flow Failed - Mon Jun 10 17:10:40 2024         ;
 ; Quartus Prime Version           ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                   ; final_proyect                                  ;
 ; Top-level Entity Name           ; final_project                                  ;
 ; Family                          ; Cyclone V                                      ;
 ; Device                          ; 5CSEMA5F31C6                                   ;
 ; Timing Models                   ; Final                                          ;
-; Logic utilization (in ALMs)     ; 15,021 / 32,070 ( 47 % )                       ;
+; Logic utilization (in ALMs)     ; 15,441 / 32,070 ( 48 % )                       ;
 ; Total registers                 ; 16969                                          ;
 ; Total pins                      ; 36 / 457 ( 8 % )                               ;
 ; Total virtual pins              ; 0                                              ;
@@ -68,7 +68,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 06/10/2024 14:42:37 ;
+; Start date & time ; 06/10/2024 16:55:11 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; final_proyect       ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+---------------+------------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name   ; Section Id       ;
 +--------------------------------------+----------------------------------------+---------------+---------------+------------------+
-; COMPILER_SIGNATURE_ID                ; 96830616742285.171805215711308         ; --            ; --            ; --               ;
+; COMPILER_SIGNATURE_ID                ; 96830616742285.171806011132108         ; --            ; --            ; --               ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --            ; processorTop_tb4 ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --            ; Excecute_tb      ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --            ; final_project_tb ;
@@ -134,9 +134,9 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:01:18     ; 2.0                     ; 5109 MB             ; 00:01:29                           ;
-; Fitter               ; 00:44:39     ; 1.1                     ; 7877 MB             ; 00:52:24                           ;
-; Total                ; 00:45:57     ; --                      ; --                  ; 00:53:53                           ;
+; Analysis & Synthesis ; 00:01:19     ; 2.0                     ; 5111 MB             ; 00:01:26                           ;
+; Fitter               ; 00:14:06     ; 1.1                     ; 7770 MB             ; 00:21:49                           ;
+; Total                ; 00:15:25     ; --                      ; --                  ; 00:23:15                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

@@ -15,6 +15,8 @@ module final_project (
    logic clk25MHz, pixel;
 	logic [9:0] next_x, next_y;
 	logic [7:0] pixel_color;
+	logic [31:0] Address;
+   logic [31:0] data;
 	
 	always_ff @(posedge clk, posedge reset) begin
         if (reset) begin
@@ -37,6 +39,15 @@ module final_project (
 	 
 	/*vgaController vgaCont(VGA_CLK, reset, VGA_HS, VGA_VS, VGA_SYNC_N, VGA_BLANK_N, next_x, next_y);*/
 
+	processorTop proce (
+		  .clk(clk),
+		  .rst(reset),
+		  .run(run),
+		  .vowels(vowels),
+        .address(Address),
+        .ram_data(data)
+    );
+	
 	vga_driver draw  ( 
 		.clock(clk25MHz),        // 25 MHz 
       .reset(reset),      // Active high reset, manipulated by instantiating module
@@ -54,13 +65,11 @@ module final_project (
 	);
 	
     text_display txt_disp (
-		  .clk(clk25MHz),
-		  .rst(reset),
-		  .run(run),
-		  .vowels(vowels),
         .pixel_x(next_x),
         .pixel_y(next_y),
-        .pixel(pixel)
+		  .data(data),
+        .pixel(pixel),
+		  .Address(Address)
     );
 	 /*
 	 assign VGA_R = {pixel_color[7:5], 5'd0};

@@ -1,254 +1,43 @@
 |final_project
-clk => clk25MHz.CLK
+clk => clk.IN1
 reset => reset.IN2
 run => run.IN1
 vowels[0] => vowels[0].IN1
 vowels[1] => vowels[1].IN1
 vowels[2] => vowels[2].IN1
 vowels[3] => vowels[3].IN1
-VGA_HS <= vga_driver:draw.hsync
-VGA_VS <= vga_driver:draw.vsync
-VGA_R[0] <= vga_driver:draw.red
-VGA_R[1] <= vga_driver:draw.red
-VGA_R[2] <= vga_driver:draw.red
-VGA_R[3] <= vga_driver:draw.red
-VGA_R[4] <= vga_driver:draw.red
-VGA_R[5] <= vga_driver:draw.red
-VGA_R[6] <= vga_driver:draw.red
-VGA_R[7] <= vga_driver:draw.red
-VGA_G[0] <= vga_driver:draw.green
-VGA_G[1] <= vga_driver:draw.green
-VGA_G[2] <= vga_driver:draw.green
-VGA_G[3] <= vga_driver:draw.green
-VGA_G[4] <= vga_driver:draw.green
-VGA_G[5] <= vga_driver:draw.green
-VGA_G[6] <= vga_driver:draw.green
-VGA_G[7] <= vga_driver:draw.green
-VGA_B[0] <= vga_driver:draw.blue
-VGA_B[1] <= vga_driver:draw.blue
-VGA_B[2] <= vga_driver:draw.blue
-VGA_B[3] <= vga_driver:draw.blue
-VGA_B[4] <= vga_driver:draw.blue
-VGA_B[5] <= vga_driver:draw.blue
-VGA_B[6] <= vga_driver:draw.blue
-VGA_B[7] <= vga_driver:draw.blue
-VGA_SYNC_N <= vga_driver:draw.sync
-VGA_CLK <= vga_driver:draw.clk
-VGA_BLANK_N <= vga_driver:draw.blank
+VGA_HS << vga_driver:draw.hsync
+VGA_VS << vga_driver:draw.vsync
+VGA_R[0] << vga_driver:draw.red
+VGA_R[1] << vga_driver:draw.red
+VGA_R[2] << vga_driver:draw.red
+VGA_R[3] << vga_driver:draw.red
+VGA_R[4] << vga_driver:draw.red
+VGA_R[5] << vga_driver:draw.red
+VGA_R[6] << vga_driver:draw.red
+VGA_R[7] << vga_driver:draw.red
+VGA_G[0] << vga_driver:draw.green
+VGA_G[1] << vga_driver:draw.green
+VGA_G[2] << vga_driver:draw.green
+VGA_G[3] << vga_driver:draw.green
+VGA_G[4] << vga_driver:draw.green
+VGA_G[5] << vga_driver:draw.green
+VGA_G[6] << vga_driver:draw.green
+VGA_G[7] << vga_driver:draw.green
+VGA_B[0] << vga_driver:draw.blue
+VGA_B[1] << vga_driver:draw.blue
+VGA_B[2] << vga_driver:draw.blue
+VGA_B[3] << vga_driver:draw.blue
+VGA_B[4] << vga_driver:draw.blue
+VGA_B[5] << vga_driver:draw.blue
+VGA_B[6] << vga_driver:draw.blue
+VGA_B[7] << vga_driver:draw.blue
+VGA_SYNC_N << vga_driver:draw.sync
+VGA_CLK << vga_driver:draw.clk
+VGA_BLANK_N << vga_driver:draw.blank
 
 
-|final_project|vga_driver:draw
-clock => blue_reg[0].CLK
-clock => blue_reg[1].CLK
-clock => blue_reg[2].CLK
-clock => blue_reg[3].CLK
-clock => blue_reg[4].CLK
-clock => blue_reg[5].CLK
-clock => blue_reg[6].CLK
-clock => blue_reg[7].CLK
-clock => green_reg[0].CLK
-clock => green_reg[1].CLK
-clock => green_reg[2].CLK
-clock => green_reg[3].CLK
-clock => green_reg[4].CLK
-clock => green_reg[5].CLK
-clock => green_reg[6].CLK
-clock => green_reg[7].CLK
-clock => red_reg[0].CLK
-clock => red_reg[1].CLK
-clock => red_reg[2].CLK
-clock => red_reg[3].CLK
-clock => red_reg[4].CLK
-clock => red_reg[5].CLK
-clock => red_reg[6].CLK
-clock => red_reg[7].CLK
-clock => vsync_reg.CLK
-clock => hsync_reg.CLK
-clock => line_done.CLK
-clock => v_counter[0].CLK
-clock => v_counter[1].CLK
-clock => v_counter[2].CLK
-clock => v_counter[3].CLK
-clock => v_counter[4].CLK
-clock => v_counter[5].CLK
-clock => v_counter[6].CLK
-clock => v_counter[7].CLK
-clock => v_counter[8].CLK
-clock => v_counter[9].CLK
-clock => h_counter[0].CLK
-clock => h_counter[1].CLK
-clock => h_counter[2].CLK
-clock => h_counter[3].CLK
-clock => h_counter[4].CLK
-clock => h_counter[5].CLK
-clock => h_counter[6].CLK
-clock => h_counter[7].CLK
-clock => h_counter[8].CLK
-clock => h_counter[9].CLK
-clock => clk.DATAIN
-clock => v_state~4.DATAIN
-clock => h_state~4.DATAIN
-reset => line_done.ACLR
-reset => v_counter[0].ACLR
-reset => v_counter[1].ACLR
-reset => v_counter[2].ACLR
-reset => v_counter[3].ACLR
-reset => v_counter[4].ACLR
-reset => v_counter[5].ACLR
-reset => v_counter[6].ACLR
-reset => v_counter[7].ACLR
-reset => v_counter[8].ACLR
-reset => v_counter[9].ACLR
-reset => h_counter[0].ACLR
-reset => h_counter[1].ACLR
-reset => h_counter[2].ACLR
-reset => h_counter[3].ACLR
-reset => h_counter[4].ACLR
-reset => h_counter[5].ACLR
-reset => h_counter[6].ACLR
-reset => h_counter[7].ACLR
-reset => h_counter[8].ACLR
-reset => h_counter[9].ACLR
-reset => v_state~6.DATAIN
-reset => h_state~6.DATAIN
-reset => blue_reg[0].ENA
-reset => hsync_reg.ENA
-reset => vsync_reg.ENA
-reset => red_reg[7].ENA
-reset => red_reg[6].ENA
-reset => red_reg[5].ENA
-reset => red_reg[4].ENA
-reset => red_reg[3].ENA
-reset => red_reg[2].ENA
-reset => red_reg[1].ENA
-reset => red_reg[0].ENA
-reset => green_reg[7].ENA
-reset => green_reg[6].ENA
-reset => green_reg[5].ENA
-reset => green_reg[4].ENA
-reset => green_reg[3].ENA
-reset => green_reg[2].ENA
-reset => green_reg[1].ENA
-reset => green_reg[0].ENA
-reset => blue_reg[7].ENA
-reset => blue_reg[6].ENA
-reset => blue_reg[5].ENA
-reset => blue_reg[4].ENA
-reset => blue_reg[3].ENA
-reset => blue_reg[2].ENA
-reset => blue_reg[1].ENA
-color_in[0] => blue_reg.DATAB
-color_in[1] => blue_reg.DATAB
-color_in[2] => green_reg.DATAB
-color_in[3] => green_reg.DATAB
-color_in[4] => green_reg.DATAB
-color_in[5] => red_reg.DATAB
-color_in[6] => red_reg.DATAB
-color_in[7] => red_reg.DATAB
-next_x[0] <= next_x.DB_MAX_OUTPUT_PORT_TYPE
-next_x[1] <= next_x.DB_MAX_OUTPUT_PORT_TYPE
-next_x[2] <= next_x.DB_MAX_OUTPUT_PORT_TYPE
-next_x[3] <= next_x.DB_MAX_OUTPUT_PORT_TYPE
-next_x[4] <= next_x.DB_MAX_OUTPUT_PORT_TYPE
-next_x[5] <= next_x.DB_MAX_OUTPUT_PORT_TYPE
-next_x[6] <= next_x.DB_MAX_OUTPUT_PORT_TYPE
-next_x[7] <= next_x.DB_MAX_OUTPUT_PORT_TYPE
-next_x[8] <= next_x.DB_MAX_OUTPUT_PORT_TYPE
-next_x[9] <= next_x.DB_MAX_OUTPUT_PORT_TYPE
-next_y[0] <= next_y.DB_MAX_OUTPUT_PORT_TYPE
-next_y[1] <= next_y.DB_MAX_OUTPUT_PORT_TYPE
-next_y[2] <= next_y.DB_MAX_OUTPUT_PORT_TYPE
-next_y[3] <= next_y.DB_MAX_OUTPUT_PORT_TYPE
-next_y[4] <= next_y.DB_MAX_OUTPUT_PORT_TYPE
-next_y[5] <= next_y.DB_MAX_OUTPUT_PORT_TYPE
-next_y[6] <= next_y.DB_MAX_OUTPUT_PORT_TYPE
-next_y[7] <= next_y.DB_MAX_OUTPUT_PORT_TYPE
-next_y[8] <= next_y.DB_MAX_OUTPUT_PORT_TYPE
-next_y[9] <= next_y.DB_MAX_OUTPUT_PORT_TYPE
-hsync <= hsync_reg.DB_MAX_OUTPUT_PORT_TYPE
-vsync <= vsync_reg.DB_MAX_OUTPUT_PORT_TYPE
-red[0] <= red_reg[0].DB_MAX_OUTPUT_PORT_TYPE
-red[1] <= red_reg[1].DB_MAX_OUTPUT_PORT_TYPE
-red[2] <= red_reg[2].DB_MAX_OUTPUT_PORT_TYPE
-red[3] <= red_reg[3].DB_MAX_OUTPUT_PORT_TYPE
-red[4] <= red_reg[4].DB_MAX_OUTPUT_PORT_TYPE
-red[5] <= red_reg[5].DB_MAX_OUTPUT_PORT_TYPE
-red[6] <= red_reg[6].DB_MAX_OUTPUT_PORT_TYPE
-red[7] <= red_reg[7].DB_MAX_OUTPUT_PORT_TYPE
-green[0] <= green_reg[0].DB_MAX_OUTPUT_PORT_TYPE
-green[1] <= green_reg[1].DB_MAX_OUTPUT_PORT_TYPE
-green[2] <= green_reg[2].DB_MAX_OUTPUT_PORT_TYPE
-green[3] <= green_reg[3].DB_MAX_OUTPUT_PORT_TYPE
-green[4] <= green_reg[4].DB_MAX_OUTPUT_PORT_TYPE
-green[5] <= green_reg[5].DB_MAX_OUTPUT_PORT_TYPE
-green[6] <= green_reg[6].DB_MAX_OUTPUT_PORT_TYPE
-green[7] <= green_reg[7].DB_MAX_OUTPUT_PORT_TYPE
-blue[0] <= blue_reg[0].DB_MAX_OUTPUT_PORT_TYPE
-blue[1] <= blue_reg[1].DB_MAX_OUTPUT_PORT_TYPE
-blue[2] <= blue_reg[2].DB_MAX_OUTPUT_PORT_TYPE
-blue[3] <= blue_reg[3].DB_MAX_OUTPUT_PORT_TYPE
-blue[4] <= blue_reg[4].DB_MAX_OUTPUT_PORT_TYPE
-blue[5] <= blue_reg[5].DB_MAX_OUTPUT_PORT_TYPE
-blue[6] <= blue_reg[6].DB_MAX_OUTPUT_PORT_TYPE
-blue[7] <= blue_reg[7].DB_MAX_OUTPUT_PORT_TYPE
-sync <= <GND>
-clk <= clock.DB_MAX_OUTPUT_PORT_TYPE
-blank <= blank.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|final_project|text_display:txt_disp
-clk => clk.IN1
-rst => rst.IN1
-run => run.IN1
-vowels[0] => vowels[0].IN1
-vowels[1] => vowels[1].IN1
-vowels[2] => vowels[2].IN1
-vowels[3] => vowels[3].IN1
-pixel_x[0] => xoff[0].IN1
-pixel_x[1] => xoff[1].IN1
-pixel_x[2] => xoff[2].IN1
-pixel_x[3] => Mux0.IN5
-pixel_x[3] => Mux1.IN5
-pixel_x[3] => Mux2.IN5
-pixel_x[3] => Mux3.IN5
-pixel_x[3] => Mux4.IN5
-pixel_x[3] => Mux5.IN5
-pixel_x[3] => Mux6.IN5
-pixel_x[3] => Mux7.IN5
-pixel_x[4] => Mux0.IN4
-pixel_x[4] => Mux1.IN4
-pixel_x[4] => Mux2.IN4
-pixel_x[4] => Mux3.IN4
-pixel_x[4] => Mux4.IN4
-pixel_x[4] => Mux5.IN4
-pixel_x[4] => Mux6.IN4
-pixel_x[4] => Mux7.IN4
-pixel_x[5] => Address[0].IN1
-pixel_x[6] => Address[1].IN1
-pixel_x[7] => Add1.IN24
-pixel_x[8] => Add1.IN23
-pixel_x[9] => Add1.IN22
-pixel_y[0] => yoff[0].IN1
-pixel_y[1] => yoff[1].IN1
-pixel_y[2] => yoff[2].IN1
-pixel_y[3] => Add0.IN20
-pixel_y[3] => Add1.IN26
-pixel_y[4] => Add0.IN19
-pixel_y[4] => Add1.IN25
-pixel_y[5] => Add0.IN17
-pixel_y[5] => Add0.IN18
-pixel_y[6] => Add0.IN15
-pixel_y[6] => Add0.IN16
-pixel_y[7] => Add0.IN13
-pixel_y[7] => Add0.IN14
-pixel_y[8] => Add0.IN11
-pixel_y[8] => Add0.IN12
-pixel_y[9] => Add0.IN9
-pixel_y[9] => Add0.IN10
-pixel <= pixel.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|final_project|text_display:txt_disp|processorTop:proce
+|final_project|processorTop:proce
 clk => clk.IN4
 rst => rst.IN1
 run => run.IN1
@@ -322,7 +111,7 @@ ram_data[30] <= DataMem:dmem.Read_data1
 ram_data[31] <= DataMem:dmem.Read_data1
 
 
-|final_project|text_display:txt_disp|processorTop:proce|MUX:pcsr
+|final_project|processorTop:proce|MUX:pcsr
 select => out.OUTPUTSELECT
 select => out.OUTPUTSELECT
 select => out.OUTPUTSELECT
@@ -453,7 +242,7 @@ out[30] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[31] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|final_project|text_display:txt_disp|processorTop:proce|Program_counter:PC
+|final_project|processorTop:proce|Program_counter:PC
 clk => out[0]~reg0.CLK
 clk => out[1]~reg0.CLK
 clk => out[2]~reg0.CLK
@@ -616,7 +405,7 @@ out[30] <= out[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 out[31] <= out[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|final_project|text_display:txt_disp|processorTop:proce|Adder:ADD4
+|final_project|processorTop:proce|Adder:ADD4
 a[0] => Add0.IN32
 a[1] => Add0.IN31
 a[2] => Add0.IN30
@@ -715,7 +504,7 @@ s[30] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 s[31] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|final_project|text_display:txt_disp|processorTop:proce|Adder:ADD8
+|final_project|processorTop:proce|Adder:ADD8
 a[0] => Add0.IN32
 a[1] => Add0.IN31
 a[2] => Add0.IN30
@@ -814,7 +603,7 @@ s[30] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 s[31] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|final_project|text_display:txt_disp|processorTop:proce|InstMem:Imem
+|final_project|processorTop:proce|InstMem:Imem
 Read_Address[0] => ~NO_FANOUT~
 Read_Address[1] => ~NO_FANOUT~
 Read_Address[2] => Memory.RADDR
@@ -881,7 +670,7 @@ Instruction[30] <= Memory.DATAOUT30
 Instruction[31] <= Memory.DATAOUT31
 
 
-|final_project|text_display:txt_disp|processorTop:proce|MUX:regsrc0
+|final_project|processorTop:proce|MUX:regsrc0
 select => out.OUTPUTSELECT
 select => out.OUTPUTSELECT
 select => out.OUTPUTSELECT
@@ -900,7 +689,7 @@ out[2] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[3] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|final_project|text_display:txt_disp|processorTop:proce|MUX:regsrc1
+|final_project|processorTop:proce|MUX:regsrc1
 select => out.OUTPUTSELECT
 select => out.OUTPUTSELECT
 select => out.OUTPUTSELECT
@@ -919,7 +708,7 @@ out[2] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[3] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|final_project|text_display:txt_disp|processorTop:proce|Register:register
+|final_project|processorTop:proce|Register:register
 rs1[0] => Mux0.IN3
 rs1[0] => Mux1.IN3
 rs1[0] => Mux2.IN3
@@ -2348,7 +2137,7 @@ data2[30] <= data2.DB_MAX_OUTPUT_PORT_TYPE
 data2[31] <= data2.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|final_project|text_display:txt_disp|processorTop:proce|Extend:ext
+|final_project|processorTop:proce|Extend:ext
 Instruction[0] => Mux9.IN3
 Instruction[0] => Immediate.DATAA
 Instruction[1] => Mux8.IN3
@@ -2455,7 +2244,7 @@ Immediate[30] <= Immediate.DB_MAX_OUTPUT_PORT_TYPE
 Immediate[31] <= Immediate.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|final_project|text_display:txt_disp|processorTop:proce|MUX:alusr
+|final_project|processorTop:proce|MUX:alusr
 select => out.OUTPUTSELECT
 select => out.OUTPUTSELECT
 select => out.OUTPUTSELECT
@@ -2586,7 +2375,7 @@ out[30] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[31] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|final_project|text_display:txt_disp|processorTop:proce|ALU:alu
+|final_project|processorTop:proce|ALU:alu
 A[0] => result.IN0
 A[0] => result.IN0
 A[0] => Add0.IN32
@@ -3399,7 +3188,7 @@ ALUFlags[2] <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
 ALUFlags[3] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|final_project|text_display:txt_disp|processorTop:proce|DataMem:dmem
+|final_project|processorTop:proce|DataMem:dmem
 clk => Memory[511][0].CLK
 clk => Memory[511][1].CLK
 clk => Memory[511][2].CLK
@@ -98472,7 +98261,7 @@ Read_data1[30] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
 Read_data1[31] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|final_project|text_display:txt_disp|processorTop:proce|MUX:mem2reg
+|final_project|processorTop:proce|MUX:mem2reg
 select => out.OUTPUTSELECT
 select => out.OUTPUTSELECT
 select => out.OUTPUTSELECT
@@ -98603,7 +98392,7 @@ out[30] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[31] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|final_project|text_display:txt_disp|processorTop:proce|Control_Unit:controlunit
+|final_project|processorTop:proce|Control_Unit:controlunit
 clk => clk.IN1
 Cond[0] => Cond[0].IN1
 Cond[1] => Cond[1].IN1
@@ -98642,7 +98431,7 @@ ALUControl[2] <= Decoder:deco.ALUControl
 ALUControl[3] <= Decoder:deco.ALUControl
 
 
-|final_project|text_display:txt_disp|processorTop:proce|Control_Unit:controlunit|Conditional_Logic:condlogic
+|final_project|processorTop:proce|Control_Unit:controlunit|Conditional_Logic:condlogic
 clk => clk.IN2
 PCS => PCSrc.IN1
 MemW => MemWrite.IN1
@@ -98663,7 +98452,7 @@ RegWrite <= RegWrite.DB_MAX_OUTPUT_PORT_TYPE
 MemWrite <= MemWrite.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|final_project|text_display:txt_disp|processorTop:proce|Control_Unit:controlunit|Conditional_Logic:condlogic|Flagsreg:flagsreg32
+|final_project|processorTop:proce|Control_Unit:controlunit|Conditional_Logic:condlogic|Flagsreg:flagsreg32
 clk => out[0]~reg0.CLK
 clk => out[1]~reg0.CLK
 enable => out[0]~reg0.ENA
@@ -98674,7 +98463,7 @@ out[0] <= out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 out[1] <= out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|final_project|text_display:txt_disp|processorTop:proce|Control_Unit:controlunit|Conditional_Logic:condlogic|Flagsreg:flagsreg10
+|final_project|processorTop:proce|Control_Unit:controlunit|Conditional_Logic:condlogic|Flagsreg:flagsreg10
 clk => out[0]~reg0.CLK
 clk => out[1]~reg0.CLK
 enable => out[0]~reg0.ENA
@@ -98685,7 +98474,7 @@ out[0] <= out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 out[1] <= out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|final_project|text_display:txt_disp|processorTop:proce|Control_Unit:controlunit|Conditional_Logic:condlogic|Condition_Check:condcheck
+|final_project|processorTop:proce|Control_Unit:controlunit|Conditional_Logic:condlogic|Condition_Check:condcheck
 Cond[0] => Mux0.IN15
 Cond[1] => Mux0.IN14
 Cond[2] => Mux0.IN13
@@ -98709,7 +98498,7 @@ ALUFlags10[1] => Mux0.IN5
 CondEx <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|final_project|text_display:txt_disp|processorTop:proce|Control_Unit:controlunit|Decoder:deco
+|final_project|processorTop:proce|Control_Unit:controlunit|Decoder:deco
 Op[0] => Op[0].IN1
 Op[1] => Op[1].IN1
 Funct[0] => Funct[0].IN2
@@ -98741,7 +98530,7 @@ ALUControl[2] <= ALU_Decoder:aludeco.ALUControl
 ALUControl[3] <= ALU_Decoder:aludeco.ALUControl
 
 
-|final_project|text_display:txt_disp|processorTop:proce|Control_Unit:controlunit|Decoder:deco|Main_Decoder:maindeco
+|final_project|processorTop:proce|Control_Unit:controlunit|Decoder:deco|Main_Decoder:maindeco
 Op[0] => Decoder0.IN1
 Op[0] => Mux0.IN4
 Op[0] => Mux1.IN4
@@ -98772,7 +98561,7 @@ RegSrc[0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
 RegSrc[1] <= RegSrc.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|final_project|text_display:txt_disp|processorTop:proce|Control_Unit:controlunit|Decoder:deco|PC_Logic:pclogic
+|final_project|processorTop:proce|Control_Unit:controlunit|Decoder:deco|PC_Logic:pclogic
 Rd[0] => Equal0.IN3
 Rd[1] => Equal0.IN2
 Rd[2] => Equal0.IN1
@@ -98782,7 +98571,7 @@ RegW => PCS.IN1
 PCS <= PCS.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|final_project|text_display:txt_disp|processorTop:proce|Control_Unit:controlunit|Decoder:deco|ALU_Decoder:aludeco
+|final_project|processorTop:proce|Control_Unit:controlunit|Decoder:deco|ALU_Decoder:aludeco
 ALUOp => Decoder1.IN0
 Funct[0] => Mux2.IN15
 Funct[0] => Mux3.IN17
@@ -98822,6 +98611,274 @@ ALUControl[1] <= ALUControl.DB_MAX_OUTPUT_PORT_TYPE
 ALUControl[2] <= ALUControl.DB_MAX_OUTPUT_PORT_TYPE
 ALUControl[3] <= <GND>
 NoWrite <= NoWrite.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|final_project|vga_driver:draw
+clock => blue_reg[0].CLK
+clock => blue_reg[1].CLK
+clock => blue_reg[2].CLK
+clock => blue_reg[3].CLK
+clock => blue_reg[4].CLK
+clock => blue_reg[5].CLK
+clock => blue_reg[6].CLK
+clock => blue_reg[7].CLK
+clock => green_reg[0].CLK
+clock => green_reg[1].CLK
+clock => green_reg[2].CLK
+clock => green_reg[3].CLK
+clock => green_reg[4].CLK
+clock => green_reg[5].CLK
+clock => green_reg[6].CLK
+clock => green_reg[7].CLK
+clock => red_reg[0].CLK
+clock => red_reg[1].CLK
+clock => red_reg[2].CLK
+clock => red_reg[3].CLK
+clock => red_reg[4].CLK
+clock => red_reg[5].CLK
+clock => red_reg[6].CLK
+clock => red_reg[7].CLK
+clock => vsync_reg.CLK
+clock => hsync_reg.CLK
+clock => line_done.CLK
+clock => v_counter[0].CLK
+clock => v_counter[1].CLK
+clock => v_counter[2].CLK
+clock => v_counter[3].CLK
+clock => v_counter[4].CLK
+clock => v_counter[5].CLK
+clock => v_counter[6].CLK
+clock => v_counter[7].CLK
+clock => v_counter[8].CLK
+clock => v_counter[9].CLK
+clock => h_counter[0].CLK
+clock => h_counter[1].CLK
+clock => h_counter[2].CLK
+clock => h_counter[3].CLK
+clock => h_counter[4].CLK
+clock => h_counter[5].CLK
+clock => h_counter[6].CLK
+clock => h_counter[7].CLK
+clock => h_counter[8].CLK
+clock => h_counter[9].CLK
+clock => clk.DATAIN
+clock => v_state~4.DATAIN
+clock => h_state~4.DATAIN
+reset => line_done.ACLR
+reset => v_counter[0].ACLR
+reset => v_counter[1].ACLR
+reset => v_counter[2].ACLR
+reset => v_counter[3].ACLR
+reset => v_counter[4].ACLR
+reset => v_counter[5].ACLR
+reset => v_counter[6].ACLR
+reset => v_counter[7].ACLR
+reset => v_counter[8].ACLR
+reset => v_counter[9].ACLR
+reset => h_counter[0].ACLR
+reset => h_counter[1].ACLR
+reset => h_counter[2].ACLR
+reset => h_counter[3].ACLR
+reset => h_counter[4].ACLR
+reset => h_counter[5].ACLR
+reset => h_counter[6].ACLR
+reset => h_counter[7].ACLR
+reset => h_counter[8].ACLR
+reset => h_counter[9].ACLR
+reset => v_state~6.DATAIN
+reset => h_state~6.DATAIN
+reset => blue_reg[0].ENA
+reset => hsync_reg.ENA
+reset => vsync_reg.ENA
+reset => red_reg[7].ENA
+reset => red_reg[6].ENA
+reset => red_reg[5].ENA
+reset => red_reg[4].ENA
+reset => red_reg[3].ENA
+reset => red_reg[2].ENA
+reset => red_reg[1].ENA
+reset => red_reg[0].ENA
+reset => green_reg[7].ENA
+reset => green_reg[6].ENA
+reset => green_reg[5].ENA
+reset => green_reg[4].ENA
+reset => green_reg[3].ENA
+reset => green_reg[2].ENA
+reset => green_reg[1].ENA
+reset => green_reg[0].ENA
+reset => blue_reg[7].ENA
+reset => blue_reg[6].ENA
+reset => blue_reg[5].ENA
+reset => blue_reg[4].ENA
+reset => blue_reg[3].ENA
+reset => blue_reg[2].ENA
+reset => blue_reg[1].ENA
+color_in[0] => blue_reg.DATAB
+color_in[1] => blue_reg.DATAB
+color_in[2] => green_reg.DATAB
+color_in[3] => green_reg.DATAB
+color_in[4] => green_reg.DATAB
+color_in[5] => red_reg.DATAB
+color_in[6] => red_reg.DATAB
+color_in[7] => red_reg.DATAB
+next_x[0] <= next_x.DB_MAX_OUTPUT_PORT_TYPE
+next_x[1] <= next_x.DB_MAX_OUTPUT_PORT_TYPE
+next_x[2] <= next_x.DB_MAX_OUTPUT_PORT_TYPE
+next_x[3] <= next_x.DB_MAX_OUTPUT_PORT_TYPE
+next_x[4] <= next_x.DB_MAX_OUTPUT_PORT_TYPE
+next_x[5] <= next_x.DB_MAX_OUTPUT_PORT_TYPE
+next_x[6] <= next_x.DB_MAX_OUTPUT_PORT_TYPE
+next_x[7] <= next_x.DB_MAX_OUTPUT_PORT_TYPE
+next_x[8] <= next_x.DB_MAX_OUTPUT_PORT_TYPE
+next_x[9] <= next_x.DB_MAX_OUTPUT_PORT_TYPE
+next_y[0] <= next_y.DB_MAX_OUTPUT_PORT_TYPE
+next_y[1] <= next_y.DB_MAX_OUTPUT_PORT_TYPE
+next_y[2] <= next_y.DB_MAX_OUTPUT_PORT_TYPE
+next_y[3] <= next_y.DB_MAX_OUTPUT_PORT_TYPE
+next_y[4] <= next_y.DB_MAX_OUTPUT_PORT_TYPE
+next_y[5] <= next_y.DB_MAX_OUTPUT_PORT_TYPE
+next_y[6] <= next_y.DB_MAX_OUTPUT_PORT_TYPE
+next_y[7] <= next_y.DB_MAX_OUTPUT_PORT_TYPE
+next_y[8] <= next_y.DB_MAX_OUTPUT_PORT_TYPE
+next_y[9] <= next_y.DB_MAX_OUTPUT_PORT_TYPE
+hsync <= hsync_reg.DB_MAX_OUTPUT_PORT_TYPE
+vsync <= vsync_reg.DB_MAX_OUTPUT_PORT_TYPE
+red[0] <= red_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+red[1] <= red_reg[1].DB_MAX_OUTPUT_PORT_TYPE
+red[2] <= red_reg[2].DB_MAX_OUTPUT_PORT_TYPE
+red[3] <= red_reg[3].DB_MAX_OUTPUT_PORT_TYPE
+red[4] <= red_reg[4].DB_MAX_OUTPUT_PORT_TYPE
+red[5] <= red_reg[5].DB_MAX_OUTPUT_PORT_TYPE
+red[6] <= red_reg[6].DB_MAX_OUTPUT_PORT_TYPE
+red[7] <= red_reg[7].DB_MAX_OUTPUT_PORT_TYPE
+green[0] <= green_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+green[1] <= green_reg[1].DB_MAX_OUTPUT_PORT_TYPE
+green[2] <= green_reg[2].DB_MAX_OUTPUT_PORT_TYPE
+green[3] <= green_reg[3].DB_MAX_OUTPUT_PORT_TYPE
+green[4] <= green_reg[4].DB_MAX_OUTPUT_PORT_TYPE
+green[5] <= green_reg[5].DB_MAX_OUTPUT_PORT_TYPE
+green[6] <= green_reg[6].DB_MAX_OUTPUT_PORT_TYPE
+green[7] <= green_reg[7].DB_MAX_OUTPUT_PORT_TYPE
+blue[0] <= blue_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+blue[1] <= blue_reg[1].DB_MAX_OUTPUT_PORT_TYPE
+blue[2] <= blue_reg[2].DB_MAX_OUTPUT_PORT_TYPE
+blue[3] <= blue_reg[3].DB_MAX_OUTPUT_PORT_TYPE
+blue[4] <= blue_reg[4].DB_MAX_OUTPUT_PORT_TYPE
+blue[5] <= blue_reg[5].DB_MAX_OUTPUT_PORT_TYPE
+blue[6] <= blue_reg[6].DB_MAX_OUTPUT_PORT_TYPE
+blue[7] <= blue_reg[7].DB_MAX_OUTPUT_PORT_TYPE
+sync <= <GND>
+clk <= clock.DB_MAX_OUTPUT_PORT_TYPE
+blank <= blank.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|final_project|text_display:txt_disp
+pixel_x[0] => xoff[0].IN1
+pixel_x[1] => xoff[1].IN1
+pixel_x[2] => xoff[2].IN1
+pixel_x[3] => Mux0.IN5
+pixel_x[3] => Mux1.IN5
+pixel_x[3] => Mux2.IN5
+pixel_x[3] => Mux3.IN5
+pixel_x[3] => Mux4.IN5
+pixel_x[3] => Mux5.IN5
+pixel_x[3] => Mux6.IN5
+pixel_x[3] => Mux7.IN5
+pixel_x[4] => Mux0.IN4
+pixel_x[4] => Mux1.IN4
+pixel_x[4] => Mux2.IN4
+pixel_x[4] => Mux3.IN4
+pixel_x[4] => Mux4.IN4
+pixel_x[4] => Mux5.IN4
+pixel_x[4] => Mux6.IN4
+pixel_x[4] => Mux7.IN4
+pixel_x[5] => Address[0].DATAIN
+pixel_x[6] => Address[1].DATAIN
+pixel_x[7] => Add1.IN24
+pixel_x[8] => Add1.IN23
+pixel_x[9] => Add1.IN22
+pixel_y[0] => yoff[0].IN1
+pixel_y[1] => yoff[1].IN1
+pixel_y[2] => yoff[2].IN1
+pixel_y[3] => Add0.IN20
+pixel_y[3] => Add1.IN26
+pixel_y[4] => Add0.IN19
+pixel_y[4] => Add1.IN25
+pixel_y[5] => Add0.IN17
+pixel_y[5] => Add0.IN18
+pixel_y[6] => Add0.IN15
+pixel_y[6] => Add0.IN16
+pixel_y[7] => Add0.IN13
+pixel_y[7] => Add0.IN14
+pixel_y[8] => Add0.IN11
+pixel_y[8] => Add0.IN12
+pixel_y[9] => Add0.IN9
+pixel_y[9] => Add0.IN10
+data[0] => Mux7.IN3
+data[1] => Mux6.IN3
+data[2] => Mux5.IN3
+data[3] => Mux4.IN3
+data[4] => Mux3.IN3
+data[5] => Mux2.IN3
+data[6] => Mux1.IN3
+data[7] => Mux0.IN3
+data[8] => Mux7.IN2
+data[9] => Mux6.IN2
+data[10] => Mux5.IN2
+data[11] => Mux4.IN2
+data[12] => Mux3.IN2
+data[13] => Mux2.IN2
+data[14] => Mux1.IN2
+data[15] => Mux0.IN2
+data[16] => Mux7.IN1
+data[17] => Mux6.IN1
+data[18] => Mux5.IN1
+data[19] => Mux4.IN1
+data[20] => Mux3.IN1
+data[21] => Mux2.IN1
+data[22] => Mux1.IN1
+data[23] => Mux0.IN1
+data[24] => Mux7.IN0
+data[25] => Mux6.IN0
+data[26] => Mux5.IN0
+data[27] => Mux4.IN0
+data[28] => Mux3.IN0
+data[29] => Mux2.IN0
+data[30] => Mux1.IN0
+data[31] => Mux0.IN0
+pixel <= pixel.DB_MAX_OUTPUT_PORT_TYPE
+Address[0] <= pixel_x[5].DB_MAX_OUTPUT_PORT_TYPE
+Address[1] <= pixel_x[6].DB_MAX_OUTPUT_PORT_TYPE
+Address[2] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+Address[3] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+Address[4] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+Address[5] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+Address[6] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+Address[7] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+Address[8] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+Address[9] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+Address[10] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+Address[11] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+Address[12] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+Address[13] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+Address[14] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+Address[15] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+Address[16] <= <GND>
+Address[17] <= <GND>
+Address[18] <= <GND>
+Address[19] <= <GND>
+Address[20] <= <GND>
+Address[21] <= <GND>
+Address[22] <= <GND>
+Address[23] <= <GND>
+Address[24] <= <GND>
+Address[25] <= <GND>
+Address[26] <= <GND>
+Address[27] <= <GND>
+Address[28] <= <GND>
+Address[29] <= <GND>
+Address[30] <= <GND>
+Address[31] <= <GND>
 
 
 |final_project|text_display:txt_disp|chargenrom:char_rom
