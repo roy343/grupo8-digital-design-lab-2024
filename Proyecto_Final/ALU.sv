@@ -1,7 +1,7 @@
-module ALU (
+module ALUx (
     input logic [31:0] A,
     input logic [31:0] B,
-    input logic [3:0] opcode,
+    input logic [1:0] opcode,
     output logic [31:0] result,
     output logic [3:0] ALUFlags
 );
@@ -19,41 +19,23 @@ module ALU (
         V = 0;
 
         case (opcode)
-            4'b0000: begin // AND
+            2'b00: begin // AND
                 result = A & B;
             end
-            4'b0001: begin // OR
+            2'b01: begin // OR
                 result = A | B;
             end
-            4'b0010: begin // ADD
+            2'b10: begin // ADD
                 temp_result = A + B;
                 result = temp_result[31:0];
                 C = temp_result[32]; 
                 V = (A[31] == B[31]) && (result[31] != A[31]); 
             end
-            4'b0011: begin // Multiplication
-                result = A * B;
-            end
-            4'b0100: begin // Division
-                result = A / B;
-            end
-            4'b0101: begin // Modulo
-                result = A % B;
-            end
-            4'b0110: begin // SUB
+            2'b11: begin // SUB
                 temp_result = A - B;
                 result = temp_result[31:0];
                 C = temp_result[32]; 
                 V = (A[31] != B[31]) && (result[31] != A[31]); 
-            end
-            4'b0111: begin // Shift left
-                result = A << B;
-            end
-            4'b1000: begin // Shift right
-                result = A >> B;
-            end
-            4'b1001: begin // XOR
-                result = A ^ B;
             end
             default: begin
                 result = 0;

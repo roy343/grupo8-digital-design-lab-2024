@@ -40,7 +40,7 @@ module final_project (
 	/*vgaController vgaCont(VGA_CLK, reset, VGA_HS, VGA_VS, VGA_SYNC_N, VGA_BLANK_N, next_x, next_y);*/
 
 	processorTop proce (
-		  .clk(clk),
+		  .clk(clk25MHz),
 		  .rst(reset),
 		  .run(run),
 		  .vowels(vowels),
@@ -65,6 +65,7 @@ module final_project (
 	);
 	
     text_display txt_disp (
+		  .run(run),
         .pixel_x(next_x),
         .pixel_y(next_y),
 		  .data(data),

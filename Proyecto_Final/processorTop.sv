@@ -6,12 +6,12 @@ module processorTop (
 );
 
 	logic [31:0] PCact, PCnext, PCp4, PCp8, ProgInstruction, Result, data1, data2, ExtImm, SrcB, ALUResult, ReadData;
-	logic [1:0] RegSrc,  RegWrite, MemWrite, ImmSrc; 
-	logic [3:0] ReadAddr1, ReadAddr2, ALUControl, ALUFlags;
+	logic [1:0] RegSrc,  RegWrite, MemWrite, ImmSrc, ALUControl; 
+	logic [3:0] ReadAddr1, ReadAddr2, ALUFlags;
 	logic ALUSrc, MemtoReg, PCSrc;
 
 	// MUX PCSrc
-	MUX #(.N(32)) pcsr( 
+	MUXd #(.N(32)) pcsr( 
 		.select(PCSrc),
 		.in1(PCp4), 
 		.in2(Result),
@@ -48,7 +48,7 @@ module processorTop (
 	);
 	
 	// MUX RegSrc0
-	MUX #(.N(4)) regsrc0( 
+	MUXd #(.N(4)) regsrc0( 
 		.select(RegSrc[0]),
 		.in1(ProgInstruction[19:16]), 
 		.in2(4'b1111),
@@ -56,7 +56,7 @@ module processorTop (
 	);
 
 	// MUX RegSrc1
-	MUX #(.N(4)) regsrc1( 
+	MUXd #(.N(4)) regsrc1( 
 		.select(RegSrc[1]),
 		.in1(ProgInstruction[3:0]), 
 		.in2(ProgInstruction[15:12]),
@@ -84,7 +84,7 @@ module processorTop (
 	);
 
 	// MUX ALUSrc
-	MUX #(.N(32)) alusr( 
+	MUXd #(.N(32)) alusr( 
 		.select(ALUSrc),
 		.in1(data2), 
 		.in2(ExtImm),
@@ -92,7 +92,7 @@ module processorTop (
 	);
 	
 	// ALU
-	ALU alu(
+	ALUx alu(
 		.A(data1),
 		.B(SrcB),
 		.opcode(ALUControl),
@@ -113,7 +113,7 @@ module processorTop (
 	);
 	
 	// MUX MemtoReg
-	MUX #(.N(32)) mem2reg( 
+	MUXd #(.N(32)) mem2reg( 
 		.select(MemtoReg),
 		.in1(ALUResult), 
 		.in2(ReadData),

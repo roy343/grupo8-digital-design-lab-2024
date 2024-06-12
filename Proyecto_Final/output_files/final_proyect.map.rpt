@@ -1,5 +1,5 @@
 Analysis & Synthesis report for final_proyect
-Mon Jun 10 16:56:33 2024
+Tue Jun 11 22:07:21 2024
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -13,29 +13,26 @@ Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. Analysis & Synthesis DSP Block Usage Summary
-  9. State Machine - |final_project|vga_driver:draw|h_state
- 10. State Machine - |final_project|vga_driver:draw|v_state
- 11. Registers Removed During Synthesis
- 12. General Register Statistics
- 13. Inverted Register Statistics
- 14. Multiplexer Restructuring Statistics (Restructuring Performed)
- 15. Parameter Settings for User Entity Instance: processorTop:proce|MUX:pcsr
- 16. Parameter Settings for User Entity Instance: processorTop:proce|MUX:regsrc0
- 17. Parameter Settings for User Entity Instance: processorTop:proce|MUX:regsrc1
- 18. Parameter Settings for User Entity Instance: processorTop:proce|MUX:alusr
- 19. Parameter Settings for User Entity Instance: processorTop:proce|MUX:mem2reg
- 20. Parameter Settings for User Entity Instance: vga_driver:draw
- 21. Parameter Settings for Inferred Entity Instance: processorTop:proce|ALU:alu|lpm_divide:Div0
- 22. Parameter Settings for Inferred Entity Instance: processorTop:proce|ALU:alu|lpm_divide:Mod0
- 23. Port Connectivity Checks: "processorTop:proce|DataMem:dmem"
- 24. Port Connectivity Checks: "processorTop:proce|MUX:regsrc0"
- 25. Port Connectivity Checks: "processorTop:proce|Adder:ADD8"
- 26. Port Connectivity Checks: "processorTop:proce|Adder:ADD4"
- 27. Post-Synthesis Netlist Statistics for Top Partition
- 28. Elapsed Time Per Partition
- 29. Analysis & Synthesis Messages
- 30. Analysis & Synthesis Suppressed Messages
+  8. State Machine - |final_project|vga_driver:draw|h_state
+  9. State Machine - |final_project|vga_driver:draw|v_state
+ 10. Registers Removed During Synthesis
+ 11. General Register Statistics
+ 12. Inverted Register Statistics
+ 13. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 14. Parameter Settings for User Entity Instance: processorTop:proce|MUXd:pcsr
+ 15. Parameter Settings for User Entity Instance: processorTop:proce|MUXd:regsrc0
+ 16. Parameter Settings for User Entity Instance: processorTop:proce|MUXd:regsrc1
+ 17. Parameter Settings for User Entity Instance: processorTop:proce|MUXd:alusr
+ 18. Parameter Settings for User Entity Instance: processorTop:proce|MUXd:mem2reg
+ 19. Parameter Settings for User Entity Instance: vga_driver:draw
+ 20. Port Connectivity Checks: "processorTop:proce|DataMem:dmem"
+ 21. Port Connectivity Checks: "processorTop:proce|MUXd:regsrc0"
+ 22. Port Connectivity Checks: "processorTop:proce|Adder:ADD8"
+ 23. Port Connectivity Checks: "processorTop:proce|Adder:ADD4"
+ 24. Post-Synthesis Netlist Statistics for Top Partition
+ 25. Elapsed Time Per Partition
+ 26. Analysis & Synthesis Messages
+ 27. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -62,7 +59,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +---------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Mon Jun 10 16:56:33 2024          ;
+; Analysis & Synthesis Status     ; Successful - Tue Jun 11 22:07:20 2024          ;
 ; Quartus Prime Version           ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                   ; final_proyect                                  ;
 ; Top-level Entity Name           ; final_project                                  ;
@@ -72,7 +69,7 @@ https://fpgasoftware.intel.com/eula.
 ; Total pins                      ; 36                                             ;
 ; Total virtual pins              ; 0                                              ;
 ; Total block memory bits         ; 0                                              ;
-; Total DSP Blocks                ; 2                                              ;
+; Total DSP Blocks                ; 0                                              ;
 ; Total HSSI RX PCSs              ; 0                                              ;
 ; Total HSSI PMA RX Deserializers ; 0                                              ;
 ; Total HSSI TX PCSs              ; 0                                              ;
@@ -177,140 +174,112 @@ https://fpgasoftware.intel.com/eula.
 ; Number detected on machine ; 12          ;
 ; Maximum allowed            ; 12          ;
 ;                            ;             ;
-; Average used               ; 1.96        ;
+; Average used               ; 1.51        ;
 ; Maximum used               ; 12          ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;  60.0%      ;
-;     Processor 3            ;  35.3%      ;
+;     Processor 2            ;  32.7%      ;
+;     Processor 3            ;  17.5%      ;
 ;     Processor 4            ;   0.1%      ;
 ;     Processor 5            ;   0.1%      ;
-;     Processor 6            ;   0.1%      ;
-;     Processor 7            ;   0.1%      ;
-;     Processor 8            ;   0.1%      ;
+;     Processor 6            ;   0.0%      ;
+;     Processor 7            ;   0.0%      ;
+;     Processor 8            ;   0.0%      ;
 ;     Processors 9-12        ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                                   ;
-+----------------------------------+-----------------+---------------------------------------------+-------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                                   ; File Name with Absolute Path                                                                                ; Library ;
-+----------------------------------+-----------------+---------------------------------------------+-------------------------------------------------------------------------------------------------------------+---------+
-; Program_counter.sv               ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Program_counter.sv         ;         ;
-; InstMem.sv                       ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/InstMem.sv                 ;         ;
-; Register.sv                      ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Register.sv                ;         ;
-; DataMem.sv                       ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/DataMem.sv                 ;         ;
-; MUX.sv                           ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/MUX.sv                     ;         ;
-; Adder.sv                         ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Adder.sv                   ;         ;
-; Extend.sv                        ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Extend.sv                  ;         ;
-; ALU.sv                           ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/ALU.sv                     ;         ;
-; Main_Decoder.sv                  ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Main_Decoder.sv            ;         ;
-; PC_Logic.sv                      ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/PC_Logic.sv                ;         ;
-; ALU_Decoder.sv                   ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/ALU_Decoder.sv             ;         ;
-; Decoder.sv                       ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Decoder.sv                 ;         ;
-; Condition_Check.sv               ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Condition_Check.sv         ;         ;
-; Flagsreg.sv                      ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Flagsreg.sv                ;         ;
-; Conditional_Logic.sv             ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Conditional_Logic.sv       ;         ;
-; Control_Unit.sv                  ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Control_Unit.sv            ;         ;
-; processorTop.sv                  ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv            ;         ;
-; vga_driver.v                     ; yes             ; User Verilog HDL File                       ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/vga_driver.v               ;         ;
-; chargenrom.sv                    ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/chargenrom.sv              ;         ;
-; text_display.sv                  ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/text_display.sv            ;         ;
-; final_project.sv                 ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/final_project.sv           ;         ;
-; charrom.bin                      ; yes             ; Auto-Found Unspecified File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/charrom.bin                ;         ;
-; projecttext2.hex                 ; yes             ; Auto-Found Hexadecimal (Intel-Format) File  ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/projecttext2.hex           ;         ;
-; changevowels2.hex                ; yes             ; Auto-Found Hexadecimal (Intel-Format) File  ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/changevowels2.hex          ;         ;
-; lpm_divide.tdf                   ; yes             ; Megafunction                                ; c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/lpm_divide.tdf                                    ;         ;
-; abs_divider.inc                  ; yes             ; Megafunction                                ; c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/abs_divider.inc                                   ;         ;
-; sign_div_unsign.inc              ; yes             ; Megafunction                                ; c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/sign_div_unsign.inc                               ;         ;
-; aglobal221.inc                   ; yes             ; Megafunction                                ; c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/aglobal221.inc                                    ;         ;
-; db/lpm_divide_3dm.tdf            ; yes             ; Auto-Generated Megafunction                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/db/lpm_divide_3dm.tdf      ;         ;
-; db/sign_div_unsign_9nh.tdf       ; yes             ; Auto-Generated Megafunction                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/db/sign_div_unsign_9nh.tdf ;         ;
-; db/alt_u_div_o2f.tdf             ; yes             ; Auto-Generated Megafunction                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/db/alt_u_div_o2f.tdf       ;         ;
-; db/lpm_divide_65m.tdf            ; yes             ; Auto-Generated Megafunction                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/db/lpm_divide_65m.tdf      ;         ;
-+----------------------------------+-----------------+---------------------------------------------+-------------------------------------------------------------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                             ;
++----------------------------------+-----------------+---------------------------------------------+-------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                                   ; File Name with Absolute Path                                                                          ; Library ;
++----------------------------------+-----------------+---------------------------------------------+-------------------------------------------------------------------------------------------------------+---------+
+; Program_counter.sv               ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Program_counter.sv   ;         ;
+; InstMem.sv                       ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/InstMem.sv           ;         ;
+; Register.sv                      ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Register.sv          ;         ;
+; DataMem.sv                       ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/DataMem.sv           ;         ;
+; MUX.sv                           ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/MUX.sv               ;         ;
+; Adder.sv                         ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Adder.sv             ;         ;
+; Extend.sv                        ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Extend.sv            ;         ;
+; ALU.sv                           ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/ALU.sv               ;         ;
+; Main_Decoder.sv                  ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Main_Decoder.sv      ;         ;
+; PC_Logic.sv                      ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/PC_Logic.sv          ;         ;
+; ALU_Decoder.sv                   ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/ALU_Decoder.sv       ;         ;
+; Decoder.sv                       ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Decoder.sv           ;         ;
+; Condition_Check.sv               ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Condition_Check.sv   ;         ;
+; Flagsreg.sv                      ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Flagsreg.sv          ;         ;
+; Conditional_Logic.sv             ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Conditional_Logic.sv ;         ;
+; Control_Unit.sv                  ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Control_Unit.sv      ;         ;
+; processorTop.sv                  ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv      ;         ;
+; vga_driver.v                     ; yes             ; User Verilog HDL File                       ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/vga_driver.v         ;         ;
+; chargenrom.sv                    ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/chargenrom.sv        ;         ;
+; text_display.sv                  ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/text_display.sv      ;         ;
+; final_project.sv                 ; yes             ; User SystemVerilog HDL File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/final_project.sv     ;         ;
+; charrom.bin                      ; yes             ; Auto-Found Unspecified File                 ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/charrom.bin          ;         ;
+; projecttext3.hex                 ; yes             ; Auto-Found Hexadecimal (Intel-Format) File  ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/projecttext3.hex     ;         ;
+; changevowels2.hex                ; yes             ; Auto-Found Hexadecimal (Intel-Format) File  ; C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/changevowels2.hex    ;         ;
++----------------------------------+-----------------+---------------------------------------------+-------------------------------------------------------------------------------------------------------+---------+
 
 
-+---------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary             ;
-+---------------------------------------------+-----------+
-; Resource                                    ; Usage     ;
-+---------------------------------------------+-----------+
-; Estimate of Logic utilization (ALMs needed) ; 15496     ;
-;                                             ;           ;
-; Combinational ALUT usage for logic          ; 15181     ;
-;     -- 7 input functions                    ; 10        ;
-;     -- 6 input functions                    ; 11599     ;
-;     -- 5 input functions                    ; 1282      ;
-;     -- 4 input functions                    ; 1010      ;
-;     -- <=3 input functions                  ; 1280      ;
-;                                             ;           ;
-; Dedicated logic registers                   ; 16969     ;
-;                                             ;           ;
-; I/O pins                                    ; 36        ;
-;                                             ;           ;
-; Total DSP Blocks                            ; 2         ;
-;                                             ;           ;
-; Maximum fan-out node                        ; clk~input ;
-; Maximum fan-out                             ; 16930     ;
-; Total fan-out                               ; 135259    ;
-; Average fan-out                             ; 4.20      ;
-+---------------------------------------------+-----------+
++--------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary            ;
++---------------------------------------------+----------+
+; Resource                                    ; Usage    ;
++---------------------------------------------+----------+
+; Estimate of Logic utilization (ALMs needed) ; 15335    ;
+;                                             ;          ;
+; Combinational ALUT usage for logic          ; 14912    ;
+;     -- 7 input functions                    ; 17       ;
+;     -- 6 input functions                    ; 11433    ;
+;     -- 5 input functions                    ; 233      ;
+;     -- 4 input functions                    ; 94       ;
+;     -- <=3 input functions                  ; 3135     ;
+;                                             ;          ;
+; Dedicated logic registers                   ; 16969    ;
+;                                             ;          ;
+; I/O pins                                    ; 36       ;
+;                                             ;          ;
+; Total DSP Blocks                            ; 0        ;
+;                                             ;          ;
+; Maximum fan-out node                        ; clk25MHz ;
+; Maximum fan-out                             ; 16970    ;
+; Total fan-out                               ; 125877   ;
+; Average fan-out                             ; 3.94     ;
++---------------------------------------------+----------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                                    ;
-+----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
-; Compilation Hierarchy Node                   ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                       ; Entity Name         ; Library Name ;
-+----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
-; |final_project                               ; 15181 (1)           ; 16969 (1)                 ; 0                 ; 2          ; 36   ; 0            ; |final_project                                                                                                                            ; final_project       ; work         ;
-;    |processorTop:proce|                      ; 9519 (0)            ; 16929 (0)                 ; 0                 ; 2          ; 0    ; 0            ; |final_project|processorTop:proce                                                                                                         ; processorTop        ; work         ;
-;       |ALU:alu|                              ; 2512 (323)          ; 0 (0)                     ; 0                 ; 2          ; 0    ; 0            ; |final_project|processorTop:proce|ALU:alu                                                                                                 ; ALU                 ; work         ;
-;          |lpm_divide:Div0|                   ; 1093 (0)            ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|ALU:alu|lpm_divide:Div0                                                                                 ; lpm_divide          ; work         ;
-;             |lpm_divide_3dm:auto_generated|  ; 1093 (0)            ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|ALU:alu|lpm_divide:Div0|lpm_divide_3dm:auto_generated                                                   ; lpm_divide_3dm      ; work         ;
-;                |sign_div_unsign_9nh:divider| ; 1093 (0)            ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|ALU:alu|lpm_divide:Div0|lpm_divide_3dm:auto_generated|sign_div_unsign_9nh:divider                       ; sign_div_unsign_9nh ; work         ;
-;                   |alt_u_div_o2f:divider|    ; 1093 (1093)         ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|ALU:alu|lpm_divide:Div0|lpm_divide_3dm:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_o2f:divider ; alt_u_div_o2f       ; work         ;
-;          |lpm_divide:Mod0|                   ; 1096 (0)            ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|ALU:alu|lpm_divide:Mod0                                                                                 ; lpm_divide          ; work         ;
-;             |lpm_divide_65m:auto_generated|  ; 1096 (0)            ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|ALU:alu|lpm_divide:Mod0|lpm_divide_65m:auto_generated                                                   ; lpm_divide_65m      ; work         ;
-;                |sign_div_unsign_9nh:divider| ; 1096 (0)            ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|ALU:alu|lpm_divide:Mod0|lpm_divide_65m:auto_generated|sign_div_unsign_9nh:divider                       ; sign_div_unsign_9nh ; work         ;
-;                   |alt_u_div_o2f:divider|    ; 1096 (1096)         ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|ALU:alu|lpm_divide:Mod0|lpm_divide_65m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_o2f:divider ; alt_u_div_o2f       ; work         ;
-;       |Adder:ADD4|                           ; 30 (30)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|Adder:ADD4                                                                                              ; Adder               ; work         ;
-;       |Adder:ADD8|                           ; 29 (29)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|Adder:ADD8                                                                                              ; Adder               ; work         ;
-;       |Control_Unit:controlunit|             ; 15 (0)              ; 1 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|Control_Unit:controlunit                                                                                ; Control_Unit        ; work         ;
-;          |Conditional_Logic:condlogic|       ; 3 (2)               ; 1 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|Control_Unit:controlunit|Conditional_Logic:condlogic                                                    ; Conditional_Logic   ; work         ;
-;             |Condition_Check:condcheck|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|Control_Unit:controlunit|Conditional_Logic:condlogic|Condition_Check:condcheck                          ; Condition_Check     ; work         ;
-;             |Flagsreg:flagsreg32|            ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|Control_Unit:controlunit|Conditional_Logic:condlogic|Flagsreg:flagsreg32                                ; Flagsreg            ; work         ;
-;          |Decoder:deco|                      ; 12 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|Control_Unit:controlunit|Decoder:deco                                                                   ; Decoder             ; work         ;
-;             |ALU_Decoder:aludeco|            ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|Control_Unit:controlunit|Decoder:deco|ALU_Decoder:aludeco                                               ; ALU_Decoder         ; work         ;
-;             |Main_Decoder:maindeco|          ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|Control_Unit:controlunit|Decoder:deco|Main_Decoder:maindeco                                             ; Main_Decoder        ; work         ;
-;       |DataMem:dmem|                         ; 6332 (6332)         ; 16384 (16384)             ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|DataMem:dmem                                                                                            ; DataMem             ; work         ;
-;       |InstMem:Imem|                         ; 79 (79)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|InstMem:Imem                                                                                            ; InstMem             ; work         ;
-;       |MUX:alusr|                            ; 36 (36)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|MUX:alusr                                                                                               ; MUX                 ; work         ;
-;       |MUX:mem2reg|                          ; 86 (86)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|MUX:mem2reg                                                                                             ; MUX                 ; work         ;
-;       |MUX:regsrc0|                          ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|MUX:regsrc0                                                                                             ; MUX                 ; work         ;
-;       |MUX:regsrc1|                          ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|MUX:regsrc1                                                                                             ; MUX                 ; work         ;
-;       |Program_counter:PC|                   ; 1 (1)               ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|Program_counter:PC                                                                                      ; Program_counter     ; work         ;
-;       |Register:register|                    ; 391 (391)           ; 512 (512)                 ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|Register:register                                                                                       ; Register            ; work         ;
-;    |text_display:txt_disp|                   ; 5600 (5478)         ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|text_display:txt_disp                                                                                                      ; text_display        ; work         ;
-;       |chargenrom:char_rom|                  ; 122 (122)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|text_display:txt_disp|chargenrom:char_rom                                                                                  ; chargenrom          ; work         ;
-;    |vga_driver:draw|                         ; 61 (61)             ; 39 (39)                   ; 0                 ; 0          ; 0    ; 0            ; |final_project|vga_driver:draw                                                                                                            ; vga_driver          ; work         ;
-+----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                    ;
++-----------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------------------------------------------+-------------------+--------------+
+; Compilation Hierarchy Node              ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                              ; Entity Name       ; Library Name ;
++-----------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------------------------------------------+-------------------+--------------+
+; |final_project                          ; 14912 (1)           ; 16969 (1)                 ; 0                 ; 0          ; 36   ; 0            ; |final_project                                                                                                   ; final_project     ; work         ;
+;    |processorTop:proce|                 ; 9230 (0)            ; 16929 (0)                 ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce                                                                                ; processorTop      ; work         ;
+;       |ALUx:alu|                        ; 107 (107)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|ALUx:alu                                                                       ; ALUx              ; work         ;
+;       |Adder:ADD4|                      ; 30 (30)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|Adder:ADD4                                                                     ; Adder             ; work         ;
+;       |Adder:ADD8|                      ; 29 (29)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|Adder:ADD8                                                                     ; Adder             ; work         ;
+;       |Control_Unit:controlunit|        ; 13 (0)              ; 1 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|Control_Unit:controlunit                                                       ; Control_Unit      ; work         ;
+;          |Conditional_Logic:condlogic|  ; 4 (3)               ; 1 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|Control_Unit:controlunit|Conditional_Logic:condlogic                           ; Conditional_Logic ; work         ;
+;             |Condition_Check:condcheck| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|Control_Unit:controlunit|Conditional_Logic:condlogic|Condition_Check:condcheck ; Condition_Check   ; work         ;
+;             |Flagsreg:flagsreg32|       ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|Control_Unit:controlunit|Conditional_Logic:condlogic|Flagsreg:flagsreg32       ; Flagsreg          ; work         ;
+;          |Decoder:deco|                 ; 9 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|Control_Unit:controlunit|Decoder:deco                                          ; Decoder           ; work         ;
+;             |ALU_Decoder:aludeco|       ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|Control_Unit:controlunit|Decoder:deco|ALU_Decoder:aludeco                      ; ALU_Decoder       ; work         ;
+;             |Main_Decoder:maindeco|     ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|Control_Unit:controlunit|Decoder:deco|Main_Decoder:maindeco                    ; Main_Decoder      ; work         ;
+;       |DataMem:dmem|                    ; 8474 (8474)         ; 16384 (16384)             ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|DataMem:dmem                                                                   ; DataMem           ; work         ;
+;       |Extend:ext|                      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|Extend:ext                                                                     ; Extend            ; work         ;
+;       |InstMem:Imem|                    ; 81 (81)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|InstMem:Imem                                                                   ; InstMem           ; work         ;
+;       |MUXd:alusr|                      ; 35 (35)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|MUXd:alusr                                                                     ; MUXd              ; work         ;
+;       |MUXd:mem2reg|                    ; 51 (51)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|MUXd:mem2reg                                                                   ; MUXd              ; work         ;
+;       |MUXd:regsrc0|                    ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|MUXd:regsrc0                                                                   ; MUXd              ; work         ;
+;       |MUXd:regsrc1|                    ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|MUXd:regsrc1                                                                   ; MUXd              ; work         ;
+;       |Program_counter:PC|              ; 1 (1)               ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|Program_counter:PC                                                             ; Program_counter   ; work         ;
+;       |Register:register|               ; 400 (400)           ; 512 (512)                 ; 0                 ; 0          ; 0    ; 0            ; |final_project|processorTop:proce|Register:register                                                              ; Register          ; work         ;
+;    |text_display:txt_disp|              ; 5616 (5488)         ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|text_display:txt_disp                                                                             ; text_display      ; work         ;
+;       |chargenrom:char_rom|             ; 128 (128)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |final_project|text_display:txt_disp|chargenrom:char_rom                                                         ; chargenrom        ; work         ;
+;    |vga_driver:draw|                    ; 65 (65)             ; 39 (39)                   ; 0                 ; 0          ; 0    ; 0            ; |final_project|vga_driver:draw                                                                                   ; vga_driver        ; work         ;
++-----------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------------------------------------------+-------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-+-----------------------------------------------+
-; Analysis & Synthesis DSP Block Usage Summary  ;
-+---------------------------------+-------------+
-; Statistic                       ; Number Used ;
-+---------------------------------+-------------+
-; Two Independent 18x18           ; 1           ;
-; Sum of two 18x18                ; 1           ;
-; Total number of DSP blocks      ; 2           ;
-;                                 ;             ;
-; Fixed Point Unsigned Multiplier ; 3           ;
-+---------------------------------+-------------+
 
 
 Encoding Type:  One-Hot
@@ -348,8 +317,8 @@ Encoding Type:  One-Hot
 ; vga_driver:draw|red_reg[0..4]                                                                        ; Stuck at GND due to stuck port data_in ;
 ; vga_driver:draw|green_reg[0..4]                                                                      ; Stuck at GND due to stuck port data_in ;
 ; vga_driver:draw|blue_reg[1..5]                                                                       ; Stuck at GND due to stuck port data_in ;
-; processorTop:proce|Control_Unit:controlunit|Conditional_Logic:condlogic|Flagsreg:flagsreg10|out[0,1] ; Lost fanout                            ;
 ; processorTop:proce|Control_Unit:controlunit|Conditional_Logic:condlogic|Flagsreg:flagsreg32|out[1]   ; Lost fanout                            ;
+; processorTop:proce|Control_Unit:controlunit|Conditional_Logic:condlogic|Flagsreg:flagsreg10|out[0,1] ; Lost fanout                            ;
 ; vga_driver:draw|h_state~7                                                                            ; Lost fanout                            ;
 ; vga_driver:draw|h_state~8                                                                            ; Lost fanout                            ;
 ; vga_driver:draw|h_state~9                                                                            ; Lost fanout                            ;
@@ -377,7 +346,7 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 ; Total registers                              ; 16969 ;
 ; Number of registers using Synchronous Clear  ; 48    ;
-; Number of registers using Synchronous Load   ; 34    ;
+; Number of registers using Synchronous Load   ; 58    ;
 ; Number of registers using Asynchronous Clear ; 62    ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 16882 ;
@@ -385,113 +354,113 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 
 
-+----------------------------------------------------------+
-; Inverted Register Statistics                             ;
-+------------------------------------------------+---------+
-; Inverted Register                              ; Fan out ;
-+------------------------------------------------+---------+
-; processorTop:proce|DataMem:dmem|Memory[0][20]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[8][20]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[1][20]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[9][20]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[13][28] ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[10][20] ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[2][28]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[6][28]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[7][28]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[11][28] ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[4][12]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[12][12] ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[1][12]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[13][12] ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[10][12] ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[4][4]   ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[8][4]   ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[12][4]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[1][4]   ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[9][4]   ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[2][4]   ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[10][4]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[14][4]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[3][4]   ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[7][4]   ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[0][24]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[8][24]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[12][24] ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[1][16]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[5][16]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[9][16]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[9][24]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[13][24] ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[2][24]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[6][16]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[3][16]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[3][24]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[7][24]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[11][16] ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[0][8]   ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[8][8]   ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[12][8]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[5][8]   ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[2][8]   ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[6][8]   ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[10][8]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[14][8]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[0][0]   ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[1][0]   ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[3][0]   ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[5][0]   ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[7][0]   ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[4][19]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[12][19] ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[1][19]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[5][19]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[5][27]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[13][19] ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[2][19]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[10][27] ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[7][19]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[8][11]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[5][11]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[6][11]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[14][11] ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[11][11] ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[511][3] ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[0][3]   ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[5][3]   ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[8][18]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[8][26]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[12][18] ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[12][26] ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[5][18]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[5][26]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[13][18] ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[13][26] ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[2][18]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[2][26]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[10][26] ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[3][18]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[7][26]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[11][18] ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[0][10]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[4][10]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[12][10] ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[5][10]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[2][10]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[6][10]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[10][10] ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[14][10] ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[11][10] ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[0][2]   ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[12][2]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[1][2]   ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[5][2]   ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[2][2]   ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[10][2]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[14][2]  ; 2       ;
-; processorTop:proce|DataMem:dmem|Memory[0][17]  ; 2       ;
-; Total number of inverted registers = 220*      ;         ;
-+------------------------------------------------+---------+
++-----------------------------------------------------------+
+; Inverted Register Statistics                              ;
++-------------------------------------------------+---------+
+; Inverted Register                               ; Fan out ;
++-------------------------------------------------+---------+
+; processorTop:proce|DataMem:dmem|Memory[1][20]   ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[3][20]   ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[129][28] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[7][20]   ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[6][28]   ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[5][28]   ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[7][28]   ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[132][28] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[134][28] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[33][20]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[35][28]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[162][28] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[161][28] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[37][28]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[39][28]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[164][20] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[64][28]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[66][28]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[65][28]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[71][20]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[68][28]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[98][20]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[97][28]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[100][20] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[100][28] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[102][28] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[80][20]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[16][28]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[144][20] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[17][20]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[81][28]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[83][28]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[147][28] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[48][20]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[50][20]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[114][28] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[113][28] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[148][20] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[84][28]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[21][20]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[149][20] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[150][20] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[22][28]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[52][20]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[52][28]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[118][20] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[8][20]   ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[42][20]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[40][28]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[41][20]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[11][28]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[43][28]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[12][28]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[13][20]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[13][28]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[45][28]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[15][28]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[73][28]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[105][20] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[106][28] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[105][28] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[107][28] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[78][20]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[77][20]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[79][20]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[77][28]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[108][20] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[109][20] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[109][28] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[111][28] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[137][20] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[137][28] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[139][28] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[142][20] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[141][28] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[24][20]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[56][28]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[60][28]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[25][20]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[61][20]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[25][28]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[31][28]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[120][20] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[121][20] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[88][28]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[89][28]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[124][20] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[93][20]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[92][28]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[91][20]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[126][20] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[126][28] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[127][28] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[152][28] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[159][20] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[157][28] ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[36][12]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[44][12]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[60][12]  ; 2       ;
+; processorTop:proce|DataMem:dmem|Memory[96][12]  ; 2       ;
+; Total number of inverted registers = 2401*      ;         ;
++-------------------------------------------------+---------+
 * Table truncated at 100 items. To change the number of inverted registers reported, set the "Number of Inverted Registers Reported" option under Assignments->Settings->Analysis and Synthesis Settings->More Settings
 
 
@@ -500,66 +469,26 @@ Encoding Type:  One-Hot
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                     ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------+
-; 7:1                ; 8 bits    ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |final_project|processorTop:proce|DataMem:dmem|Memory[510][11] ;
-; 7:1                ; 8 bits    ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |final_project|processorTop:proce|DataMem:dmem|Memory[510][20] ;
-; 7:1                ; 8 bits    ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |final_project|processorTop:proce|DataMem:dmem|Memory[510][27] ;
-; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |final_project|processorTop:proce|MUX:alusr|out[1]             ;
-; 3:1                ; 11 bits   ; 22 LEs        ; 22 LEs               ; 0 LEs                  ; No         ; |final_project|processorTop:proce|MUX:alusr|out[19]            ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |final_project|processorTop:proce|DataMem:dmem|Memory          ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |final_project|processorTop:proce|DataMem:dmem|Memory          ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |final_project|processorTop:proce|DataMem:dmem|Memory          ;
-; 4:1                ; 6 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |final_project|processorTop:proce|MUX:alusr|out[3]             ;
-; 5:1                ; 2 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |final_project|processorTop:proce|MUX:alusr|out[9]             ;
-; 9:1                ; 10 bits   ; 60 LEs        ; 0 LEs                ; 60 LEs                 ; Yes        ; |final_project|vga_driver:draw|v_counter[4]                    ;
-; 9:1                ; 10 bits   ; 60 LEs        ; 0 LEs                ; 60 LEs                 ; Yes        ; |final_project|vga_driver:draw|h_counter[0]                    ;
-; 3:1                ; 24 bits   ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; No         ; |final_project|processorTop:proce|MUX:mem2reg|out[13]          ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |final_project|processorTop:proce|ALU:alu|ShiftLeft0           ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |final_project|processorTop:proce|ALU:alu|ShiftLeft0           ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |final_project|processorTop:proce|ALU:alu|ShiftLeft0           ;
-; 4:1                ; 25 bits   ; 50 LEs        ; 50 LEs               ; 0 LEs                  ; No         ; |final_project|processorTop:proce|ALU:alu|ShiftLeft0           ;
-; 6:1                ; 8 bits    ; 32 LEs        ; 24 LEs               ; 8 LEs                  ; No         ; |final_project|processorTop:proce|MUX:mem2reg|out[5]           ;
-; 17:1               ; 32 bits   ; 352 LEs       ; 352 LEs              ; 0 LEs                  ; No         ; |final_project|processorTop:proce|Register:register|data2[1]   ;
-; 17:1               ; 32 bits   ; 352 LEs       ; 352 LEs              ; 0 LEs                  ; No         ; |final_project|processorTop:proce|Register:register|data1[13]  ;
-; 10:1               ; 16 bits   ; 96 LEs        ; 96 LEs               ; 0 LEs                  ; No         ; |final_project|processorTop:proce|ALU:alu|Mux18                ;
-; 13:1               ; 12 bits   ; 96 LEs        ; 96 LEs               ; 0 LEs                  ; No         ; |final_project|processorTop:proce|ALU:alu|Mux4                 ;
-; 16:1               ; 4 bits    ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; No         ; |final_project|processorTop:proce|ALU:alu|Mux3                 ;
-; 512:1              ; 32 bits   ; 10912 LEs     ; 10912 LEs            ; 0 LEs                  ; No         ; |final_project|processorTop:proce|DataMem:dmem|Mux38           ;
-; 2048:1             ; 8 bits    ; 10920 LEs     ; 10920 LEs            ; 0 LEs                  ; No         ; |final_project|text_display:txt_disp|Mux1                      ;
+; 5:1                ; 24 bits   ; 72 LEs        ; 0 LEs                ; 72 LEs                 ; Yes        ; |final_project|processorTop:proce|DataMem:dmem|Memory[510][17] ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |final_project|processorTop:proce|MUXd:alusr|out[1]            ;
+; 3:1                ; 11 bits   ; 22 LEs        ; 22 LEs               ; 0 LEs                  ; No         ; |final_project|processorTop:proce|MUXd:alusr|out[21]           ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |final_project|processorTop:proce|ALUx:alu|Mux28               ;
+; 3:1                ; 21 bits   ; 42 LEs        ; 42 LEs               ; 0 LEs                  ; No         ; |final_project|processorTop:proce|MUXd:mem2reg|out[22]         ;
+; 4:1                ; 6 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |final_project|processorTop:proce|MUXd:alusr|out[7]            ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |final_project|processorTop:proce|MUXd:alusr|out[8]            ;
+; 17:1               ; 31 bits   ; 341 LEs       ; 341 LEs              ; 0 LEs                  ; No         ; |final_project|processorTop:proce|Register:register|data1[25]  ;
+; 9:1                ; 10 bits   ; 60 LEs        ; 0 LEs                ; 60 LEs                 ; Yes        ; |final_project|vga_driver:draw|v_counter[8]                    ;
+; 9:1                ; 10 bits   ; 60 LEs        ; 0 LEs                ; 60 LEs                 ; Yes        ; |final_project|vga_driver:draw|h_counter[1]                    ;
+; 3:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |final_project|processorTop:proce|MUXd:mem2reg|out[9]          ;
+; 6:1                ; 8 bits    ; 32 LEs        ; 24 LEs               ; 8 LEs                  ; No         ; |final_project|processorTop:proce|MUXd:mem2reg|out[7]          ;
+; 17:1               ; 32 bits   ; 352 LEs       ; 352 LEs              ; 0 LEs                  ; No         ; |final_project|processorTop:proce|Register:register|data2[7]   ;
+; 512:1              ; 32 bits   ; 10912 LEs     ; 10912 LEs            ; 0 LEs                  ; No         ; |final_project|processorTop:proce|DataMem:dmem|Mux44           ;
+; 2048:1             ; 8 bits    ; 10920 LEs     ; 10920 LEs            ; 0 LEs                  ; No         ; |final_project|text_display:txt_disp|Mux4                      ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------+
 
 
-+--------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: processorTop:proce|MUX:pcsr ;
-+----------------+-------+-------------------------------------------------+
-; Parameter Name ; Value ; Type                                            ;
-+----------------+-------+-------------------------------------------------+
-; N              ; 32    ; Signed Integer                                  ;
-+----------------+-------+-------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-----------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: processorTop:proce|MUX:regsrc0 ;
-+----------------+-------+----------------------------------------------------+
-; Parameter Name ; Value ; Type                                               ;
-+----------------+-------+----------------------------------------------------+
-; N              ; 4     ; Signed Integer                                     ;
-+----------------+-------+----------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-----------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: processorTop:proce|MUX:regsrc1 ;
-+----------------+-------+----------------------------------------------------+
-; Parameter Name ; Value ; Type                                               ;
-+----------------+-------+----------------------------------------------------+
-; N              ; 4     ; Signed Integer                                     ;
-+----------------+-------+----------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
 +---------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: processorTop:proce|MUX:alusr ;
+; Parameter Settings for User Entity Instance: processorTop:proce|MUXd:pcsr ;
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
@@ -568,13 +497,43 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+-----------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: processorTop:proce|MUX:mem2reg ;
-+----------------+-------+----------------------------------------------------+
-; Parameter Name ; Value ; Type                                               ;
-+----------------+-------+----------------------------------------------------+
-; N              ; 32    ; Signed Integer                                     ;
-+----------------+-------+----------------------------------------------------+
++------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: processorTop:proce|MUXd:regsrc0 ;
++----------------+-------+-----------------------------------------------------+
+; Parameter Name ; Value ; Type                                                ;
++----------------+-------+-----------------------------------------------------+
+; N              ; 4     ; Signed Integer                                      ;
++----------------+-------+-----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: processorTop:proce|MUXd:regsrc1 ;
++----------------+-------+-----------------------------------------------------+
+; Parameter Name ; Value ; Type                                                ;
++----------------+-------+-----------------------------------------------------+
+; N              ; 4     ; Signed Integer                                      ;
++----------------+-------+-----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: processorTop:proce|MUXd:alusr ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; N              ; 32    ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: processorTop:proce|MUXd:mem2reg ;
++----------------+-------+-----------------------------------------------------+
+; Parameter Name ; Value ; Type                                                ;
++----------------+-------+-----------------------------------------------------+
+; N              ; 32    ; Signed Integer                                      ;
++----------------+-------+-----------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -605,52 +564,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+---------------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: processorTop:proce|ALU:alu|lpm_divide:Div0 ;
-+------------------------+----------------+---------------------------------------------------+
-; Parameter Name         ; Value          ; Type                                              ;
-+------------------------+----------------+---------------------------------------------------+
-; LPM_WIDTHN             ; 32             ; Untyped                                           ;
-; LPM_WIDTHD             ; 32             ; Untyped                                           ;
-; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                           ;
-; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                           ;
-; LPM_PIPELINE           ; 0              ; Untyped                                           ;
-; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                           ;
-; MAXIMIZE_SPEED         ; 5              ; Untyped                                           ;
-; CBXI_PARAMETER         ; lpm_divide_3dm ; Untyped                                           ;
-; CARRY_CHAIN            ; MANUAL         ; Untyped                                           ;
-; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                           ;
-; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                        ;
-; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                      ;
-; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                      ;
-; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                    ;
-+------------------------+----------------+---------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+---------------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: processorTop:proce|ALU:alu|lpm_divide:Mod0 ;
-+------------------------+----------------+---------------------------------------------------+
-; Parameter Name         ; Value          ; Type                                              ;
-+------------------------+----------------+---------------------------------------------------+
-; LPM_WIDTHN             ; 32             ; Untyped                                           ;
-; LPM_WIDTHD             ; 32             ; Untyped                                           ;
-; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                           ;
-; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                           ;
-; LPM_PIPELINE           ; 0              ; Untyped                                           ;
-; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                           ;
-; MAXIMIZE_SPEED         ; 5              ; Untyped                                           ;
-; CBXI_PARAMETER         ; lpm_divide_65m ; Untyped                                           ;
-; CARRY_CHAIN            ; MANUAL         ; Untyped                                           ;
-; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                           ;
-; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                        ;
-; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                      ;
-; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                      ;
-; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                    ;
-+------------------------+----------------+---------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
 +-------------------------------------------------------------+
 ; Port Connectivity Checks: "processorTop:proce|DataMem:dmem" ;
 +--------------------+-------+----------+---------------------+
@@ -660,13 +573,13 @@ Note: In order to hide this table in the UI and the text report file, please set
 +--------------------+-------+----------+---------------------+
 
 
-+------------------------------------------------------------+
-; Port Connectivity Checks: "processorTop:proce|MUX:regsrc0" ;
-+------+-------+----------+----------------------------------+
-; Port ; Type  ; Severity ; Details                          ;
-+------+-------+----------+----------------------------------+
-; in2  ; Input ; Info     ; Stuck at VCC                     ;
-+------+-------+----------+----------------------------------+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "processorTop:proce|MUXd:regsrc0" ;
++------+-------+----------+-----------------------------------+
+; Port ; Type  ; Severity ; Details                           ;
++------+-------+----------+-----------------------------------+
+; in2  ; Input ; Info     ; Stuck at VCC                      ;
++------+-------+----------+-----------------------------------+
 
 
 +-----------------------------------------------------------+
@@ -703,35 +616,32 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     ENA CLR           ; 2                           ;
 ;     ENA CLR SCLR      ; 10                          ;
 ;     ENA CLR SLD       ; 30                          ;
-;     SCLR              ; 28                          ;
+;     SCLR              ; 4                           ;
+;     SCLR SLD          ; 24                          ;
 ;     SLD               ; 4                           ;
 ;     plain             ; 35                          ;
-; arriav_lcell_comb     ; 15182                       ;
-;     arith             ; 1340                        ;
-;         0 data inputs ; 121                         ;
+; arriav_lcell_comb     ; 14913                       ;
+;     arith             ; 160                         ;
+;         0 data inputs ; 3                           ;
 ;         1 data inputs ; 79                          ;
-;         2 data inputs ; 18                          ;
-;         3 data inputs ; 5                           ;
-;         4 data inputs ; 3                           ;
-;         5 data inputs ; 1114                        ;
-;     extend            ; 10                          ;
-;         7 data inputs ; 10                          ;
-;     normal            ; 13822                       ;
-;         0 data inputs ; 1                           ;
-;         1 data inputs ; 222                         ;
-;         2 data inputs ; 123                         ;
-;         3 data inputs ; 702                         ;
-;         4 data inputs ; 1007                        ;
-;         5 data inputs ; 168                         ;
-;         6 data inputs ; 11599                       ;
-;     shared            ; 10                          ;
-;         0 data inputs ; 4                           ;
+;         2 data inputs ; 5                           ;
 ;         3 data inputs ; 6                           ;
-; arriav_mac            ; 2                           ;
+;         4 data inputs ; 3                           ;
+;         5 data inputs ; 64                          ;
+;     extend            ; 17                          ;
+;         7 data inputs ; 17                          ;
+;     normal            ; 14736                       ;
+;         0 data inputs ; 1                           ;
+;         1 data inputs ; 2402                        ;
+;         2 data inputs ; 56                          ;
+;         3 data inputs ; 584                         ;
+;         4 data inputs ; 91                          ;
+;         5 data inputs ; 169                         ;
+;         6 data inputs ; 11433                       ;
 ; boundary_port         ; 36                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 102.60                      ;
-; Average LUT depth     ; 39.32                       ;
+; Max LUT depth         ; 15.90                       ;
+; Average LUT depth     ; 12.12                       ;
 +-----------------------+-----------------------------+
 
 
@@ -740,7 +650,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:01:09     ;
+; Top            ; 00:01:23     ;
 +----------------+--------------+
 
 
@@ -750,7 +660,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-    Info: Processing started: Mon Jun 10 16:55:11 2024
+    Info: Processing started: Tue Jun 11 22:05:44 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off final_proyect -c final_proyect
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
@@ -762,15 +672,14 @@ Info (12021): Found 1 design units, including 1 entities, in source file registe
     Info (12023): Found entity 1: Register File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Register.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file datamem.sv
     Info (12023): Found entity 1: DataMem File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/DataMem.sv Line: 1
-Warning (12090): Entity "MUX" obtained from "MUX.sv" instead of from Quartus Prime megafunction library File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/MUX.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mux.sv
-    Info (12023): Found entity 1: MUX File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/MUX.sv Line: 1
+    Info (12023): Found entity 1: MUXd File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/MUX.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file adder.sv
     Info (12023): Found entity 1: Adder File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Adder.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file extend.sv
     Info (12023): Found entity 1: Extend File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Extend.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu.sv
-    Info (12023): Found entity 1: ALU File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/ALU.sv Line: 1
+    Info (12023): Found entity 1: ALUx File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/ALU.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file main_decoder.sv
     Info (12023): Found entity 1: Main_Decoder File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Main_Decoder.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file pc_logic.sv
@@ -817,17 +726,17 @@ Info (12021): Found 1 design units, including 1 entities, in source file output_
     Info (12023): Found entity 1: vgaController File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/output_files/vgaController.sv Line: 1
 Info (12127): Elaborating entity "final_project" for the top level hierarchy
 Info (12128): Elaborating entity "processorTop" for hierarchy "processorTop:proce" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/final_project.sv Line: 49
-Info (12128): Elaborating entity "MUX" for hierarchy "processorTop:proce|MUX:pcsr" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 19
+Info (12128): Elaborating entity "MUXd" for hierarchy "processorTop:proce|MUXd:pcsr" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 19
 Info (12128): Elaborating entity "Program_counter" for hierarchy "processorTop:proce|Program_counter:PC" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 28
 Info (12128): Elaborating entity "Adder" for hierarchy "processorTop:proce|Adder:ADD4" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 35
 Info (12128): Elaborating entity "InstMem" for hierarchy "processorTop:proce|InstMem:Imem" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 48
 Warning (10030): Net "Memory.data_a" at InstMem.sv(6) has no driver or initial value, using a default initial value '0' File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/InstMem.sv Line: 6
 Warning (10030): Net "Memory.waddr_a" at InstMem.sv(6) has no driver or initial value, using a default initial value '0' File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/InstMem.sv Line: 6
 Warning (10030): Net "Memory.we_a" at InstMem.sv(6) has no driver or initial value, using a default initial value '0' File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/InstMem.sv Line: 6
-Info (12128): Elaborating entity "MUX" for hierarchy "processorTop:proce|MUX:regsrc0" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 56
+Info (12128): Elaborating entity "MUXd" for hierarchy "processorTop:proce|MUXd:regsrc0" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 56
 Info (12128): Elaborating entity "Register" for hierarchy "processorTop:proce|Register:register" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 77
 Info (12128): Elaborating entity "Extend" for hierarchy "processorTop:proce|Extend:ext" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 84
-Info (12128): Elaborating entity "ALU" for hierarchy "processorTop:proce|ALU:alu" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 101
+Info (12128): Elaborating entity "ALUx" for hierarchy "processorTop:proce|ALUx:alu" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 101
 Info (12128): Elaborating entity "DataMem" for hierarchy "processorTop:proce|DataMem:dmem" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 113
 Info (12128): Elaborating entity "Control_Unit" for hierarchy "processorTop:proce|Control_Unit:controlunit" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv Line: 138
 Info (12128): Elaborating entity "Conditional_Logic" for hierarchy "processorTop:proce|Control_Unit:controlunit|Conditional_Logic:condlogic" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Control_Unit.sv Line: 26
@@ -838,41 +747,14 @@ Info (12128): Elaborating entity "Main_Decoder" for hierarchy "processorTop:proc
 Info (12128): Elaborating entity "PC_Logic" for hierarchy "processorTop:proce|Control_Unit:controlunit|Decoder:deco|PC_Logic:pclogic" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Decoder.sv Line: 31
 Info (12128): Elaborating entity "ALU_Decoder" for hierarchy "processorTop:proce|Control_Unit:controlunit|Decoder:deco|ALU_Decoder:aludeco" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Decoder.sv Line: 39
 Info (12128): Elaborating entity "vga_driver" for hierarchy "vga_driver:draw" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/final_project.sv Line: 65
-Info (12128): Elaborating entity "text_display" for hierarchy "text_display:txt_disp" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/final_project.sv Line: 73
-Warning (10230): Verilog HDL assignment warning at text_display.sv(24): truncated value with size 32 to match size of target (10) File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/text_display.sv Line: 24
-Warning (10230): Verilog HDL assignment warning at text_display.sv(25): truncated value with size 32 to match size of target (10) File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/text_display.sv Line: 25
-Warning (10230): Verilog HDL assignment warning at text_display.sv(68): truncated value with size 32 to match size of target (3) File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/text_display.sv Line: 68
-Warning (10230): Verilog HDL assignment warning at text_display.sv(69): truncated value with size 32 to match size of target (3) File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/text_display.sv Line: 69
-Info (12128): Elaborating entity "chargenrom" for hierarchy "text_display:txt_disp|chargenrom:char_rom" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/text_display.sv Line: 18
+Info (12128): Elaborating entity "text_display" for hierarchy "text_display:txt_disp" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/final_project.sv Line: 74
+Info (12128): Elaborating entity "chargenrom" for hierarchy "text_display:txt_disp|chargenrom:char_rom" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/text_display.sv Line: 19
 Warning (10030): Net "charrom.data_a" at chargenrom.sv(7) has no driver or initial value, using a default initial value '0' File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/chargenrom.sv Line: 7
 Warning (10030): Net "charrom.waddr_a" at chargenrom.sv(7) has no driver or initial value, using a default initial value '0' File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/chargenrom.sv Line: 7
 Warning (10030): Net "charrom.we_a" at chargenrom.sv(7) has no driver or initial value, using a default initial value '0' File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/chargenrom.sv Line: 7
 Info (276014): Found 2 instances of uninferred RAM logic
     Info (276007): RAM logic "text_display:txt_disp|chargenrom:char_rom|charrom" is uninferred due to asynchronous read logic File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/chargenrom.sv Line: 7
     Info (276004): RAM logic "processorTop:proce|InstMem:Imem|Memory" is uninferred due to inappropriate RAM size File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/InstMem.sv Line: 6
-Info (278001): Inferred 2 megafunctions from design logic
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "processorTop:proce|ALU:alu|Div0" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/ALU.sv Line: 38
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "processorTop:proce|ALU:alu|Mod0" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/ALU.sv Line: 41
-Info (12130): Elaborated megafunction instantiation "processorTop:proce|ALU:alu|lpm_divide:Div0" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/ALU.sv Line: 38
-Info (12133): Instantiated megafunction "processorTop:proce|ALU:alu|lpm_divide:Div0" with the following parameter: File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/ALU.sv Line: 38
-    Info (12134): Parameter "LPM_WIDTHN" = "32"
-    Info (12134): Parameter "LPM_WIDTHD" = "32"
-    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
-    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
-Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_3dm.tdf
-    Info (12023): Found entity 1: lpm_divide_3dm File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/db/lpm_divide_3dm.tdf Line: 25
-Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_9nh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_9nh File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/db/sign_div_unsign_9nh.tdf Line: 25
-Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_o2f.tdf
-    Info (12023): Found entity 1: alt_u_div_o2f File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/db/alt_u_div_o2f.tdf Line: 23
-Info (12130): Elaborated megafunction instantiation "processorTop:proce|ALU:alu|lpm_divide:Mod0" File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/ALU.sv Line: 41
-Info (12133): Instantiated megafunction "processorTop:proce|ALU:alu|lpm_divide:Mod0" with the following parameter: File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/ALU.sv Line: 41
-    Info (12134): Parameter "LPM_WIDTHN" = "32"
-    Info (12134): Parameter "LPM_WIDTHD" = "32"
-    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
-    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
-Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_65m.tdf
-    Info (12023): Found entity 1: lpm_divide_65m File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/db/lpm_divide_65m.tdf Line: 25
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "VGA_R[0]" is stuck at GND File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/final_project.sv Line: 7
     Warning (13410): Pin "VGA_R[1]" is stuck at GND File: C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/final_project.sv Line: 7
@@ -896,16 +778,15 @@ Info (17049): 19 registers lost all their fanouts during netlist optimizations.
 Info (144001): Generated suppressed messages file C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/output_files/final_proyect.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 31895 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 29443 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 7 input pins
     Info (21059): Implemented 29 output pins
-    Info (21061): Implemented 31857 logic cells
-    Info (21062): Implemented 2 DSP elements
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 30 warnings
-    Info: Peak virtual memory: 5111 megabytes
-    Info: Processing ended: Mon Jun 10 16:56:33 2024
-    Info: Elapsed time: 00:01:22
-    Info: Total CPU time (on all processors): 00:01:28
+    Info (21061): Implemented 29407 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 25 warnings
+    Info: Peak virtual memory: 5099 megabytes
+    Info: Processing ended: Tue Jun 11 22:07:21 2024
+    Info: Elapsed time: 00:01:37
+    Info: Total CPU time (on all processors): 00:01:44
 
 
 +------------------------------------------+

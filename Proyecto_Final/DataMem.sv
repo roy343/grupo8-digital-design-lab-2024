@@ -9,7 +9,7 @@ module DataMem (
     reg [31:0] Memory [0:511];
 
 	 initial begin
-        $readmemh("projectText2.hex", Memory);
+        $readmemh("projectText3.hex", Memory);
     end
 
     always @* begin

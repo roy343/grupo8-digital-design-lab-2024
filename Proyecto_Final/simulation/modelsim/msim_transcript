@@ -13,7 +13,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:39:37 on Jun 10,2024
+# Start time: 22:00:14 on Jun 11,2024
 # vlog -reportprogress 300 -vlog01compat -work altera_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v 
 # -- Compiling module global
 # -- Compiling module carry
@@ -95,7 +95,7 @@
 # 	alt_iobuf_diff
 # 	alt_bidir_diff
 # 	alt_bidir_buf
-# End time: 14:39:38 on Jun 10,2024, Elapsed time: 0:00:01
+# End time: 22:00:15 on Jun 11,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/lpm_ver
@@ -106,7 +106,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work lpm_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:39:39 on Jun 10,2024
+# Start time: 22:00:15 on Jun 11,2024
 # vlog -reportprogress 300 -vlog01compat -work lpm_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v 
 # -- Compiling module LPM_MEMORY_INITIALIZATION
 # -- Compiling module LPM_HINT_EVALUATION
@@ -170,7 +170,7 @@
 # 	lpm_inpad
 # 	lpm_outpad
 # 	lpm_bipad
-# End time: 14:39:39 on Jun 10,2024, Elapsed time: 0:00:00
+# End time: 22:00:15 on Jun 11,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/sgate_ver
@@ -181,7 +181,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work sgate_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/sgate.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:39:39 on Jun 10,2024
+# Start time: 22:00:16 on Jun 11,2024
 # vlog -reportprogress 300 -vlog01compat -work sgate_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/sgate.v 
 # -- Compiling module oper_add
 # -- Compiling module oper_addsub
@@ -223,7 +223,7 @@
 # 	oper_decoder
 # 	oper_bus_mux
 # 	oper_latch
-# End time: 14:39:40 on Jun 10,2024, Elapsed time: 0:00:01
+# End time: 22:00:16 on Jun 11,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_mf_ver
@@ -234,7 +234,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_mf_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:39:40 on Jun 10,2024
+# Start time: 22:00:16 on Jun 11,2024
 # vlog -reportprogress 300 -vlog01compat -work altera_mf_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v 
 # -- Compiling module lcell
 # -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
@@ -364,7 +364,7 @@
 # 	alt_fault_injection
 # 	sld_virtual_jtag_basic
 # 	altsource_probe
-# End time: 14:39:41 on Jun 10,2024, Elapsed time: 0:00:01
+# End time: 22:00:17 on Jun 11,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_lnsim_ver
@@ -375,7 +375,7 @@
 # Modifying modelsim.ini
 # vlog -sv -work altera_lnsim_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:39:42 on Jun 10,2024
+# Start time: 22:00:18 on Jun 11,2024
 # vlog -reportprogress 300 -sv -work altera_lnsim_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv 
 # -- Compiling package altera_lnsim_functions
 # -- Compiling package altera_generic_pll_functions
@@ -458,7 +458,7 @@
 # 	altera_iopll
 # 	fourteennm_altera_iopll
 # 	fourteennm_simple_iopll
-# End time: 14:39:42 on Jun 10,2024, Elapsed time: 0:00:00
+# End time: 22:00:19 on Jun 11,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_ver
@@ -469,7 +469,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:39:43 on Jun 10,2024
+# Start time: 22:00:19 on Jun 11,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v 
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
@@ -483,19 +483,19 @@
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # 
 # Top level modules:
-# End time: 14:39:45 on Jun 10,2024, Elapsed time: 0:00:02
+# End time: 22:00:21 on Jun 11,2024, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 10
 # vlog -vlog01compat -work cyclonev_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:39:45 on Jun 10,2024
+# Start time: 22:00:21 on Jun 11,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 14:39:47 on Jun 10,2024, Elapsed time: 0:00:02
+# End time: 22:00:23 on Jun 11,2024, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:39:47 on Jun 10,2024
+# Start time: 22:00:23 on Jun 11,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_atoms.v 
 # -- Compiling UDP CYCLONEV_PRIM_DFFE
 # -- Compiling UDP CYCLONEV_PRIM_DFFEAS
@@ -635,7 +635,7 @@
 # 	cyclonev_mem_phy
 # 	cyclonev_oscillator
 # 	cyclonev_hps_interface_fpga2sdram
-# End time: 14:39:48 on Jun 10,2024, Elapsed time: 0:00:01
+# End time: 22:00:24 on Jun 11,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_hssi_ver
@@ -646,15 +646,15 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_hssi_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:39:48 on Jun 10,2024
+# Start time: 22:00:24 on Jun 11,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 14:39:50 on Jun 10,2024, Elapsed time: 0:00:02
+# End time: 22:00:26 on Jun 11,2024, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_hssi_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_hssi_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:39:50 on Jun 10,2024
+# Start time: 22:00:26 on Jun 11,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_hssi_atoms.v 
 # -- Compiling module cyclonev_hssi_8g_pcs_aggregate
 # -- Compiling module cyclonev_hssi_8g_rx_pcs
@@ -754,7 +754,7 @@
 # 	arriav_hssi_avmm_interface
 # 	arriav_hssi_pma_hi_pmaif
 # 	arriav_hssi_pma_hi_xcvrif
-# End time: 14:39:50 on Jun 10,2024, Elapsed time: 0:00:00
+# End time: 22:00:27 on Jun 11,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_pcie_hip_ver
@@ -765,7 +765,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_pcie_hip_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:39:51 on Jun 10,2024
+# Start time: 22:00:27 on Jun 11,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v 
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
@@ -775,18 +775,18 @@
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # 
 # Top level modules:
-# End time: 14:39:54 on Jun 10,2024, Elapsed time: 0:00:03
+# End time: 22:00:30 on Jun 11,2024, Elapsed time: 0:00:03
 # Errors: 0, Warnings: 6
 # vlog -vlog01compat -work cyclonev_pcie_hip_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:39:54 on Jun 10,2024
+# Start time: 22:00:30 on Jun 11,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v 
 # -- Compiling module cyclonev_hd_altpe2_hip_top
 # -- Compiling module arriav_hd_altpe2_hip_top
 # 
 # Top level modules:
 # 	cyclonev_hd_altpe2_hip_top
-# End time: 14:39:54 on Jun 10,2024, Elapsed time: 0:00:00
+# End time: 22:00:30 on Jun 11,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # if {[file exists rtl_work]} {
@@ -800,199 +800,199 @@
 # 
 # vlog -sv -work work +incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final {C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Program_counter.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:39:54 on Jun 10,2024
+# Start time: 22:00:30 on Jun 11,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final" C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Program_counter.sv 
 # -- Compiling module Program_counter
 # 
 # Top level modules:
 # 	Program_counter
-# End time: 14:39:54 on Jun 10,2024, Elapsed time: 0:00:00
+# End time: 22:00:30 on Jun 11,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final {C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Register.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:39:54 on Jun 10,2024
+# Start time: 22:00:30 on Jun 11,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final" C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Register.sv 
 # -- Compiling module Register
 # 
 # Top level modules:
 # 	Register
-# End time: 14:39:54 on Jun 10,2024, Elapsed time: 0:00:00
+# End time: 22:00:30 on Jun 11,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final {C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/MUX.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:39:54 on Jun 10,2024
+# Start time: 22:00:30 on Jun 11,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final" C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/MUX.sv 
-# -- Compiling module MUX
+# -- Compiling module MUXd
 # 
 # Top level modules:
-# 	MUX
-# End time: 14:39:54 on Jun 10,2024, Elapsed time: 0:00:00
+# 	MUXd
+# End time: 22:00:31 on Jun 11,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final {C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Adder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:39:54 on Jun 10,2024
+# Start time: 22:00:31 on Jun 11,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final" C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Adder.sv 
 # -- Compiling module Adder
 # 
 # Top level modules:
 # 	Adder
-# End time: 14:39:55 on Jun 10,2024, Elapsed time: 0:00:01
+# End time: 22:00:31 on Jun 11,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final {C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Extend.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:39:55 on Jun 10,2024
+# Start time: 22:00:31 on Jun 11,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final" C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Extend.sv 
 # -- Compiling module Extend
 # 
 # Top level modules:
 # 	Extend
-# End time: 14:39:55 on Jun 10,2024, Elapsed time: 0:00:00
+# End time: 22:00:31 on Jun 11,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final {C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/ALU.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:39:55 on Jun 10,2024
+# Start time: 22:00:31 on Jun 11,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final" C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/ALU.sv 
-# -- Compiling module ALU
+# -- Compiling module ALUx
 # 
 # Top level modules:
-# 	ALU
-# End time: 14:39:55 on Jun 10,2024, Elapsed time: 0:00:00
+# 	ALUx
+# End time: 22:00:31 on Jun 11,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final {C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Main_Decoder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:39:55 on Jun 10,2024
+# Start time: 22:00:31 on Jun 11,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final" C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Main_Decoder.sv 
 # -- Compiling module Main_Decoder
 # 
 # Top level modules:
 # 	Main_Decoder
-# End time: 14:39:55 on Jun 10,2024, Elapsed time: 0:00:00
+# End time: 22:00:31 on Jun 11,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final {C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/PC_Logic.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:39:55 on Jun 10,2024
+# Start time: 22:00:31 on Jun 11,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final" C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/PC_Logic.sv 
 # -- Compiling module PC_Logic
 # 
 # Top level modules:
 # 	PC_Logic
-# End time: 14:39:55 on Jun 10,2024, Elapsed time: 0:00:00
+# End time: 22:00:31 on Jun 11,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final {C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/ALU_Decoder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:39:55 on Jun 10,2024
+# Start time: 22:00:31 on Jun 11,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final" C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/ALU_Decoder.sv 
 # -- Compiling module ALU_Decoder
 # 
 # Top level modules:
 # 	ALU_Decoder
-# End time: 14:39:55 on Jun 10,2024, Elapsed time: 0:00:00
+# End time: 22:00:31 on Jun 11,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final {C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Decoder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:39:55 on Jun 10,2024
+# Start time: 22:00:31 on Jun 11,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final" C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Decoder.sv 
 # -- Compiling module Decoder
 # 
 # Top level modules:
 # 	Decoder
-# End time: 14:39:55 on Jun 10,2024, Elapsed time: 0:00:00
+# End time: 22:00:31 on Jun 11,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final {C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Condition_Check.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:39:55 on Jun 10,2024
+# Start time: 22:00:31 on Jun 11,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final" C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Condition_Check.sv 
 # -- Compiling module Condition_Check
 # 
 # Top level modules:
 # 	Condition_Check
-# End time: 14:39:55 on Jun 10,2024, Elapsed time: 0:00:00
+# End time: 22:00:31 on Jun 11,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final {C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Flagsreg.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:39:55 on Jun 10,2024
+# Start time: 22:00:31 on Jun 11,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final" C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Flagsreg.sv 
 # -- Compiling module Flagsreg
 # 
 # Top level modules:
 # 	Flagsreg
-# End time: 14:39:55 on Jun 10,2024, Elapsed time: 0:00:00
+# End time: 22:00:32 on Jun 11,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final {C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Conditional_Logic.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:39:55 on Jun 10,2024
+# Start time: 22:00:32 on Jun 11,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final" C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Conditional_Logic.sv 
 # -- Compiling module Conditional_Logic
 # 
 # Top level modules:
 # 	Conditional_Logic
-# End time: 14:39:56 on Jun 10,2024, Elapsed time: 0:00:01
+# End time: 22:00:32 on Jun 11,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final {C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Control_Unit.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:39:56 on Jun 10,2024
+# Start time: 22:00:32 on Jun 11,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final" C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/Control_Unit.sv 
 # -- Compiling module Control_Unit
 # 
 # Top level modules:
 # 	Control_Unit
-# End time: 14:39:56 on Jun 10,2024, Elapsed time: 0:00:00
+# End time: 22:00:32 on Jun 11,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final {C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:39:56 on Jun 10,2024
+# Start time: 22:00:32 on Jun 11,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final" C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop.sv 
 # -- Compiling module processorTop
 # 
 # Top level modules:
 # 	processorTop
-# End time: 14:39:56 on Jun 10,2024, Elapsed time: 0:00:00
+# End time: 22:00:32 on Jun 11,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final {C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/InstMem.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:39:56 on Jun 10,2024
+# Start time: 22:00:32 on Jun 11,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final" C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/InstMem.sv 
 # -- Compiling module InstMem
 # 
 # Top level modules:
 # 	InstMem
-# End time: 14:39:56 on Jun 10,2024, Elapsed time: 0:00:00
+# End time: 22:00:32 on Jun 11,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final {C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/DataMem.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:39:56 on Jun 10,2024
+# Start time: 22:00:32 on Jun 11,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final" C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/DataMem.sv 
 # -- Compiling module DataMem
 # 
 # Top level modules:
 # 	DataMem
-# End time: 14:39:56 on Jun 10,2024, Elapsed time: 0:00:00
+# End time: 22:00:32 on Jun 11,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -sv -work work +incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final {C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop_tb4.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:39:56 on Jun 10,2024
+# Start time: 22:00:32 on Jun 11,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final" C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop_tb4.sv 
 # -- Compiling module processorTop_tb4
 # 
 # Top level modules:
 # 	processorTop_tb4
-# End time: 14:39:56 on Jun 10,2024, Elapsed time: 0:00:00
+# End time: 22:00:32 on Jun 11,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  processorTop_tb4
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" processorTop_tb4 
-# Start time: 14:39:56 on Jun 10,2024
+# Start time: 22:00:32 on Jun 11,2024
 # Loading sv_std.std
 # Loading work.processorTop_tb4
 # Loading work.processorTop
-# Loading work.MUX
+# Loading work.MUXd
 # Loading work.Program_counter
 # Loading work.Adder
 # Loading work.InstMem
 # Loading work.Register
 # Loading work.Extend
-# Loading work.ALU
+# Loading work.ALUx
 # Loading work.DataMem
 # Loading work.Control_Unit
 # Loading work.Conditional_Logic
@@ -1006,9 +1006,9 @@
 # add wave *
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: Umi  Hostname: DESKTOP-AR6DVUB  ProcessID: 24156
-#           Attempting to use alternate WLF file "./wlft5f6s27".
+#           Attempting to use alternate WLF file "./wlfti4qsx4".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlft5f6s27
+#           Using alternate file: ./wlfti4qsx4
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
@@ -1018,11 +1018,14 @@
 #    Time: 220 ps  Iteration: 0  Instance: /processorTop_tb4
 # 1
 # Break in Module processorTop_tb4 at C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop_tb4.sv line 36
-add wave -position end sim:/processorTop_tb4/unicycle/dmem/*
 add wave -position end  sim:/processorTop_tb4/unicycle/dmem/Memory
+add wave -position end  sim:/processorTop_tb4/unicycle/register/Registro
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 run -all
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
 # ** Note: $finish    : C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/processorTop_tb4.sv(36)
 #    Time: 220 ps  Iteration: 0  Instance: /processorTop_tb4
 # 1
@@ -1030,5 +1033,12 @@ run -all
 run
 run
 run
-# End time: 14:41:59 on Jun 10,2024, Elapsed time: 0:02:03
+run
+run
+run
+run
+run
+run
+run
+# End time: 22:04:29 on Jun 11,2024, Elapsed time: 0:03:57
 # Errors: 0, Warnings: 0

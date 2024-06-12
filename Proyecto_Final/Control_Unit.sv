@@ -5,7 +5,7 @@ module Control_Unit (
 	input logic [5:0] Funct,
 	output logic PCSrc, MemtoReg, ALUSrc,
 	output logic [1:0] ImmSrc, RegSrc, RegWrite, MemWrite, 
-	output logic [3:0] ALUControl
+	output logic [1:0] ALUControl
 );
 
 	logic PCS, MemW, RegW, NoWrite, RegW1, MemW1, Byte;

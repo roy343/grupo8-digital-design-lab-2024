@@ -5,8 +5,8 @@ JedecChain;
 
 	P ActionCode(Ign)
 		Device PartName(SOCVHPS) MfrSpec(OpMask(0));
-	P ActionCode(Cfg)
-		Device PartName(5CSEMA5F31) Path("C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/output_files/") File("final_proyect.sof") MfrSpec(OpMask(1));
+	P ActionCode(Ign)
+		Device PartName(5CSEMA5F31) MfrSpec(OpMask(0) FullPath("C:/Users/jcur1/OneDrive/Documentos/grupo8-digital-design-lab-2024/Proyecto_Final/output_files/final_proyect.sof"));
 
 ChainEnd;
 

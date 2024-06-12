@@ -1,4 +1,4 @@
-Analysis & Synthesis Status : Successful - Mon Jun 10 16:56:33 2024
+Analysis & Synthesis Status : Successful - Tue Jun 11 22:07:20 2024
 Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 Revision Name : final_proyect
 Top-level Entity Name : final_project
@@ -8,7 +8,7 @@ Total registers : 16969
 Total pins : 36
 Total virtual pins : 0
 Total block memory bits : 0
-Total DSP Blocks : 2
+Total DSP Blocks : 0
 Total HSSI RX PCSs : 0
 Total HSSI PMA RX Deserializers : 0
 Total HSSI TX PCSs : 0
